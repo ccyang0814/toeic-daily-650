@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "public",
+  "functions": {
+    "api/tts.js": {
+      "includeFiles": "public/data/**",
+      "maxDuration": 60
+    }
+  }
+}

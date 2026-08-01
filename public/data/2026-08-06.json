@@ -1,0 +1,561 @@
+{
+  "date": "2026-08-06",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Where can I charge my laptop in this terminal?",
+        "optionAudioTexts": [
+          "There are outlets near Gate 22.",
+          "It's fully charged.",
+          "A boarding pass, please."
+        ],
+        "answer": 0,
+        "explanation": "Where 問地點，(A)「22 號登機門附近有插座」正確。(B) 用 charge 的相關語混淆。"
+      },
+      {
+        "audioText": "When do you expect the auditors to finish their review?",
+        "optionAudioTexts": [
+          "Sometime next week, I think.",
+          "In the finance office.",
+          "Two senior auditors."
+        ],
+        "answer": 0,
+        "explanation": "When 問時間，(A)「大概下週」正確。(B) 地點、(C) 人數皆答非所問。"
+      },
+      {
+        "audioText": "Who left this package at the front desk?",
+        "optionAudioTexts": [
+          "It's quite heavy.",
+          "A courier dropped it off this morning.",
+          "To the mailroom."
+        ],
+        "answer": 1,
+        "explanation": "Who 問人，(B)「快遞員今早送來的」正確。(A) 描述包裹但沒回答是誰。"
+      },
+      {
+        "audioText": "Do you prefer the morning shift or the evening shift?",
+        "optionAudioTexts": [
+          "I'd rather work mornings.",
+          "Yes, I prefer it.",
+          "An eight-hour shift."
+        ],
+        "answer": 0,
+        "explanation": "A or B 選擇疑問句，(A)「我比較想上早班」正確。(B) 不能用 Yes 回答選擇疑問句。"
+      },
+      {
+        "audioText": "Why has the product launch been moved up to September?",
+        "optionAudioTexts": [
+          "On the company website.",
+          "A very popular product.",
+          "Because a competitor is releasing something similar."
+        ],
+        "answer": 2,
+        "explanation": "Why 問原因，(C)「因為競爭對手要推出類似產品」正確。move up = 提前。"
+      },
+      {
+        "audioText": "Could you give me a ride to the station after work?",
+        "optionAudioTexts": [
+          "Of course. I leave at five thirty.",
+          "The train was crowded.",
+          "A one-way ticket."
+        ],
+        "answer": 0,
+        "explanation": "Could you...? 請求幫忙，(A)「當然，我五點半下班」答應並提供資訊，正確。"
+      },
+      {
+        "audioText": "How much does it cost to rent a booth at the job fair?",
+        "optionAudioTexts": [
+          "Three hundred dollars for two days.",
+          "More than fifty companies.",
+          "At the convention center."
+        ],
+        "answer": 0,
+        "explanation": "How much 問價格，(A)「兩天三百元」正確。(B) 回答家數，(C) 回答地點。"
+      },
+      {
+        "audioText": "The elevator inspection is scheduled for tomorrow, isn't it?",
+        "optionAudioTexts": [
+          "On the tenth floor.",
+          "Actually, it was done this morning.",
+          "He inspected it carefully."
+        ],
+        "answer": 1,
+        "explanation": "附加問句確認檢查時間，(B) 更正說「其實今天早上已經做完了」，正確。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Hi, this is Grace Lin calling from Meridian Publishing. May I speak with Mr. Foster?",
+          "M: Speaking. What can I do for you, Ms. Lin?",
+          "W: I'm calling about the illustrations for our children's book series. We love your portfolio, and we'd like to offer you the contract for all three books.",
+          "M: That's wonderful news! What's the timeline for the project?",
+          "W: We'd need the first book's illustrations by mid-October, about thirty drawings in total. The second and third books would follow every two months after that.",
+          "M: That schedule works for me. Could you send over the contract and the manuscript so I can get started?",
+          "W: I'll e-mail both to you this afternoon, along with our style guidelines."
+        ],
+        "questions": [
+          {
+            "q": "Who most likely is the man?",
+            "options": [
+              "An editor",
+              "An illustrator",
+              "A printer",
+              "A bookstore owner"
+            ],
+            "answer": 1,
+            "explanation": "女子說喜歡他的作品集並邀請他為童書系列畫插圖，可知男子是插畫家，故選 (B)。"
+          },
+          {
+            "q": "What does the woman offer the man?",
+            "options": [
+              "A full-time position",
+              "A contract for three books",
+              "A speaking engagement",
+              "A book signing event"
+            ],
+            "answer": 1,
+            "explanation": "we'd like to offer you the contract for all three books，提供三本書的插畫合約，故選 (B)。"
+          },
+          {
+            "q": "What will the woman send this afternoon?",
+            "options": [
+              "Some payment",
+              "Some sample drawings",
+              "The contract and manuscript",
+              "A book cover design"
+            ],
+            "answer": 2,
+            "explanation": "男子請她寄合約與書稿，女子說 I'll e-mail both to you this afternoon，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Sophie, the caterer for Friday's retirement party just called. They can't get fresh salmon because of the fishing ban, so they're suggesting grilled chicken instead.",
+          "W: That should be fine for most people, but remember two of the guests are vegetarian. Did we arrange something for them?",
+          "M: Yes, there's a mushroom risotto option. The caterer just needs the final count of vegetarian meals by Wednesday noon.",
+          "W: I'll e-mail everyone today and ask them to confirm their choices by Tuesday evening, so we'll have time to tally.",
+          "M: Perfect. Also, the conference room can only be decorated after four on Thursday, since there's a client meeting there earlier.",
+          "W: No problem. I'll ask the volunteers to come at four thirty."
+        ],
+        "questions": [
+          {
+            "q": "What event are the speakers preparing for?",
+            "options": [
+              "A retirement party",
+              "A product launch",
+              "A holiday banquet",
+              "A client meeting"
+            ],
+            "answer": 0,
+            "explanation": "男子提到 Friday's retirement party（週五的退休派對），故選 (A)。"
+          },
+          {
+            "q": "Why did the caterer suggest a menu change?",
+            "options": [
+              "An ingredient is unavailable.",
+              "The price of salmon increased.",
+              "A guest complained.",
+              "The kitchen is being repaired."
+            ],
+            "answer": 0,
+            "explanation": "因禁漁令拿不到新鮮鮭魚（can't get fresh salmon because of the fishing ban），改推烤雞，故選 (A)。"
+          },
+          {
+            "q": "What will the woman do today?",
+            "options": [
+              "Decorate the conference room",
+              "Call the caterer",
+              "E-mail the guests",
+              "Order some flowers"
+            ],
+            "answer": 2,
+            "explanation": "女子說 I'll e-mail everyone today 請大家確認餐點選擇，故選 (C)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "This is the weather update for the greater Riverside area, brought to you by Radio 98.5. A strong storm system is expected to move through the region this evening, bringing heavy rain and winds of up to seventy kilometers per hour. The city has announced that all outdoor events scheduled for tonight, including the concert in Lakeside Park, have been postponed until Sunday. Commuters should expect delays on the Harbor Bridge, where one lane is already closed due to construction. Drivers are advised to take Route 9 as an alternative. The storm should clear by early tomorrow morning, and the weekend looks sunny and mild, with temperatures around twenty-six degrees. Stay tuned for traffic updates every fifteen minutes.",
+        "questions": [
+          {
+            "q": "What is the broadcast mainly about?",
+            "options": [
+              "A sports event",
+              "A weather forecast",
+              "A music festival",
+              "A construction project"
+            ],
+            "answer": 1,
+            "explanation": "開頭即說 This is the weather update，內容為天氣預報與相關影響，故選 (B)。"
+          },
+          {
+            "q": "What has been postponed until Sunday?",
+            "options": [
+              "A concert",
+              "A bridge opening",
+              "A road repair",
+              "A radio program"
+            ],
+            "answer": 0,
+            "explanation": "the concert in Lakeside Park have been postponed until Sunday，公園音樂會延到週日，故選 (A)。"
+          },
+          {
+            "q": "What are drivers advised to do?",
+            "options": [
+              "Stay home tonight",
+              "Use Route 9",
+              "Drive slowly on the bridge",
+              "Listen to another station"
+            ],
+            "answer": 1,
+            "explanation": "Drivers are advised to take Route 9 as an alternative，建議改走 9 號公路，故選 (B)。"
+          }
+        ]
+      },
+      {
+        "script": "Hello everyone, and thank you for joining today's webinar on preparing effective sales proposals. My name is Victor Chen, and I've spent fifteen years in corporate sales, most recently as sales director at Innova Solutions. Over the next forty-five minutes, I'll walk you through the three parts of a winning proposal: understanding the client's problem, presenting a clear solution, and pricing with confidence. Feel free to type questions into the chat box at any time; my colleague Sarah will collect them, and I'll answer as many as I can during the last ten minutes. This session is being recorded, and all registered participants will receive a link to the recording along with my slides by tomorrow morning. Now, let's begin with the first and most important step: listening to your client.",
+        "questions": [
+          {
+            "q": "What is the webinar about?",
+            "options": [
+              "Managing a sales team",
+              "Writing effective sales proposals",
+              "Negotiating contracts",
+              "Using new software"
+            ],
+            "answer": 1,
+            "explanation": "主題為 preparing effective sales proposals（撰寫有效的銷售提案），故選 (B)。"
+          },
+          {
+            "q": "How can listeners ask questions?",
+            "options": [
+              "By raising their hands",
+              "By calling a phone number",
+              "By typing in the chat box",
+              "By sending an e-mail"
+            ],
+            "answer": 2,
+            "explanation": "Feel free to type questions into the chat box，隨時可在聊天室輸入問題，故選 (C)。"
+          },
+          {
+            "q": "What will participants receive by tomorrow morning?",
+            "options": [
+              "A certificate",
+              "A recording and slides",
+              "A discount code",
+              "A textbook"
+            ],
+            "answer": 1,
+            "explanation": "will receive a link to the recording along with my slides，會收到錄影連結和簡報，故選 (B)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The new database allows staff to retrieve customer records much more ------- than before.",
+        "options": [
+          "quick",
+          "quickly",
+          "quickness",
+          "quicken"
+        ],
+        "answer": 1,
+        "explanation": "修飾動詞 retrieve 用副詞，more quickly than = 比以前更快。「新資料庫讓員工能更快調出客戶資料」。"
+      },
+      {
+        "q": "------- the CEO nor the CFO was available for comment on the merger rumors.",
+        "options": [
+          "Either",
+          "Neither",
+          "Both",
+          "Not only"
+        ],
+        "answer": 1,
+        "explanation": "與句中的 nor 搭配，Neither A nor B = A 與 B 皆非。「執行長與財務長皆未對合併傳聞發表評論」。"
+      },
+      {
+        "q": "Please keep your receipt as ------- of purchase for warranty claims.",
+        "options": [
+          "proof",
+          "prove",
+          "proven",
+          "provable"
+        ],
+        "answer": 0,
+        "explanation": "proof of purchase = 購買證明（名詞）。「請保留收據作為保固申請的購買證明」。"
+      },
+      {
+        "q": "The seminar has been rescheduled ------- next Thursday due to the speaker's illness.",
+        "options": [
+          "for",
+          "against",
+          "beneath",
+          "past"
+        ],
+        "answer": 0,
+        "explanation": "reschedule for + 新時間 = 改期到…。「因講者生病，研討會改至下週四」。"
+      },
+      {
+        "q": "Candidates with international experience are ------- to apply for the regional director position.",
+        "options": [
+          "encourage",
+          "encouraged",
+          "encouraging",
+          "encouragement"
+        ],
+        "answer": 1,
+        "explanation": "be encouraged to V = 被鼓勵去做…（被動）。「歡迎具國際經驗者應徵區域總監職位」。"
+      },
+      {
+        "q": "The auditorium can accommodate ------- 500 people when extra chairs are added.",
+        "options": [
+          "up to",
+          "as far",
+          "so much",
+          "at most of"
+        ],
+        "answer": 0,
+        "explanation": "up to + 數字 = 最多達…。「加椅子後禮堂最多可容納五百人」。"
+      },
+      {
+        "q": "------- reviewing the applications, the hiring committee will select five candidates for interviews.",
+        "options": [
+          "After",
+          "Until",
+          "Unless",
+          "Whereas"
+        ],
+        "answer": 0,
+        "explanation": "After + V-ing = 在…之後。「審完申請文件後，委員會將挑選五位面試者」。"
+      },
+      {
+        "q": "The technical support team responded to the outage ------- and restored service within an hour.",
+        "options": [
+          "prompt",
+          "promptly",
+          "promptness",
+          "prompted"
+        ],
+        "answer": 1,
+        "explanation": "修飾動詞 responded 用副詞 promptly（迅速地）。「技術團隊迅速回應斷線問題，一小時內恢復服務」。"
+      },
+      {
+        "q": "Guests are asked to vacate their rooms ------- noon on the day of departure.",
+        "options": [
+          "by",
+          "for",
+          "along",
+          "over"
+        ],
+        "answer": 0,
+        "explanation": "by noon = 中午前（期限）。「退房日請於中午前騰出房間」。"
+      },
+      {
+        "q": "The marketing director is looking for someone ------- can manage social media accounts in both English and Japanese.",
+        "options": [
+          "who",
+          "which",
+          "whose",
+          "whom"
+        ],
+        "answer": 0,
+        "explanation": "先行詞是 someone（人），關係子句中缺主詞，用 who。「行銷總監在找能以英日雙語管理社群帳號的人」。"
+      },
+      {
+        "q": "------- its compact size, the new projector delivers remarkably bright images.",
+        "options": [
+          "Given",
+          "Despite",
+          "Except",
+          "Unlike"
+        ],
+        "answer": 1,
+        "explanation": "Despite + 名詞 = 儘管。「儘管體積小巧，新投影機的影像卻非常明亮」——前後對比。"
+      },
+      {
+        "q": "Employees may park in the visitor lot ------- the main garage is full.",
+        "options": [
+          "whenever",
+          "wherever",
+          "however",
+          "whatever"
+        ],
+        "answer": 0,
+        "explanation": "whenever = 每當…的時候。「主停車場滿位時，員工可停訪客停車場」。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "【Job Posting】\nPosition: Administrative Assistant (Full-Time)\nGreenfield Dental Group — Downtown Clinic\n\nGreenfield Dental Group is seeking an organized and friendly administrative assistant to join our downtown clinic. [33] include scheduling appointments, greeting patients, managing billing records, and ordering office supplies. The successful candidate will have at least one year of office experience and strong communication skills. Experience in a medical or dental office is preferred but not [34]. We offer competitive pay, health insurance, and three weeks of paid vacation. Interested candidates should send a résumé and cover letter to careers@greenfielddental.com [35] August 22.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "Responsibilities",
+              "Directions",
+              "Locations",
+              "Benefits"
+            ],
+            "answer": 0,
+            "explanation": "後面列的是排約、接待、帳務等工作內容，選 Responsibilities（職責）。福利在後段另有敘述。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "required",
+              "returned",
+              "advised",
+              "improved"
+            ],
+            "answer": 0,
+            "explanation": "preferred but not required = 有加分但非必要條件，求才廣告常用語。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "no later than",
+              "as much as",
+              "in front of",
+              "on behalf of"
+            ],
+            "answer": 0,
+            "explanation": "no later than August 22 = 最晚 8/22 前寄出應徵文件（期限）。"
+          }
+        ]
+      },
+      {
+        "passage": "【Customer Review Response】\nDear Ms. Trent,\n\nThank you for taking the time to review your recent stay at the Lakeside Grand Hotel. We are delighted that you enjoyed our newly renovated spa and the view from your room. [36], we sincerely apologize for the noise you experienced from the construction next door. The project is not managed by our hotel, but we understand how [37] it must have been during your visit. Our front desk offers complimentary room changes when guests report noise concerns, and we regret that this option was not offered to you. As an apology, we would like to offer you a 20% discount on your next [38]. We hope to welcome you back soon.\n\nSincerely,\nGuest Relations Manager",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "However",
+              "Therefore",
+              "Likewise",
+              "Meanwhile"
+            ],
+            "answer": 0,
+            "explanation": "前句說很高興客人喜歡 spa 與景觀，後句道歉施工噪音，語意轉折用 However。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "convenient",
+              "frustrating",
+              "exciting",
+              "profitable"
+            ],
+            "answer": 1,
+            "explanation": "噪音造成的感受應是 frustrating（令人困擾的）。其他選項語意不合。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "stay",
+              "meal",
+              "flight",
+              "order"
+            ],
+            "answer": 0,
+            "explanation": "飯店提供的折扣用於「下次住宿」，your next stay，故選 (A)。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Letter】\nAugust 6\n\nDear Mr. Whitfield,\n\nOn behalf of the Brookdale Public Library, I would like to thank you for your generous donation of $5,000 to our Children's Reading Program. Your contribution will allow us to purchase approximately 400 new books and to extend our weekend story-time sessions through the end of the year.\n\nAs a token of our gratitude, we would like to include your name on the donor recognition wall in the library's main entrance. If you prefer to remain anonymous, please let us know by August 31. In addition, you are warmly invited to our Donor Appreciation Evening on September 12 at 7:00 P.M., where our director will present the program's achievements over the past year. Light refreshments will be served.\n\nOnce again, thank you for supporting literacy in our community.\n\nWith appreciation,\nHelen Cho\nDevelopment Coordinator, Brookdale Public Library",
+        "questions": [
+          {
+            "q": "Why did Ms. Cho write the letter?",
+            "options": [
+              "To request a donation",
+              "To thank a donor",
+              "To announce a new library branch",
+              "To advertise a book sale"
+            ],
+            "answer": 1,
+            "explanation": "信件開頭即感謝 Whitfield 先生捐款五千元給兒童閱讀計畫，屬感謝函，故選 (B)。"
+          },
+          {
+            "q": "What will the donation be used for?",
+            "options": [
+              "Renovating the entrance",
+              "Buying new books and extending story time",
+              "Hiring new librarians",
+              "Building a new wing"
+            ],
+            "answer": 1,
+            "explanation": "捐款將用於購買約 400 本新書並延長週末說故事活動，故選 (B)。"
+          },
+          {
+            "q": "What should Mr. Whitfield do if he does not want his name displayed?",
+            "options": [
+              "Call the director",
+              "Return the letter",
+              "Notify the library by August 31",
+              "Attend the September event"
+            ],
+            "answer": 2,
+            "explanation": "If you prefer to remain anonymous, please let us know by August 31，若想匿名須在 8/31 前告知，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Schedule + E-mail】\n(1) Ferry Schedule — Port Anders to Gull Island (Summer)\nDeparture / Arrival / Notes\n7:30 A.M. / 8:20 A.M. / Commuter ferry — no vehicles\n10:00 A.M. / 10:50 A.M. / Vehicles allowed\n1:30 P.M. / 2:20 P.M. / Vehicles allowed\n5:45 P.M. / 6:35 P.M. / Last ferry — often crowded on weekends\nNote: In case of high winds, afternoon sailings may be canceled. Check www.andersferry.com for daily updates.\n\n(2) E-mail\nFrom: Teresa Wu\nTo: Field Team\nDate: August 6\nSubject: Site visit on Friday\n\nTeam,\n\nFor Friday's inspection of the Gull Island wind turbines, we'll take the morning ferry that allows vehicles, since we need to bring the equipment van. Please be at the dock by 9:15 to allow time for loading. The inspection should finish by 4:00, so we'll return on the last ferry. Pack rain gear — the forecast shows strong winds may arrive by evening, so check the ferry website before we head back.\n\nTeresa",
+        "questions": [
+          {
+            "q": "Which ferry will the team take to Gull Island?",
+            "options": [
+              "The 7:30 A.M. ferry",
+              "The 10:00 A.M. ferry",
+              "The 1:30 P.M. ferry",
+              "The 5:45 P.M. ferry"
+            ],
+            "answer": 1,
+            "explanation": "要帶器材車，須搭「可載車輛」的早上班次，即 10:00 A.M.（7:30 通勤船不載車），故選 (B)。"
+          },
+          {
+            "q": "Why does Ms. Wu ask the team to arrive at 9:15?",
+            "options": [
+              "To buy tickets",
+              "To allow time for loading the van",
+              "To attend a briefing",
+              "To avoid the crowds"
+            ],
+            "answer": 1,
+            "explanation": "Please be at the dock by 9:15 to allow time for loading，提早到是為了裝載車輛與器材，故選 (B)。"
+          },
+          {
+            "q": "What time is the team scheduled to leave the island?",
+            "options": [
+              "At 2:20 P.M.",
+              "At 4:00 P.M.",
+              "At 5:45 P.M.",
+              "At 6:35 P.M."
+            ],
+            "answer": 2,
+            "explanation": "we'll return on the last ferry，末班船 5:45 P.M. 出發，故選 (C)。6:35 是抵達時間。"
+          },
+          {
+            "q": "Why might the return trip be affected?",
+            "options": [
+              "The ferry needs repairs.",
+              "Strong winds are forecast.",
+              "The dock is under construction.",
+              "The inspection may run late."
+            ],
+            "answer": 1,
+            "explanation": "時刻表註明強風時下午班次可能停駛，信中也提醒 strong winds may arrive by evening，故選 (B)。"
+          }
+        ]
+      }
+    ]
+  }
+}

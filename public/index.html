@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日多益模擬測驗｜目標 650</title>
+<style>
+  :root{
+    --blue:#1a56db; --blue-dark:#1e429f; --bg:#f4f6fb; --card:#ffffff;
+    --text:#1f2a44; --muted:#64748b; --green:#059669; --red:#dc2626;
+    --amber:#d97706; --border:#e2e8f0; --radius:14px;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  body{margin:0; font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.6;}
+  .wrap{max-width:760px; margin:0 auto; padding:16px 14px 90px;}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:18px; margin-bottom:14px; box-shadow:0 1px 3px rgba(15,23,42,.05);}
+  h1{font-size:22px; margin:0 0 4px;}
+  h2{font-size:17px; margin:0 0 10px; color:var(--blue-dark);}
+  h3{font-size:15px; margin:14px 0 8px;}
+  .muted{color:var(--muted); font-size:13px;}
+  .btn{display:inline-block; border:none; border-radius:10px; padding:12px 22px; font-size:16px; cursor:pointer; font-family:inherit;}
+  .btn-primary{background:var(--blue); color:#fff;}
+  .btn-primary:active{background:var(--blue-dark);}
+  .btn-ghost{background:#eef2ff; color:var(--blue-dark);}
+  .btn:disabled{opacity:.45; cursor:not-allowed;}
+  .pill{display:inline-block; background:#eef2ff; color:var(--blue-dark); border-radius:999px; padding:2px 12px; font-size:12px; margin-right:6px;}
+  /* 頂部固定計時列 */
+  #topbar{position:fixed; top:0; left:0; right:0; background:#fff; border-bottom:1px solid var(--border); z-index:50; display:none;}
+  #topbar .inner{max-width:760px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:10px 14px;}
+  #timer{font-variant-numeric:tabular-nums; font-weight:700; font-size:20px;}
+  #timer.warn{color:var(--red);}
+  .q{border-top:1px solid var(--border); padding:14px 0 6px;}
+  .q:first-of-type{border-top:none;}
+  .qnum{font-weight:700; color:var(--blue-dark); margin-right:6px;}
+  .qtext{font-size:15px; margin-bottom:8px;}
+  .opts{display:flex; flex-direction:column; gap:8px;}
+  .opt{border:1.5px solid var(--border); border-radius:10px; padding:10px 12px; cursor:pointer; font-size:14px; background:#fff; text-align:left; font-family:inherit; line-height:1.5;}
+  .opt.sel{border-color:var(--blue); background:#eef2ff;}
+  .opts-abc{flex-direction:row;}
+  .opts-abc .opt{flex:1; text-align:center; font-weight:700; font-size:16px;}
+  .passage{background:#f8fafc; border:1px solid var(--border); border-radius:10px; padding:12px 14px; font-size:14px; white-space:pre-wrap; margin-bottom:10px;}
+  .play-row{display:flex; align-items:center; gap:10px; margin-bottom:10px; flex-wrap:wrap;}
+  .play-btn{background:var(--blue); color:#fff; border:none; border-radius:999px; padding:9px 18px; font-size:14px; cursor:pointer; font-family:inherit;}
+  .play-btn:disabled{opacity:.45;}
+  .play-note{font-size:12px; color:var(--muted);}
+  /* 結果 */
+  .score-big{font-size:44px; font-weight:800; color:var(--blue); line-height:1.1;}
+  .score-grid{display:flex; gap:10px; margin:12px 0;}
+  .score-box{flex:1; background:#f8fafc; border:1px solid var(--border); border-radius:10px; padding:10px; text-align:center;}
+  .score-box b{font-size:22px; display:block;}
+  .rv{border-top:1px solid var(--border); padding:12px 0;}
+  .rv .tag{font-weight:700;}
+  .ok{color:var(--green);} .ng{color:var(--red);}
+  .expl{background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:10px 12px; font-size:13.5px; margin-top:8px;}
+  .script{background:#f1f5f9; border-radius:10px; padding:10px 12px; font-size:13px; margin-top:8px; white-space:pre-wrap; color:#334155;}
+  .hist-row{display:flex; justify-content:space-between; padding:7px 0; border-bottom:1px solid var(--border); font-size:14px;}
+  .bar-wrap{background:#eef2ff; border-radius:6px; height:8px; margin-top:3px; overflow:hidden;}
+  .bar{height:100%; background:var(--blue); border-radius:6px;}
+  .target-line{color:var(--amber); font-weight:700;}
+  #submitbar{position:fixed; bottom:0; left:0; right:0; background:#fff; border-top:1px solid var(--border); padding:10px 14px; z-index:50; display:none;}
+  #submitbar .inner{max-width:760px; margin:0 auto; display:flex; gap:10px; align-items:center; justify-content:space-between;}
+  .hidden{display:none !important;}
+  .notice{background:#fef2f2; border:1px solid #fecaca; color:#991b1b; border-radius:10px; padding:10px 12px; font-size:13px; margin-bottom:12px;}
+</style>
+</head>
+<body>
+<div id="topbar"><div class="inner">
+  <span id="section-label" class="pill">聽力測驗</span>
+  <span id="timer">40:00</span>
+</div></div>
+
+<div class="wrap">
+  <!-- 首頁 -->
+  <div id="view-home">
+    <div class="card" style="text-align:center; padding:28px 18px;">
+      <h1>每日多益模擬測驗</h1>
+      <div class="muted" style="margin-bottom:6px;">目標 <span class="target-line">650 分</span>｜每天 40 分鐘｜聽力 20 題＋閱讀 25 題</div>
+      <div id="today-label" class="muted" style="margin-bottom:18px;"></div>
+      <button class="btn btn-primary" id="btn-start" style="font-size:18px; padding:14px 40px;">開始今日測驗</button>
+      <div id="done-note" class="muted hidden" style="margin-top:10px;">今天已完成測驗，仍可再練一次（成績會另存一筆）。</div>
+    </div>
+    <div class="card">
+      <h2>成績紀錄</h2>
+      <div id="history">載入中…</div>
+    </div>
+    <div class="card muted" style="font-size:13px;">
+      <b>使用說明</b><br>
+      1. 聽力每題音檔最多可播 2 次，請模擬真實考試不重播。<br>
+      2. 全程 40 分鐘倒數，時間到自動交卷。<br>
+      3. 交卷後可看每題詳解與聽力逐字稿。<br>
+      4. 題目每天自動更新。
+    </div>
+  </div>
+
+  <!-- 測驗頁 -->
+  <div id="view-test" class="hidden">
+    <div class="card">
+      <h2>聽力測驗（20 題）</h2>
+      <div class="muted">建議 15 分鐘內完成。每題音檔最多播放 2 次。</div>
+    </div>
+    <div class="card"><h3>Part 2 應答問題（第 1–8 題）</h3>
+      <div class="muted" style="margin-bottom:8px;">聽問句與三個回答，選出最合適的回應（選項不顯示文字）。</div>
+      <div id="sec-p2"></div>
+    </div>
+    <div class="card"><h3>Part 3 簡短對話（第 9–14 題）</h3><div id="sec-p3"></div></div>
+    <div class="card"><h3>Part 4 簡短獨白（第 15–20 題）</h3><div id="sec-p4"></div></div>
+    <div class="card">
+      <h2>閱讀測驗（25 題）</h2>
+      <div class="muted">建議 25 分鐘內完成。</div>
+    </div>
+    <div class="card"><h3>Part 5 句子填空（第 21–32 題）</h3><div id="sec-p5"></div></div>
+    <div class="card"><h3>Part 6 段落填空（第 33–38 題）</h3><div id="sec-p6"></div></div>
+    <div class="card"><h3>Part 7 閱讀理解（第 39–45 題）</h3><div id="sec-p7"></div></div>
+  </div>
+
+  <!-- 結果頁 -->
+  <div id="view-result" class="hidden">
+    <div class="card" style="text-align:center;">
+      <h2>測驗結果</h2>
+      <div class="score-big" id="est-total">--</div>
+      <div class="muted">預估多益總分（目標 650）</div>
+      <div id="est-msg" style="margin-top:6px; font-size:14px;"></div>
+      <div class="score-grid">
+        <div class="score-box"><span class="muted">聽力</span><b id="r-listen">--</b><span class="muted" id="r-listen-est"></span></div>
+        <div class="score-box"><span class="muted">閱讀</span><b id="r-read">--</b><span class="muted" id="r-read-est"></span></div>
+      </div>
+      <div id="save-status" class="muted" style="font-size:12px;"></div>
+      <button class="btn btn-ghost" onclick="showHome()" style="margin-top:8px;">回首頁</button>
+    </div>
+    <div class="card">
+      <h2>逐題詳解</h2>
+      <div id="review"></div>
+    </div>
+  </div>
+</div>
+
+<div id="submitbar"><div class="inner">
+  <span class="muted" id="answered-count">已作答 0 / 45</span>
+  <button class="btn btn-primary" id="btn-submit">交卷</button>
+</div></div>
+
+<script src="config.js"></script>
+<script>
+'use strict';
+var CFG = window.TOEIC_CONFIG || {};
+var TOTAL_SECONDS = 40 * 60;
+var day = null, dayDate = null;
+var answers = {};       // qid -> 選項 index
+var flat = [];          // 攤平的題目清單（依序 1..45）
+var timerId = null, remain = TOTAL_SECONDS, startedAt = null;
+var playCounts = {};    // audio key -> 已播放次數
+var currentAudio = null;
+
+/* ---------- 工具 ---------- */
+function $(id){ return document.getElementById(id); }
+function el(tag, cls, html){ var e=document.createElement(tag); if(cls) e.className=cls; if(html!=null) e.innerHTML=html; return e; }
+function todayStr(){
+  return new Intl.DateTimeFormat('sv-SE', { timeZone:'Asia/Taipei' }).format(new Date());
+}
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+/* ---------- 分數換算（預估） ---------- */
+var L_ANCHORS = [[0,5],[0.25,110],[0.5,225],[0.65,320],[0.8,400],[0.9,455],[1,495]];
+var R_ANCHORS = [[0,5],[0.25,90],[0.5,200],[0.65,290],[0.8,375],[0.9,440],[1,495]];
+function interp(anchors, pct){
+  for (var i=1;i<anchors.length;i++){
+    if (pct <= anchors[i][0]){
+      var a=anchors[i-1], b=anchors[i];
+      return Math.round(a[1] + (b[1]-a[1]) * (pct-a[0]) / (b[0]-a[0]));
+    }
+  }
+  return anchors[anchors.length-1][1];
+}
+
+/* ---------- 題庫載入 ---------- */
+function loadIndex(){
+  return fetch('data/index.json').then(function(r){ return r.json(); });
+}
+function pickDate(idx){
+  var t = todayStr();
+  if (idx.dates.indexOf(t) >= 0) return t;
+  // 今天沒有題目時，依日期輪換既有題庫
+  var n = Math.floor(new Date(t+'T00:00:00').getTime() / 86400000);
+  return idx.dates[n % idx.dates.length];
+}
+
+/* ---------- 音檔播放 ---------- */
+function audioSources(key){
+  return ['audio/' + dayDate + '/' + key + '.mp3', '/api/tts?d=' + dayDate + '&k=' + key];
+}
+function speakFallback(key){
+  // 最終備援：瀏覽器內建語音朗讀逐字稿
+  var m = /^(p2|p3|p4)-(\d+)$/.exec(key); if(!m) return;
+  var texts = [];
+  if (m[1]==='p2'){ var it=day.listening.part2[+m[2]]; texts=[it.audioText].concat(it.optionAudioTexts.map(function(t,i){ return ['A. ','B. ','C. '][i]+t; })); }
+  if (m[1]==='p3'){ texts=day.listening.part3[+m[2]].script.map(function(l){ return l.replace(/^[MW]:\s*/,''); }); }
+  if (m[1]==='p4'){ texts=[day.listening.part4[+m[2]].script]; }
+  window.speechSynthesis.cancel();
+  texts.forEach(function(t){
+    var u = new SpeechSynthesisUtterance(t); u.lang='en-US'; u.rate=0.95;
+    window.speechSynthesis.speak(u);
+  });
+}
+function playKey(key, btn){
+  playCounts[key] = playCounts[key] || 0;
+  if (playCounts[key] >= 2) return;
+  playCounts[key]++;
+  updatePlayBtn(key, btn);
+  if (currentAudio){ currentAudio.pause(); }
+  window.speechSynthesis && window.speechSynthesis.cancel();
+  var srcs = audioSources(key), i = 0;
+  function tryNext(){
+    if (i >= srcs.length){ speakFallback(key); return; }
+    var a = new Audio(srcs[i++]);
+    currentAudio = a;
+    a.onerror = tryNext;
+    a.play().catch(tryNext);
+  }
+  tryNext();
+}
+function updatePlayBtn(key, btn){
+  var left = 2 - (playCounts[key]||0);
+  btn.textContent = left > 0 ? '▶ 播放（剩 ' + left + ' 次）' : '已播放 2 次';
+  btn.disabled = left <= 0;
+}
+
+/* ---------- 題目渲染 ---------- */
+function optRow(qid, options, abcOnly){
+  var box = el('div', 'opts' + (abcOnly ? ' opts-abc' : ''));
+  options.forEach(function(opt, i){
+    var letter = String.fromCharCode(65+i);
+    var b = el('button', 'opt', abcOnly ? letter : '<b>'+letter+'.</b> '+esc(opt));
+    b.onclick = function(){
+      answers[qid] = i;
+      Array.prototype.forEach.call(box.children, function(c,j){ c.classList.toggle('sel', j===i); });
+      updateAnswered();
+    };
+    box.appendChild(b);
+  });
+  return box;
+}
+function playRow(key){
+  var row = el('div','play-row');
+  var btn = el('button','play-btn','▶ 播放（剩 2 次）');
+  btn.onclick = function(){ playKey(key, btn); };
+  row.appendChild(btn);
+  return row;
+}
+function renderTest(){
+  flat = []; answers = {}; playCounts = {};
+  var num = 1;
+  // Part 2
+  var p2 = $('sec-p2'); p2.innerHTML='';
+  day.listening.part2.forEach(function(item, i){
+    var qid = 'p2q'+i;
+    flat.push({ qid:qid, num:num, part:'Part 2', section:'L', item:item, options:['A','B','C'], answer:item.answer,
+      display:'（聽音檔作答）', audioKey:'p2-'+i });
+    var q = el('div','q');
+    q.appendChild(el('div','qtext','<span class="qnum">'+num+'.</span> 選出最合適的回應'));
+    q.appendChild(playRow('p2-'+i));
+    q.appendChild(optRow(qid, ['A','B','C'], true));
+    p2.appendChild(q); num++;
+  });
+  // Part 3
+  var p3 = $('sec-p3'); p3.innerHTML='';
+  day.listening.part3.forEach(function(conv, ci){
+    var g = el('div');
+    g.appendChild(el('div','muted','對話 '+(ci+1)));
+    g.appendChild(playRow('p3-'+ci));
+    conv.questions.forEach(function(qq, qi){
+      var qid = 'p3q'+ci+'_'+qi;
+      flat.push({ qid:qid, num:num, part:'Part 3', section:'L', item:qq, options:qq.options, answer:qq.answer,
+        display:qq.q, script:conv.script.join('\n'), audioKey:'p3-'+ci });
+      var q = el('div','q');
+      q.appendChild(el('div','qtext','<span class="qnum">'+num+'.</span> '+esc(qq.q)));
+      q.appendChild(optRow(qid, qq.options, false));
+      g.appendChild(q); num++;
+    });
+    p3.appendChild(g);
+  });
+  // Part 4
+  var p4 = $('sec-p4'); p4.innerHTML='';
+  day.listening.part4.forEach(function(talk, ti){
+    var g = el('div');
+    g.appendChild(el('div','muted','獨白 '+(ti+1)));
+    g.appendChild(playRow('p4-'+ti));
+    talk.questions.forEach(function(qq, qi){
+      var qid = 'p4q'+ti+'_'+qi;
+      flat.push({ qid:qid, num:num, part:'Part 4', section:'L', item:qq, options:qq.options, answer:qq.answer,
+        display:qq.q, script:talk.script, audioKey:'p4-'+ti });
+      var q = el('div','q');
+      q.appendChild(el('div','qtext','<span class="qnum">'+num+'.</span> '+esc(qq.q)));
+      q.appendChild(optRow(qid, qq.options, false));
+      g.appendChild(q); num++;
+    });
+    p4.appendChild(g);
+  });
+  // Part 5
+  var p5 = $('sec-p5'); p5.innerHTML='';
+  day.reading.part5.forEach(function(item, i){
+    var qid = 'p5q'+i;
+    flat.push({ qid:qid, num:num, part:'Part 5', section:'R', item:item, options:item.options, answer:item.answer, display:item.q });
+    var q = el('div','q');
+    q.appendChild(el('div','qtext','<span class="qnum">'+num+'.</span> '+esc(item.q)));
+    q.appendChild(optRow(qid, item.options, false));
+    p5.appendChild(q); num++;
+  });
+  // Part 6
+  var p6 = $('sec-p6'); p6.innerHTML='';
+  day.reading.part6.forEach(function(blk, bi){
+    var g = el('div');
+    g.appendChild(el('div','passage', esc(blk.passage)));
+    blk.questions.forEach(function(qq, qi){
+      var qid = 'p6q'+bi+'_'+qi;
+      flat.push({ qid:qid, num:num, part:'Part 6', section:'R', item:qq, options:qq.options, answer:qq.answer,
+        display:'空格 ['+qq.blank+']', passage:blk.passage });
+      var q = el('div','q');
+      q.appendChild(el('div','qtext','<span class="qnum">'+num+'.</span> 空格 ['+qq.blank+']'));
+      q.appendChild(optRow(qid, qq.options, false));
+      g.appendChild(q); num++;
+    });
+    p6.appendChild(g);
+  });
+  // Part 7
+  var p7 = $('sec-p7'); p7.innerHTML='';
+  day.reading.part7.forEach(function(blk, bi){
+    var g = el('div');
+    g.appendChild(el('div','passage', esc(blk.passage)));
+    blk.questions.forEach(function(qq, qi){
+      var qid = 'p7q'+bi+'_'+qi;
+      flat.push({ qid:qid, num:num, part:'Part 7', section:'R', item:qq, options:qq.options, answer:qq.answer,
+        display:qq.q, passage:blk.passage });
+      var q = el('div','q');
+      q.appendChild(el('div','qtext','<span class="qnum">'+num+'.</span> '+esc(qq.q)));
+      q.appendChild(optRow(qid, qq.options, false));
+      g.appendChild(q); num++;
+    });
+    p7.appendChild(g);
+  });
+  updateAnswered();
+}
+function updateAnswered(){
+  $('answered-count').textContent = '已作答 ' + Object.keys(answers).length + ' / ' + flat.length;
+}
+
+/* ---------- 計時 ---------- */
+function startTimer(){
+  remain = TOTAL_SECONDS; startedAt = Date.now();
+  timerId = setInterval(function(){
+    remain = TOTAL_SECONDS - Math.floor((Date.now()-startedAt)/1000);
+    if (remain <= 0){ remain = 0; submitTest(true); return; }
+    var mm = Math.floor(remain/60), ss = remain%60;
+    var t = $('timer');
+    t.textContent = (mm<10?'0':'')+mm+':'+(ss<10?'0':'')+ss;
+    t.classList.toggle('warn', remain <= 300);
+  }, 500);
+}
+
+/* ---------- 交卷與結果 ---------- */
+function submitTest(auto){
+  if (!auto && Object.keys(answers).length < flat.length){
+    if (!confirm('還有 ' + (flat.length-Object.keys(answers).length) + ' 題未作答，確定要交卷嗎？')) return;
+  }
+  clearInterval(timerId);
+  if (currentAudio) currentAudio.pause();
+  window.speechSynthesis && window.speechSynthesis.cancel();
+
+  var lTotal=0, lOk=0, rTotal=0, rOk=0;
+  flat.forEach(function(f){
+    var correct = answers[f.qid] === f.answer;
+    if (f.section==='L'){ lTotal++; if(correct) lOk++; } else { rTotal++; if(correct) rOk++; }
+  });
+  var lEst = interp(L_ANCHORS, lOk/lTotal), rEst = interp(R_ANCHORS, rOk/rTotal);
+  var total = lEst + rEst;
+  var dur = Math.floor((Date.now()-startedAt)/1000);
+
+  $('est-total').textContent = total;
+  $('r-listen').textContent = lOk + ' / ' + lTotal;
+  $('r-listen-est').textContent = '預估 ' + lEst;
+  $('r-read').textContent = rOk + ' / ' + rTotal;
+  $('r-read-est').textContent = '預估 ' + rEst;
+  $('est-msg').innerHTML = total >= 650
+    ? '<span class="ok">已達 650 目標，繼續保持！</span>'
+    : '<span class="target-line">距離 650 還差 ' + (650-total) + ' 分，加油！</span>';
+
+  renderReview();
+  saveResult({ test_date: dayDate, listening_correct: lOk, reading_correct: rOk,
+    est_listening: lEst, est_reading: rEst, est_total: total, duration_sec: dur });
+
+  $('view-test').classList.add('hidden');
+  $('topbar').style.display='none';
+  $('submitbar').style.display='none';
+  $('view-result').classList.remove('hidden');
+  window.scrollTo(0,0);
+}
+function renderReview(){
+  var box = $('review'); box.innerHTML='';
+  flat.forEach(function(f){
+    var user = answers[f.qid];
+    var correct = user === f.answer;
+    var d = el('div','rv');
+    var head = '<span class="qnum">'+f.num+'.</span><span class="pill">'+f.part+'</span> ' +
+      (correct ? '<span class="tag ok">✔ 答對</span>' : '<span class="tag ng">✘ 答錯</span>');
+    d.appendChild(el('div', null, head));
+    if (f.display && f.display !== '（聽音檔作答）') d.appendChild(el('div','qtext', esc(f.display)));
+    var userTxt = user==null ? '未作答' : String.fromCharCode(65+user) + (f.part==='Part 2' ? '' : '. ' + esc(f.options[user]));
+    var ansTxt = String.fromCharCode(65+f.answer) + (f.part==='Part 2' ? '' : '. ' + esc(f.options[f.answer]));
+    d.appendChild(el('div','muted','你的答案：' + userTxt + '｜正確答案：<b>' + ansTxt + '</b>'));
+    var expl = f.item.explanation || '';
+    if (f.part==='Part 2'){
+      expl = '題目：' + f.item.audioText + '\nA. ' + f.item.optionAudioTexts[0] + '\nB. ' + f.item.optionAudioTexts[1] + '\nC. ' + f.item.optionAudioTexts[2] + '\n\n' + expl;
+    }
+    d.appendChild(el('div','expl','<b>詳解</b><br>' + esc(expl).replace(/\n/g,'<br>')));
+    if (f.script) d.appendChild(el('div','script','【聽力逐字稿】\n' + esc(f.script)));
+    box.appendChild(d);
+  });
+}
+
+/* ---------- 成績儲存（Supabase → localStorage 備援） ---------- */
+function sbHeaders(){
+  return { 'apikey': CFG.supabaseAnonKey, 'Authorization': 'Bearer ' + CFG.supabaseAnonKey, 'Content-Type': 'application/json' };
+}
+function saveResult(row){
+  var status = $('save-status');
+  var local = JSON.parse(localStorage.getItem('toeic_results') || '[]');
+  local.push(Object.assign({ created_at: new Date().toISOString() }, row));
+  localStorage.setItem('toeic_results', JSON.stringify(local.slice(-200)));
+  if (CFG.supabaseUrl && CFG.supabaseAnonKey){
+    fetch(CFG.supabaseUrl + '/rest/v1/results', { method:'POST', headers: sbHeaders(), body: JSON.stringify(row) })
+      .then(function(r){ status.textContent = r.ok ? '成績已同步至雲端' : '雲端同步失敗，成績已存在此裝置'; })
+      .catch(function(){ status.textContent = '雲端同步失敗，成績已存在此裝置'; });
+  } else {
+    status.textContent = '成績已儲存在此裝置';
+  }
+}
+function loadHistory(){
+  var box = $('history');
+  function render(rows){
+    if (!rows || rows.length===0){ box.innerHTML = '<span class="muted">還沒有紀錄，完成第一次測驗吧！</span>'; return; }
+    rows.sort(function(a,b){ return (b.created_at||'').localeCompare(a.created_at||''); });
+    box.innerHTML='';
+    var best = 0;
+    rows.forEach(function(r){ if (r.est_total > best) best = r.est_total; });
+    box.appendChild(el('div','muted','最佳成績：<b style="color:var(--blue)">'+best+'</b>｜共 '+rows.length+' 次測驗'));
+    rows.slice(0,14).forEach(function(r){
+      var d = el('div');
+      var pct = Math.min(100, r.est_total/990*100);
+      d.appendChild(el('div','hist-row','<span>'+ (r.test_date||'').slice(0,10) +'</span><span><b>'+r.est_total+'</b>（聽 '+r.est_listening+'／讀 '+r.est_reading+'）</span>'));
+      var bw = el('div','bar-wrap'); bw.appendChild(el('div','bar')); bw.firstChild.style.width = pct+'%';
+      d.appendChild(bw);
+      box.appendChild(d);
+    });
+  }
+  if (CFG.supabaseUrl && CFG.supabaseAnonKey){
+    fetch(CFG.supabaseUrl + '/rest/v1/results?select=*&order=created_at.desc&limit=60', { headers: sbHeaders() })
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(render)
+      .catch(function(){ render(JSON.parse(localStorage.getItem('toeic_results') || '[]')); });
+  } else {
+    render(JSON.parse(localStorage.getItem('toeic_results') || '[]'));
+  }
+}
+
+/* ---------- 導覽 ---------- */
+function showHome(){
+  $('view-result').classList.add('hidden');
+  $('view-test').classList.add('hidden');
+  $('topbar').style.display='none';
+  $('submitbar').style.display='none';
+  $('view-home').classList.remove('hidden');
+  loadHistory();
+  window.scrollTo(0,0);
+}
+$('btn-start').onclick = function(){
+  $('view-home').classList.add('hidden');
+  $('view-test').classList.remove('hidden');
+  $('topbar').style.display='block';
+  $('submitbar').style.display='block';
+  document.querySelector('.wrap').style.paddingTop = '56px';
+  renderTest();
+  startTimer();
+  window.scrollTo(0,0);
+};
+$('btn-submit').onclick = function(){ submitTest(false); };
+window.addEventListener('beforeunload', function(e){
+  if (!$('view-test').classList.contains('hidden')){ e.preventDefault(); e.returnValue=''; }
+});
+
+/* ---------- 初始化 ---------- */
+loadIndex().then(function(idx){
+  dayDate = pickDate(idx);
+  $('today-label').textContent = '今日題目：' + dayDate;
+  return fetch('data/' + dayDate + '.json').then(function(r){ return r.json(); });
+}).then(function(d){
+  day = d;
+  loadHistory();
+}).catch(function(){
+  document.body.insertBefore(el('div','notice','題庫載入失敗，請稍後重新整理。'), document.body.firstChild);
+});
+</script>
+</body>
+</html>
