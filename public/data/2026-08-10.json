@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-10",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "How do I request time off for next month?",
+        "optionAudioTexts": [
+          "Two weeks in Hawaii.",
+          "Submit a form on the HR portal.",
+          "Yes, next month works."
+        ],
+        "answer": 1,
+        "explanation": "How 問方法，(B)「在人資入口網站提交表單」正確說明流程。(A) 回答度假內容，(C) 答非所問。"
+      },
+      {
+        "audioText": "Which caterer did we use for last year's banquet?",
+        "optionAudioTexts": [
+          "The one on Grove Street, I believe.",
+          "About two hundred guests.",
+          "It was delicious."
+        ],
+        "answer": 0,
+        "explanation": "Which 問哪一家，(A)「Grove 街那家」指出特定業者。(B) 回答人數，(C) 只評論食物未回答哪家。"
+      },
+      {
+        "audioText": "The elevator inspection is scheduled for tomorrow, right?",
+        "optionAudioTexts": [
+          "On the top floor.",
+          "Actually, it was moved to Thursday.",
+          "An annual safety check."
+        ],
+        "answer": 1,
+        "explanation": "確認明天是否檢查電梯，(B)「其實改到週四了」直接更正資訊。(A) 回答地點，(C) 說明檢查性質但未回答時間。"
+      },
+      {
+        "audioText": "Who's picking up the visitors from the airport?",
+        "optionAudioTexts": [
+          "Daniel offered to drive.",
+          "Flight 502 from Chicago.",
+          "At the international terminal."
+        ],
+        "answer": 0,
+        "explanation": "Who 問人，(A)「Daniel 主動說要開車去」正確。(B) 回答航班，(C) 回答地點。"
+      },
+      {
+        "audioText": "Why don't we split the training into two shorter sessions?",
+        "optionAudioTexts": [
+          "The training manual.",
+          "That would keep people more focused.",
+          "In the second session."
+        ],
+        "answer": 1,
+        "explanation": "Why don't we...? 是提議，(B)「那樣大家會更專注」表示贊同並給理由。(A)、(C) 均未回應提議。"
+      },
+      {
+        "audioText": "When will the auditors finish reviewing our accounts?",
+        "optionAudioTexts": [
+          "The accounting department.",
+          "Very thoroughly.",
+          "By the end of next week."
+        ],
+        "answer": 2,
+        "explanation": "When 問時間，(C)「下週結束前」正確。(A) 回答部門，(B) 回答方式。"
+      },
+      {
+        "audioText": "Would you mind closing the window? The traffic noise is quite loud.",
+        "optionAudioTexts": [
+          "Not at all, I'll get it.",
+          "A window seat, please.",
+          "Rush hour starts at five."
+        ],
+        "answer": 0,
+        "explanation": "Would you mind...? 請求關窗，(A) Not at all 表示願意幫忙。(B) 是 window 的陷阱，(C) 談交通時間未回應請求。"
+      },
+      {
+        "audioText": "Where should we store the extra chairs after the seminar?",
+        "optionAudioTexts": [
+          "About thirty of them.",
+          "The seminar ended at noon.",
+          "There's space in the basement storage room."
+        ],
+        "answer": 2,
+        "explanation": "Where 問地點，(C)「地下室儲藏室有空間」正確。(A) 回答數量，(B) 回答時間。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Marcus, the printing company just called about our product catalogs. They said the paper we chose is out of stock until the end of the month.",
+          "M: That's a problem — we need the catalogs for the trade fair on the fifteenth. Did they suggest any alternatives?",
+          "W: They offered a slightly heavier paper at the same price, or we could keep the original paper but delay delivery.",
+          "M: We can't delay. Did you see a sample of the heavier paper?",
+          "W: Yes, they sent one over this morning. It actually feels more premium, and the colors print beautifully on it.",
+          "M: Then let's approve the substitution today so they can start printing. Could you e-mail them the confirmation and copy me?"
+        ],
+        "questions": [
+          {
+            "q": "What problem does the woman mention?",
+            "options": [
+              "A price has increased",
+              "A printer is broken",
+              "A design file was lost",
+              "A paper type is unavailable"
+            ],
+            "answer": 3,
+            "explanation": "女子說 the paper we chose is out of stock until the end of the month，原本選的紙張缺貨。"
+          },
+          {
+            "q": "Why does the man reject a delayed delivery?",
+            "options": [
+              "The budget would increase",
+              "The client canceled the order",
+              "The catalogs are needed for a trade fair",
+              "The office will be closed"
+            ],
+            "answer": 2,
+            "explanation": "男子說 we need the catalogs for the trade fair on the fifteenth，十五日的商展要用，因此不能延。"
+          },
+          {
+            "q": "What does the man ask the woman to do?",
+            "options": [
+              "Send a confirmation e-mail",
+              "Order a new sample",
+              "Visit the printing company",
+              "Redesign the catalog"
+            ],
+            "answer": 0,
+            "explanation": "男子最後說 Could you e-mail them the confirmation and copy me?，請她寄確認信並副本給他。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Welcome to Northgate Dental. How can I help you?",
+          "W: Hi, I have a cleaning appointment with Dr. Reyes at ten, but I arrived early because I need to update my insurance information. I switched providers last month.",
+          "M: No problem. I'll need your new insurance card and a photo ID. It takes about ten minutes to verify coverage in our system.",
+          "W: Here you go. Also, will the verification tell us whether teeth whitening is covered? I've been thinking about it.",
+          "M: Whitening is usually considered cosmetic, so most plans don't cover it. But we're running a twenty percent promotion on whitening through the end of the month, if you're interested.",
+          "W: Good to know. Let me ask Dr. Reyes whether it's suitable for me first, and I'll decide after my cleaning."
+        ],
+        "questions": [
+          {
+            "q": "Why did the woman arrive early?",
+            "options": [
+              "To fill out a survey",
+              "To pay a previous bill",
+              "To reschedule her appointment",
+              "To update her insurance information"
+            ],
+            "answer": 3,
+            "explanation": "女子說 I arrived early because I need to update my insurance information，上個月換了保險公司。"
+          },
+          {
+            "q": "What does the man say about teeth whitening?",
+            "options": [
+              "It is discounted this month",
+              "It requires two visits",
+              "It was recently discontinued",
+              "It is covered by most plans"
+            ],
+            "answer": 0,
+            "explanation": "男子說 we're running a twenty percent promotion on whitening through the end of the month，本月底前有八折優惠；並說多數保險不給付。"
+          },
+          {
+            "q": "What will the woman most likely do first?",
+            "options": [
+              "Call her insurance company",
+              "Sign up for the promotion",
+              "Consult the dentist",
+              "Book another appointment"
+            ],
+            "answer": 2,
+            "explanation": "女子說 Let me ask Dr. Reyes whether it's suitable for me first，會先問醫師是否適合再決定。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good morning, team. Before we open the store, I want to go over two things. First, the summer clearance starts today — all patio furniture is thirty percent off, and the discount is applied automatically at the register, so you don't need to enter any codes. Second, you may have noticed the new self-checkout kiosks near the exit. They go live on Wednesday. Until then, please direct customers to the regular registers. A trainer from the kiosk company will be here tomorrow at eight A.M. to show everyone how to assist customers with the machines, and attendance is required. If you're not scheduled to work tomorrow, see me after this meeting so we can arrange for you to attend the afternoon session instead.",
+        "questions": [
+          {
+            "q": "What does the speaker say about the clearance discount?",
+            "options": [
+              "It requires a coupon code",
+              "It is applied automatically",
+              "It starts on Wednesday",
+              "It excludes patio furniture"
+            ],
+            "answer": 1,
+            "explanation": "說話者說 the discount is applied automatically at the register, so you don't need to enter any codes。"
+          },
+          {
+            "q": "What will happen on Wednesday?",
+            "options": [
+              "A new manager will arrive",
+              "The store will close early",
+              "Self-checkout kiosks will start operating",
+              "A clearance sale will end"
+            ],
+            "answer": 2,
+            "explanation": "說話者說 the new self-checkout kiosks near the exit. They go live on Wednesday。"
+          },
+          {
+            "q": "Why should some employees talk to the speaker after the meeting?",
+            "options": [
+              "To collect a bonus",
+              "To get a new uniform",
+              "To arrange an alternative training time",
+              "To pick up a work schedule"
+            ],
+            "answer": 2,
+            "explanation": "結尾說明天沒排班的人 see me after this meeting so we can arrange for you to attend the afternoon session，改參加下午場訓練。"
+          }
+        ]
+      },
+      {
+        "script": "Thank you all for coming to this year's Regional Innovation Awards. Before we announce tonight's winners, I'd like to recognize our volunteer judges — forty industry experts who reviewed over three hundred entries during the past two months. This year we added a new category, Sustainable Design, in response to the growing number of eco-friendly submissions we received last year. Winners in each of the six categories will receive a ten-thousand-dollar grant and a six-month mentorship with a senior executive from one of our sponsor companies. And new this year, all finalists — not just winners — will be featured in the spring issue of Innovate Quarterly magazine. Now, let's begin with the first category.",
+        "questions": [
+          {
+            "q": "Who does the speaker thank at the beginning?",
+            "options": [
+              "The event sponsors",
+              "The award finalists",
+              "The volunteer judges",
+              "The magazine editors"
+            ],
+            "answer": 2,
+            "explanation": "說話者說 I'd like to recognize our volunteer judges — forty industry experts，先感謝評審。"
+          },
+          {
+            "q": "Why was a new category added?",
+            "options": [
+              "Eco-friendly entries increased",
+              "A sponsor requested it",
+              "The judges suggested it",
+              "Another category was removed"
+            ],
+            "answer": 0,
+            "explanation": "說話者說新增 Sustainable Design 是 in response to the growing number of eco-friendly submissions。"
+          },
+          {
+            "q": "According to the speaker, what is new for all finalists this year?",
+            "options": [
+              "A cash prize",
+              "A magazine feature",
+              "A trophy ceremony",
+              "A company tour"
+            ],
+            "answer": 1,
+            "explanation": "說話者說 all finalists — not just winners — will be featured in the spring issue of Innovate Quarterly。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "Please ensure that all laboratory equipment is cleaned ------- after each use.",
+        "options": [
+          "thorough",
+          "more thorough",
+          "thoroughness",
+          "thoroughly"
+        ],
+        "answer": 3,
+        "explanation": "修飾動詞 is cleaned 需用副詞 thoroughly（徹底地）。"
+      },
+      {
+        "q": "The seminar on cybersecurity has been moved ------- the main auditorium to Room 310.",
+        "options": [
+          "onto",
+          "at",
+          "into",
+          "from"
+        ],
+        "answer": 3,
+        "explanation": "move from A to B 表「從 A 移到 B」，與後面的 to Room 310 呼應。"
+      },
+      {
+        "q": "Neither the manager ------- her assistants were aware of the schedule change.",
+        "options": [
+          "nor",
+          "and",
+          "or",
+          "but"
+        ],
+        "answer": 0,
+        "explanation": "neither...nor... 為固定搭配，表「兩者皆非」。"
+      },
+      {
+        "q": "The hotel's rooftop restaurant offers an ------- view of the harbor.",
+        "options": [
+          "impress",
+          "impression",
+          "impressively",
+          "impressive"
+        ],
+        "answer": 3,
+        "explanation": "修飾名詞 view 需用形容詞 impressive（令人印象深刻的）。"
+      },
+      {
+        "q": "All refund requests are processed within three business days of -------.",
+        "options": [
+          "receipt",
+          "received",
+          "receive",
+          "receiving it"
+        ],
+        "answer": 0,
+        "explanation": "介系詞 of 後接名詞 receipt（收到），within three business days of receipt 為商業慣用語。"
+      },
+      {
+        "q": "Mr. Santos will be out of the office next week; -------, please direct urgent inquiries to Ms. Cho.",
+        "options": [
+          "otherwise",
+          "nevertheless",
+          "meanwhile",
+          "instead"
+        ],
+        "answer": 2,
+        "explanation": "meanwhile（在此期間）表示他不在的這段時間請找 Cho 女士，語意最合。"
+      },
+      {
+        "q": "The design team is confident ------- the new packaging will appeal to younger consumers.",
+        "options": [
+          "that",
+          "what",
+          "whose",
+          "whom"
+        ],
+        "answer": 0,
+        "explanation": "be confident that + 子句 表「有信心…」，that 引導名詞子句。"
+      },
+      {
+        "q": "Due to rising material costs, the manufacturer announced a five percent price ------- effective July 1.",
+        "options": [
+          "increasingly",
+          "increasing",
+          "increased",
+          "increase"
+        ],
+        "answer": 3,
+        "explanation": "a five percent price increase 為名詞片語，「漲價」。空格需名詞。"
+      },
+      {
+        "q": "Ms. Devlin will interview the candidates ------- because her co-interviewer is on sick leave.",
+        "options": [
+          "hers",
+          "herself",
+          "she",
+          "her"
+        ],
+        "answer": 1,
+        "explanation": "反身代名詞 herself 強調「親自、獨自」進行面試。"
+      },
+      {
+        "q": "The museum's photography exhibit runs ------- the end of September.",
+        "options": [
+          "until",
+          "by",
+          "on",
+          "within"
+        ],
+        "answer": 0,
+        "explanation": "until 表持續「直到」九月底，展覽為持續性事件。by 用於一次性動作的期限。"
+      },
+      {
+        "q": "Staff members who complete the advanced safety course are ------- to operate the forklift.",
+        "options": [
+          "qualification",
+          "qualify",
+          "qualified",
+          "qualifying"
+        ],
+        "answer": 2,
+        "explanation": "be qualified to + 原形動詞 表「有資格做…」，空格需過去分詞作形容詞。"
+      },
+      {
+        "q": "------- its compact size, the new projector delivers remarkably bright images.",
+        "options": [
+          "Despite",
+          "Although",
+          "Even",
+          "Whereas"
+        ],
+        "answer": 0,
+        "explanation": "空格後是名詞片語 its compact size，需用介系詞 Despite（儘管）。Although 與 Whereas 接子句。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Job Posting — Operations Coordinator\nHarlow Logistics, Riverside Distribution Center\n\nHarlow Logistics is seeking an organized, detail-oriented Operations Coordinator to join our Riverside team. The successful candidate will schedule inbound deliveries, [33] inventory records, and prepare weekly performance summaries for management. Applicants should have at least two years of experience in a warehouse or logistics setting. [34] with inventory management software is strongly preferred. This is a full-time position with health benefits and paid vacation. Interested candidates should send a resume and a brief cover letter to careers@harlowlogistics.com by August 29. Only shortlisted applicants will be [35] for interviews.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "abandon",
+              "maintain",
+              "purchase",
+              "translate"
+            ],
+            "answer": 1,
+            "explanation": "工作內容之一是「維護」庫存紀錄，maintain inventory records 為常見搭配。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "Similarity",
+              "Familiarity",
+              "Popularity",
+              "Formality"
+            ],
+            "answer": 1,
+            "explanation": "Familiarity with...software（熟悉軟體）符合徵才條件語境。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "charged",
+              "promoted",
+              "contacted",
+              "replaced"
+            ],
+            "answer": 2,
+            "explanation": "只有入選者會被「聯繫」安排面試，Only shortlisted applicants will be contacted 為徵才啟事慣用句。"
+          }
+        ]
+      },
+      {
+        "passage": "Dear Ms. Farrow,\n\nThis letter confirms your reservation at the Alder Grove Inn for three nights, checking in on Friday, May 8, and checking out on Monday, May 11. Your room [36] a queen bed, a work desk, and a partial lake view. Breakfast is served in the dining room from 7:00 to 10:00 each morning and is included in your rate. Please note that our parking lot is currently being repaved. [37] , guests are asked to use the public garage on Winslow Street, one block away; parking fees there will be [38] from your final bill upon presentation of the garage receipt. We look forward to welcoming you.\n\nWarm regards,\nAlder Grove Inn Guest Services",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "features",
+              "reserves",
+              "prevents",
+              "collects"
+            ],
+            "answer": 0,
+            "explanation": "Your room features...（房間配有…）介紹房內設施，features 最合適。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "On the other hand",
+              "In the meantime",
+              "As a rule",
+              "By comparison"
+            ],
+            "answer": 1,
+            "explanation": "停車場整修「期間」請改停公共車庫，In the meantime（在此期間）承接前句。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "increased",
+              "deducted",
+              "withheld",
+              "estimated"
+            ],
+            "answer": 1,
+            "explanation": "憑收據可將停車費「從帳單中扣除」，deducted from your final bill 符合補償語意。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Text-message chain】\nNina Kowalski (10:12 A.M.): Hey Sam, are you still at the supplier's warehouse?\nSam Ortiz (10:13 A.M.): Just leaving now. Why?\nNina Kowalski (10:14 A.M.): The kitchen just told me we're almost out of the gluten-free flour. We'll run out before the weekend rush.\nSam Ortiz (10:15 A.M.): Seriously? I was there five minutes ago. Let me turn around.\nNina Kowalski (10:16 A.M.): Sorry! The delivery yesterday was two bags short, and nobody logged it.\nSam Ortiz (10:18 A.M.): No worries. How many should I grab — four bags?\nNina Kowalski (10:19 A.M.): Make it six. The gluten-free pancakes are on the brunch special this weekend.\nSam Ortiz (10:20 A.M.): Got it. I'll also ask them about the missing bags from yesterday so we get credited.\nNina Kowalski (10:21 A.M.): Perfect, thanks. See you back here.",
+        "questions": [
+          {
+            "q": "Where do the writers most likely work?",
+            "options": [
+              "At a grocery store",
+              "At a restaurant",
+              "At a flour mill",
+              "At a delivery company"
+            ],
+            "answer": 1,
+            "explanation": "對話提到 the kitchen、weekend rush 與 brunch special，可推知他們在餐廳工作。"
+          },
+          {
+            "q": "At 10:15 A.M., what does Mr. Ortiz most likely mean when he writes, \"Let me turn around\"?",
+            "options": [
+              "He will look behind him",
+              "He will change the subject",
+              "He will go back to the warehouse",
+              "He will reverse a decision"
+            ],
+            "answer": 2,
+            "explanation": "他剛離開供應商倉庫，得知缺麵粉後說 Let me turn around，意指掉頭回倉庫採買。"
+          },
+          {
+            "q": "What does Mr. Ortiz say he will ask the supplier about?",
+            "options": [
+              "A bulk discount",
+              "A faster delivery option",
+              "A new product line",
+              "A credit for missing items"
+            ],
+            "answer": 3,
+            "explanation": "他說 I'll also ask them about the missing bags from yesterday so we get credited，要求就短少的兩袋退款入帳。"
+          }
+        ]
+      },
+      {
+        "passage": "【Information】\nWelcome to the Meridian Business Center — Visitor Guide\n\nCheck-in: All visitors must check in at the lobby desk and present a photo ID. Your host will be notified electronically, and you will receive a visitor badge that must be worn visibly at all times. Badges expire at 6:00 P.M. on the day of issue.\n\nWi-Fi: Complimentary guest Wi-Fi is available; select the network \"Meridian-Guest\" and enter the access code printed on the back of your badge.\n\nParking: Visitor parking is located on levels one and two of the attached garage. Have your ticket validated at the lobby desk to receive three hours of free parking. Additional time is charged at $4 per hour.\n\nAmenities: A coffee bar operates in the lobby from 7:00 A.M. to 3:00 P.M. on weekdays. Meeting rooms on the second floor may be reserved by tenants only; visitors needing a workspace may use the open seating area beside the coffee bar.\n\nAssistance: For questions or lost badges, dial 0 from any lobby courtesy phone.",
+        "questions": [
+          {
+            "q": "What must visitors do when they arrive?",
+            "options": [
+              "Call their host directly",
+              "Sign a security waiver",
+              "Print their own badge",
+              "Present a photo ID at the desk"
+            ],
+            "answer": 3,
+            "explanation": "Check-in 段落說 All visitors must check in at the lobby desk and present a photo ID。"
+          },
+          {
+            "q": "Where can visitors find the Wi-Fi access code?",
+            "options": [
+              "On the back of their badge",
+              "At the coffee bar",
+              "On a lobby sign",
+              "In a confirmation e-mail"
+            ],
+            "answer": 0,
+            "explanation": "Wi-Fi 段落說 enter the access code printed on the back of your badge，密碼印在證件背面。"
+          },
+          {
+            "q": "How can a visitor receive free parking?",
+            "options": [
+              "By parking on level three",
+              "By staying less than one hour",
+              "By showing a meeting invitation",
+              "By having a ticket validated"
+            ],
+            "answer": 3,
+            "explanation": "Parking 段落說 Have your ticket validated at the lobby desk to receive three hours of free parking。"
+          },
+          {
+            "q": "What is indicated about the meeting rooms?",
+            "options": [
+              "They close at 3:00 P.M.",
+              "They can be booked only by tenants",
+              "They are located in the lobby",
+              "They require a rental fee"
+            ],
+            "answer": 1,
+            "explanation": "Amenities 段落說 Meeting rooms on the second floor may be reserved by tenants only，訪客只能使用開放座位區。"
+          }
+        ]
+      }
+    ]
+  }
+}

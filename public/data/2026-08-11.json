@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-11",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "What time does the pharmacy open on Sunday?",
+        "optionAudioTexts": [
+          "It's closed on Sundays, actually.",
+          "Two blocks from here.",
+          "A prescription refill."
+        ],
+        "answer": 0,
+        "explanation": "What time 問時間，(A)「其實週日不營業」是合理的間接回答。(B) 回答距離，(C) 回答目的。"
+      },
+      {
+        "audioText": "Who's responsible for updating the company website?",
+        "optionAudioTexts": [
+          "Every two weeks.",
+          "The communications team handles that.",
+          "On the homepage."
+        ],
+        "answer": 1,
+        "explanation": "Who 問負責人，(B)「公關溝通團隊負責」正確。(A) 回答頻率，(C) 回答位置。"
+      },
+      {
+        "audioText": "Is the staff meeting in the morning or after lunch?",
+        "optionAudioTexts": [
+          "About the sales targets.",
+          "In the large conference room.",
+          "It's been moved to one thirty."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句問上午或午後，(C)「改到一點半」表示是午後，做出回應。(B) 回答地點，(A) 回答主題。"
+      },
+      {
+        "audioText": "Could you help me carry these boxes to the storage room?",
+        "optionAudioTexts": [
+          "They're mostly old files.",
+          "Sure, just give me a minute.",
+          "The room is on the left."
+        ],
+        "answer": 1,
+        "explanation": "Could you...? 是請求，(B)「好，等我一下」直接答應。(A) 描述箱子內容，(C) 回答位置。"
+      },
+      {
+        "audioText": "Why has the flight to Denver been delayed?",
+        "optionAudioTexts": [
+          "There's a mechanical issue with the aircraft.",
+          "About two hours from now.",
+          "Gate 22, I think."
+        ],
+        "answer": 0,
+        "explanation": "Why 問原因，(A)「飛機有機械問題」說明延誤原因。(C) 回答登機門，(B) 回答時間。"
+      },
+      {
+        "audioText": "How many people have registered for the webinar so far?",
+        "optionAudioTexts": [
+          "Just over three hundred.",
+          "Last Friday morning.",
+          "A registration fee."
+        ],
+        "answer": 0,
+        "explanation": "How many 問數量，(A)「三百多人」正確。(B) 回答時間，(C) 是相關單字陷阱。"
+      },
+      {
+        "audioText": "You reviewed the vendor contracts before the meeting, didn't you?",
+        "optionAudioTexts": [
+          "Three different vendors.",
+          "I only got through half of them.",
+          "The meeting room upstairs."
+        ],
+        "answer": 1,
+        "explanation": "附加問句確認是否看完合約，(B)「我只看完一半」誠實回應進度。(A) 回答數量，(C) 回答地點。"
+      },
+      {
+        "audioText": "Let's post the job opening internally before advertising it outside.",
+        "optionAudioTexts": [
+          "It opens at nine.",
+          "The advertising budget.",
+          "Good idea — someone on the team might be interested."
+        ],
+        "answer": 2,
+        "explanation": "Let's... 是提議，(C) 表示贊同並補充理由。(B) 是 advertising 的陷阱，(A) 是 opening 的陷阱。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Hi Omar, do you have a minute? I'm putting together the itinerary for the investors' visit next Thursday, and I'd like your input on the schedule.",
+          "M: Of course. Are they still arriving at nine thirty?",
+          "W: Yes. I've planned a facility tour first, then a product demonstration at eleven. But I'm not sure whether lunch should be catered here or at a restaurant.",
+          "M: Let's keep it in the building. The private dining room on the top floor has a great view, and we won't lose time traveling.",
+          "W: Good point. I'll book the dining room and arrange the catering this afternoon.",
+          "M: One more thing — could you build in fifteen minutes before the demonstration? I want to test the equipment with the engineers beforehand."
+        ],
+        "questions": [
+          {
+            "q": "What is the woman preparing for?",
+            "options": [
+              "A job fair",
+              "A press conference",
+              "A staff retreat",
+              "A visit from investors"
+            ],
+            "answer": 3,
+            "explanation": "女子說 I'm putting together the itinerary for the investors' visit next Thursday，在安排投資人來訪行程。"
+          },
+          {
+            "q": "Why does the man prefer having lunch in the building?",
+            "options": [
+              "The food is better",
+              "It costs less",
+              "The restaurant is fully booked",
+              "It saves travel time"
+            ],
+            "answer": 3,
+            "explanation": "男子說頂樓餐廳景觀好且 we won't lose time traveling，不用浪費交通時間。"
+          },
+          {
+            "q": "What does the man ask the woman to add to the schedule?",
+            "options": [
+              "A photo session",
+              "A question-and-answer session",
+              "A coffee break",
+              "Time to test equipment"
+            ],
+            "answer": 3,
+            "explanation": "男子說 could you build in fifteen minutes before the demonstration? I want to test the equipment，希望預留測試設備的時間。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Rosewood Bank, business accounts. This is Kenji speaking.",
+          "W: Hi, I run a small bakery, and I'd like to set up a way to accept card payments at our weekend market stall, not just in the shop.",
+          "M: We offer a mobile card reader that connects to a phone app. There's no monthly fee — just a small percentage per transaction.",
+          "W: That sounds ideal. How long does it take to get the reader?",
+          "M: If you order today, it ships within two business days. But you'll need to upgrade your account to our Business Plus plan first, which I can do over the phone right now.",
+          "W: Let's do that. And does the app show daily sales totals? I currently add everything up by hand."
+        ],
+        "questions": [
+          {
+            "q": "What type of business does the woman operate?",
+            "options": [
+              "A bookstore",
+              "A flower shop",
+              "A bakery",
+              "A coffee stand"
+            ],
+            "answer": 2,
+            "explanation": "女子說 I run a small bakery，經營一家小烘焙坊。"
+          },
+          {
+            "q": "What does the woman want to do?",
+            "options": [
+              "Accept card payments at a market stall",
+              "Open a savings account",
+              "Apply for a business loan",
+              "Dispute a transaction fee"
+            ],
+            "answer": 0,
+            "explanation": "女子說想要 accept card payments at our weekend market stall，在週末市集攤位收卡片付款。"
+          },
+          {
+            "q": "What must the woman do before receiving the card reader?",
+            "options": [
+              "Visit a branch in person",
+              "Upgrade her account plan",
+              "Pay an annual fee",
+              "Download a tax form"
+            ],
+            "answer": 1,
+            "explanation": "男子說 you'll need to upgrade your account to our Business Plus plan first，須先升級帳戶方案。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Hello, you've reached the voicemail of Tessa Lindqvist at BrightWave Media. I'll be attending an industry conference from Monday, March second, through Wednesday, March fourth, and will have limited access to messages during that time. If you're calling about the Hartley campaign, please contact my colleague Devon Marsh at extension 2-1-8 — he has full access to the project files and can answer most questions. For urgent matters related to other accounts, please e-mail our team inbox at support at brightwave media dot com, and someone will respond within four business hours. Otherwise, leave a message after the tone, and I'll return your call when I'm back on Thursday. Thank you.",
+        "questions": [
+          {
+            "q": "Why is the speaker unavailable?",
+            "options": [
+              "She is on vacation",
+              "She is attending a conference",
+              "She is meeting a client",
+              "She is moving offices"
+            ],
+            "answer": 1,
+            "explanation": "語音留言說 I'll be attending an industry conference from Monday...through Wednesday。"
+          },
+          {
+            "q": "Who should callers contact about the Hartley campaign?",
+            "options": [
+              "The team inbox",
+              "Devon Marsh",
+              "The front desk",
+              "Another agency"
+            ],
+            "answer": 1,
+            "explanation": "留言指示 If you're calling about the Hartley campaign, please contact my colleague Devon Marsh at extension 218。"
+          },
+          {
+            "q": "When will the speaker return calls?",
+            "options": [
+              "On Monday",
+              "On Wednesday",
+              "On Thursday",
+              "Within four hours"
+            ],
+            "answer": 2,
+            "explanation": "結尾說 I'll return your call when I'm back on Thursday，週四回來後回電。"
+          }
+        ]
+      },
+      {
+        "script": "Alright, everyone, gather around for a quick update before the lunch shift. As you know, we're introducing the new seasonal menu next Monday. Chef Amara will hold a tasting session tomorrow at three so all servers can try the six new dishes and learn the ingredients — this is essential because two dishes contain nuts and one contains shellfish, and you must be able to answer allergy questions confidently. Menus are being reprinted, and the laminated allergen guide will be updated and kept by the service station as usual. One more thing: the food critic from City Palate magazine reserved a table for Friday evening, so let's make sure everything runs smoothly this week. Any questions?",
+        "questions": [
+          {
+            "q": "Who most likely are the listeners?",
+            "options": [
+              "Kitchen suppliers",
+              "Restaurant servers",
+              "Food critics",
+              "Magazine editors"
+            ],
+            "answer": 1,
+            "explanation": "說話者說 so all servers can try the six new dishes，聽眾是外場服務人員。"
+          },
+          {
+            "q": "Why does the speaker say the tasting session is essential?",
+            "options": [
+              "Servers must answer allergy questions",
+              "Servers must memorize the prices",
+              "The chef needs feedback",
+              "A television crew will film it"
+            ],
+            "answer": 0,
+            "explanation": "說話者說有餐點含堅果與帶殼海鮮，you must be able to answer allergy questions confidently。"
+          },
+          {
+            "q": "What will happen on Friday evening?",
+            "options": [
+              "A food critic will visit",
+              "A new menu will launch",
+              "A private party is booked",
+              "A staff dinner will be held"
+            ],
+            "answer": 0,
+            "explanation": "說話者說 the food critic from City Palate magazine reserved a table for Friday evening。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "Employees must wear protective goggles ------- operating the cutting machines.",
+        "options": [
+          "while",
+          "during",
+          "among",
+          "besides"
+        ],
+        "answer": 0,
+        "explanation": "while + V-ing 表「在操作時」。during 後接名詞而非分詞片語。"
+      },
+      {
+        "q": "The updated employee handbook is available in both printed and ------- formats.",
+        "options": [
+          "electric",
+          "electrical",
+          "electricity",
+          "electronic"
+        ],
+        "answer": 3,
+        "explanation": "electronic format（電子格式）為正確搭配。electric 指用電的，electrical 指與電相關的設備。"
+      },
+      {
+        "q": "------- who wish to attend the awards dinner should RSVP by Friday.",
+        "options": [
+          "That",
+          "This",
+          "These",
+          "Those"
+        ],
+        "answer": 3,
+        "explanation": "Those who... 表「想參加的人」，為固定用法。"
+      },
+      {
+        "q": "The clinic sends patients a text message to ------- them of upcoming appointments.",
+        "options": [
+          "review",
+          "remember",
+          "remind",
+          "recall"
+        ],
+        "answer": 2,
+        "explanation": "remind someone of something 表「提醒某人某事」。remember 與 recall 不接此結構。"
+      },
+      {
+        "q": "Ticket holders may enter the concert hall thirty minutes ------- the performance begins.",
+        "options": [
+          "previously",
+          "ago",
+          "prior",
+          "before"
+        ],
+        "answer": 3,
+        "explanation": "before + 子句 表「在表演開始之前」。prior 須搭配 to，ago 與 previously 為副詞。"
+      },
+      {
+        "q": "The finance committee meets ------- to review departmental spending.",
+        "options": [
+          "monthly",
+          "month",
+          "months",
+          "monthlong"
+        ],
+        "answer": 0,
+        "explanation": "修飾動詞 meets 需用副詞 monthly（每月地）。"
+      },
+      {
+        "q": "------- the projector nor the microphone was working when the presenters arrived.",
+        "options": [
+          "Either",
+          "Neither",
+          "Both",
+          "Not only"
+        ],
+        "answer": 1,
+        "explanation": "與句中的 nor 搭配，Neither...nor... 表「兩者皆不」。"
+      },
+      {
+        "q": "Guests may leave their luggage with the concierge ------- their rooms are ready.",
+        "options": [
+          "beyond",
+          "toward",
+          "against",
+          "until"
+        ],
+        "answer": 3,
+        "explanation": "until 表「直到房間準備好為止」可先寄放行李，語意正確。"
+      },
+      {
+        "q": "The research paper was accepted for publication after minor ------- were made.",
+        "options": [
+          "revisions",
+          "revised",
+          "revise",
+          "revising"
+        ],
+        "answer": 0,
+        "explanation": "形容詞 minor 後接複數名詞 revisions（修改）。"
+      },
+      {
+        "q": "Sales representatives should respond to customer inquiries as ------- as possible.",
+        "options": [
+          "prompt",
+          "promptness",
+          "prompted",
+          "promptly"
+        ],
+        "answer": 3,
+        "explanation": "as...as possible 中間修飾動詞 respond 需用副詞 promptly（迅速地）。"
+      },
+      {
+        "q": "------- approval from the city council, construction of the new bridge will begin in October.",
+        "options": [
+          "Pended",
+          "Penned",
+          "Pending",
+          "Pendant"
+        ],
+        "answer": 2,
+        "explanation": "Pending（在等待…期間、尚待）作介系詞用，Pending approval 表「待市議會核准後」。"
+      },
+      {
+        "q": "The two software packages are similar, but the newer one is far easier to -------.",
+        "options": [
+          "navigator",
+          "navigation",
+          "navigate",
+          "navigable"
+        ],
+        "answer": 2,
+        "explanation": "easier to + 原形動詞，選 navigate（操作、瀏覽）。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Attention Hollis Tower Tenants\n\nBeginning Monday, October 12, the building's main lobby will undergo a two-week renovation. The center doors will be closed, and all tenants and visitors should enter [33] the east entrance on Colby Street. Deliveries will continue to be accepted at the loading dock as usual. The renovation will include new flooring, improved lighting, and a modernized reception desk. We expect the noisiest work to take place before 8:00 A.M. to [34] disruption during business hours. Building management appreciates your cooperation and is confident that the [35] lobby will provide a more welcoming first impression for your clients and guests.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "through",
+              "onto",
+              "between",
+              "except"
+            ],
+            "answer": 0,
+            "explanation": "enter through the east entrance 表「從東側入口進入」，through 為正確介系詞。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "celebrate",
+              "increase",
+              "minimize",
+              "measure"
+            ],
+            "answer": 2,
+            "explanation": "吵雜工程排在早上八點前，是為了「減少」上班時間的干擾，選 minimize。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "demolished",
+              "postponed",
+              "renovated",
+              "vacant"
+            ],
+            "answer": 2,
+            "explanation": "完工後「整修一新的」大廳將帶來更好的第一印象，選 renovated。"
+          }
+        ]
+      },
+      {
+        "passage": "Dear Dr. Nakamura,\n\nOn behalf of the Westbrook Science Alliance, I am delighted to invite you to be the keynote speaker at our annual symposium on February 20. This year's theme is \"Innovation in Renewable Energy,\" a field in which your research is widely [36]. The keynote address is scheduled for 10:00 A.M. and should last approximately forty-five minutes, [37] a fifteen-minute question-and-answer period. We will, of course, cover your travel and accommodation expenses. Please let us know your decision by December 1 so that we may [38] the event program. We sincerely hope you will accept.\n\nRespectfully,\nHelena Vargas\nProgram Chair, Westbrook Science Alliance",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "corrected",
+              "respected",
+              "suspected",
+              "collected"
+            ],
+            "answer": 1,
+            "explanation": "your research is widely respected（您的研究廣受推崇）符合邀請函的恭維語氣。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "in spite of",
+              "except for",
+              "owing to",
+              "followed by"
+            ],
+            "answer": 3,
+            "explanation": "演講四十五分鐘，「之後接著」十五分鐘問答，followed by 表接續。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "criticize",
+              "cancel",
+              "finalize",
+              "misplace"
+            ],
+            "answer": 2,
+            "explanation": "需在期限前得知回覆以便「定案」活動議程，選 finalize。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【E-mail】\nFrom: Aiden Cole <acole@summitoutfitters.com>\nTo: Store Managers — All Locations\nSubject: Winter Inventory Transfer\nDate: November 9\n\nManagers,\n\nOur Fairbanks and Duluth stores are reporting stronger-than-expected sales of insulated parkas, while several southern locations have excess stock. To balance inventory before the holiday season, we will transfer 400 parkas from the Austin, Phoenix, and San Diego stores to northern locations this week. Affected managers will receive a transfer sheet by tomorrow listing exact quantities and shipping labels. Please have the items packed by Thursday; our carrier will collect them Friday morning. Note that transferred items should be scanned out using code T-7, not the regular sales code — this ensures your store's sales figures are not affected. Questions about the process should go to Rita Vance in Distribution.\n\nThanks for your quick action on this.\nAiden",
+        "questions": [
+          {
+            "q": "Why are parkas being transferred?",
+            "options": [
+              "To balance inventory across stores",
+              "To replace defective merchandise",
+              "To supply a new store opening",
+              "To fulfill an online order backlog"
+            ],
+            "answer": 0,
+            "explanation": "信中說北部門市銷量超乎預期、南部門市庫存過剩，To balance inventory before the holiday season 進行調貨。"
+          },
+          {
+            "q": "What will happen on Friday morning?",
+            "options": [
+              "A carrier will pick up the shipments",
+              "A sales report is due",
+              "New stock will arrive",
+              "A manager meeting will be held"
+            ],
+            "answer": 0,
+            "explanation": "信中說 our carrier will collect them Friday morning，貨運業者週五上午收件。"
+          },
+          {
+            "q": "Why should managers use code T-7?",
+            "options": [
+              "To speed up the packing process",
+              "To apply a seasonal discount",
+              "To keep sales figures accurate",
+              "To notify the carrier automatically"
+            ],
+            "answer": 2,
+            "explanation": "信中說使用 T-7 而非銷售代碼 ensures your store's sales figures are not affected，避免影響銷售數字。"
+          }
+        ]
+      },
+      {
+        "passage": "【Review】\nProduct: TrailMate 45L Hiking Backpack\nReviewer: Dana Whitcombe — Verified Purchase\nRating: 4 out of 5 stars\n\nI bought this pack in March for a five-day trek along the Cascade Ridge Trail and have since used it on more than a dozen weekend trips. The best feature by far is the adjustable torso length, which took only minutes to fit and made a noticeable difference in comfort compared with my old pack. The hip belt pockets are large enough for a phone and snacks, and the rain cover stored in the bottom compartment saved my gear twice during sudden storms. My only complaint is the side water-bottle pockets: they are too tight to reach while wearing the pack, so I had to stop and take it off every time I wanted a drink. According to the company's website, next year's model will have redesigned stretch pockets, which would fix my one issue. If that happens, I would happily give five stars. For the current version, I still recommend it, especially at this price point — I paid $40 less than what comparable packs from bigger brands cost.",
+        "questions": [
+          {
+            "q": "What does the reviewer like most about the backpack?",
+            "options": [
+              "The adjustable torso length",
+              "The water-bottle pockets",
+              "The color options",
+              "The lightweight frame"
+            ],
+            "answer": 0,
+            "explanation": "評論說 The best feature by far is the adjustable torso length，可調背長是最大優點。"
+          },
+          {
+            "q": "What problem does the reviewer mention?",
+            "options": [
+              "The rain cover is missing",
+              "The side pockets are hard to reach",
+              "The hip belt is uncomfortable",
+              "The zippers broke quickly"
+            ],
+            "answer": 1,
+            "explanation": "評論說 the side water-bottle pockets: they are too tight to reach while wearing the pack，背著時拿不到水瓶。"
+          },
+          {
+            "q": "According to the review, what is true about next year's model?",
+            "options": [
+              "It will cost $40 more",
+              "It will have redesigned pockets",
+              "It will come in a larger size",
+              "It will include a free rain cover"
+            ],
+            "answer": 1,
+            "explanation": "評論引述官網：next year's model will have redesigned stretch pockets，明年款將改良側袋。"
+          },
+          {
+            "q": "Why does the reviewer recommend the backpack?",
+            "options": [
+              "It comes with a lifetime warranty",
+              "It is cheaper than comparable packs",
+              "It won an industry award",
+              "It is made locally"
+            ],
+            "answer": 1,
+            "explanation": "評論最後說 I paid $40 less than what comparable packs from bigger brands cost，價格比同級大牌便宜。"
+          }
+        ]
+      }
+    ]
+  }
+}

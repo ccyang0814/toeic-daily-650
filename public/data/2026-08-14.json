@@ -1,0 +1,561 @@
+{
+  "date": "2026-08-14",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Who's in charge of ordering office supplies now?",
+        "optionAudioTexts": [
+          "That responsibility moved to Priya last month.",
+          "Mostly pens and notebooks.",
+          "Once a quarter."
+        ],
+        "answer": 0,
+        "explanation": "Who 問負責人，(A)「上個月起改由 Priya 負責」正確。(B) 回答品項，(C) 回答頻率。"
+      },
+      {
+        "audioText": "When does the early-bird discount for the summit end?",
+        "optionAudioTexts": [
+          "Up to thirty percent off.",
+          "Through the event website.",
+          "At midnight on March 31."
+        ],
+        "answer": 2,
+        "explanation": "When 問時間，(C)「三月三十一日午夜截止」正確。(A) 回答折扣幅度，(B) 回答報名管道。"
+      },
+      {
+        "audioText": "Why did you switch to the earlier train this morning?",
+        "optionAudioTexts": [
+          "Platform number four.",
+          "I had to prepare for an eight o'clock call.",
+          "A monthly rail pass."
+        ],
+        "answer": 1,
+        "explanation": "Why 問原因，(B)「我得準備八點的電話會議」說明改搭早班車的理由。(A) 回答月台，(C) 回答票種。"
+      },
+      {
+        "audioText": "Where will the year-end inventory count take place?",
+        "optionAudioTexts": [
+          "The inventory manager.",
+          "For about two days.",
+          "At both warehouses simultaneously."
+        ],
+        "answer": 2,
+        "explanation": "Where 問地點，(C)「兩個倉庫同時進行」正確。(B) 回答時長，(A) 回答人。"
+      },
+      {
+        "audioText": "Could I borrow your laptop charger for an hour?",
+        "optionAudioTexts": [
+          "It charges pretty fast.",
+          "Of course — it's plugged in by the window.",
+          "About eighty percent."
+        ],
+        "answer": 1,
+        "explanation": "Could I...? 是請求，(B)「當然可以，插在窗邊」直接答應並告知位置。(A)、(C) 是相關字陷阱。"
+      },
+      {
+        "audioText": "How did the focus group react to the new packaging design?",
+        "optionAudioTexts": [
+          "They loved the colors but found the text hard to read.",
+          "Twelve participants in total.",
+          "Next Tuesday afternoon."
+        ],
+        "answer": 0,
+        "explanation": "How 問反應，(A) 具體描述焦點團體的意見。(B) 回答人數，(C) 回答時間。"
+      },
+      {
+        "audioText": "Aren't we supposed to submit the timesheets by noon today?",
+        "optionAudioTexts": [
+          "The deadline was extended to Monday.",
+          "About thirty-five hours.",
+          "In the payroll office."
+        ],
+        "answer": 0,
+        "explanation": "否定疑問句確認截止時間，(A)「期限延到週一了」更正對方認知。(B) 回答時數，(C) 回答地點。"
+      },
+      {
+        "audioText": "Should we hire a professional photographer for the product shots, or use our own camera?",
+        "optionAudioTexts": [
+          "Mostly close-up shots.",
+          "A professional — the images will be on our homepage.",
+          "The product launches in May."
+        ],
+        "answer": 1,
+        "explanation": "選擇疑問句，(B) 選擇請專業攝影師並說明理由（照片將放官網首頁）。(A)、(C) 均未回應選擇。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Hi Malik, do you have the final numbers for the wellness fair? I'm ordering the giveaway items today.",
+          "M: Registration closed this morning at three hundred twenty employees, plus we should expect some walk-ins from the night shift.",
+          "W: So I'll order three hundred seventy-five water bottles to be safe. The vendor needs five business days for the logo printing.",
+          "M: That's cutting it close — the fair is a week from Friday. Can they guarantee delivery by Wednesday?",
+          "W: Their site says orders over three hundred units qualify for free rush processing, which takes three days. I'll call to confirm before I pay.",
+          "M: Good. And if rush isn't available, we could pick up the bottles unprinted and use the sticker labels we made for last year's event."
+        ],
+        "questions": [
+          {
+            "q": "What event are the speakers preparing for?",
+            "options": [
+              "A retirement party",
+              "A product launch",
+              "A charity auction",
+              "A wellness fair"
+            ],
+            "answer": 3,
+            "explanation": "女子開頭問 the final numbers for the wellness fair，兩人在籌備員工健康博覽會。"
+          },
+          {
+            "q": "Why does the woman plan to order 375 water bottles?",
+            "options": [
+              "To receive a bulk discount",
+              "Because the vendor requires it",
+              "To allow for walk-in attendees",
+              "Because last year ran short"
+            ],
+            "answer": 2,
+            "explanation": "男子提到 we should expect some walk-ins from the night shift，女子因此多訂以防現場報名者。"
+          },
+          {
+            "q": "What backup plan does the man suggest?",
+            "options": [
+              "Choosing a different vendor",
+              "Using sticker labels on plain bottles",
+              "Postponing the fair",
+              "Giving out tote bags instead"
+            ],
+            "answer": 1,
+            "explanation": "男子說若無法加急，可以 pick up the bottles unprinted and use the sticker labels，用去年做的貼紙。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Good afternoon, Winslow Gym, front desk.",
+          "W: Hi, I'm a member — Carla Jeong. I noticed my last two monthly payments were higher than usual, and I'd like to know why.",
+          "M: Let me pull up your account... I see it. In June you were switched from the basic plan to the premium plan, which added the pool and sauna access.",
+          "W: I never requested that. I've actually never even used the pool.",
+          "M: I apologize — it looks like the upgrade was applied to the wrong account during a system migration. I'll switch you back to basic right away and submit a refund request for the difference, which is eighteen dollars per month.",
+          "W: Thank you. How long will the refund take?",
+          "M: Typically seven to ten business days. I'll also e-mail you a confirmation number within the hour so you have it on record."
+        ],
+        "questions": [
+          {
+            "q": "Why is the woman calling?",
+            "options": [
+              "To cancel her membership",
+              "To report broken equipment",
+              "To book a personal trainer",
+              "To ask about unexpected charges"
+            ],
+            "answer": 3,
+            "explanation": "女子說 my last two monthly payments were higher than usual, and I'd like to know why，詢問費用異常。"
+          },
+          {
+            "q": "What caused the problem?",
+            "options": [
+              "An error during a system migration",
+              "A price increase for all members",
+              "A late payment penalty",
+              "A request from the woman's family"
+            ],
+            "answer": 0,
+            "explanation": "男子說 the upgrade was applied to the wrong account during a system migration，系統轉移時誤套用升級。"
+          },
+          {
+            "q": "What will the man send the woman?",
+            "options": [
+              "A new membership card",
+              "A pool schedule",
+              "A printed invoice",
+              "A confirmation number"
+            ],
+            "answer": 3,
+            "explanation": "男子說 I'll also e-mail you a confirmation number within the hour，一小時內寄出確認編號。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good evening, and thank you for coming to Chapter One Bookstore. In just a few minutes, we'll welcome tonight's guest, travel writer Simone Adekunle, who will read from her new book about walking the ancient trade routes of Central Asia. After the thirty-minute reading, Ms. Adekunle will take questions from the audience for about twenty minutes, followed by a book signing at the table near the front window. Copies are available at the register for twenty-two dollars — that's ten percent off the cover price, tonight only. Please silence your phones, and note that video recording is not permitted during the reading, though photos are welcome during the signing. Enjoy the evening.",
+        "questions": [
+          {
+            "q": "What type of event is taking place?",
+            "options": [
+              "A store opening",
+              "A travel fair",
+              "A writing workshop",
+              "An author reading"
+            ],
+            "answer": 3,
+            "explanation": "說話者介紹 travel writer Simone Adekunle, who will read from her new book，是作者朗讀會。"
+          },
+          {
+            "q": "What will happen immediately after the question-and-answer session?",
+            "options": [
+              "A raffle drawing",
+              "A book signing",
+              "A short film",
+              "A group photo"
+            ],
+            "answer": 1,
+            "explanation": "流程為朗讀、問答，followed by a book signing at the table near the front window。"
+          },
+          {
+            "q": "What does the speaker say about tonight's book price?",
+            "options": [
+              "It includes a tote bag",
+              "It doubles as an entry ticket",
+              "It is discounted ten percent",
+              "It is higher than online"
+            ],
+            "answer": 2,
+            "explanation": "說話者說 twenty-two dollars — that's ten percent off the cover price, tonight only，僅限今晚九折。"
+          }
+        ]
+      },
+      {
+        "script": "Hi team, this is Nadia with your Monday project update for the Fenwick office renovation. We passed the electrical inspection on Friday, which means drywall installation can start tomorrow as planned. However, I have one scheduling change: the flooring supplier called this morning to say the oak panels we ordered are stuck at the port and won't arrive until the twenty-third — that's six days later than promised. To avoid pushing back the handover date, I've asked the crew to reverse the order of work: they'll complete the second-floor conference rooms first, since those use carpet tiles we already have in storage, and save the first-floor lobby for when the oak arrives. If anyone sees a problem with this plan, call me before noon today, because I need to confirm the revised schedule with the client by end of day.",
+        "questions": [
+          {
+            "q": "What happened on Friday?",
+            "options": [
+              "A shipment arrived",
+              "A client signed a contract",
+              "An inspection was passed",
+              "A crew was hired"
+            ],
+            "answer": 2,
+            "explanation": "說話者說 We passed the electrical inspection on Friday，週五通過電檢。"
+          },
+          {
+            "q": "What problem does the speaker mention?",
+            "options": [
+              "A permit was denied",
+              "Flooring materials are delayed",
+              "A crew member resigned",
+              "The budget was cut"
+            ],
+            "answer": 1,
+            "explanation": "說話者說 the oak panels we ordered are stuck at the port and won't arrive until the twenty-third，木地板延遲六天。"
+          },
+          {
+            "q": "Why should listeners contact the speaker before noon?",
+            "options": [
+              "To volunteer for overtime",
+              "To schedule vacation time",
+              "To order more materials",
+              "To raise concerns about the revised plan"
+            ],
+            "answer": 3,
+            "explanation": "說話者說 If anyone sees a problem with this plan, call me before noon today，因下班前要向客戶確認新時程。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "Attendance at the safety briefing is ------- for all warehouse personnel.",
+        "options": [
+          "mandate",
+          "voluntary optional",
+          "mandatory",
+          "mandatorily"
+        ],
+        "answer": 2,
+        "explanation": "be 動詞後需形容詞 mandatory（強制的），安全簡報為必須參加。"
+      },
+      {
+        "q": "The proposal was rejected ------- it exceeded the department's annual budget.",
+        "options": [
+          "unlike",
+          "despite",
+          "regarding",
+          "because"
+        ],
+        "answer": 3,
+        "explanation": "空格後為完整子句，需連接詞 because 說明否決原因。其餘為介系詞。"
+      },
+      {
+        "q": "Please handle the glass samples ------- when unpacking the shipment.",
+        "options": [
+          "carefully",
+          "careful",
+          "care",
+          "caring"
+        ],
+        "answer": 0,
+        "explanation": "修飾動詞 handle 需用副詞 carefully（小心地）。"
+      },
+      {
+        "q": "The hotel is conveniently ------- within walking distance of the convention center.",
+        "options": [
+          "location",
+          "locating",
+          "located",
+          "locate"
+        ],
+        "answer": 2,
+        "explanation": "be located 表「位於」，需過去分詞。"
+      },
+      {
+        "q": "------- the CEO nor the CFO was available to comment on the acquisition rumors.",
+        "options": [
+          "Both",
+          "Either",
+          "Neither",
+          "Whether"
+        ],
+        "answer": 2,
+        "explanation": "與 nor 搭配用 Neither...nor...，表「兩者皆不」。"
+      },
+      {
+        "q": "Employees who travel abroad on business must keep all receipts for -------.",
+        "options": [
+          "reimburse",
+          "reimbursed",
+          "reimbursement",
+          "reimbursing them"
+        ],
+        "answer": 2,
+        "explanation": "介系詞 for 後接名詞 reimbursement（核銷、報帳）。"
+      },
+      {
+        "q": "The new espresso machine is much quieter ------- the previous model.",
+        "options": [
+          "from",
+          "as",
+          "than",
+          "over"
+        ],
+        "answer": 2,
+        "explanation": "比較級 quieter 搭配 than。"
+      },
+      {
+        "q": "------- reviewing the applications, the hiring committee will select five finalists for interviews.",
+        "options": [
+          "Following that",
+          "Afterward",
+          "Later",
+          "After"
+        ],
+        "answer": 3,
+        "explanation": "After + V-ing 表「在審查申請之後」。Afterward 與 Later 為副詞，不能直接接動名詞。"
+      },
+      {
+        "q": "The marketing survey must be completed in its ------- before the results can be analyzed.",
+        "options": [
+          "entire",
+          "entirety",
+          "entirely",
+          "entireness"
+        ],
+        "answer": 1,
+        "explanation": "in its entirety 為固定用語，表「完整地、全部」。"
+      },
+      {
+        "q": "Visitors are asked to remain in the lobby ------- their host arrives to escort them.",
+        "options": [
+          "until",
+          "by",
+          "since",
+          "from"
+        ],
+        "answer": 0,
+        "explanation": "until 表「直到接待人前來為止」持續留在大廳。"
+      },
+      {
+        "q": "The airline offers ------- upgrades to frequent flyers when business-class seats are unsold.",
+        "options": [
+          "complimented",
+          "complimenting",
+          "complimentary",
+          "compliments"
+        ],
+        "answer": 2,
+        "explanation": "修飾名詞 upgrades 需形容詞 complimentary（免費贈送的）。"
+      },
+      {
+        "q": "Data from the pilot program will determine ------- the delivery service expands to other cities.",
+        "options": [
+          "about",
+          "whether",
+          "during",
+          "toward"
+        ],
+        "answer": 1,
+        "explanation": "determine whether + 子句 表「決定是否…」。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Subject: Your Upcoming Appliance Delivery\n\nDear Mr. Castellanos,\n\nThis message confirms the delivery of your refrigerator (model KF-720) on Saturday, June 6, between 9:00 A.M. and 1:00 P.M. Our team will call you thirty minutes [33] arrival. Delivery includes placement in your kitchen, connection to the water line, and removal of your old unit at no extra cost. To ensure a smooth delivery, please [34] that the path from your front door to the kitchen is clear of obstacles. The refrigerator requires a clearance of at least 85 centimeters through doorways. If any doorway in the delivery path is narrower, contact us at least 48 hours in advance so we can send a two-person crew with door-removal tools; this service is available for a small [35] of $25. Thank you for shopping with Hendrick Appliances.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "except for",
+              "prior to",
+              "instead of",
+              "according to"
+            ],
+            "answer": 1,
+            "explanation": "送達「前」三十分鐘會來電通知，prior to arrival 表時間先後。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "ensure",
+              "insure",
+              "assure",
+              "reassure"
+            ],
+            "answer": 0,
+            "explanation": "ensure that + 子句 表「確保通道淨空」。assure 接人作受詞。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "fee",
+              "fare",
+              "toll",
+              "wage"
+            ],
+            "answer": 0,
+            "explanation": "服務「費用」用 fee。fare 是交通票價，toll 是過路費，wage 是工資。"
+          }
+        ]
+      },
+      {
+        "passage": "Coleridge Museum of Art — Membership Renewal\n\nDear Member,\n\nYour annual membership is due to expire on July 31. Renew by July 15 to receive an early renewal [36]: two complimentary guest passes valid for any regular exhibition. As a member, you have enjoyed unlimited free admission, invitations to preview evenings, and a ten percent discount at the museum shop. This coming season promises to be our most exciting yet, [37] a major retrospective of sculptor Elena Marchetti opening in September. Renewing is easy: visit our website, call the membership office, or stop by the front desk during your next [38]. We hope you will continue to be part of the Coleridge community.\n\nMembership Services",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "bonus",
+              "penalty",
+              "receipt",
+              "deadline"
+            ],
+            "answer": 0,
+            "explanation": "提前續約可獲得「贈禮」：兩張免費招待券，early renewal bonus 語意正確。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "featuring",
+              "excluding",
+              "replacing",
+              "canceling"
+            ],
+            "answer": 0,
+            "explanation": "新一季「將推出」Marchetti 的大型回顧展，featuring 表包含此亮點。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "lecture",
+              "purchase",
+              "donation",
+              "visit"
+            ],
+            "answer": 3,
+            "explanation": "下次「參觀」時可順道在櫃檯續約，during your next visit 最合語意。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Web page】\nSwiftDesk — Plans & Pricing\n\nSwiftDesk helps teams manage customer support tickets from one shared inbox.\n\nStarter — $12 per agent/month\nUp to 3 agents. Shared inbox, basic reporting, e-mail support.\n\nGrowth — $29 per agent/month\nUnlimited agents. Everything in Starter, plus automation rules, customer satisfaction surveys, and live chat support.\n\nEnterprise — Custom pricing\nEverything in Growth, plus a dedicated account manager, custom data retention policies, and phone support 24/7.\n\nAll plans include a 14-day free trial — no credit card required. Annual billing saves 20 percent on any plan. Nonprofit organizations receive an additional 10 percent discount with valid documentation. Switching plans takes effect immediately, and unused time is credited to your account. Visit swiftdesk.com/compare for a full feature comparison.",
+        "questions": [
+          {
+            "q": "What is SwiftDesk?",
+            "options": [
+              "A customer support tool",
+              "An accounting platform",
+              "A video conferencing app",
+              "A project scheduling service"
+            ],
+            "answer": 0,
+            "explanation": "開頭說 SwiftDesk helps teams manage customer support tickets from one shared inbox，是客服工單管理工具。"
+          },
+          {
+            "q": "What feature is available in Growth but NOT in Starter?",
+            "options": [
+              "Automation rules",
+              "A shared inbox",
+              "Basic reporting",
+              "E-mail support"
+            ],
+            "answer": 0,
+            "explanation": "Growth 方案在 Starter 之上新增 automation rules、滿意度調查與即時聊天支援。"
+          },
+          {
+            "q": "How can a customer save 20 percent?",
+            "options": [
+              "By referring another company",
+              "By choosing annual billing",
+              "By adding more agents",
+              "By signing up during the trial"
+            ],
+            "answer": 1,
+            "explanation": "文中說 Annual billing saves 20 percent on any plan，年繳省兩成。"
+          }
+        ]
+      },
+      {
+        "passage": "【E-mail】\nFrom: Tomas Lindgren <t.lindgren@nordbygg.se>\nTo: Alicia Fontaine <afontaine@meridianexpo.com>\nSubject: Booth Setup — Stand 214\nDate: September 30\n\nDear Ms. Fontaine,\n\nWe are finalizing preparations for the International Building Materials Expo next month, and I have three questions about our booth, Stand 214.\n\nFirst, our display includes a hydraulic demonstration unit that weighs approximately 900 kilograms. Your exhibitor manual states that floor loads above 750 kilograms per square meter require prior approval. Could you confirm whether our unit can be accommodated, or whether we need to reserve a reinforced floor section?\n\nSecond, we would like to extend our booth's back wall by one meter to hang a larger banner. I understand this may affect the sightlines of neighboring stands, so please let me know if the modification is permitted.\n\nThird, our lead engineer will arrive a day before the official setup period to calibrate the demonstration unit. Is early access to the hall possible on October 20, even for just two hours in the afternoon?\n\nWe appreciate your help. Our team is looking forward to what will be our fifth consecutive year at the expo.\n\nBest regards,\nTomas Lindgren\nExhibitions Manager, NordBygg AB",
+        "questions": [
+          {
+            "q": "Why is Mr. Lindgren concerned about the demonstration unit?",
+            "options": [
+              "It arrived damaged",
+              "It requires special electricity",
+              "It produces loud noise",
+              "It exceeds a weight guideline"
+            ],
+            "answer": 3,
+            "explanation": "設備重約 900 公斤，超過手冊規定的 750 公斤樓板承重須事先核准，故詢問能否放置。"
+          },
+          {
+            "q": "Why might the back wall modification be a problem?",
+            "options": [
+              "It would violate fire regulations",
+              "It could block neighboring stands' sightlines",
+              "It requires extra flooring",
+              "It would exceed the booth budget"
+            ],
+            "answer": 1,
+            "explanation": "信中說 this may affect the sightlines of neighboring stands，加高背牆可能擋到鄰攤視線。"
+          },
+          {
+            "q": "What does Mr. Lindgren request for October 20?",
+            "options": [
+              "A larger booth space",
+              "Early access to the hall",
+              "Additional exhibitor badges",
+              "A parking permit"
+            ],
+            "answer": 1,
+            "explanation": "工程師需提前一天校準設備，Is early access to the hall possible on October 20 請求提早進場。"
+          },
+          {
+            "q": "What is suggested about NordBygg AB?",
+            "options": [
+              "It has exhibited at the expo before",
+              "It is a new company",
+              "It is based in October Hall",
+              "It manufactures banners"
+            ],
+            "answer": 0,
+            "explanation": "信末說 our fifth consecutive year at the expo，已連續參展五年。"
+          }
+        ]
+      }
+    ]
+  }
+}

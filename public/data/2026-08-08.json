@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-08",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "When does the pharmacy close on weekends?",
+        "optionAudioTexts": [
+          "Near the main entrance.",
+          "At six in the evening.",
+          "Yes, it was closed."
+        ],
+        "answer": 1,
+        "explanation": "When 問時間，(B) 回答「傍晚六點」正確。(A) 回答地點，(C) 用 Yes 回答疑問詞問句且時態錯誤，皆不合理。"
+      },
+      {
+        "audioText": "Who's going to train the new interns this summer?",
+        "optionAudioTexts": [
+          "Ms. Alvarez volunteered to do it.",
+          "A three-day workshop.",
+          "By the end of July."
+        ],
+        "answer": 0,
+        "explanation": "Who 問人，(A)「Alvarez 女士自願負責」直接回答人選。(B) 回答活動形式，(C) 回答期限，均答非所問。"
+      },
+      {
+        "audioText": "Would you like the report printed in color or in black and white?",
+        "optionAudioTexts": [
+          "The printer on the third floor.",
+          "About twenty pages.",
+          "Color would be better for the charts."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句 color or black and white，(C) 選了 color 並說明理由（圖表較清楚）。(B) 回答頁數，(A) 回答印表機位置，皆未回應選擇。"
+      },
+      {
+        "audioText": "The shipment from Taipei arrived this morning, didn't it?",
+        "optionAudioTexts": [
+          "No, it's been delayed until Thursday.",
+          "A shipping label.",
+          "At the loading dock."
+        ],
+        "answer": 0,
+        "explanation": "附加問句確認貨是否到了，(A)「沒有，延到週四」直接更正對方的認知。(B) 是相關單字陷阱，(C) 回答地點。"
+      },
+      {
+        "audioText": "Why is the parking garage closed today?",
+        "optionAudioTexts": [
+          "On level two.",
+          "They're repainting the floor lines.",
+          "I parked outside."
+        ],
+        "answer": 1,
+        "explanation": "Why 問原因，(B)「他們在重漆地面標線」說明關閉理由。(A) 回答樓層，(C) 描述自己的行為而未回答原因。"
+      },
+      {
+        "audioText": "How often do you back up the customer database?",
+        "optionAudioTexts": [
+          "Every night at midnight.",
+          "It's stored on the server.",
+          "About two gigabytes."
+        ],
+        "answer": 0,
+        "explanation": "How often 問頻率，(A)「每天午夜」正確回答頻率。(B) 回答儲存位置，(C) 回答容量大小。"
+      },
+      {
+        "audioText": "Could you forward me the agenda for Monday's meeting?",
+        "optionAudioTexts": [
+          "In the conference room.",
+          "Sure, I'll send it right after lunch.",
+          "It went forward smoothly."
+        ],
+        "answer": 1,
+        "explanation": "Could you...? 是請求，(B)「好，午餐後馬上寄給你」直接答應。(A) 回答地點，(C) 用 forward 的另一個意思混淆。"
+      },
+      {
+        "audioText": "Haven't the invitations for the product launch been mailed yet?",
+        "optionAudioTexts": [
+          "A guest list of two hundred.",
+          "The post office on Elm Street.",
+          "They went out on Tuesday."
+        ],
+        "answer": 2,
+        "explanation": "否定疑問句問邀請函是否寄出，(C)「週二就寄出了」確認已寄出。(A) 回答人數，(B) 回答郵局位置。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Good morning, this is Dana from Corestone Property Management. I'm calling about the water leak you reported in your office suite.",
+          "M: Oh, thanks for calling back. The ceiling tile near the window is still dripping whenever it rains. Some of our equipment got wet yesterday.",
+          "W: I'm sorry about that. A roofing contractor will inspect the building tomorrow morning. Could your staff move any electronics away from that corner today?",
+          "M: Sure, we can do that this afternoon. Will we need to close the office during the repair?",
+          "W: No, the work will be done from the roof, so it shouldn't disturb you. It should take about two days if the weather stays dry.",
+          "M: That's a relief. Please e-mail me the schedule once it's confirmed."
+        ],
+        "questions": [
+          {
+            "q": "Why is the woman calling?",
+            "options": [
+              "To schedule a lease renewal",
+              "To announce a rent increase",
+              "To follow up on a reported problem",
+              "To offer a cleaning service"
+            ],
+            "answer": 2,
+            "explanation": "女子開頭說 I'm calling about the water leak you reported，是回覆男子先前通報的漏水問題。"
+          },
+          {
+            "q": "What does the woman ask the man's staff to do?",
+            "options": [
+              "Leave the building tomorrow",
+              "Move equipment away from an area",
+              "Sign a repair authorization",
+              "Contact the contractor directly"
+            ],
+            "answer": 1,
+            "explanation": "女子說 Could your staff move any electronics away from that corner today?，請他們把電子設備搬離漏水角落。"
+          },
+          {
+            "q": "What does the man request?",
+            "options": [
+              "A copy of the schedule",
+              "A different office suite",
+              "A rent discount",
+              "New ceiling tiles"
+            ],
+            "answer": 0,
+            "explanation": "男子最後說 Please e-mail me the schedule once it's confirmed，要求寄送時程表。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Hi, I'd like to sign up for the photography workshop advertised on your website, the one on Saturday the twenty-second.",
+          "W: I'm afraid that session is already full. We do have openings for the same workshop on Sunday the thirtieth, though.",
+          "M: Hmm, I'm flying to Seattle that week for a trade show. Is there anything else in August?",
+          "W: Let me check... Yes, there's an evening class that meets twice a week for two weeks, starting August tenth. It covers the same material in smaller sessions.",
+          "M: That actually suits my schedule better. Does it cost the same?",
+          "W: It's twenty dollars more, but it includes a printed course booklet and one-on-one feedback on your photos."
+        ],
+        "questions": [
+          {
+            "q": "Why is the man unable to attend the Sunday session?",
+            "options": [
+              "He has another class that day",
+              "He will be traveling for business",
+              "The session was canceled",
+              "The location is too far away"
+            ],
+            "answer": 1,
+            "explanation": "男子說 I'm flying to Seattle that week for a trade show，因出差參加商展而無法出席。"
+          },
+          {
+            "q": "What does the woman suggest?",
+            "options": [
+              "Joining a waiting list",
+              "Watching an online video",
+              "Requesting a refund",
+              "Taking an evening class"
+            ],
+            "answer": 3,
+            "explanation": "女子提議 there's an evening class that meets twice a week for two weeks，建議改上晚間課程。"
+          },
+          {
+            "q": "What is included in the higher price?",
+            "options": [
+              "A course booklet and personal feedback",
+              "Free parking",
+              "A camera rental",
+              "A museum ticket"
+            ],
+            "answer": 0,
+            "explanation": "女子說 it includes a printed course booklet and one-on-one feedback on your photos，多付的費用包含講義與一對一照片指導。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good afternoon, everyone, and welcome to Harborline Foods. Before we begin the factory tour, please put on the safety vests and hairnets provided at the front desk. Photography is allowed in the packaging area only, not near the production lines, because the flash can distract machine operators. Our first stop will be the quality control lab, where every batch of sauce is tested twice before shipping. The tour lasts about seventy-five minutes and ends at our tasting room, where you can sample this season's new products and pick up a discount coupon for the company store.",
+        "questions": [
+          {
+            "q": "Where does the talk most likely take place?",
+            "options": [
+              "At a cooking school",
+              "At a food manufacturing plant",
+              "At a farmers market",
+              "At a restaurant opening"
+            ],
+            "answer": 1,
+            "explanation": "說話者提到 factory tour、production lines 與 quality control lab，可知是在食品工廠。"
+          },
+          {
+            "q": "What are listeners asked to do before the tour?",
+            "options": [
+              "Put on safety clothing",
+              "Turn off their phones",
+              "Sign a waiver form",
+              "Watch a short video"
+            ],
+            "answer": 0,
+            "explanation": "開頭要求 please put on the safety vests and hairnets，先穿戴安全背心與髮網。"
+          },
+          {
+            "q": "What will happen at the end of the tour?",
+            "options": [
+              "A group photo will be taken",
+              "A survey will be handed out",
+              "Visitors can sample products",
+              "A manager will give a speech"
+            ],
+            "answer": 2,
+            "explanation": "結尾說 ends at our tasting room, where you can sample this season's new products，最後可在試吃室品嚐新產品。"
+          }
+        ]
+      },
+      {
+        "script": "Hi, this message is for Renee Ashford. This is Marcus from Velo City Bike Shop. You brought in your road bike on Monday for a gear adjustment, and while checking it we found that the rear brake pads are almost completely worn down. We'd recommend replacing them before you ride again, especially with the charity race coming up this weekend. The pads cost eighteen dollars and installation is free with your current service. If you approve, we can have everything ready by five o'clock today. Please call us back at 555-0142 before three so we can order the part from our downtown branch. Thanks!",
+        "questions": [
+          {
+            "q": "Why is the speaker calling?",
+            "options": [
+              "To recommend an additional repair",
+              "To cancel an appointment",
+              "To advertise a new store",
+              "To confirm a race registration"
+            ],
+            "answer": 0,
+            "explanation": "說話者說 we found that the rear brake pads are almost completely worn down 並建議更換，是建議追加維修項目。"
+          },
+          {
+            "q": "What does the speaker say about the installation?",
+            "options": [
+              "It requires a deposit",
+              "It takes two days",
+              "It must be done downtown",
+              "It is free of charge"
+            ],
+            "answer": 3,
+            "explanation": "說話者說 installation is free with your current service，安裝免費。"
+          },
+          {
+            "q": "What should the listener do before 3:00?",
+            "options": [
+              "Pick up the bicycle",
+              "Visit the downtown branch",
+              "Pay online",
+              "Return the phone call"
+            ],
+            "answer": 3,
+            "explanation": "結尾說 Please call us back at 555-0142 before three，三點前回電以便訂零件。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "All visitors must ------- at the security desk before entering the laboratory.",
+        "options": [
+          "registers",
+          "register",
+          "registering",
+          "registration"
+        ],
+        "answer": 1,
+        "explanation": "must 後接原形動詞，選 register。其餘為第三人稱單數、動名詞與名詞，文法不合。"
+      },
+      {
+        "q": "The marketing team's proposal was ------- more detailed than the one submitted last quarter.",
+        "options": [
+          "considerably",
+          "so",
+          "very",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "修飾比較級 more detailed 要用 considerably（相當地）。very、so 不能修飾比較級，many 修飾複數名詞。"
+      },
+      {
+        "q": "Employees may park in the visitor lot ------- the main garage is being resurfaced.",
+        "options": [
+          "while",
+          "during",
+          "despite",
+          "among"
+        ],
+        "answer": 0,
+        "explanation": "空格後是完整子句，需用連接詞 while（當…期間）。during 與 despite 是介系詞，只能接名詞。"
+      },
+      {
+        "q": "Ms. Okafor reviewed the contract ------- before sending it to the legal department.",
+        "options": [
+          "careful",
+          "caring",
+          "carefulness",
+          "carefully"
+        ],
+        "answer": 3,
+        "explanation": "修飾動詞 reviewed 需用副詞 carefully。careful 是形容詞，carefulness 是名詞。"
+      },
+      {
+        "q": "------- of the two candidates has the required certification in project management.",
+        "options": [
+          "Either",
+          "Neither",
+          "Both",
+          "Every"
+        ],
+        "answer": 1,
+        "explanation": "空格後動詞 has 為單數，且句意為「兩位候選人都沒有證照」，選 Neither。Both 接複數動詞，Every 不能單獨作代名詞。"
+      },
+      {
+        "q": "The new software update will be installed ------- on all company laptops next Friday.",
+        "options": [
+          "automatic",
+          "automation",
+          "automatically",
+          "automated"
+        ],
+        "answer": 2,
+        "explanation": "修飾被動語態 will be installed 需用副詞 automatically（自動地）。"
+      },
+      {
+        "q": "Please submit your travel expense reports ------- five business days of returning from your trip.",
+        "options": [
+          "within",
+          "until",
+          "since",
+          "by"
+        ],
+        "answer": 0,
+        "explanation": "within + 一段時間 表「在…之內」，within five business days 指出差回來後五個工作天內。until 表持續到某時點，by 接期限時點而非期間。"
+      },
+      {
+        "q": "The keynote speaker's presentation was so ------- that the audience asked questions for nearly an hour.",
+        "options": [
+          "engaging",
+          "engaged",
+          "engagement",
+          "engagingly"
+        ],
+        "answer": 0,
+        "explanation": "be 動詞後需形容詞，描述演講本身令人投入用現在分詞形容詞 engaging。engaged 指人感到投入。"
+      },
+      {
+        "q": "Orders placed before noon are ------- shipped the same day from our regional warehouse.",
+        "options": [
+          "typical",
+          "typically",
+          "type",
+          "typified"
+        ],
+        "answer": 1,
+        "explanation": "修飾動詞 are shipped 需用副詞 typically（通常）。"
+      },
+      {
+        "q": "------- the negotiations lasted longer than expected, both companies were satisfied with the final agreement.",
+        "options": [
+          "Because of",
+          "Although",
+          "Unless",
+          "In case of"
+        ],
+        "answer": 1,
+        "explanation": "前後語意轉折：談判拖得比預期久，「雖然如此」雙方仍滿意，選 Although。Because of 與 In case of 為介系詞片語。"
+      },
+      {
+        "q": "The hotel offers a complimentary shuttle service for guests ------- flights arrive after 10 P.M.",
+        "options": [
+          "whose",
+          "who",
+          "which",
+          "whom"
+        ],
+        "answer": 0,
+        "explanation": "空格後接名詞 flights，表「班機屬於這些房客」，需用所有格關係代名詞 whose。"
+      },
+      {
+        "q": "Sales of the compact air purifier have risen ------- since the product review appeared in Home Living magazine.",
+        "options": [
+          "sharpness",
+          "sharpen",
+          "sharper",
+          "sharply"
+        ],
+        "answer": 3,
+        "explanation": "修飾動詞 have risen 需用副詞 sharply（急遽地）。sharpen 是動詞，sharper 是比較級形容詞。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "To: All Fitness Center Members\nFrom: Summit Gym Management\nSubject: Pool Area Renovation\n\nWe are pleased to announce that renovation of the indoor pool will begin on Monday, September 7. The project will [33] approximately three weeks, during which the pool and sauna will be closed. [34], all other facilities, including the weight room and group exercise studios, will remain open during regular hours. As an apology for the inconvenience, every current member will receive a complimentary two-week membership extension. This extension will be applied to your account [35]; no action is required on your part. We appreciate your patience and look forward to unveiling the upgraded pool area.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "extend",
+              "spend",
+              "last",
+              "occupy"
+            ],
+            "answer": 2,
+            "explanation": "The project will last approximately three weeks 表「工程將持續約三週」，last（持續）最合語意。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "Therefore",
+              "Similarly",
+              "However",
+              "For example"
+            ],
+            "answer": 2,
+            "explanation": "前句說泳池與三溫暖關閉，後句說其他設施照常開放，語意轉折用 However。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "occasionally",
+              "automatically",
+              "reluctantly",
+              "temporarily"
+            ],
+            "answer": 1,
+            "explanation": "後句說 no action is required on your part（無需任何動作），表示延長會自動套用，選 automatically。"
+          }
+        ]
+      },
+      {
+        "passage": "Dear Mr. Whitfield,\n\nThank you for your order of October 2. Unfortunately, the ceramic dinnerware set you requested (item #CD-450) is temporarily out of stock [36] unexpectedly high demand. We expect a new shipment to arrive at our warehouse within ten days. You may choose to wait for the restock, or we can offer you a similar set from our Artisan collection at the same price. The Artisan set has received excellent reviews and is available for [37] shipment. Please let us know your preference by replying to this e-mail. [38], your payment will not be processed until your order is ready to ship.\n\nSincerely,\nCarla Jimenez\nCustomer Care, Maplewood Home Goods",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "instead of",
+              "except for",
+              "due to",
+              "as well as"
+            ],
+            "answer": 2,
+            "explanation": "缺貨的原因是需求過高，due to（由於）+ 名詞片語表原因。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "gradual",
+              "hesitant",
+              "occasional",
+              "immediate"
+            ],
+            "answer": 3,
+            "explanation": "與缺貨的原商品對比，Artisan 系列現貨可「立即」出貨，選 immediate。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "On the contrary",
+              "In either case",
+              "Even so",
+              "As a result"
+            ],
+            "answer": 1,
+            "explanation": "前面提供兩個選項（等補貨或換系列），無論選哪一個付款都不會先扣，用 In either case（無論何者）。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Notice】\nGreenfield Public Library — Meeting Room Policy Update\nEffective November 1\n\nCommunity meeting rooms may now be reserved up to sixty days in advance, an increase from the previous thirty-day limit. Reservations can be made online, by phone, or at the information desk. Each organization may book a room for a maximum of four hours per week. Nonprofit groups may continue to use the rooms free of charge; for-profit businesses will be charged $25 per hour, a new fee that supports facility maintenance. Cancellations must be made at least 48 hours in advance. Groups that fail to cancel twice within six months will lose reservation privileges for the remainder of the year.",
+        "questions": [
+          {
+            "q": "What change is being announced?",
+            "options": [
+              "Online booking will be discontinued",
+              "The library will close earlier",
+              "Meeting rooms will be renovated",
+              "Rooms can be reserved further in advance"
+            ],
+            "answer": 3,
+            "explanation": "文中說 may now be reserved up to sixty days in advance, an increase from the previous thirty-day limit，預約期限從 30 天延長為 60 天。"
+          },
+          {
+            "q": "Who must pay to use the meeting rooms?",
+            "options": [
+              "Nonprofit organizations",
+              "Groups meeting over four hours",
+              "Library cardholders",
+              "For-profit businesses"
+            ],
+            "answer": 3,
+            "explanation": "文中說 for-profit businesses will be charged $25 per hour，營利企業須付費，非營利團體維持免費。"
+          },
+          {
+            "q": "What happens if a group misses two cancellation deadlines in six months?",
+            "options": [
+              "They pay a small fine",
+              "They must rebook online",
+              "They lose booking privileges",
+              "They receive a warning letter"
+            ],
+            "answer": 2,
+            "explanation": "最後一句：fail to cancel twice within six months will lose reservation privileges，將喪失當年度剩餘期間的預約資格。"
+          }
+        ]
+      },
+      {
+        "passage": "【E-mail】\nFrom: Priya Raman <praman@stellarworks.com>\nTo: All Department Heads\nSubject: Annual Employee Survey Results\nDate: March 14\n\nDear colleagues,\n\nThe results of this year's employee satisfaction survey are now available on the company intranet. Participation reached 87 percent, our highest rate ever, thanks to the new mobile-friendly format. Overall satisfaction rose from 3.9 to 4.2 out of 5. Employees rated flexible scheduling and the mentorship program most positively. The lowest-scoring area, for the second year in a row, was interdepartmental communication. To address this, we will pilot a shared project dashboard in the Operations and Design departments starting April 1. If the pilot succeeds, the dashboard will be rolled out companywide in the third quarter. Please encourage your teams to review the full report and submit feedback by March 28.\n\nBest regards,\nPriya Raman\nDirector of Human Resources",
+        "questions": [
+          {
+            "q": "Why does Ms. Raman credit the high participation rate?",
+            "options": [
+              "A new mobile-friendly format",
+              "A longer response period",
+              "A prize drawing for participants",
+              "Reminder e-mails from managers"
+            ],
+            "answer": 0,
+            "explanation": "文中說 our highest rate ever, thanks to the new mobile-friendly format，參與率創新高歸功於行動裝置友善的新格式。"
+          },
+          {
+            "q": "What area received the lowest score?",
+            "options": [
+              "Flexible scheduling",
+              "The mentorship program",
+              "Salary and benefits",
+              "Interdepartmental communication"
+            ],
+            "answer": 3,
+            "explanation": "文中明說 The lowest-scoring area...was interdepartmental communication，跨部門溝通連續第二年墊底。"
+          },
+          {
+            "q": "What will happen on April 1?",
+            "options": [
+              "A companywide rollout will start",
+              "The survey will reopen",
+              "A pilot program will begin",
+              "Department heads will meet"
+            ],
+            "answer": 2,
+            "explanation": "文中說 we will pilot a shared project dashboard...starting April 1，四月一日起在兩個部門試行共享儀表板。"
+          },
+          {
+            "q": "What are employees asked to do by March 28?",
+            "options": [
+              "Complete a second survey",
+              "Update the dashboard",
+              "Submit feedback on the report",
+              "Attend a training session"
+            ],
+            "answer": 2,
+            "explanation": "結尾要求 review the full report and submit feedback by March 28，於 3 月 28 日前提交意見回饋。"
+          }
+        ]
+      }
+    ]
+  }
+}

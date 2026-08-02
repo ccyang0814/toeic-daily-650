@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-13",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "How much does the express shipping option cost?",
+        "optionAudioTexts": [
+          "An extra twelve dollars.",
+          "Within two business days.",
+          "To the billing address."
+        ],
+        "answer": 0,
+        "explanation": "How much 問價格，(A)「另加十二美元」正確。(B) 回答時效，(C) 回答地址。"
+      },
+      {
+        "audioText": "Where did you put the spare keys to the supply cabinet?",
+        "optionAudioTexts": [
+          "In the top drawer of the reception desk.",
+          "Mostly printer paper and toner.",
+          "It was locked this morning."
+        ],
+        "answer": 0,
+        "explanation": "Where 問地點，(A)「櫃檯最上層抽屜」正確。(B) 回答櫃內物品，(C) 描述狀態未回答位置。"
+      },
+      {
+        "audioText": "Who's giving the welcome speech at the orientation?",
+        "optionAudioTexts": [
+          "The regional director flew in for it.",
+          "In the main hall.",
+          "About fifteen minutes long."
+        ],
+        "answer": 0,
+        "explanation": "Who 問人，(A)「區域總監特地飛來致詞」正確。(C) 回答長度，(B) 回答地點。"
+      },
+      {
+        "audioText": "Why isn't the online payment system working?",
+        "optionAudioTexts": [
+          "With a credit card.",
+          "The server is being upgraded tonight.",
+          "Around fifty dollars."
+        ],
+        "answer": 1,
+        "explanation": "Why 問原因，(B)「伺服器今晚升級中」解釋故障原因。(A) 回答付款方式，(C) 回答金額。"
+      },
+      {
+        "audioText": "Have you finished proofreading the newsletter, or do you need more time?",
+        "optionAudioTexts": [
+          "It's published monthly.",
+          "Just the last two pages to go.",
+          "No, I didn't write it."
+        ],
+        "answer": 1,
+        "explanation": "選擇疑問句問完成與否，(B)「只剩最後兩頁」說明進度。(A) 回答發行頻率，(C) 答非所問。"
+      },
+      {
+        "audioText": "When do you expect the replacement parts to arrive?",
+        "optionAudioTexts": [
+          "From the factory in Ohio.",
+          "They shipped yesterday, so probably Thursday.",
+          "Because the machine broke down."
+        ],
+        "answer": 1,
+        "explanation": "When 問時間，(B)「昨天出貨，大概週四到」正確。(A) 回答來源地，(C) 回答原因。"
+      },
+      {
+        "audioText": "Would you rather review the figures now or after your call?",
+        "optionAudioTexts": [
+          "It was a conference call.",
+          "The third-quarter figures.",
+          "Let's do it now while they're fresh."
+        ],
+        "answer": 2,
+        "explanation": "would rather A or B 問偏好，(C) 選擇現在並說明理由。(B)、(A) 是相關字陷阱。"
+      },
+      {
+        "audioText": "This projector doesn't seem to connect to my laptop.",
+        "optionAudioTexts": [
+          "A fifteen-inch screen.",
+          "The presentation went well.",
+          "Try the adapter in the cabinet."
+        ],
+        "answer": 2,
+        "explanation": "陳述句反映問題，(C)「試試櫃子裡的轉接頭」提供解決方案。(A) 回答尺寸，(B) 時態與語意皆不合。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Julian, I just got off the phone with the venue for the client appreciation dinner. They double-booked the ballroom for the twelfth.",
+          "M: You're kidding. The invitations already went out last week. What are our options?",
+          "W: They offered us their garden pavilion on the same night at a twenty percent discount, or the ballroom on the nineteenth.",
+          "M: Changing the date would be a nightmare — half the guests are flying in. What's the pavilion like?",
+          "W: It's actually quite elegant, and it holds up to ninety guests. The only concern is the weather, but it has a retractable roof.",
+          "M: Then let's take the pavilion. Can you ask them to put the discount and the roof guarantee in writing before we confirm?"
+        ],
+        "questions": [
+          {
+            "q": "What problem does the woman report?",
+            "options": [
+              "A venue was double-booked",
+              "A caterer canceled",
+              "Invitations contain an error",
+              "A flight was delayed"
+            ],
+            "answer": 0,
+            "explanation": "女子說 They double-booked the ballroom for the twelfth，宴會廳被重複預訂。"
+          },
+          {
+            "q": "Why does the man reject changing the date?",
+            "options": [
+              "The budget would increase",
+              "The team is short-staffed",
+              "Many guests are traveling by plane",
+              "Another event is that day"
+            ],
+            "answer": 2,
+            "explanation": "男子說 half the guests are flying in，一半賓客要搭機前來，改期會非常麻煩。"
+          },
+          {
+            "q": "What does the man ask the woman to do?",
+            "options": [
+              "Resend the invitations",
+              "Visit the pavilion in person",
+              "Get the terms in writing",
+              "Compare other venues"
+            ],
+            "answer": 2,
+            "explanation": "男子說 Can you ask them to put the discount and the roof guarantee in writing，要求書面確認折扣與屋頂保證。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Hi, I'd like to mail this package to Melbourne, Australia. It's a birthday gift for my niece.",
+          "W: Sure. Let's weigh it... just under two kilograms. Standard international takes ten to fourteen days, or express takes three to five.",
+          "M: Her birthday is next Friday — nine days away. Standard sounds risky.",
+          "W: I'd agree. Express would be thirty-four dollars, and it includes tracking and insurance up to two hundred dollars automatically.",
+          "M: Let's go with express then. Do I need to fill out a customs form?",
+          "W: Yes, this green form — list the contents and their approximate value. And one tip: mark it as a gift, since gifts under a certain value aren't taxed on arrival in Australia."
+        ],
+        "questions": [
+          {
+            "q": "What is the man sending?",
+            "options": [
+              "A birthday gift",
+              "Business documents",
+              "Product samples",
+              "A repaired device"
+            ],
+            "answer": 0,
+            "explanation": "男子說 It's a birthday gift for my niece，是給姪女的生日禮物。"
+          },
+          {
+            "q": "Why does the man choose express shipping?",
+            "options": [
+              "It is cheaper this month",
+              "Standard delivery might arrive too late",
+              "The package is fragile",
+              "The woman offered a free upgrade"
+            ],
+            "answer": 1,
+            "explanation": "生日在九天後，標準寄送需 10–14 天，男子說 Standard sounds risky，怕來不及。"
+          },
+          {
+            "q": "What does the woman advise the man to do?",
+            "options": [
+              "Mark the package as a gift",
+              "Buy extra insurance",
+              "Use a smaller box",
+              "Ship early next time"
+            ],
+            "answer": 0,
+            "explanation": "女子建議 mark it as a gift，因為低於一定價值的禮物在澳洲入境免稅。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Thanks for joining today's webinar on preparing your small business for the holiday season. I'm Layla Chen from the Merchant Success team at PayNexus. Over the next forty minutes, I'll cover three topics: forecasting your inventory needs based on last year's sales data, setting up temporary staff accounts in your payment system, and creating holiday gift card campaigns. A quick housekeeping note — everyone's microphone is muted, but you can type questions into the chat panel at any time, and I'll answer as many as possible during the final ten minutes. This session is being recorded, and both the recording and my slides will be e-mailed to all registrants by tomorrow morning. Now, let's start with inventory forecasting.",
+        "questions": [
+          {
+            "q": "Who is the intended audience for the webinar?",
+            "options": [
+              "Small-business owners",
+              "Bank employees",
+              "Software developers",
+              "Holiday shoppers"
+            ],
+            "answer": 0,
+            "explanation": "主題是 preparing your small business for the holiday season，對象為小型企業主。"
+          },
+          {
+            "q": "How can participants ask questions?",
+            "options": [
+              "By unmuting their microphones",
+              "By typing in the chat panel",
+              "By raising a virtual hand",
+              "By e-mailing after the session"
+            ],
+            "answer": 1,
+            "explanation": "說話者說 you can type questions into the chat panel at any time，問題請打在聊天室。"
+          },
+          {
+            "q": "What will registrants receive by tomorrow morning?",
+            "options": [
+              "The recording and slides",
+              "A discount code",
+              "A certificate of completion",
+              "A printed workbook"
+            ],
+            "answer": 0,
+            "explanation": "說話者說 both the recording and my slides will be e-mailed to all registrants by tomorrow morning。"
+          }
+        ]
+      },
+      {
+        "script": "Attention all passengers waiting for the Harbor Ferry to Crescent Island. Due to dense fog in the channel, the ten fifteen departure has been canceled. The next scheduled crossing is at twelve forty-five, and current conditions are expected to improve by midday. Passengers holding tickets for the canceled sailing may board the twelve forty-five ferry at no extra charge, or request a full refund at the ticket office before two o'clock today. If you're traveling to the island for the seafood festival, please note that the event organizers have extended today's program by two hours, so you'll still be able to enjoy the afternoon activities. We apologize for the disruption and thank you for your understanding.",
+        "questions": [
+          {
+            "q": "Why was the ferry departure canceled?",
+            "options": [
+              "Because of engine trouble",
+              "Because of dense fog",
+              "Because of a staff shortage",
+              "Because of high waves"
+            ],
+            "answer": 1,
+            "explanation": "廣播說 Due to dense fog in the channel, the ten fifteen departure has been canceled。"
+          },
+          {
+            "q": "What can ticket holders do before 2:00 P.M.?",
+            "options": [
+              "Exchange tickets for tomorrow",
+              "Upgrade to first class",
+              "Board a substitute bus",
+              "Request a full refund"
+            ],
+            "answer": 3,
+            "explanation": "廣播說可搭下一班或 request a full refund at the ticket office before two o'clock today。"
+          },
+          {
+            "q": "What does the speaker say about the seafood festival?",
+            "options": [
+              "It has been moved indoors",
+              "It was canceled",
+              "Its program has been extended",
+              "Its tickets are sold out"
+            ],
+            "answer": 2,
+            "explanation": "廣播說 the event organizers have extended today's program by two hours，活動延長兩小時。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "All warranty claims must be accompanied ------- proof of purchase.",
+        "options": [
+          "from",
+          "with",
+          "at",
+          "by"
+        ],
+        "answer": 3,
+        "explanation": "be accompanied by 為固定被動搭配，「附上購買證明」。"
+      },
+      {
+        "q": "The intern organized the client files far more ------- than anyone expected.",
+        "options": [
+          "quickly",
+          "quick",
+          "quicker",
+          "quickness"
+        ],
+        "answer": 0,
+        "explanation": "修飾動詞 organized 且與 more...than 搭配需用副詞 quickly。"
+      },
+      {
+        "q": "------- signing the lease, tenants should inspect the property and photograph any existing damage.",
+        "options": [
+          "Until",
+          "Before",
+          "Since",
+          "Whether"
+        ],
+        "answer": 1,
+        "explanation": "Before + V-ing 表「在簽約之前」先檢查房屋，語意正確。"
+      },
+      {
+        "q": "The board members were unanimous in their ------- of the merger proposal.",
+        "options": [
+          "approval",
+          "approve",
+          "approved",
+          "approvingly"
+        ],
+        "answer": 0,
+        "explanation": "所有格 their 後接名詞 approval（批准）。"
+      },
+      {
+        "q": "Neither of the printers on the third floor ------- working this morning.",
+        "options": [
+          "is",
+          "were",
+          "are",
+          "have been"
+        ],
+        "answer": 0,
+        "explanation": "Neither of + 複數名詞 作主詞時動詞用單數，且 this morning 用現在式 is。"
+      },
+      {
+        "q": "Please review the attached itinerary and notify us of any errors ------- 48 hours.",
+        "options": [
+          "past",
+          "during",
+          "along",
+          "within"
+        ],
+        "answer": 3,
+        "explanation": "within 48 hours 表「在四十八小時之內」通知。"
+      },
+      {
+        "q": "The company's ------- into the Asian market exceeded all revenue projections.",
+        "options": [
+          "expand",
+          "expansive",
+          "expanded",
+          "expansion"
+        ],
+        "answer": 3,
+        "explanation": "所有格 company's 後接名詞 expansion（擴張）。"
+      },
+      {
+        "q": "Job candidates are evaluated ------- on their skills and experience, not on their connections.",
+        "options": [
+          "sole",
+          "soleness",
+          "solely",
+          "soled"
+        ],
+        "answer": 2,
+        "explanation": "修飾動詞 are evaluated 需用副詞 solely（僅、完全）。"
+      },
+      {
+        "q": "------- demand for the limited-edition sneakers, the store implemented a lottery system.",
+        "options": [
+          "Given the high",
+          "Even though",
+          "Now that",
+          "As soon as"
+        ],
+        "answer": 0,
+        "explanation": "Given + 名詞片語 表「鑑於」，其餘選項為連接詞須接子句。"
+      },
+      {
+        "q": "The technician confirmed that the heating system is now fully -------.",
+        "options": [
+          "operate",
+          "operational",
+          "operation",
+          "operating it"
+        ],
+        "answer": 1,
+        "explanation": "be 動詞後需形容詞 operational（可運作的），fully operational 為常見搭配。"
+      },
+      {
+        "q": "Reservations canceled fewer than 24 hours in advance are subject ------- a $50 fee.",
+        "options": [
+          "of",
+          "for",
+          "to",
+          "on"
+        ],
+        "answer": 2,
+        "explanation": "be subject to + 名詞 表「須支付、受…約束」。"
+      },
+      {
+        "q": "Ms. Ito reminded the team ------- the deadline had been moved up by one week.",
+        "options": [
+          "about",
+          "of",
+          "that",
+          "for"
+        ],
+        "answer": 2,
+        "explanation": "remind + 人 + that 子句 表「提醒某人某事」。about 與 of 後須接名詞。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "To: customerservice@lunapaper.com\nFrom: gwen.harmon@rt-studios.com\nSubject: Order #88214\n\nTo Whom It May Concern,\n\nI am writing about my recent order of letterpress business cards, which arrived yesterday. While the paper quality is excellent, the ink color does not [33] the proof I approved online. The cards were supposed to be printed in navy blue, but the ink appears closer to black. Our studio uses navy consistently across all marketing materials, so this difference is [34] noticeable when the cards are displayed next to our brochures. I would like the cards reprinted in the correct color. I have attached photos comparing the approved proof with the delivered cards for your [35]. Please let me know how you would like to proceed.\n\nSincerely,\nGwen Harmon\nRT Studios",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "improve",
+              "deliver",
+              "conceal",
+              "match"
+            ],
+            "answer": 3,
+            "explanation": "墨色與先前核可的打樣「不符」，does not match the proof 語意正確。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "barely",
+              "immediately",
+              "rarely",
+              "safely"
+            ],
+            "answer": 1,
+            "explanation": "名片與型錄並排時色差「立刻」可見，immediately noticeable 表明顯程度。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "purchase",
+              "reference",
+              "signature",
+              "entertainment"
+            ],
+            "answer": 1,
+            "explanation": "附上照片供對方「參考」，for your reference 為商業書信慣用語。"
+          }
+        ]
+      },
+      {
+        "passage": "NOTICE TO ALL LAB PERSONNEL\n\nEffective September 1, access to the materials testing laboratory will require a renewed safety certification. All researchers and technicians must complete the online refresher course and pass the accompanying quiz [36] August 25. The course takes approximately ninety minutes and may be completed in multiple sessions. Employees who do not renew their certification by the deadline will have their keycard access [37] suspended until the requirement is met. This policy follows several recent incidents at partner facilities and is intended to keep our safety record [38]. Questions may be directed to the Safety Office at extension 4452.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "as much as",
+              "no later than",
+              "in front of",
+              "on behalf of"
+            ],
+            "answer": 1,
+            "explanation": "須「不晚於」8 月 25 日完成課程與測驗，no later than 表期限。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "accidentally",
+              "permanently",
+              "temporarily",
+              "generously"
+            ],
+            "answer": 2,
+            "explanation": "後文說 until the requirement is met（完成後即恢復），是「暫時」停權，選 temporarily。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "hidden",
+              "intact",
+              "flexible",
+              "profitable"
+            ],
+            "answer": 1,
+            "explanation": "keep our safety record intact 表「維持零事故的安全紀錄」，intact（完好無損）最合適。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Memo】\nTo: All Creekside Apartments Residents\nFrom: Building Management\nDate: February 3\nRe: Recycling Program Changes\n\nBeginning March 1, Creekside Apartments will switch to single-stream recycling. Residents will no longer need to separate paper, plastic, and glass into different bins; all recyclable materials can be placed together in the new blue containers located in each building's waste room. Please note two important exceptions. First, cardboard boxes must still be flattened and stacked beside the containers to save space. Second, electronic waste — including batteries, cables, and small appliances — may never be placed in the blue containers. An e-waste collection event will be held in the main parking lot on the second Saturday of every month, from 9:00 A.M. to 1:00 P.M. Residents who have large furniture items to discard should continue to schedule a pickup with the front office at least three days in advance; a $15 handling fee applies. We thank you for helping make this transition smooth.",
+        "questions": [
+          {
+            "q": "What is the main purpose of the memo?",
+            "options": [
+              "To raise monthly maintenance fees",
+              "To introduce a new building manager",
+              "To announce a change to recycling procedures",
+              "To schedule apartment inspections"
+            ],
+            "answer": 2,
+            "explanation": "備忘錄主旨是 3 月 1 日起改採 single-stream recycling，不再需要分類投放。"
+          },
+          {
+            "q": "According to the memo, what must residents still do with cardboard?",
+            "options": [
+              "Flatten and stack it separately",
+              "Take it to the parking lot",
+              "Place it in the blue containers",
+              "Schedule a pickup for it"
+            ],
+            "answer": 0,
+            "explanation": "文中說 cardboard boxes must still be flattened and stacked beside the containers。"
+          },
+          {
+            "q": "How often will e-waste be collected?",
+            "options": [
+              "Every week",
+              "Twice a month",
+              "Four times a year",
+              "Once a month"
+            ],
+            "answer": 3,
+            "explanation": "文中說 e-waste collection event will be held...on the second Saturday of every month，每月一次。"
+          }
+        ]
+      },
+      {
+        "passage": "【Letter】\nHargrove & Finch Publishing\n1200 Wexley Avenue, Toronto, ON\n\nApril 22\n\nDear Mr. Beaumont,\n\nThank you for submitting the manuscript of your book, \"Kitchen Chemistry: The Science Behind Everyday Cooking.\" Our editorial board has completed its review, and I am pleased to offer you a publishing contract.\n\nWe were impressed by the clarity of your explanations and the originality of the experiments you designed for home cooks. Our science editor did note that chapters seven through nine rely heavily on technical terminology; we will ask that these sections be revised for a general audience during the editing phase.\n\nWe propose an initial print run of 8,000 copies, with publication targeted for the spring of next year to coincide with the national food festival season. Our marketing department believes the book would benefit from a companion video series, which we would produce at our expense in our Toronto studio; details would be finalized after contract signing.\n\nThe enclosed contract outlines royalty rates, delivery deadlines, and publicity commitments. Please review it with your representative and return a signed copy within 30 days. Should you have questions, my direct line is 416-555-0177.\n\nCongratulations, and we look forward to working with you.\n\nSincerely,\nEvelyn Osei\nSenior Acquisitions Editor",
+        "questions": [
+          {
+            "q": "Why did Ms. Osei write to Mr. Beaumont?",
+            "options": [
+              "To invite him to a food festival",
+              "To reject his manuscript",
+              "To request a second manuscript",
+              "To offer him a publishing contract"
+            ],
+            "answer": 3,
+            "explanation": "信中說 I am pleased to offer you a publishing contract，通知出版合約成立。"
+          },
+          {
+            "q": "What concern did the science editor raise?",
+            "options": [
+              "The title is misleading",
+              "The experiments are unsafe",
+              "The book is too short",
+              "Some chapters are too technical"
+            ],
+            "answer": 3,
+            "explanation": "信中說 chapters seven through nine rely heavily on technical terminology，第七到九章術語過多，須改寫給一般讀者。"
+          },
+          {
+            "q": "What does the publisher offer to pay for?",
+            "options": [
+              "A book tour",
+              "A festival booth",
+              "A translation service",
+              "A companion video series"
+            ],
+            "answer": 3,
+            "explanation": "信中說 a companion video series, which we would produce at our expense，影片系列由出版社出資製作。"
+          },
+          {
+            "q": "What is Mr. Beaumont asked to do within 30 days?",
+            "options": [
+              "Revise three chapters",
+              "Visit the Toronto studio",
+              "Return a signed contract",
+              "Submit a marketing plan"
+            ],
+            "answer": 2,
+            "explanation": "信中要求 return a signed copy within 30 days，三十天內寄回簽署的合約。"
+          }
+        ]
+      }
+    ]
+  }
+}

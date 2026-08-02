@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-12",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Where's the nearest charging station for electric cars?",
+        "optionAudioTexts": [
+          "There's one behind the shopping mall.",
+          "My car is fully charged.",
+          "It takes about an hour."
+        ],
+        "answer": 0,
+        "explanation": "Where 問地點，(A)「購物中心後面有一座」正確。(B) 描述自己的車，(C) 回答充電時間。"
+      },
+      {
+        "audioText": "When is the deadline for submitting conference proposals?",
+        "optionAudioTexts": [
+          "A twenty-minute presentation.",
+          "This Friday at five o'clock.",
+          "To the review committee."
+        ],
+        "answer": 1,
+        "explanation": "When 問時間，(B)「本週五五點」正確。(A) 回答簡報長度，(C) 回答提交對象。"
+      },
+      {
+        "audioText": "Doesn't Marco usually handle the payroll processing?",
+        "optionAudioTexts": [
+          "Twice a month.",
+          "Direct deposit, please.",
+          "He's been reassigned to the audit team."
+        ],
+        "answer": 2,
+        "explanation": "否定疑問句確認是否由 Marco 負責，(C)「他被調到稽核組了」說明現況變動。(A) 回答頻率，(B) 回答發薪方式。"
+      },
+      {
+        "audioText": "How was the vendor presentation this morning?",
+        "optionAudioTexts": [
+          "Much more convincing than I expected.",
+          "In the boardroom.",
+          "At nine o'clock sharp."
+        ],
+        "answer": 0,
+        "explanation": "How was...? 問評價，(A)「比我預期的更有說服力」給出感想。(C) 回答時間，(B) 回答地點。"
+      },
+      {
+        "audioText": "Should I e-mail the invoice or send a paper copy?",
+        "optionAudioTexts": [
+          "The total comes to $450.",
+          "E-mail is fine — it's faster.",
+          "Yes, I received it."
+        ],
+        "answer": 1,
+        "explanation": "選擇疑問句問寄送方式，(B) 選擇 e-mail 並說明理由。(A) 回答金額，(C) 答非所問。"
+      },
+      {
+        "audioText": "Who can show the new hire how to use the copier?",
+        "optionAudioTexts": [
+          "Double-sided, please.",
+          "I'd be happy to do it.",
+          "It's out of toner again."
+        ],
+        "answer": 1,
+        "explanation": "Who 徵求人選，(B)「我很樂意」自願承接。(A) 回答影印設定，(C) 描述影印機狀況。"
+      },
+      {
+        "audioText": "Why are there so many boxes in the hallway?",
+        "optionAudioTexts": [
+          "We're switching to a new office supplier.",
+          "Ten large ones.",
+          "Down the hall on the right."
+        ],
+        "answer": 0,
+        "explanation": "Why 問原因，(A)「我們正在更換辦公用品供應商」解釋箱子的由來。(B) 回答數量，(C) 回答方位。"
+      },
+      {
+        "audioText": "The quarterly sales figures look promising, don't they?",
+        "optionAudioTexts": [
+          "The sales department.",
+          "Four times a year.",
+          "Yes, especially in the overseas markets."
+        ],
+        "answer": 2,
+        "explanation": "附加問句尋求認同，(C)「是啊，尤其海外市場」表示同意並補充。(B) 是 quarterly 的陷阱，(A) 回答部門。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "M: Hi, I'm calling about the apartment listing on Kessler Avenue — the two-bedroom with the balcony. Is it still available?",
+          "W: It is. We've had a lot of interest, though. There's an open house this Saturday from ten to noon.",
+          "M: I work Saturday mornings, unfortunately. Would it be possible to see it on a weekday evening?",
+          "W: Let me check with the current tenant... I could arrange a private showing Thursday at six.",
+          "M: Thursday at six works. Also, the listing mentioned that utilities are included — does that cover internet as well?",
+          "W: Water and heating are included in the rent, but internet and electricity are billed separately. I'll bring a breakdown of average monthly costs to the showing."
+        ],
+        "questions": [
+          {
+            "q": "Why is the man calling?",
+            "options": [
+              "To cancel an appointment",
+              "To report a maintenance problem",
+              "To renew his lease",
+              "To ask about an apartment listing"
+            ],
+            "answer": 3,
+            "explanation": "男子開頭說 I'm calling about the apartment listing on Kessler Avenue，詢問租屋廣告。"
+          },
+          {
+            "q": "Why can't the man attend the open house?",
+            "options": [
+              "He will be out of town",
+              "He has another showing",
+              "He works on Saturday mornings",
+              "He is moving that day"
+            ],
+            "answer": 2,
+            "explanation": "男子說 I work Saturday mornings, unfortunately，週六上午要上班。"
+          },
+          {
+            "q": "What will the woman bring on Thursday?",
+            "options": [
+              "A lease agreement",
+              "A cost breakdown",
+              "A set of keys",
+              "A floor plan"
+            ],
+            "answer": 1,
+            "explanation": "女子說 I'll bring a breakdown of average monthly costs to the showing，會帶每月平均費用明細。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "W: Excuse me, I'm looking for the express service counter. I rented this car three days ago, and the return line outside is enormous.",
+          "M: You're in the right place. If you used our mobile app for the rental, I can process the return here in about two minutes.",
+          "W: I did use the app. Here's the confirmation code. I should mention the fuel tank is only three-quarters full — I couldn't find a gas station near the highway exit.",
+          "M: Not a problem, but our refueling fee is a bit higher than local gas prices — it'll be about eighteen dollars for the missing quarter tank.",
+          "W: That's fine. I have a flight to catch, so speed matters more right now.",
+          "M: Understood. Your receipt will be e-mailed within the hour, and the shuttle to the terminal leaves from Bay C every ten minutes."
+        ],
+        "questions": [
+          {
+            "q": "Where does the conversation most likely take place?",
+            "options": [
+              "At an airline check-in desk",
+              "At a gas station",
+              "At a car rental office",
+              "At a parking garage"
+            ],
+            "answer": 2,
+            "explanation": "女子說 I rented this car three days ago 並要辦理還車，是租車公司櫃檯。"
+          },
+          {
+            "q": "What does the woman say about the car?",
+            "options": [
+              "It has a scratch on the door",
+              "The tank is not completely full",
+              "The trunk will not close",
+              "It was returned late"
+            ],
+            "answer": 1,
+            "explanation": "女子說 the fuel tank is only three-quarters full，油箱只有四分之三滿。"
+          },
+          {
+            "q": "Why does the woman accept the extra charge?",
+            "options": [
+              "The fee is very small",
+              "She is in a hurry",
+              "She has a discount coupon",
+              "The man waived another fee"
+            ],
+            "answer": 1,
+            "explanation": "女子說 I have a flight to catch, so speed matters more right now，趕飛機所以接受加油費。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good morning, everyone. Before you start your shifts, a quick announcement about the customer loyalty program. Starting next week, members will earn double points on all store-brand products, and the points can now be redeemed directly at the register instead of only through the website. This change came from customer feedback — many shoppers told us the online redemption process was too complicated. When customers ask, please emphasize that signing up takes less than a minute at checkout and only requires a phone number. Our goal is to enroll five hundred new members this month. The store with the highest enrollment gets a catered team lunch, and right now the Lakeside branch is ahead of us by about sixty sign-ups. Let's close that gap this week.",
+        "questions": [
+          {
+            "q": "What change to the loyalty program does the speaker mention?",
+            "options": [
+              "Points will expire after one year",
+              "Membership now requires a fee",
+              "Points can be redeemed at the register",
+              "The program is moving online only"
+            ],
+            "answer": 2,
+            "explanation": "說話者說 points can now be redeemed directly at the register instead of only through the website。"
+          },
+          {
+            "q": "Why was the change made?",
+            "options": [
+              "To reduce staffing costs",
+              "Because the website is shutting down",
+              "To match a competitor's program",
+              "Because customers found the old process complicated"
+            ],
+            "answer": 3,
+            "explanation": "說話者說 many shoppers told us the online redemption process was too complicated，是根據顧客回饋改善。"
+          },
+          {
+            "q": "What can the store win?",
+            "options": [
+              "A cash bonus",
+              "Extra vacation days",
+              "New uniforms",
+              "A catered team lunch"
+            ],
+            "answer": 3,
+            "explanation": "說話者說 The store with the highest enrollment gets a catered team lunch。"
+          }
+        ]
+      },
+      {
+        "script": "Welcome to the Halston City Botanical Garden audio tour. You're standing at the entrance to our newest attraction, the Cloud Forest Conservatory, which opened just last month. Inside, you'll experience the cool, misty environment of a high-altitude rainforest, home to over four hundred orchid species. As you walk through, please stay on the marked path and avoid touching the plants — many are extremely delicate. Misting occurs every twenty minutes, so if you're carrying camera equipment, protective covers are available for free at the information desk behind you. The elevated walkway at the far end offers the best photo opportunities, overlooking the entire conservatory from ten meters up. Your next audio stop is number seven, at the waterfall.",
+        "questions": [
+          {
+            "q": "What is mentioned about the Cloud Forest Conservatory?",
+            "options": [
+              "It recently opened",
+              "It is closed for repairs",
+              "It charges a separate fee",
+              "It is the garden's oldest section"
+            ],
+            "answer": 0,
+            "explanation": "導覽說 our newest attraction, the Cloud Forest Conservatory, which opened just last month，上個月剛開幕。"
+          },
+          {
+            "q": "What can visitors get at the information desk?",
+            "options": [
+              "Free protective covers",
+              "Orchid seedlings",
+              "Audio headsets",
+              "Discounted tickets"
+            ],
+            "answer": 0,
+            "explanation": "導覽說 protective covers are available for free at the information desk，可免費索取器材防水套。"
+          },
+          {
+            "q": "According to the speaker, where is the best place to take photos?",
+            "options": [
+              "On the elevated walkway",
+              "Near the waterfall",
+              "At the entrance",
+              "By the information desk"
+            ],
+            "answer": 0,
+            "explanation": "導覽說 The elevated walkway at the far end offers the best photo opportunities，高架步道視野最佳。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The customer service team responded ------- to the sudden increase in support tickets.",
+        "options": [
+          "efficient",
+          "efficiency",
+          "efficiently",
+          "more efficient"
+        ],
+        "answer": 2,
+        "explanation": "修飾動詞 responded 需用副詞 efficiently（有效率地）。"
+      },
+      {
+        "q": "------- the office relocates in March, all employees will receive updated parking permits.",
+        "options": [
+          "Upon",
+          "During",
+          "Despite",
+          "When"
+        ],
+        "answer": 3,
+        "explanation": "空格後為完整子句，需連接詞 When。During 與 Upon 為介系詞。"
+      },
+      {
+        "q": "The catering order should be finalized no ------- than Wednesday afternoon.",
+        "options": [
+          "late",
+          "lately",
+          "latest",
+          "later"
+        ],
+        "answer": 3,
+        "explanation": "no later than 為固定用法，表「不得晚於」。"
+      },
+      {
+        "q": "A copy of the signed agreement will be sent to you for your -------.",
+        "options": [
+          "recorded",
+          "records",
+          "recording",
+          "recorder"
+        ],
+        "answer": 1,
+        "explanation": "for your records（供您存檔）為商業書信慣用語。"
+      },
+      {
+        "q": "The laboratory results were ------- consistent with the earlier findings.",
+        "options": [
+          "entirely",
+          "entire",
+          "entirety",
+          "entireness"
+        ],
+        "answer": 0,
+        "explanation": "修飾形容詞 consistent 需用副詞 entirely（完全地）。"
+      },
+      {
+        "q": "Passengers ------- luggage exceeds the weight limit will be charged an additional fee.",
+        "options": [
+          "whose",
+          "who",
+          "whom",
+          "which"
+        ],
+        "answer": 0,
+        "explanation": "空格後接名詞 luggage，需所有格關係代名詞 whose（其行李）。"
+      },
+      {
+        "q": "The committee will ------- the annual budget at its December meeting.",
+        "options": [
+          "look",
+          "arrive",
+          "finalize",
+          "proceed"
+        ],
+        "answer": 2,
+        "explanation": "及物動詞 finalize（定案）直接接受詞 the annual budget。look、arrive、proceed 為不及物動詞。"
+      },
+      {
+        "q": "------- completing the online course, participants receive a certificate by e-mail.",
+        "options": [
+          "Unless",
+          "Toward",
+          "Until",
+          "Upon"
+        ],
+        "answer": 3,
+        "explanation": "Upon + V-ing 表「一…就…」，完成課程後即收到證書。"
+      },
+      {
+        "q": "The two branch offices communicate with ------- through weekly video conferences.",
+        "options": [
+          "themselves",
+          "each other",
+          "another",
+          "the other"
+        ],
+        "answer": 1,
+        "explanation": "communicate with each other 表「彼此溝通」。themselves 指自己而非對方。"
+      },
+      {
+        "q": "Renovation of the west wing is ------- to be completed by mid-January.",
+        "options": [
+          "expectation",
+          "expecting",
+          "expected",
+          "expectantly"
+        ],
+        "answer": 2,
+        "explanation": "be expected to + 原形動詞 表「預計…」，被動語態需過去分詞。"
+      },
+      {
+        "q": "Ms. Boyd's flight was delayed; -------, she missed the opening session of the summit.",
+        "options": [
+          "consequently",
+          "similarly",
+          "conversely",
+          "additionally"
+        ],
+        "answer": 0,
+        "explanation": "班機延誤「因此」錯過開幕場次，consequently 表因果。"
+      },
+      {
+        "q": "The workshop covers practical strategies for managing time more -------.",
+        "options": [
+          "effective",
+          "effectiveness",
+          "effectively",
+          "effect"
+        ],
+        "answer": 2,
+        "explanation": "修飾動名詞 managing 需用副詞 effectively（有效地）。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Frequently Asked Question — GreenCart Delivery\n\nQ: What should I do if an item is missing from my grocery delivery?\n\nA: We're sorry for the inconvenience! First, check the delivery confirmation e-mail, which lists any items that were out of stock and [33] from your order. Refunds for out-of-stock items are issued automatically within three business days. If an item was charged but not delivered, open the GreenCart app, go to \"Order History,\" and select \"Report a Problem.\" Most claims are [34] within twenty-four hours. For orders containing perishable goods, please submit your report within forty-eight hours of delivery. [35] our support team by phone is also possible; however, using the app is typically much faster.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "differed",
+              "removed",
+              "prevented",
+              "expired"
+            ],
+            "answer": 1,
+            "explanation": "缺貨商品會「從訂單中移除」並列在確認信中，removed from your order 語意正確。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "resolved",
+              "rejected",
+              "repeated",
+              "reversed"
+            ],
+            "answer": 0,
+            "explanation": "多數客訴會在二十四小時內「解決」，resolved 最合語意。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "Reached",
+              "Reaching",
+              "Reaches",
+              "To reach"
+            ],
+            "answer": 1,
+            "explanation": "動名詞 Reaching 作主詞：「以電話聯繫客服也可行」，與後句 using the app 平行。"
+          }
+        ]
+      },
+      {
+        "passage": "PRESS RELEASE\nFor Immediate Release — Contact: media@corvantech.com\n\nCorvan Technologies today announced the opening of its first European customer support center in Lisbon, Portugal. The facility will initially employ 120 staff members, with plans to double that number [36] the next eighteen months. The Lisbon center will provide support in six languages, significantly reducing wait times for customers across the region. \"Our European client base has grown by forty percent in two years,\" said CEO Marta Reyes. \"This investment reflects our [37] to serving those customers locally.\" The company selected Lisbon after a year-long search, citing the city's skilled multilingual workforce. Recruitment for the remaining positions is [38] under way, with hiring events scheduled throughout the fall.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "onto",
+              "among",
+              "over",
+              "versus"
+            ],
+            "answer": 2,
+            "explanation": "over the next eighteen months 表「在未來十八個月內」，over 用於一段時間。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "resistance",
+              "commitment",
+              "objection",
+              "indifference"
+            ],
+            "answer": 1,
+            "explanation": "commitment to serving...（對在地服務客戶的承諾）符合正面聲明語氣。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "already",
+              "yet",
+              "ever",
+              "once"
+            ],
+            "answer": 0,
+            "explanation": "is already under way 表「已經在進行中」，與後面秋季徵才活動呼應。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Schedule】\nWestport Community Center — Fall Evening Classes\nRegistration opens August 25 at westportcc.org\n\nConversational Spanish (Beginner)\nMondays, 6:30–8:00 P.M. | Sept. 14–Nov. 16 | $95 | Instructor: R. Delgado\n\nIntroduction to Watercolor\nTuesdays, 7:00–9:00 P.M. | Sept. 15–Oct. 20 | $120 (materials included) | Instructor: M. Osei\n\nSmall-Business Bookkeeping\nWednesdays, 6:00–7:30 P.M. | Sept. 16–Oct. 28 | $110 | Instructor: T. Nguyen\n\nYoga for Beginners\nThursdays, 6:00–7:00 P.M. | Sept. 17–Nov. 19 | $80 | Instructor: L. Marsh\n\nNotes: Class sizes are limited to 16 participants. Members of the community center receive a 15% discount on all classes. The watercolor class requires no prior experience; all supplies are provided. The bookkeeping course includes a free digital workbook. Classes with fewer than six registrations by September 7 will be canceled with full refunds.",
+        "questions": [
+          {
+            "q": "Which class includes materials in its price?",
+            "options": [
+              "Conversational Spanish",
+              "Small-Business Bookkeeping",
+              "Introduction to Watercolor",
+              "Yoga for Beginners"
+            ],
+            "answer": 2,
+            "explanation": "水彩課標示 $120 (materials included)，費用含材料。"
+          },
+          {
+            "q": "What is indicated about community center members?",
+            "options": [
+              "They can register early",
+              "They get free parking",
+              "They may bring a guest",
+              "They receive a discount"
+            ],
+            "answer": 3,
+            "explanation": "Notes 說 Members of the community center receive a 15% discount on all classes。"
+          },
+          {
+            "q": "What will happen to classes with low enrollment?",
+            "options": [
+              "They will be canceled with refunds",
+              "They will move online",
+              "They will be combined",
+              "They will be rescheduled"
+            ],
+            "answer": 0,
+            "explanation": "Notes 說 Classes with fewer than six registrations by September 7 will be canceled with full refunds。"
+          }
+        ]
+      },
+      {
+        "passage": "【E-mail】\nFrom: Booking Team <bookings@atlaschartours.com>\nTo: Miriam Okonkwo <m.okonkwo@finchmail.com>\nSubject: Re: Group Booking Inquiry — Coastal Wine Tour\nDate: June 2\n\nDear Ms. Okonkwo,\n\nThank you for your inquiry about booking our Coastal Wine Tour for your company retreat on Friday, July 17. We do have availability that day and can accommodate your group of 22.\n\nFor groups over 20, we offer our private charter option, which includes a dedicated bus, a private tasting session at each of the three wineries, and a picnic lunch at Solera Vineyards. The rate is $145 per person, compared with $115 per person on our standard shared tour. Please note the standard tour caps groups at 12, so your party would need to split across two departure times if you choose that option.\n\nA 25 percent deposit is required to confirm a private charter, with the balance due 14 days before the tour date. Deposits are fully refundable up to 30 days in advance.\n\nIf you would like to proceed or have questions about accessibility, dietary accommodations, or hotel pickup, simply reply to this e-mail. July dates fill quickly, so we recommend confirming within the week.\n\nBest regards,\nAtlas Char Tours Booking Team",
+        "questions": [
+          {
+            "q": "Why would Ms. Okonkwo's group need to split up on the standard tour?",
+            "options": [
+              "The group exceeds the tour's size cap",
+              "The bus has limited seating",
+              "Two wineries restrict visitor numbers",
+              "The lunch venue is too small"
+            ],
+            "answer": 0,
+            "explanation": "信中說 the standard tour caps groups at 12，22 人超過上限，須分兩個出發時段。"
+          },
+          {
+            "q": "What is included in the private charter but NOT mentioned for the standard tour?",
+            "options": [
+              "Visits to three wineries",
+              "Wine tastings",
+              "Transportation",
+              "A picnic lunch"
+            ],
+            "answer": 3,
+            "explanation": "私人包團含 a picnic lunch at Solera Vineyards，標準行程說明中未提及野餐午餐。"
+          },
+          {
+            "q": "When must the remaining balance be paid?",
+            "options": [
+              "On the day of the tour",
+              "14 days before the tour",
+              "30 days before the tour",
+              "Within one week of booking"
+            ],
+            "answer": 1,
+            "explanation": "信中說 the balance due 14 days before the tour date，尾款須於行程前十四天付清。"
+          },
+          {
+            "q": "Why does the booking team suggest replying soon?",
+            "options": [
+              "A promotion is about to end",
+              "The deposit deadline is approaching",
+              "Prices will increase in July",
+              "July dates fill quickly"
+            ],
+            "answer": 3,
+            "explanation": "信末說 July dates fill quickly, so we recommend confirming within the week，七月檔期很快額滿。"
+          }
+        ]
+      }
+    ]
+  }
+}

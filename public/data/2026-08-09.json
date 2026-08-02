@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-09",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Where can I find the sign-up sheet for the wellness program?",
+        "optionAudioTexts": [
+          "It's posted outside the break room.",
+          "Every Wednesday afternoon.",
+          "Yes, I signed it yesterday."
+        ],
+        "answer": 0,
+        "explanation": "Where 問地點，(A)「貼在休息室外」正確回答位置。(B) 回答時間，(C) 用 Yes 回答疑問詞問句，不合理。"
+      },
+      {
+        "audioText": "How long will the software installation take?",
+        "optionAudioTexts": [
+          "Version 8.2.",
+          "About forty minutes per computer.",
+          "The IT department."
+        ],
+        "answer": 1,
+        "explanation": "How long 問時間長度，(B)「每台約四十分鐘」正確。(A) 回答版本，(C) 回答部門名稱。"
+      },
+      {
+        "audioText": "Do you want me to reserve a table for six or seven people?",
+        "optionAudioTexts": [
+          "At the Italian place downtown.",
+          "Make it seven, just in case.",
+          "Around seven thirty."
+        ],
+        "answer": 1,
+        "explanation": "選擇疑問句問訂六位或七位，(B)「訂七位以防萬一」做出選擇。(C) 用 seven thirty 的發音混淆，回答的是時間。"
+      },
+      {
+        "audioText": "Why did the delivery truck come back to the warehouse?",
+        "optionAudioTexts": [
+          "Around 4 P.M. usually.",
+          "One of the addresses was incorrect.",
+          "The new driver, I think."
+        ],
+        "answer": 1,
+        "explanation": "Why 問原因，(B)「其中一個地址錯了」說明折返原因。(A) 回答時間，(C) 回答人。"
+      },
+      {
+        "audioText": "You've met the new branch manager, haven't you?",
+        "optionAudioTexts": [
+          "The branch on Fifth Avenue.",
+          "A management degree.",
+          "Yes, at last week's orientation."
+        ],
+        "answer": 2,
+        "explanation": "附加問句確認是否見過新經理，(C)「有，在上週的迎新會上」直接回答。(A)、(B) 都是相關單字陷阱。"
+      },
+      {
+        "audioText": "Who approved the budget for the trade show booth?",
+        "optionAudioTexts": [
+          "The finance director did.",
+          "Nearly ten thousand dollars.",
+          "Booth number twelve."
+        ],
+        "answer": 0,
+        "explanation": "Who 問人，(A)「財務總監批准的」正確。(B) 回答金額，(C) 回答攤位編號。"
+      },
+      {
+        "audioText": "Should we take the highway or the coastal road to the client's office?",
+        "optionAudioTexts": [
+          "Two client meetings.",
+          "A rental car.",
+          "The coastal road is faster this time of day."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句問走哪條路，(C) 選了 coastal road 並說明理由。(B)、(A) 均未回應選擇。"
+      },
+      {
+        "audioText": "Isn't the cafeteria supposed to reopen this week?",
+        "optionAudioTexts": [
+          "It was pushed back to next Monday.",
+          "The lunch special.",
+          "On the ground floor."
+        ],
+        "answer": 0,
+        "explanation": "否定疑問句確認餐廳是否本週重開，(A)「延到下週一了」更正對方認知。(B)、(C) 分別回答餐點與地點。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "M: Hi, this is Theo Brandt calling from the help desk. You submitted a ticket saying your laptop battery drains within an hour?",
+          "W: Yes, it started right after the latest system update. I have to keep it plugged in constantly, which is a problem when I'm visiting clients.",
+          "M: That update caused similar issues for a few other users. There's a patch we can install remotely, but your laptop needs to stay on and connected to the office network for about thirty minutes.",
+          "W: I'm heading into a meeting at two. Could you do it after three?",
+          "M: Absolutely, I'll schedule the patch for three fifteen. If the battery still drains quickly afterward, we'll swap in a replacement battery from our inventory.",
+          "W: Perfect, thank you. I'll leave the laptop docked at my desk."
+        ],
+        "questions": [
+          {
+            "q": "What problem does the woman report?",
+            "options": [
+              "Her monitor keeps flickering",
+              "Her e-mail account is locked",
+              "Her laptop battery drains quickly",
+              "Her password has expired"
+            ],
+            "answer": 2,
+            "explanation": "男子開頭轉述工單內容 your laptop battery drains within an hour，女子確認電池在一小時內耗盡。"
+          },
+          {
+            "q": "What most likely caused the problem?",
+            "options": [
+              "A damaged power cord",
+              "A virus infection",
+              "An old battery",
+              "A recent system update"
+            ],
+            "answer": 3,
+            "explanation": "女子說 it started right after the latest system update，男子也證實該更新對其他使用者造成同樣問題。"
+          },
+          {
+            "q": "What will the man do at 3:15?",
+            "options": [
+              "Visit the woman's desk",
+              "Order a new laptop",
+              "Restart the office network",
+              "Install a patch remotely"
+            ],
+            "answer": 3,
+            "explanation": "男子說 I'll schedule the patch for three fifteen，會在三點十五分遠端安裝修補程式。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "W: Excuse me, I bought this coffee maker here last month, and the carafe already has a crack in it. Can I get a replacement?",
+          "M: Let me take a look... Yes, I see it. Do you have your receipt with you?",
+          "W: I don't, actually, but I paid with my store membership card, if that helps.",
+          "M: That works — I can look up the purchase in our system. Here it is, June eighth. Unfortunately we don't sell the carafe separately, but since it's within ninety days, I can exchange the whole unit.",
+          "W: Even better. Should I grab one from the shelf?",
+          "M: They're actually in the stockroom now because that model is being discontinued. Give me five minutes and I'll bring one out for you."
+        ],
+        "questions": [
+          {
+            "q": "Why is the woman at the store?",
+            "options": [
+              "To buy a gift",
+              "To apply for a membership",
+              "To return a damaged item",
+              "To pick up an online order"
+            ],
+            "answer": 2,
+            "explanation": "女子說咖啡壺的玻璃壺 already has a crack in it 並要求更換，是來處理瑕疵商品。"
+          },
+          {
+            "q": "How does the man locate the purchase record?",
+            "options": [
+              "With a paper receipt",
+              "With the membership card",
+              "With the product serial number",
+              "With a credit card statement"
+            ],
+            "answer": 1,
+            "explanation": "女子說用 store membership card 付款，男子回 That works — I can look up the purchase in our system。"
+          },
+          {
+            "q": "What does the man say about the coffee maker model?",
+            "options": [
+              "It is out of stock",
+              "It won a design award",
+              "It is being discontinued",
+              "It has a newer version"
+            ],
+            "answer": 2,
+            "explanation": "男子說 that model is being discontinued，該型號即將停產，所以商品移到了倉庫。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "You're listening to Business Beat on Radio 89.3. In local news, Fairview-based startup Lumico announced this morning that it will move its headquarters to the renovated Harbor Mill building downtown. The company, which designs energy-efficient lighting for office buildings, plans to hire eighty new employees over the next year, mostly in engineering and customer support. City officials welcomed the announcement, noting that the move is expected to bring more foot traffic to downtown restaurants and shops. Lumico's CEO will discuss the expansion in a live interview right after the two o'clock news break, so stay tuned.",
+        "questions": [
+          {
+            "q": "What kind of products does Lumico make?",
+            "options": [
+              "Energy-efficient lighting",
+              "Office furniture",
+              "Air-conditioning systems",
+              "Solar panels"
+            ],
+            "answer": 0,
+            "explanation": "報導說 the company, which designs energy-efficient lighting for office buildings，是設計節能照明的公司。"
+          },
+          {
+            "q": "According to the speaker, what do city officials expect?",
+            "options": [
+              "Lower office rents",
+              "A new public parking garage",
+              "More visitors to downtown businesses",
+              "Higher tax revenue from tourism"
+            ],
+            "answer": 2,
+            "explanation": "官員指出 the move is expected to bring more foot traffic to downtown restaurants and shops，將為市中心商家帶來人潮。"
+          },
+          {
+            "q": "What will listeners hear after the news break?",
+            "options": [
+              "A weather update",
+              "A traffic report",
+              "A listener call-in segment",
+              "An interview with an executive"
+            ],
+            "answer": 3,
+            "explanation": "結尾說 Lumico's CEO will discuss the expansion in a live interview right after the two o'clock news break。"
+          }
+        ]
+      },
+      {
+        "script": "Welcome aboard the Coast Star express service to Portsmouth. This train will depart in approximately five minutes. Today the quiet car is car number two, located directly behind the first-class carriage. Please note that the onboard cafe in car four will be closed for the first thirty minutes of the journey due to a staff changeover; it will open as soon as we pass Riverton station. Passengers connecting to the airport shuttle should exit at Milbrook, not Portsmouth Central, as the shuttle stop has moved during terminal construction. Tickets will be checked shortly after departure. Thank you for traveling with us.",
+        "questions": [
+          {
+            "q": "Where is the quiet car located?",
+            "options": [
+              "Behind the first-class carriage",
+              "At the very front of the train",
+              "Next to the cafe car",
+              "At the rear of the train"
+            ],
+            "answer": 0,
+            "explanation": "廣播說 the quiet car is car number two, located directly behind the first-class carriage。"
+          },
+          {
+            "q": "Why will the cafe be closed at first?",
+            "options": [
+              "Because of a staff changeover",
+              "Because of equipment repairs",
+              "Because supplies have run out",
+              "Because of a safety inspection"
+            ],
+            "answer": 0,
+            "explanation": "廣播說 closed for the first thirty minutes of the journey due to a staff changeover，因人員交接暫停營業。"
+          },
+          {
+            "q": "Where should passengers going to the airport get off?",
+            "options": [
+              "Portsmouth Central",
+              "Milbrook",
+              "Riverton",
+              "Coast Star Terminal"
+            ],
+            "answer": 1,
+            "explanation": "廣播說 Passengers connecting to the airport shuttle should exit at Milbrook，因接駁車站點施工期間已遷移。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The quarterly report must be ------- by both the accounting manager and the auditor.",
+        "options": [
+          "sign",
+          "signature",
+          "signing",
+          "signed"
+        ],
+        "answer": 3,
+        "explanation": "be 動詞後接過去分詞形成被動語態 must be signed（必須被簽署）。"
+      },
+      {
+        "q": "------- joining Halcyon Consulting, Ms. Trent worked as a financial analyst in Singapore.",
+        "options": [
+          "Before",
+          "While",
+          "Yet",
+          "Once"
+        ],
+        "answer": 0,
+        "explanation": "Before + V-ing 表「在加入…之前」，符合先在新加坡工作、後加入公司的時序。"
+      },
+      {
+        "q": "The conference organizers have not yet decided ------- to hold next year's event in Denver or in Phoenix.",
+        "options": [
+          "what",
+          "whether",
+          "which",
+          "that"
+        ],
+        "answer": 1,
+        "explanation": "whether A or B 表「要 A 還是 B」，與後面的 or 呼應。"
+      },
+      {
+        "q": "Applicants should describe their ------- experience in the cover letter.",
+        "options": [
+          "relevance",
+          "relevant",
+          "relevantly",
+          "relevancy"
+        ],
+        "answer": 1,
+        "explanation": "修飾名詞 experience 需用形容詞 relevant（相關的）。"
+      },
+      {
+        "q": "The company picnic will be postponed ------- the weather improves by Saturday morning.",
+        "options": [
+          "because",
+          "unless",
+          "so that",
+          "as if"
+        ],
+        "answer": 1,
+        "explanation": "語意為「除非週六早上天氣好轉，否則野餐將延期」，選 unless（除非）。"
+      },
+      {
+        "q": "Mr. Idris asked his assistant to make ten ------- of the presentation handout.",
+        "options": [
+          "copy",
+          "copies",
+          "copied",
+          "copying"
+        ],
+        "answer": 1,
+        "explanation": "ten 後接複數可數名詞 copies（份數）。"
+      },
+      {
+        "q": "The restaurant's new menu features ------- sourced vegetables from farms within fifty kilometers.",
+        "options": [
+          "local",
+          "locally",
+          "locality",
+          "localize"
+        ],
+        "answer": 1,
+        "explanation": "修飾過去分詞 sourced 需用副詞 locally（在地地），locally sourced 為常見搭配。"
+      },
+      {
+        "q": "------- for the position of regional director will be interviewed during the first week of May.",
+        "options": [
+          "Candid",
+          "Candidacy",
+          "Candidates",
+          "Candidness"
+        ],
+        "answer": 2,
+        "explanation": "主詞需為「人」且搭配複數動詞 will be interviewed 的對象，選 Candidates（候選人）。"
+      },
+      {
+        "q": "The warranty covers repairs but does not ------- to accessories such as chargers and cables.",
+        "options": [
+          "apply",
+          "appear",
+          "agree",
+          "attach"
+        ],
+        "answer": 0,
+        "explanation": "apply to 表「適用於」，保固不適用於配件。appear、agree、attach 搭配 to 語意皆不合。"
+      },
+      {
+        "q": "Since the two branches merged, customer wait times have decreased -------.",
+        "options": [
+          "noticeably",
+          "noticeable",
+          "notice",
+          "noticing"
+        ],
+        "answer": 0,
+        "explanation": "修飾動詞 have decreased 需用副詞 noticeably（明顯地）。"
+      },
+      {
+        "q": "Employees are reminded to lock their computers ------- they leave their desks, even briefly.",
+        "options": [
+          "whoever",
+          "however",
+          "wherever",
+          "whenever"
+        ],
+        "answer": 3,
+        "explanation": "語意為「每當離開座位時」都要鎖電腦，選 whenever。"
+      },
+      {
+        "q": "The board approved a ------- budget increase for research and development next fiscal year.",
+        "options": [
+          "substance",
+          "substantially",
+          "substantial",
+          "substantiate"
+        ],
+        "answer": 2,
+        "explanation": "修飾名詞 budget increase 需用形容詞 substantial（大幅的）。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Dear Valued Customer,\n\nThank you for subscribing to CityFiber Internet. To improve network reliability, we will be upgrading equipment in your neighborhood on Tuesday, August 18, between 1:00 A.M. and 5:00 A.M. During this window, your service may be [33] interrupted for up to twenty minutes. No action is needed on your part; your connection will be restored [34] once the work is complete. If you experience problems after 6:00 A.M., please restart your modem before contacting our support line. We apologize for any inconvenience and thank you for your [35].\n\nCityFiber Customer Operations",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "briefly",
+              "permanently",
+              "deliberately",
+              "financially"
+            ],
+            "answer": 0,
+            "explanation": "後面說最多中斷 up to twenty minutes，是「短暫」中斷，選 briefly。permanently（永久）與語意矛盾。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "randomly",
+              "manually",
+              "automatically",
+              "separately"
+            ],
+            "answer": 2,
+            "explanation": "前句說 No action is needed on your part（無需任何動作），連線將「自動」恢復，選 automatically。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "patience",
+              "purchase",
+              "payment",
+              "presence"
+            ],
+            "answer": 0,
+            "explanation": "道歉信結尾慣用 thank you for your patience（感謝您的耐心）。"
+          }
+        ]
+      },
+      {
+        "passage": "MEMO\nTo: All Sales Staff\nFrom: Gordon Pike, Sales Director\nDate: April 6\nRe: Client Visit Reports\n\nStarting next month, all client visit reports must be submitted through the new SalesTrack portal [36] by e-mail. The portal automatically links each report to the client's account history, which will make it much easier to [37] past interactions before follow-up calls. Training sessions will be held on April 15 and April 17 in Room 2B; please attend one of the two dates. [38] you cannot attend either session, a recorded version will be posted on the intranet.\n\nGordon",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "no later than",
+              "as long as",
+              "in addition",
+              "rather than"
+            ],
+            "answer": 3,
+            "explanation": "新制度改用入口網站「而不是」電子郵件提交，rather than by e-mail 表取代關係。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "review",
+              "delete",
+              "predict",
+              "postpone"
+            ],
+            "answer": 0,
+            "explanation": "系統連結客戶歷史紀錄，方便在回訪電話前「查看」過去的互動，選 review。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "Despite",
+              "Until",
+              "If",
+              "Since"
+            ],
+            "answer": 2,
+            "explanation": "「如果」兩場都無法參加，可看錄影版本，條件句用 If。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Advertisement】\nBrightPath Career Coaching — Fall Special\n\nIs your resume getting overlooked? BrightPath's certified coaches have helped more than 2,000 professionals land interviews at top companies. Our Fall Special package includes a one-hour strategy session, a complete resume rewrite, and two weeks of unlimited e-mail support — all for $180, a savings of $70 off our regular price. Book before October 15 to qualify. As a bonus, clients who refer a friend receive a free LinkedIn profile review (a $45 value). Sessions are conducted by video call, so you can meet your coach from anywhere. Visit brightpathcoach.com/fall to view coach profiles and reserve your spot. Availability is limited to the first 100 sign-ups.",
+        "questions": [
+          {
+            "q": "What is included in the Fall Special package?",
+            "options": [
+              "A practice interview session",
+              "A job placement guarantee",
+              "A complete resume rewrite",
+              "A printed career guidebook"
+            ],
+            "answer": 2,
+            "explanation": "廣告列出套餐內容：a one-hour strategy session, a complete resume rewrite, and two weeks of unlimited e-mail support。"
+          },
+          {
+            "q": "How can a client receive a free LinkedIn profile review?",
+            "options": [
+              "By booking before October 15",
+              "By purchasing two packages",
+              "By writing an online review",
+              "By referring a friend"
+            ],
+            "answer": 3,
+            "explanation": "文中說 clients who refer a friend receive a free LinkedIn profile review，推薦朋友即可獲得。"
+          },
+          {
+            "q": "What is indicated about the coaching sessions?",
+            "options": [
+              "They take place at BrightPath's office",
+              "They are held by video call",
+              "They are limited to 30 minutes",
+              "They include a personality test"
+            ],
+            "answer": 1,
+            "explanation": "文中說 Sessions are conducted by video call, so you can meet your coach from anywhere。"
+          }
+        ]
+      },
+      {
+        "passage": "【Article】\nRiverton Gazette — Local Business\n\nAfter eighteen years on Cedar Street, Bellamy's Books will move to a larger space in the Old Market district this January. Owner June Bellamy said the decision was driven by the store's expanding events program rather than a need for more retail shelving. \"Our author talks now draw over a hundred people, and we've been turning customers away at the door,\" she explained. The new location, a former textile warehouse, includes a 150-seat event hall and a small cafe corner that will be operated by neighboring roaster Kiln Coffee. Bellamy said staffing will grow from nine employees to fourteen, with hiring to begin in November. The Cedar Street shop will remain open through December 24, and a moving sale will start December 1, with discounts of up to 40 percent on selected titles. The Old Market location is scheduled to open January 15, with a launch event featuring three regional authors.",
+        "questions": [
+          {
+            "q": "Why is Bellamy's Books moving?",
+            "options": [
+              "Its current rent has increased",
+              "It is merging with another store",
+              "The building is being demolished",
+              "Its events have outgrown the space"
+            ],
+            "answer": 3,
+            "explanation": "文中說搬遷是因為 the store's expanding events program，作者座談吸引百人以上，門口甚至得回絕讀者。"
+          },
+          {
+            "q": "What will Kiln Coffee do?",
+            "options": [
+              "Operate a cafe inside the bookstore",
+              "Buy the Cedar Street building",
+              "Sponsor the launch event",
+              "Roast a special blend for the store"
+            ],
+            "answer": 0,
+            "explanation": "文中說 a small cafe corner that will be operated by neighboring roaster Kiln Coffee，咖啡店角落由 Kiln Coffee 經營。"
+          },
+          {
+            "q": "What will happen in November?",
+            "options": [
+              "The moving sale will begin",
+              "The store will start hiring",
+              "The new location will open",
+              "An author event will be held"
+            ],
+            "answer": 1,
+            "explanation": "文中說 staffing will grow...with hiring to begin in November，十一月開始招募新員工。"
+          },
+          {
+            "q": "What is suggested about the moving sale?",
+            "options": [
+              "It applies to all books in the store",
+              "It starts on December 24",
+              "It is limited to members only",
+              "It offers up to 40 percent off some titles"
+            ],
+            "answer": 3,
+            "explanation": "文中說 a moving sale will start December 1, with discounts of up to 40 percent on selected titles，部分書籍最高六折。"
+          }
+        ]
+      }
+    ]
+  }
+}
