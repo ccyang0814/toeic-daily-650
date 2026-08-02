@@ -1,5 +1,3 @@
-// Vercel Serverless Function：即時產生聽力音檔（微軟神經語音）
-// 用法: /api/tts?d=2026-08-01&k=p2-0
 const fs = require('fs');
 const path = require('path');
 const { buildSegments } = require('../lib/segments.js');
@@ -21,11 +19,12 @@ module.exports = async function (req, res) {
     const segments = buildSegments(day, k);
     if (!segments) { res.status(404).json({ error: 'unknown key' }); return; }
     const buf = await synthesize(segments);
+    if (req.query.probe === '1') { res.status(200).json({ ok: true, bytes: buf.length }); return; }
     res.setHeader('Content-Type', 'audio/mpeg');
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
     res.status(200).send(buf);
   } catch (e) {
-    console.error('TTS error:', e && e.message);
-    res.status(502).json({ error: 'tts_failed' });
+    console.error('TTS error:', e);
+    res.status(502).json({ error: 'tts_failed', detail: String(e) });
   }
 };

@@ -1,11 +1,10 @@
 {
   "name": "toeic-daily-650",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "node scripts/gen-audio.js || echo audio-pregen-skipped"
   },
   "dependencies": {
-    "msedge-tts": "^1.3.4"
+    "msedge-tts": "^2.0.7"
   }
 }
