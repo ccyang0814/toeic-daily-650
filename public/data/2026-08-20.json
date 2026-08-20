@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-20",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "What did the inspector say about the ventilation system?",
+        "optionAudioTexts": [
+          "That it meets the current code.",
+          "On the roof of the annex.",
+          "Every eighteen months."
+        ],
+        "answer": 0,
+        "explanation": "What did...say 問內容，(A)「說它符合現行法規」正確。(B) 回答位置、(C) 回答頻率。"
+      },
+      {
+        "audioText": "Can you tell me where the nearest pharmacy is?",
+        "optionAudioTexts": [
+          "Twice a day with food.",
+          "There's one inside the supermarket across the street.",
+          "A pharmacist named Dana."
+        ],
+        "answer": 1,
+        "explanation": "間接問句問地點，(B)「對街超市裡有一家」正確。(A) 是服藥指示、(C) 回答人名。"
+      },
+      {
+        "audioText": "When do you plan to finalize the vendor list?",
+        "optionAudioTexts": [
+          "Six vendors so far.",
+          "In the procurement folder.",
+          "By the end of this week, hopefully."
+        ],
+        "answer": 2,
+        "explanation": "When 問時間，(C)「希望本週末前」正確。(A) 回答數量、(B) 回答存放位置。"
+      },
+      {
+        "audioText": "Aren't you presenting at the conference next month?",
+        "optionAudioTexts": [
+          "No, I withdrew because of a scheduling conflict.",
+          "A very large audience.",
+          "In Hall B, I think."
+        ],
+        "answer": 0,
+        "explanation": "否定疑問句確認是否要演講，(A)「沒有，因時間衝突退出了」正確。(B)(C) 答非所問。"
+      },
+      {
+        "audioText": "How do I request access to the shared project folder?",
+        "optionAudioTexts": [
+          "It's about forty files.",
+          "Submit a ticket to the IT help desk.",
+          "Last Tuesday afternoon."
+        ],
+        "answer": 1,
+        "explanation": "How 問方法，(B)「向資訊服務台提出申請單」正確。(A) 回答檔案數、(C) 回答時間。"
+      },
+      {
+        "audioText": "Would you prefer the morning flight or the evening one?",
+        "optionAudioTexts": [
+          "Yes, I've booked it.",
+          "Terminal One, Gate Fourteen.",
+          "The evening one gives me time to pack."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句要選一項，(C)「晚班的讓我有時間打包」正確。(A) 用 Yes 回答選擇疑問句不合理。"
+      },
+      {
+        "audioText": "Why hasn't the invoice been processed yet?",
+        "optionAudioTexts": [
+          "It's missing the purchase order number.",
+          "To the accounts department.",
+          "Around four thousand euros."
+        ],
+        "answer": 0,
+        "explanation": "Why 問原因，(A)「因為少了採購單號」正確。(B) 回答去向、(C) 回答金額。"
+      },
+      {
+        "audioText": "We should probably confirm the room booking again.",
+        "optionAudioTexts": [
+          "Room 402, I believe.",
+          "It has a nice view.",
+          "Good idea — I'll call the venue this afternoon."
+        ],
+        "answer": 2,
+        "explanation": "陳述句提出建議，(C)「好主意，我下午打去場地確認」是自然回應。(A)(B) 未回應建議。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Hi, I'm returning this jacket. I bought it three weeks ago but I've never worn it — the tags are still attached.",
+          "M: No problem. Do you have the receipt with you?",
+          "W: That's the issue. I paid with my debit card but I can't find the paper receipt anywhere.",
+          "M: In that case I can look up the transaction with the last four digits of your card. If I find it, we can refund to the same card. Without any record, though, I'd only be able to offer store credit.",
+          "W: Let's try the card. The last four digits are 8-2-6-1.",
+          "M: Give me a moment... yes, here it is, August second, ninety-four dollars. I'll process the refund now; it usually appears in three to five business days."
+        ],
+        "questions": [
+          {
+            "q": "Why is the woman at the store?",
+            "options": [
+              "To exchange a jacket for a different size",
+              "To return an unworn item",
+              "To apply for a store card",
+              "To pick up an online order"
+            ],
+            "answer": 1,
+            "explanation": "女子說 I'm returning this jacket...I've never worn it，是退回未穿過的商品，故選 (B)。"
+          },
+          {
+            "q": "What problem does the woman have?",
+            "options": [
+              "She lost her receipt.",
+              "Her card was declined.",
+              "The item was damaged.",
+              "The return period has ended."
+            ],
+            "answer": 0,
+            "explanation": "I can't find the paper receipt anywhere，找不到收據，故選 (A)。"
+          },
+          {
+            "q": "What does the man say would happen without any record of the purchase?",
+            "options": [
+              "The refund would be delayed.",
+              "A restocking fee would apply.",
+              "Only store credit could be given.",
+              "A manager would need to approve it."
+            ],
+            "answer": 2,
+            "explanation": "Without any record, though, I'd only be able to offer store credit，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Yuki, the printer we ordered for the design studio arrived, but it's the wrong model. We ordered the wide-format one.",
+          "W: Let me look at the purchase order... you're right, we ordered the WF-900 and they sent the standard 400. I'll contact the supplier this morning.",
+          "M: How long do you think a replacement will take? The team has a client proof due on the twenty-eighth.",
+          "W: Their policy is five business days for an exchange, which would be cutting it close. Another option is to send the proof to the print shop on Meridian Avenue — we've used them before for oversized work.",
+          "M: That's probably safer. Can you get a quote from them so I can include it in the project cost?",
+          "W: I'll ask them to send one by noon and forward it to you."
+        ],
+        "questions": [
+          {
+            "q": "What is the problem?",
+            "options": [
+              "An order arrived late.",
+              "The wrong equipment was delivered.",
+              "A client cancelled a project.",
+              "The studio is over budget."
+            ],
+            "answer": 1,
+            "explanation": "男子說 it's the wrong model. We ordered the wide-format one，送錯機型，故選 (B)。"
+          },
+          {
+            "q": "Why is the man concerned about the timing?",
+            "options": [
+              "A client proof is due on the twenty-eighth.",
+              "The supplier is closing for a holiday.",
+              "A staff member is going on leave.",
+              "The warranty expires soon."
+            ],
+            "answer": 0,
+            "explanation": "The team has a client proof due on the twenty-eighth，有交件期限，故選 (A)。"
+          },
+          {
+            "q": "What will the woman send the man?",
+            "options": [
+              "A revised purchase order",
+              "A shipping label",
+              "A price quote",
+              "A user manual"
+            ],
+            "answer": 2,
+            "explanation": "I'll ask them to send one by noon and forward it to you，指印刷廠的報價，故選 (C)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good afternoon, and thank you for touring the Fairlane Textile Museum. Before we enter the weaving hall, a few reminders. Photography without flash is permitted throughout the building, but please do not photograph the temporary exhibition in the east gallery, as those pieces are on loan from a private collection. The looms you'll see in the next room are more than a century old, and several are still operational; our demonstration begins at two thirty and lasts about twenty minutes. If you'd like a closer look afterward, our staff will answer questions at the rail. Finally, the museum shop closes at four thirty today, half an hour earlier than the galleries, so if you plan to buy anything, please allow time.",
+        "questions": [
+          {
+            "q": "Where does the talk most likely take place?",
+            "options": [
+              "At a museum",
+              "At a textile factory",
+              "At a craft fair",
+              "At a design school"
+            ],
+            "answer": 0,
+            "explanation": "開頭 thank you for touring the Fairlane Textile Museum，是博物館導覽，故選 (A)。"
+          },
+          {
+            "q": "What restriction does the speaker mention?",
+            "options": [
+              "Bags must be checked at the entrance.",
+              "Some works may not be photographed.",
+              "Children must be accompanied by an adult.",
+              "Food is not allowed in the galleries."
+            ],
+            "answer": 1,
+            "explanation": "please do not photograph the temporary exhibition in the east gallery，故選 (B)。"
+          },
+          {
+            "q": "What does the speaker say about the museum shop?",
+            "options": [
+              "It offers a member discount.",
+              "It has moved to the east gallery.",
+              "It closes before the galleries do.",
+              "It only accepts cash."
+            ],
+            "answer": 2,
+            "explanation": "the museum shop closes at four thirty today, half an hour earlier than the galleries，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "Hi Sam, it's Diane from the Oakfield branch. I'm calling about the training session you're running for us next Tuesday. Two things have come up. First, our conference room is being used for a regional audit that day, so we've moved you to the second-floor training suite. It's actually bigger, which should be fine since our head count went up from twelve to nineteen. Second, several of the new hires start on Monday, which means they'll have had only one day of orientation before your session. You may want to spend a few extra minutes on the basics rather than assuming everyone knows the system. Let me know if that changes how much time you need, and I'll adjust the room booking. Thanks.",
+        "questions": [
+          {
+            "q": "Why is the speaker calling?",
+            "options": [
+              "To cancel a training session",
+              "To inform the listener of changes",
+              "To request training materials",
+              "To offer the listener a position"
+            ],
+            "answer": 1,
+            "explanation": "講者說 Two things have come up 並說明場地與人員變動，故選 (B)。"
+          },
+          {
+            "q": "Why was the location changed?",
+            "options": [
+              "The original room is being used for an audit.",
+              "The original room is too large.",
+              "The building is being renovated.",
+              "The session was moved to a different day."
+            ],
+            "answer": 0,
+            "explanation": "our conference room is being used for a regional audit that day，故選 (A)。"
+          },
+          {
+            "q": "What does the speaker suggest the listener do?",
+            "options": [
+              "Reduce the length of the session",
+              "Prepare printed handouts",
+              "Spend more time on basic material",
+              "Bring an additional trainer"
+            ],
+            "answer": 2,
+            "explanation": "You may want to spend a few extra minutes on the basics，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The finance team is responsible for ------- monthly reports to the head office.",
+        "options": [
+          "submit",
+          "submitting",
+          "submission",
+          "submitted"
+        ],
+        "answer": 1,
+        "explanation": "介系詞 for 後面要接動名詞 submitting。"
+      },
+      {
+        "q": "The venue can accommodate up to four hundred guests, ------- makes it ideal for the annual gala.",
+        "options": [
+          "that",
+          "what",
+          "which",
+          "who"
+        ],
+        "answer": 2,
+        "explanation": "逗號後的非限定關係子句指前面整句話，須用 which。that 不可用於非限定用法。"
+      },
+      {
+        "q": "Sales representatives are expected to respond to inquiries ------- within one business day.",
+        "options": [
+          "prompt",
+          "promptly",
+          "promptness",
+          "prompted"
+        ],
+        "answer": 1,
+        "explanation": "空格修飾動詞 respond，需要副詞 promptly（迅速地）。"
+      },
+      {
+        "q": "The two firms reached an agreement after ------- weeks of negotiation.",
+        "options": [
+          "a number",
+          "numerous",
+          "number of",
+          "numerously"
+        ],
+        "answer": 1,
+        "explanation": "空格修飾複數名詞 weeks，需要形容詞 numerous（許多的）。a number 少了 of，number of 少了冠詞。"
+      },
+      {
+        "q": "Ms. Ibarra is the only manager ------- has completed the advanced certification.",
+        "options": [
+          "who",
+          "whom",
+          "whose",
+          "which"
+        ],
+        "answer": 0,
+        "explanation": "關係子句缺主詞且先行詞為人，用主格關係代名詞 who。whom 為受格，whose 為所有格。"
+      },
+      {
+        "q": "The department must reduce spending ------- fifteen percent by the end of the fiscal year.",
+        "options": [
+          "by",
+          "of",
+          "to be",
+          "than"
+        ],
+        "answer": 0,
+        "explanation": "reduce...by + 幅度 = 減少了…（幅度），故用 by。"
+      },
+      {
+        "q": "Guests are asked to leave their room keys at the desk ------- checking out.",
+        "options": [
+          "when",
+          "while",
+          "upon",
+          "since"
+        ],
+        "answer": 2,
+        "explanation": "upon + 動名詞 = 一…就…，符合「退房時」。when/while 通常接子句，since 語意不合。"
+      },
+      {
+        "q": "The company president expressed ------- for the staff's efforts during the transition.",
+        "options": [
+          "appreciate",
+          "appreciative",
+          "appreciation",
+          "appreciatively"
+        ],
+        "answer": 2,
+        "explanation": "動詞 expressed 後面需要受詞名詞 appreciation（感謝）。"
+      },
+      {
+        "q": "Nearly all of the equipment ------- damaged in the flood has now been replaced.",
+        "options": [
+          "that was",
+          "that were",
+          "which are",
+          "who was"
+        ],
+        "answer": 0,
+        "explanation": "先行詞 equipment 為不可數名詞視為單數，且事件在過去，故用 that was。"
+      },
+      {
+        "q": "The revised manual is ------- easier to follow than the previous edition.",
+        "options": [
+          "very",
+          "considerably",
+          "too",
+          "quite"
+        ],
+        "answer": 1,
+        "explanation": "修飾比較級 easier 用 considerably（顯著地）。very、too、quite 不能直接修飾比較級。"
+      },
+      {
+        "q": "Please ensure that the samples are kept at a ------- temperature during transport.",
+        "options": [
+          "constant",
+          "constantly",
+          "constancy",
+          "constants"
+        ],
+        "answer": 0,
+        "explanation": "空格修飾名詞 temperature，需要形容詞 constant（恆定的）。"
+      },
+      {
+        "q": "The seminar will be held in the auditorium ------- more than eighty people register.",
+        "options": [
+          "if",
+          "unless",
+          "whether",
+          "despite"
+        ],
+        "answer": 0,
+        "explanation": "if 引導條件子句「如果有八十人以上報名」，語意最合。unless 為「除非不…」，語意相反。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "To: All Warehouse Staff\nFrom: Safety Committee\nSubject: Updated Forklift Certification\n\nAs of October 1, all forklift operators must hold a certification issued within the past three years. Our records show that eleven employees currently hold certificates that will [33] before that date. Those employees have been contacted individually by e-mail.\n\nRefresher courses will be offered on site on the second and fourth Wednesday of September. Each course lasts four hours and ends with a practical evaluation. There is no charge to employees, and the time counts as paid work hours. [34] you are scheduled for a shift that conflicts with both dates, speak with your supervisor as soon as possible so that an alternative can be arranged.\n\nOperators without valid certification after October 1 will be reassigned to non-driving duties until they [35] the course. We appreciate everyone's cooperation in keeping our facility safe.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "expire",
+              "expires",
+              "expired",
+              "expiring"
+            ],
+            "answer": 0,
+            "explanation": "關係子句 that will ______ 的先行詞是複數 certificates，will 後接原形動詞 expire（到期）。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "Although",
+              "If",
+              "Because",
+              "Whereas"
+            ],
+            "answer": 1,
+            "explanation": "後半句要求員工與主管聯絡，前半句是假設情況「若班表與兩個日期都衝突」，用 If。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "completes",
+              "completing",
+              "completion",
+              "complete"
+            ],
+            "answer": 3,
+            "explanation": "until 引導的時間子句主詞為 they（複數），動詞用原形 complete。"
+          }
+        ]
+      },
+      {
+        "passage": "Riverbend Farmers Market — Vendor Information\n\nThank you for your interest in selling at the Riverbend Farmers Market. Our season runs from the first Saturday in May through the last Saturday in October, and we operate rain or shine.\n\nStalls are assigned for the full season rather than week by week, which allows regular customers to find their favorite vendors in the same [36] each time. Because of this, we accept applications only until March 15. Late applications are placed on a waiting list and considered if a vendor withdraws.\n\nAll produce must be grown within one hundred kilometers of the market, and prepared foods must be made in a licensed kitchen. Vendors are [37] for providing their own tables, canopies, and change. Electricity is available at eight stalls only and must be requested on the application form.\n\nWe look forward to [38] you this season.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "occasion",
+              "direction",
+              "condition",
+              "location"
+            ],
+            "answer": 3,
+            "explanation": "文意是「常客每次都能在同一個位置找到攤商」，故選 location（位置）。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "responsibly",
+              "responsibility",
+              "responding",
+              "responsible"
+            ],
+            "answer": 3,
+            "explanation": "be responsible for = 負責…，空格需要形容詞 responsible。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "welcome",
+              "welcomed",
+              "welcoming",
+              "welcomes"
+            ],
+            "answer": 2,
+            "explanation": "look forward to 的 to 是介系詞，後接動名詞 welcoming。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Article】\nQUIET HOURS PROVE POPULAR AT LOCAL SUPERMARKET\n\nSince March, the Fenwick Grocery on Baker Road has dimmed its lights, turned off its music, and silenced its checkout scanners for two hours every Wednesday morning. The practice, known as a quiet hour, was introduced after a customer wrote to the store manager describing how difficult the usual noise level made shopping for her son, who is sensitive to loud environments.\n\nStore manager Aidan Croft said he expected the change to be a small accommodation for a handful of shoppers. Instead, Wednesday morning has become one of the store's busiest weekday periods. \"We hear from older customers, from parents with young children, from people coming off night shifts,\" Croft said. \"It turns out a lot of people would rather shop somewhere calm.\"\n\nThe store has made two adjustments since launching the program. Staff now carry small notepads so they can answer questions without raising their voices across aisles, and the in-store bakery has moved its loudest equipment to an earlier start time.\n\nThree other Fenwick locations plan to begin quiet hours next month.",
+        "questions": [
+          {
+            "q": "What prompted the store to introduce quiet hours?",
+            "options": [
+              "A company-wide policy",
+              "A decline in weekday sales",
+              "A local government requirement",
+              "A letter from a customer"
+            ],
+            "answer": 3,
+            "explanation": "was introduced after a customer wrote to the store manager，故選 (D)。"
+          },
+          {
+            "q": "What surprised Mr. Croft about the program?",
+            "options": [
+              "The staff's reaction",
+              "The length of the sessions",
+              "Its low cost",
+              "How many people use it"
+            ],
+            "answer": 3,
+            "explanation": "他原以為只是少數人受惠，結果 Wednesday morning has become one of the store's busiest weekday periods，故選 (D)。"
+          },
+          {
+            "q": "What change did the bakery make?",
+            "options": [
+              "It reduced its product range.",
+              "It moved to a different aisle.",
+              "It rescheduled noisy equipment.",
+              "It closed during quiet hours."
+            ],
+            "answer": 2,
+            "explanation": "the in-store bakery has moved its loudest equipment to an earlier start time，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Schedule】\nCEDAR HILL CONFERENCE CENTER — Saturday Program: Sustainable Packaging Forum\n\n9:00 – 9:45   Opening address: \"Where Regulation Is Heading\" — Dr. Ana Duarte, Hall A\n10:00 – 11:15  Workshop: Redesigning for Recyclability — Hall B (limit 40 participants)\n11:30 – 12:15  Panel: Costs and Consumer Response — Hall A\n12:15 – 1:30   Lunch, Terrace Level\n1:30 – 2:45   Workshop: Compostable Materials in Cold Chains — Hall B (limit 40 participants)\n3:00 – 4:00   Closing roundtable — Hall A\n\nWorkshop seats are assigned on a first-come basis at the registration desk from 8:15 A.M. Attendees may sign up for one workshop only, so that as many participants as possible can take part.\n\n【E-mail】\nFrom: Ruben Castellanos <r.castellanos@vireopack.example.com>\nTo: Hana Lindqvist <h.lindqvist@vireopack.example.com>\nSubject: Saturday plan\nDate: Thursday\n\nHana,\n\nSince we can each attend only one workshop, I suggest we split up. Our biggest open question is the cold chain issue for the dairy client, so I'll take the afternoon session and write it up.\n\nCould you take the morning workshop on recyclability? That's closer to your redesign project anyway. If we both arrive by eight fifteen we should be able to secure seats in different sessions.\n\nOne more thing — I have a call with the dairy client at eleven forty-five that I can't move. That means I'll miss the panel, so if you're free then, could you take notes? I'd particularly like to know what they say about consumer willingness to pay more.\n\nThanks,\nRuben",
+        "questions": [
+          {
+            "q": "What is indicated about the workshops?",
+            "options": [
+              "They are held in Hall A.",
+              "They must be booked online.",
+              "They require an additional fee.",
+              "Attendees may join only one."
+            ],
+            "answer": 3,
+            "explanation": "Attendees may sign up for one workshop only，故選 (D)。"
+          },
+          {
+            "q": "Which session will Mr. Castellanos attend?",
+            "options": [
+              "The opening address only",
+              "The closing roundtable only",
+              "Redesigning for Recyclability",
+              "Compostable Materials in Cold Chains"
+            ],
+            "answer": 3,
+            "explanation": "他說 I'll take the afternoon session，下午的工作坊即 Compostable Materials in Cold Chains，故選 (D)。"
+          },
+          {
+            "q": "What event will Mr. Castellanos miss?",
+            "options": [
+              "The closing roundtable",
+              "The opening address",
+              "The lunch",
+              "The panel discussion"
+            ],
+            "answer": 3,
+            "explanation": "他 11:45 有客戶通話，而 11:30–12:15 是 Panel，因此會錯過座談，故選 (D)。"
+          },
+          {
+            "q": "What does Mr. Castellanos ask Ms. Lindqvist to do?",
+            "options": [
+              "Reschedule a client call",
+              "Register for the forum online",
+              "Reserve a table at lunch",
+              "Take notes at a session"
+            ],
+            "answer": 3,
+            "explanation": "if you're free then, could you take notes?，請她做筆記，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  }
+}

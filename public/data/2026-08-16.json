@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-16",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "When will the new intern start?",
+        "optionAudioTexts": [
+          "On the first Monday of September.",
+          "In the accounting department.",
+          "She studied economics."
+        ],
+        "answer": 0,
+        "explanation": "When 問時間，(A)「九月第一個星期一」正確。(B) 回答部門、(C) 回答學歷。"
+      },
+      {
+        "audioText": "How much does it cost to ship a package overnight?",
+        "optionAudioTexts": [
+          "By tomorrow morning.",
+          "It depends on the weight.",
+          "Three packages, please."
+        ],
+        "answer": 1,
+        "explanation": "How much 問價錢，(B)「看重量而定」是合理的間接回答。(A) 回答時間、(C) 回答數量。"
+      },
+      {
+        "audioText": "Isn't the quarterly report due today?",
+        "optionAudioTexts": [
+          "A quarter past four.",
+          "In the top drawer.",
+          "Actually, they moved it to Friday."
+        ],
+        "answer": 2,
+        "explanation": "確認報告今天到期，(C)「其實延到週五了」正確回應。(A) 用 quarter 相似音混淆、(B) 回答位置。"
+      },
+      {
+        "audioText": "Could you show me how to use the new expense system?",
+        "optionAudioTexts": [
+          "Sure, do you have a few minutes now?",
+          "It was quite expensive.",
+          "At the training center."
+        ],
+        "answer": 0,
+        "explanation": "請求協助，(A)「當然，你現在有空嗎？」是自然回應。(B) 用 expense/expensive 混淆、(C) 答非所問。"
+      },
+      {
+        "audioText": "Which supplier did we use for the packaging last time?",
+        "optionAudioTexts": [
+          "About two hundred units.",
+          "Yes, we ordered it already.",
+          "Northgate Materials, I believe."
+        ],
+        "answer": 2,
+        "explanation": "Which 問哪一家，(C) 回答公司名稱正確。(A) 回答數量，(B) 用 Yes 回答 Which 疑問句不合理。"
+      },
+      {
+        "audioText": "Why is the parking lot blocked off this morning?",
+        "optionAudioTexts": [
+          "They're repainting the lines.",
+          "Behind the main building.",
+          "A monthly permit."
+        ],
+        "answer": 0,
+        "explanation": "Why 問原因，(A)「他們在重漆停車格線」正確。(B) 回答位置、(C) 回答停車證種類。"
+      },
+      {
+        "audioText": "Would you rather meet in person or by video call?",
+        "optionAudioTexts": [
+          "Yes, that's fine with me.",
+          "A video call is easier for me.",
+          "He met her last week."
+        ],
+        "answer": 1,
+        "explanation": "Would you rather A or B 是選擇疑問句，(B) 選了其中一項，正確。選擇疑問句不能用 Yes 回答，故 (A) 錯。"
+      },
+      {
+        "audioText": "The presentation slides still need to be proofread.",
+        "optionAudioTexts": [
+          "A projector and a screen.",
+          "I read it yesterday.",
+          "I can go through them after lunch."
+        ],
+        "answer": 2,
+        "explanation": "陳述句提出待辦事項，(C)「我午餐後可以看過一遍」是合適回應。(B) 用 read 混淆且時態不合。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Excuse me, I booked a rental car online for three days, but I'd like to keep it for a fourth day. Is that possible?",
+          "M: Let me check availability. Yes, we can extend it. The daily rate for the extra day would be sixty-five dollars, which is slightly higher than your online rate.",
+          "W: That's fine. One more thing — I noticed the fuel policy says I have to return the car with a full tank. Is there a gas station near the return lot?",
+          "M: There's one about half a kilometer before the airport exit, on the right-hand side. If you return the car without filling up, we charge a refueling fee of thirty dollars plus the cost of the fuel.",
+          "W: Good to know. I'll make sure to stop there.",
+          "M: I'll email you an updated confirmation with the new return date within the hour."
+        ],
+        "questions": [
+          {
+            "q": "What does the woman want to do?",
+            "options": [
+              "Cancel a reservation",
+              "Extend a rental period",
+              "Upgrade to a larger vehicle",
+              "Change her return location"
+            ],
+            "answer": 1,
+            "explanation": "女子說 I'd like to keep it for a fourth day，希望延長租期，故選 (B)。"
+          },
+          {
+            "q": "What does the man say about the extra day?",
+            "options": [
+              "It is free of charge.",
+              "It costs more than the online rate.",
+              "It requires a deposit.",
+              "It must be paid in cash."
+            ],
+            "answer": 1,
+            "explanation": "男子說 sixty-five dollars, which is slightly higher than your online rate，比線上價格高，故選 (B)。"
+          },
+          {
+            "q": "What will the man do next?",
+            "options": [
+              "Send an updated confirmation",
+              "Inspect the vehicle",
+              "Refund a service fee",
+              "Call a gas station"
+            ],
+            "answer": 0,
+            "explanation": "男子最後說 I'll email you an updated confirmation，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Rachel, have you had a chance to look at the customer feedback from the mobile app update?",
+          "W: I read through about two hundred reviews yesterday. The biggest complaint is that the login screen keeps timing out on slower connections.",
+          "M: That matches what support has been hearing. Do you think we can fix it before the September release?",
+          "W: The engineering lead thinks so, but she wants to run a two-week test with a small group of users first. That would push the release to the last week of September.",
+          "M: I'd rather delay a week than ship something unstable. Let's take that to the product meeting on Thursday.",
+          "W: I'll prepare a one-page summary of the complaint data so everyone can see the numbers."
+        ],
+        "questions": [
+          {
+            "q": "What problem are the speakers discussing?",
+            "options": [
+              "A delayed shipment",
+              "A technical issue with an app",
+              "A budget shortfall",
+              "A staffing shortage"
+            ],
+            "answer": 1,
+            "explanation": "女子說 the login screen keeps timing out，是應用程式的技術問題，故選 (B)。"
+          },
+          {
+            "q": "What does the engineering lead want to do?",
+            "options": [
+              "Hire additional developers",
+              "Cancel the update",
+              "Conduct a two-week test",
+              "Rewrite the app from scratch"
+            ],
+            "answer": 2,
+            "explanation": "she wants to run a two-week test with a small group of users first，故選 (C)。"
+          },
+          {
+            "q": "What will the woman prepare?",
+            "options": [
+              "A summary of complaint data",
+              "A new marketing plan",
+              "A budget forecast",
+              "A user manual"
+            ],
+            "answer": 0,
+            "explanation": "女子說 I'll prepare a one-page summary of the complaint data，故選 (A)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good morning, everyone, and welcome to the first session of our leadership development series. Before we begin, a few housekeeping notes. The workbooks on your table are yours to keep, and you'll find the full six-week schedule printed on the inside cover. Today we'll focus on giving feedback, and I'd like to warn you now that most of the session is hands-on. You will be working in pairs for about half of our time together, so please sit next to someone from a different department if you can. Coffee and tea are available in the hallway, and we'll break at ten forty-five. One last item: the recording of each session is posted to the internal portal by the following Monday, so if a colleague missed today, please point them there.",
+        "questions": [
+          {
+            "q": "Who most likely are the listeners?",
+            "options": [
+              "New customers",
+              "Company employees",
+              "University students",
+              "Job applicants"
+            ],
+            "answer": 1,
+            "explanation": "講者提到 sit next to someone from a different department、internal portal、colleague，聽眾是公司員工，故選 (B)。"
+          },
+          {
+            "q": "What does the speaker say about today's session?",
+            "options": [
+              "It will be mostly hands-on.",
+              "It has been shortened.",
+              "It requires a fee.",
+              "It will be led by a guest expert."
+            ],
+            "answer": 0,
+            "explanation": "講者說 most of the session is hands-on，故選 (A)。"
+          },
+          {
+            "q": "How can someone who missed the session review the material?",
+            "options": [
+              "By requesting a workbook",
+              "By attending a make-up class",
+              "By watching a recording online",
+              "By e-mailing the speaker"
+            ],
+            "answer": 2,
+            "explanation": "the recording of each session is posted to the internal portal，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "And now for the local business report. Ridgeline Bakery, which has operated from a single storefront on Cedar Avenue for nineteen years, announced yesterday that it will open a second location in the Fairmont Shopping District this fall. Owner Beatrice Lund said the decision followed two years of steady growth in wholesale orders from area restaurants. The new site will include a small café area with seating for thirty, something the original shop has never offered because of space limits. Ms. Lund expects to hire roughly fifteen new employees, with interviews beginning in early September. Applications will be accepted through the bakery's website only; the company has asked that candidates not visit the Cedar Avenue shop to apply in person.",
+        "questions": [
+          {
+            "q": "What is the report mainly about?",
+            "options": [
+              "A business expansion",
+              "A restaurant closing",
+              "A change in ownership",
+              "A new shopping district"
+            ],
+            "answer": 0,
+            "explanation": "報導說麵包店 will open a second location，主題是展店，故選 (A)。"
+          },
+          {
+            "q": "What will the new location have that the original does not?",
+            "options": [
+              "A parking garage",
+              "A seating area",
+              "A delivery service",
+              "A wholesale counter"
+            ],
+            "answer": 1,
+            "explanation": "The new site will include a small café area with seating for thirty, something the original shop has never offered，故選 (B)。"
+          },
+          {
+            "q": "How should job seekers apply?",
+            "options": [
+              "By visiting the Cedar Avenue shop",
+              "By calling the owner",
+              "Through the company website",
+              "By mailing a résumé"
+            ],
+            "answer": 2,
+            "explanation": "Applications will be accepted through the bakery's website only，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The board approved the merger only after reviewing the financial statements -------.",
+        "options": [
+          "thorough",
+          "thoroughness",
+          "thoroughly",
+          "more thorough"
+        ],
+        "answer": 2,
+        "explanation": "空格修飾動名詞 reviewing 的動作，需要副詞 thoroughly（徹底地）。"
+      },
+      {
+        "q": "------- the storm damaged several roofs, the resort was able to reopen within two days.",
+        "options": [
+          "Although",
+          "Therefore",
+          "Despite",
+          "Whether"
+        ],
+        "answer": 0,
+        "explanation": "前後語意相反且空格後為完整子句，用連接詞 Although。Despite 是介系詞須接名詞，Therefore 是副詞。"
+      },
+      {
+        "q": "Applicants must submit ------- transcripts along with the completed application form.",
+        "options": [
+          "office",
+          "official",
+          "officially",
+          "officer"
+        ],
+        "answer": 1,
+        "explanation": "空格修飾名詞 transcripts，需要形容詞 official（正式的）。"
+      },
+      {
+        "q": "The manual explains how to operate the machine ------- damaging the sensors.",
+        "options": [
+          "without",
+          "unless",
+          "besides that",
+          "no matter"
+        ],
+        "answer": 0,
+        "explanation": "without + 動名詞 = 在不…的情況下，符合「不損壞感應器的操作方式」。unless 須接子句。"
+      },
+      {
+        "q": "Sales of the new headphones ------- steadily since the advertising campaign began.",
+        "options": [
+          "rise",
+          "rose",
+          "have risen",
+          "are rising"
+        ],
+        "answer": 2,
+        "explanation": "since + 過去時間點搭配現在完成式 have risen，表示從過去持續到現在。"
+      },
+      {
+        "q": "The maintenance crew will inspect the generators ------- month to prevent breakdowns.",
+        "options": [
+          "every",
+          "all",
+          "each of",
+          "some"
+        ],
+        "answer": 0,
+        "explanation": "every + 單數名詞 month = 每個月。all 與 some 後接複數或不可數名詞，each of 後須接限定詞加複數名詞。"
+      },
+      {
+        "q": "Ms. Fontaine was praised for her ------- to complete the audit ahead of schedule.",
+        "options": [
+          "able",
+          "ably",
+          "ability",
+          "enable"
+        ],
+        "answer": 2,
+        "explanation": "her 後面要接名詞，且 ability to + 原形動詞為固定用法，故選 ability。"
+      },
+      {
+        "q": "The two departments worked ------- to redesign the customer onboarding process.",
+        "options": [
+          "collaborate",
+          "collaborative",
+          "collaboratively",
+          "collaboration"
+        ],
+        "answer": 2,
+        "explanation": "空格修飾動詞 worked，需要副詞 collaboratively（協同地）。"
+      },
+      {
+        "q": "Refunds will be issued to ------- who purchased tickets before the schedule change.",
+        "options": [
+          "those",
+          "them",
+          "which",
+          "whoever"
+        ],
+        "answer": 0,
+        "explanation": "those who = 那些…的人，是固定用法。them 不能接關係子句 who，which 用於物。"
+      },
+      {
+        "q": "The contract clearly states that either party may ------- the agreement with sixty days' notice.",
+        "options": [
+          "terminate",
+          "termination",
+          "terminal",
+          "terminated"
+        ],
+        "answer": 0,
+        "explanation": "情態助動詞 may 後接原形動詞 terminate（終止）。"
+      },
+      {
+        "q": "The plant manager attributed the improved output ------- the upgraded conveyor system.",
+        "options": [
+          "to",
+          "for",
+          "on",
+          "with"
+        ],
+        "answer": 0,
+        "explanation": "attribute A to B = 把 A 歸因於 B，是固定搭配。"
+      },
+      {
+        "q": "------- of the sales representatives is responsible for a specific geographic region.",
+        "options": [
+          "All",
+          "Many",
+          "Several",
+          "Each"
+        ],
+        "answer": 3,
+        "explanation": "動詞是單數 is，主詞須為單數，Each of + 複數名詞視為單數。All/Many/Several 皆搭配複數動詞 are。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Thank you for subscribing to Coastline Monthly.\n\nYour subscription begins with the September issue, which should [33] your mailing address within the next two weeks. If it has not arrived by September 10, please contact our circulation office so that a replacement copy can be sent at no cost. As a new subscriber, you also receive unlimited access to our online archive, which contains every issue published since 1998. To activate this benefit, visit our website and create an account using the subscriber number printed above your name on the mailing label. [34] you move during the subscription period, please update your address online at least three weeks before the change takes effect. Issues returned to us by the postal service cannot always be [35], and delivery may be interrupted.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "reaches",
+              "reaching",
+              "reached",
+              "reach"
+            ],
+            "answer": 3,
+            "explanation": "情態助動詞 should 後接原形動詞 reach（抵達）。reach 為及物動詞，後面直接接 your mailing address，不加介系詞。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "Despite",
+              "Because of",
+              "Whereas",
+              "Should"
+            ],
+            "answer": 3,
+            "explanation": "Should you move... 是 If you should move 的倒裝，表示「萬一您搬家」。Despite 與 Because of 須接名詞。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "forwarding",
+              "forward",
+              "forwards",
+              "forwarded"
+            ],
+            "answer": 3,
+            "explanation": "be + 過去分詞的被動語態，「被退回的期刊未必能被轉寄」，故選 forwarded。"
+          }
+        ]
+      },
+      {
+        "passage": "Notice to Tenants — Kingsley Office Tower\n\nBeginning next Monday, the building's main entrance on Wells Street will be temporarily closed while the revolving door is replaced. Tenants and their visitors should instead use the side entrance on Pike Lane, which will be staffed by a security officer from six in the morning until nine at night. Please inform any clients with scheduled [36] so that they are not delayed. Deliveries will continue to be accepted at the loading dock as usual; however, couriers must now sign in at the temporary desk just inside the Pike Lane doors. The work is [37] to take about three weeks. We will notify all tenants by e-mail as soon as the main entrance reopens, and we thank you for your [38] during this period.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "appliances",
+              "appointments",
+              "arrangements",
+              "attachments"
+            ],
+            "answer": 1,
+            "explanation": "文意是「請告知有預約的客戶，以免他們被耽誤」，故選 appointments（預約）。appliances 是家電，attachments 是附件。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "expecting",
+              "expectation",
+              "expectantly",
+              "expected"
+            ],
+            "answer": 3,
+            "explanation": "be expected to + 原形動詞 = 預計將…，是被動用法的固定句型。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "patient",
+              "patiently",
+              "patients",
+              "patience"
+            ],
+            "answer": 3,
+            "explanation": "your 後面要接名詞，thank you for your patience（感謝您的耐心）是慣用語。patients 是「病人」，語意不合。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Advertisement】\nGreenstep Bicycle Share — Now in Three New Neighborhoods\n\nStarting this month, Greenstep docking stations are available in Hillcrest, Lambton, and the Riverfront district, bringing our network to forty-two stations citywide.\n\nHow it works: download the Greenstep app, choose a plan, and unlock any bike with the code shown on your screen. The Day Pass costs $6 and allows unlimited thirty-minute rides for twenty-four hours. The Monthly Plan costs $19 and includes rides of up to forty-five minutes. Rides that exceed your plan's limit are billed at $2 per additional fifteen minutes.\n\nUntil September 30, riders who register with the code NEWROUTE will have the $19 monthly fee waived for their first month. The offer applies to new accounts only and cannot be combined with corporate discounts.\n\nQuestions? Visit greenstep-share.com or call our rider line at 555-0198.",
+        "questions": [
+          {
+            "q": "What is being advertised?",
+            "options": [
+              "A bicycle repair shop",
+              "A bike sharing service",
+              "A city bus route",
+              "A fitness club"
+            ],
+            "answer": 1,
+            "explanation": "廣告介紹 Greenstep docking stations、unlock any bike、Day Pass 等，是共享單車服務，故選 (B)。"
+          },
+          {
+            "q": "What is a difference between the two plans?",
+            "options": [
+              "The number of stations available",
+              "The type of bicycle provided",
+              "The area of the city covered",
+              "The length of a single ride"
+            ],
+            "answer": 3,
+            "explanation": "Day Pass 為 thirty-minute rides，Monthly Plan 為 up to forty-five minutes，差別在單次騎乘時間，故選 (D)。"
+          },
+          {
+            "q": "What is true about the promotional offer?",
+            "options": [
+              "It is available to all riders.",
+              "It runs through the end of the year.",
+              "It is limited to new accounts.",
+              "It can be combined with a corporate discount."
+            ],
+            "answer": 2,
+            "explanation": "The offer applies to new accounts only，僅限新帳號，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Article】\nCITY REVIEWS PARKING RULES NEAR TRANSIT HUB\n\nThe Fairhaven city council will vote next Tuesday on a proposal to convert 180 free street parking spaces near the Central Transit Hub into two-hour metered spaces. Council member Diana Rowe, who introduced the measure, said the change is intended to discourage all-day parking by commuters who then take the train out of the city.\n\n\"Local shop owners have told us for years that customers can't find a space after eight in the morning,\" Rowe said at a public hearing on Monday. Merchants in the Hub district largely support the proposal, though several asked that the two-hour limit not apply on Sundays.\n\nOpposition has come mainly from residents of the adjoining Weller neighborhood, who fear that displaced commuters will simply park on their streets. In response, the transportation office has proposed a residential permit program for Weller that would begin at the same time as the meters. The permits would cost $30 per year for the first vehicle in a household and $75 for a second.\n\nIf the measure passes, meter installation would begin in November and take about ten weeks.",
+        "questions": [
+          {
+            "q": "What is the proposal mainly intended to do?",
+            "options": [
+              "Raise money for a new train station",
+              "Reduce all-day commuter parking",
+              "Widen streets near the transit hub",
+              "Ban cars from the Hub district"
+            ],
+            "answer": 1,
+            "explanation": "文中說 the change is intended to discourage all-day parking by commuters，故選 (B)。"
+          },
+          {
+            "q": "What change did some merchants request?",
+            "options": [
+              "Lower meter rates",
+              "More loading zones",
+              "An exception on Sundays",
+              "A longer construction period"
+            ],
+            "answer": 2,
+            "explanation": "several asked that the two-hour limit not apply on Sundays，故選 (C)。"
+          },
+          {
+            "q": "Why do Weller residents object to the plan?",
+            "options": [
+              "They want the meters installed sooner.",
+              "They oppose the cost of the permits.",
+              "They rarely use the transit hub.",
+              "They believe commuters will park in their neighborhood."
+            ],
+            "answer": 3,
+            "explanation": "residents ... fear that displaced commuters will simply park on their streets，故選 (D)。"
+          },
+          {
+            "q": "How much would a household pay for a permit for a second car?",
+            "options": [
+              "$180",
+              "$30",
+              "$45",
+              "$75"
+            ],
+            "answer": 3,
+            "explanation": "$30 per year for the first vehicle in a household and $75 for a second，第二輛為 $75，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  }
+}

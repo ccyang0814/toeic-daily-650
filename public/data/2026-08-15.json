@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-15",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Who's going to lead the safety training tomorrow?",
+        "optionAudioTexts": [
+          "In the east wing of the plant.",
+          "Ms. Alvarez from the HR department.",
+          "It lasted almost three hours."
+        ],
+        "answer": 1,
+        "explanation": "Who 問人，(B)「人資部的 Alvarez 小姐」正確。(A) 回答地點，(C) 回答時間長度且為過去式，都答非所問。"
+      },
+      {
+        "audioText": "Where can I find the updated price list?",
+        "optionAudioTexts": [
+          "It's posted on the shared drive.",
+          "About twenty dollars each.",
+          "Yes, the prices went up."
+        ],
+        "answer": 0,
+        "explanation": "Where 問地點，(A)「放在共用磁碟上」正確。(B) 回答價格，(C) 用 Yes 回答 Where 疑問句，文法上就不合理。"
+      },
+      {
+        "audioText": "Why don't we take the train instead of driving?",
+        "optionAudioTexts": [
+          "A round-trip fare, please.",
+          "He drove to the station.",
+          "That's a good idea. It's much faster."
+        ],
+        "answer": 2,
+        "explanation": "Why don't we... 是提議句型，(C)「好主意，快多了」表示同意，故正確。(A) 回答票種、(B) 重複 drive 混淆。"
+      },
+      {
+        "audioText": "How long will the office renovation take?",
+        "optionAudioTexts": [
+          "Roughly six weeks.",
+          "On the third floor.",
+          "The contractor is Mr. Reed."
+        ],
+        "answer": 0,
+        "explanation": "How long 問期間，(A)「大約六週」正確。(B) 回答地點、(C) 回答人名。"
+      },
+      {
+        "audioText": "Did you get my message about the deadline?",
+        "optionAudioTexts": [
+          "A brand-new messenger bag.",
+          "Sorry, I haven't checked my inbox yet.",
+          "Please hold the line."
+        ],
+        "answer": 1,
+        "explanation": "問是否收到訊息，(B)「抱歉，我還沒看信箱」正確。(A) 用 message/messenger 相似音混淆，(C) 是接電話用語。"
+      },
+      {
+        "audioText": "Should I email the invoice or send it by mail?",
+        "optionAudioTexts": [
+          "Yes, I already paid it.",
+          "The mailroom is on the first floor.",
+          "Email would be faster."
+        ],
+        "answer": 2,
+        "explanation": "A or B 選擇疑問句要選一個，(C)「寄 email 比較快」正確。選擇疑問句不能用 Yes 回答，(A) 錯；(B) 重複 mail 混淆。"
+      },
+      {
+        "audioText": "What time does the shuttle leave for the airport?",
+        "optionAudioTexts": [
+          "At Terminal Three.",
+          "It's a company van.",
+          "Every hour on the half hour."
+        ],
+        "answer": 2,
+        "explanation": "What time 問時間，(C)「每小時的三十分發車」正確。(A) 回答地點、(B) 回答車種。"
+      },
+      {
+        "audioText": "The catering order hasn't arrived yet, has it?",
+        "optionAudioTexts": [
+          "No, but they just called to say they're five minutes away.",
+          "It was delicious, thank you.",
+          "Twelve boxes of copy paper."
+        ],
+        "answer": 0,
+        "explanation": "附加問句確認餐點還沒到，(A)「還沒，但他們說五分鐘後到」正確。(B) 時態為過去式且答非所問，(C) 是文具數量。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Daniel, the movers confirmed they'll start packing our department on Friday evening. Do you know if the IT team will handle the computers?",
+          "M: They said they'll disconnect everything Friday afternoon, but each of us has to back up our own files first. There's a deadline of noon on Friday.",
+          "W: That's tighter than I expected. I have a client presentation Friday morning, so I'll do my backup on Thursday night instead.",
+          "M: Good plan. Also, remember to label your desk boxes with the new room number, not your name. The movers sort them by room.",
+          "W: Where do I find my new room number?",
+          "M: It's in the floor plan that Karen emailed on Monday. Let me forward it to you again."
+        ],
+        "questions": [
+          {
+            "q": "What are the speakers mainly discussing?",
+            "options": [
+              "An office move",
+              "A software upgrade",
+              "A client complaint",
+              "A hiring decision"
+            ],
+            "answer": 0,
+            "explanation": "女子提到 the movers confirmed they'll start packing our department，整段圍繞搬遷準備，故選 (A)。"
+          },
+          {
+            "q": "Why will the woman back up her files on Thursday?",
+            "options": [
+              "Her computer is being repaired.",
+              "She will be giving a presentation Friday morning.",
+              "The server is down on Friday.",
+              "She will be on vacation."
+            ],
+            "answer": 1,
+            "explanation": "女子說 I have a client presentation Friday morning, so I'll do my backup on Thursday night，故選 (B)。"
+          },
+          {
+            "q": "What does the man offer to do?",
+            "options": [
+              "Pack the woman's boxes",
+              "Contact the moving company",
+              "Resend a floor plan",
+              "Postpone the deadline"
+            ],
+            "answer": 2,
+            "explanation": "男子最後說 Let me forward it to you again，指 Karen 寄的樓層平面圖，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Good afternoon. I'm calling about the treadmill I ordered from your store last week. The box arrived, but one of the side rails is dented.",
+          "W: I'm very sorry about that, sir. Could you give me your order number so I can look it up?",
+          "M: It's 4-7-2-9-1. I'd rather not return the whole machine if I don't have to. Could you just send a replacement rail?",
+          "W: Let me check. Yes, we do stock that part separately. I can ship it out today, and it should reach you within three business days at no charge.",
+          "M: That works. Do I need to install it myself?",
+          "W: The part comes with instructions, but if you'd prefer, we can send a technician for a forty-dollar service fee."
+        ],
+        "questions": [
+          {
+            "q": "What problem does the man report?",
+            "options": [
+              "An item arrived damaged.",
+              "An order was never delivered.",
+              "He was charged twice.",
+              "The wrong color was sent."
+            ],
+            "answer": 0,
+            "explanation": "男子說 one of the side rails is dented（側桿凹了一塊），屬於商品受損，故選 (A)。"
+          },
+          {
+            "q": "What does the man request?",
+            "options": [
+              "A full refund",
+              "A replacement part",
+              "An extended warranty",
+              "A store credit"
+            ],
+            "answer": 1,
+            "explanation": "男子說 Could you just send a replacement rail?，只要求換零件，故選 (B)。"
+          },
+          {
+            "q": "What does the woman say costs extra?",
+            "options": [
+              "Express shipping",
+              "Gift wrapping",
+              "Installation service",
+              "An extra rail"
+            ],
+            "answer": 2,
+            "explanation": "女子說 we can send a technician for a forty-dollar service fee，安裝服務要另外收費，故選 (C)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Hello, this is Priya Nandan calling from Westbrook Dental. I'm phoning to confirm your cleaning appointment scheduled for Thursday, the twelfth, at four o'clock with Dr. Ellis. Please note that our parking garage is closed for resurfacing this week, so we recommend using the public lot on Miller Street, which is about a two-minute walk from our entrance. Also, if you have dental insurance through a new provider, please bring your card so our front desk can update your file before your appointment. If you need to reschedule, call us back at 555-0142 by Wednesday afternoon to avoid a cancellation fee. Thank you, and we look forward to seeing you.",
+        "questions": [
+          {
+            "q": "What is the purpose of the message?",
+            "options": [
+              "To confirm an appointment",
+              "To announce a new location",
+              "To advertise a discount",
+              "To collect an overdue payment"
+            ],
+            "answer": 0,
+            "explanation": "開頭說 I'm phoning to confirm your cleaning appointment，目的是確認預約，故選 (A)。"
+          },
+          {
+            "q": "Why does the speaker mention Miller Street?",
+            "options": [
+              "A new clinic opened there.",
+              "It is where patients should park.",
+              "The office moved there.",
+              "A street festival is being held."
+            ],
+            "answer": 1,
+            "explanation": "訊息說停車場整修，we recommend using the public lot on Miller Street，是建議停車地點，故選 (B)。"
+          },
+          {
+            "q": "What are listeners asked to bring?",
+            "options": [
+              "A photo ID",
+              "A referral letter",
+              "An insurance card",
+              "A previous X-ray"
+            ],
+            "answer": 2,
+            "explanation": "please bring your card so our front desk can update your file，指保險卡，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "Attention, shoppers. Thank you for visiting Greenfield Market this evening. As part of our summer appreciation week, all fresh produce in aisles one and two is thirty percent off through Sunday. In addition, customers who spend forty dollars or more today will receive a reusable shopping bag at checkout while supplies last. Please note that our deli counter will close one hour early tonight, at eight o'clock, so that our staff can prepare for tomorrow's delivery. If you need assistance locating an item, our team members in green vests are stationed at the end of each aisle and will be glad to help. Thank you for shopping with us.",
+        "questions": [
+          {
+            "q": "Where is the announcement being made?",
+            "options": [
+              "At a restaurant",
+              "At a grocery store",
+              "At a garden center",
+              "At a warehouse"
+            ],
+            "answer": 1,
+            "explanation": "廣播提到 shoppers、fresh produce in aisles、deli counter、checkout，是超市場景，故選 (B)。"
+          },
+          {
+            "q": "How can customers receive a free bag?",
+            "options": [
+              "By spending at least forty dollars",
+              "By joining a membership program",
+              "By returning an old bag",
+              "By shopping before eight o'clock"
+            ],
+            "answer": 0,
+            "explanation": "customers who spend forty dollars or more today will receive a reusable shopping bag，故選 (A)。"
+          },
+          {
+            "q": "What will happen at eight o'clock tonight?",
+            "options": [
+              "A sale will begin.",
+              "A delivery will arrive.",
+              "The deli counter will close.",
+              "The store will lock its doors."
+            ],
+            "answer": 2,
+            "explanation": "our deli counter will close one hour early tonight, at eight o'clock，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The technicians worked overtime ------- the equipment would be ready before the inspection.",
+        "options": [
+          "so that",
+          "in case",
+          "even if",
+          "as well as"
+        ],
+        "answer": 0,
+        "explanation": "so that + 子句表「以便…」，符合「加班以便設備在檢查前就緒」的邏輯。in case 是「以防萬一」，even if 是「即使」，as well as 連接對等成分。"
+      },
+      {
+        "q": "Ms. Delgado's proposal was ------- received by the board members.",
+        "options": [
+          "favor",
+          "favorable",
+          "favorably",
+          "favorite"
+        ],
+        "answer": 2,
+        "explanation": "空格修飾動詞 received，要用副詞 favorably（正面地）。favor 名詞/動詞、favorable 形容詞、favorite 形容詞。"
+      },
+      {
+        "q": "All visitors are required to ------- at the front desk before entering the laboratory.",
+        "options": [
+          "register",
+          "registration",
+          "registered",
+          "registering"
+        ],
+        "answer": 0,
+        "explanation": "be required to + 原形動詞，故用 register。其餘為名詞或非原形形式。"
+      },
+      {
+        "q": "The company has expanded its delivery network ------- across three additional provinces.",
+        "options": [
+          "signify",
+          "significance",
+          "significant",
+          "significantly"
+        ],
+        "answer": 3,
+        "explanation": "空格修飾動詞片語 has expanded，需要副詞 significantly（大幅地）。"
+      },
+      {
+        "q": "------- of the two candidates has the manufacturing experience the position requires.",
+        "options": [
+          "Both",
+          "Neither",
+          "Every",
+          "Any"
+        ],
+        "answer": 1,
+        "explanation": "Neither of + 複數名詞 + 單數動詞 has，語意為「兩位都沒有」。Both 要接複數動詞 have，Every 不能接 of。"
+      },
+      {
+        "q": "Employees who wish to attend the seminar should notify their supervisors ------- Friday.",
+        "options": [
+          "no later than",
+          "as far as",
+          "in spite of",
+          "rather than"
+        ],
+        "answer": 0,
+        "explanation": "no later than = 最晚不遲於，符合期限語意。其餘片語語意不合。"
+      },
+      {
+        "q": "The consultant's report identified several ------- to improving warehouse efficiency.",
+        "options": [
+          "obstacles",
+          "obstacle",
+          "obstruct",
+          "obstructive"
+        ],
+        "answer": 0,
+        "explanation": "several 後接可數名詞複數，故選 obstacles（障礙）。obstacle 為單數，obstruct 動詞，obstructive 形容詞。"
+      },
+      {
+        "q": "------- the heavy demand, the factory added a second production shift.",
+        "options": [
+          "Because",
+          "Due to",
+          "So that",
+          "Although"
+        ],
+        "answer": 1,
+        "explanation": "空格後是名詞片語 the heavy demand，要用介系詞片語 Due to。Because 與 So that 後面須接子句。"
+      },
+      {
+        "q": "The new tablet model is priced ------- lower than its main competitor.",
+        "options": [
+          "very",
+          "much",
+          "too",
+          "so"
+        ],
+        "answer": 1,
+        "explanation": "修飾比較級 lower 要用 much（也可用 far/even）。very 不能修飾比較級。"
+      },
+      {
+        "q": "Please make sure that the confidential files are stored ------- in the locked cabinet.",
+        "options": [
+          "secure",
+          "security",
+          "securely",
+          "securing"
+        ],
+        "answer": 2,
+        "explanation": "空格修飾被動動詞 are stored，需要副詞 securely（安全地）。"
+      },
+      {
+        "q": "The renovation project is expected to be completed ------- schedule despite the recent delays.",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "for"
+        ],
+        "answer": 0,
+        "explanation": "固定用法 on schedule = 按進度、如期。at/in/for schedule 皆非慣用搭配。"
+      },
+      {
+        "q": "Mr. Okafor has been with the firm ------- it opened its first branch in Lagos.",
+        "options": [
+          "for",
+          "during",
+          "since",
+          "while"
+        ],
+        "answer": 2,
+        "explanation": "現在完成式 has been 搭配 since + 過去事件子句，表「自從…以來」。for 後接期間長度，during 後接名詞。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "To: All Department Heads\nFrom: Operations Office\nSubject: Quarterly Budget Submissions\n\nThis is a reminder that fourth-quarter budget requests are [33] no later than August 29. Submissions received after that date cannot be reviewed in time for the September board meeting. Please use the revised spreadsheet template, which is available on the company intranet under \"Finance Forms.\" The template now includes a separate column for equipment purchases over two thousand dollars. [34] requests in this category must be accompanied by at least two vendor quotations. If your department is planning a project that spans more than one quarter, indicate this clearly in the notes field so that funds can be [35] correctly. Thank you for your prompt attention to this matter.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "due",
+              "dued",
+              "duly",
+              "duty"
+            ],
+            "answer": 0,
+            "explanation": "be due + 時間 = 到期、應繳交，符合「最晚 8/29 前繳交」。duly 是副詞「適時地」，duty 是名詞「職責」，dued 不存在。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "Nevertheless",
+              "Furthermore",
+              "Such",
+              "Instead"
+            ],
+            "answer": 2,
+            "explanation": "前句提到兩千元以上的設備採購，此句 Such requests 指「這類申請」，語意連貫。其餘為轉折或增補副詞，無法直接修飾名詞 requests。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "allocating",
+              "allocation",
+              "allocate",
+              "allocated"
+            ],
+            "answer": 3,
+            "explanation": "can be + 過去分詞構成被動語態，「經費才能被正確分配」，故選 allocated。"
+          }
+        ]
+      },
+      {
+        "passage": "Harborview Fitness Center — Member Notice\n\nStarting September 1, the swimming pool will operate on extended hours, opening at five thirty in the morning on weekdays. This change comes in [36] to a member survey in which early-morning access was the most frequently requested improvement. Lap lanes will be reserved for adult swimmers until seven o'clock, after which the pool is open to all members. Please note that the sauna will remain closed for repairs [37] the end of the month. We appreciate your patience while the work is completed. Members with questions about the new schedule may speak with any staff member at the front desk or consult the [38] posted beside the locker rooms.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "addition",
+              "response",
+              "advance",
+              "charge"
+            ],
+            "answer": 1,
+            "explanation": "in response to = 回應…，符合「因應會員問卷結果」。in addition to 是「除了」，in advance 是「事先」，in charge of 是「負責」。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "by",
+              "since",
+              "during",
+              "until"
+            ],
+            "answer": 3,
+            "explanation": "remain closed 是持續狀態，搭配 until（持續到…為止）。by 表期限用於一次性動作，since 用於完成式。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "invoice",
+              "receipt",
+              "timetable",
+              "warranty"
+            ],
+            "answer": 2,
+            "explanation": "問的是新的開放時間，因此查看張貼的 timetable（時間表）最合理。其餘為發票、收據、保固書。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Notice】\nMaplewood Public Library — Temporary Service Changes\n\nFrom August 18 through August 30, the second floor of the library will be closed while new carpeting is installed. During this period, the reference collection and the six study rooms normally located on that floor will be unavailable. Reference librarians will be stationed at the main desk on the first floor and can retrieve materials on request, usually within fifteen minutes.\n\nPatrons who have reserved a study room during these dates will be contacted by e-mail and offered a booking at our Riverbend branch, located a ten-minute bus ride away. Public computers and the children's section on the first floor will operate as usual. The book drop outside the main entrance will also remain open at all hours.\n\nWe regret the inconvenience and thank you for your understanding.",
+        "questions": [
+          {
+            "q": "What is the purpose of the notice?",
+            "options": [
+              "To promote a new library branch",
+              "To request donations for repairs",
+              "To introduce a new librarian",
+              "To announce a temporary closure"
+            ],
+            "answer": 3,
+            "explanation": "公告說 the second floor of the library will be closed while new carpeting is installed，目的是告知暫時關閉，故選 (D)。"
+          },
+          {
+            "q": "What will happen to existing study room reservations?",
+            "options": [
+              "Patrons will receive a refund.",
+              "They will be canceled without notice.",
+              "They will be moved to the first floor.",
+              "Patrons will be offered space at another branch."
+            ],
+            "answer": 3,
+            "explanation": "文中說 will be contacted by e-mail and offered a booking at our Riverbend branch，故選 (D)。"
+          },
+          {
+            "q": "What is NOT affected by the changes?",
+            "options": [
+              "The second floor",
+              "The reference collection",
+              "The study rooms",
+              "The children's section"
+            ],
+            "answer": 3,
+            "explanation": "Public computers and the children's section on the first floor will operate as usual，兒童區照常運作，故選 (D)。"
+          }
+        ]
+      },
+      {
+        "passage": "【E-mail 1】\nFrom: Tomas Berg <t.berg@northlinelogistics.com>\nTo: Amelia Sato <a.sato@sunridgefoods.com>\nSubject: Revised Shipping Quotation\nDate: June 4\n\nDear Ms. Sato,\n\nThank you for your inquiry about weekly refrigerated shipments from your Portland facility to our Denver distribution hub. Based on the volume you described — approximately eighteen pallets per week — I can offer a rate of $1,150 per shipment, which is nine percent below our standard rate. This price assumes a twelve-month agreement and pickup on Tuesday mornings.\n\nIf you prefer a shorter contract, a six-month agreement is available at $1,240 per shipment. Please let me know which option you would like to pursue.\n\nRegards,\nTomas Berg\n\n【E-mail 2】\nFrom: Amelia Sato <a.sato@sunridgefoods.com>\nTo: Tomas Berg <t.berg@northlinelogistics.com>\nSubject: RE: Revised Shipping Quotation\nDate: June 6\n\nDear Mr. Berg,\n\nThank you for the revised figures. Our management is comfortable committing to the longer term, so we will take the twelve-month option. However, Tuesday pickups conflict with our production schedule; Wednesday mornings would suit us far better. Please confirm whether this is possible at the same rate.\n\nWe would also like to add a second delivery point in Salt Lake City beginning in October. If you could send a separate estimate for that leg, I will include it in our budget planning.\n\nBest regards,\nAmelia Sato",
+        "questions": [
+          {
+            "q": "What kind of business does Mr. Berg most likely work for?",
+            "options": [
+              "A food manufacturer",
+              "A shipping company",
+              "A construction firm",
+              "An accounting agency"
+            ],
+            "answer": 1,
+            "explanation": "Mr. Berg 提供 shipping quotation、per shipment 的費率與取貨安排，任職於運輸公司，故選 (B)。"
+          },
+          {
+            "q": "How much will Ms. Sato's company pay per shipment?",
+            "options": [
+              "$1,240",
+              "$1,800",
+              "It has not been decided.",
+              "$1,150"
+            ],
+            "answer": 3,
+            "explanation": "第一封信說十二個月合約為 $1,150；第二封信 Sato 說 we will take the twelve-month option，故選 (D)。"
+          },
+          {
+            "q": "What change does Ms. Sato request?",
+            "options": [
+              "A shorter contract",
+              "A larger pallet size",
+              "A lower price",
+              "A different pickup day"
+            ],
+            "answer": 3,
+            "explanation": "她說 Wednesday mornings would suit us far better，要求改取貨日，故選 (D)。"
+          },
+          {
+            "q": "What does Ms. Sato ask Mr. Berg to provide?",
+            "options": [
+              "A list of available warehouses",
+              "A signed contract",
+              "A refund for a late delivery",
+              "An estimate for an additional route"
+            ],
+            "answer": 3,
+            "explanation": "她說 send a separate estimate for that leg，指鹽湖城新增路線的報價，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  }
+}

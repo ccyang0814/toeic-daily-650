@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-21",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "How soon can you have the translation ready?",
+        "optionAudioTexts": [
+          "From Spanish into English.",
+          "By Thursday at the latest.",
+          "A certified translator."
+        ],
+        "answer": 1,
+        "explanation": "How soon 問多快完成，(B)「最晚週四」正確。(A) 回答語言、(C) 回答譯者身分。"
+      },
+      {
+        "audioText": "Where are the extra chairs stored?",
+        "optionAudioTexts": [
+          "In the closet behind the stage.",
+          "Forty of them, I think.",
+          "They're quite comfortable."
+        ],
+        "answer": 0,
+        "explanation": "Where 問地點，(A)「舞台後方的儲藏室」正確。(B) 回答數量、(C) 評論舒適度。"
+      },
+      {
+        "audioText": "Didn't Mr. Halvorsen transfer to the Oslo office?",
+        "optionAudioTexts": [
+          "A direct flight, yes.",
+          "In the sales division.",
+          "He did, back in April."
+        ],
+        "answer": 2,
+        "explanation": "否定疑問句確認調職，(C)「是的，四月的事」正確。(A)(B) 答非所問。"
+      },
+      {
+        "audioText": "Should I book the venue now or wait for the headcount?",
+        "optionAudioTexts": [
+          "Yes, that's the one we used before.",
+          "Book it now — good dates fill up fast.",
+          "About a hundred guests."
+        ],
+        "answer": 1,
+        "explanation": "選擇疑問句要選一項，(B)「現在訂，好日期很快滿」正確。(A) 用 Yes 回答選擇疑問句不合理。"
+      },
+      {
+        "audioText": "What's included in the standard warranty?",
+        "optionAudioTexts": [
+          "Parts and labor for two years.",
+          "At the service center on Elm Street.",
+          "It cost nine hundred dollars."
+        ],
+        "answer": 0,
+        "explanation": "What 問內容，(A)「兩年的零件與工資」正確。(B) 回答地點、(C) 回答價格。"
+      },
+      {
+        "audioText": "Could someone help me move these boxes to the archive room?",
+        "optionAudioTexts": [
+          "The archives go back to 1985.",
+          "I'm free in about ten minutes.",
+          "Yes, they're quite heavy."
+        ],
+        "answer": 1,
+        "explanation": "請求協助，(B)「我大概十分鐘後有空」是實質回應。(C) 只是附和，未表示是否協助。"
+      },
+      {
+        "audioText": "Why did the client ask for a second revision?",
+        "optionAudioTexts": [
+          "By Friday morning.",
+          "Their legal team flagged some wording.",
+          "Two rounds are included."
+        ],
+        "answer": 1,
+        "explanation": "Why 問原因，(B)「他們的法務標出一些措辭問題」正確。(A) 回答期限、(C) 說明合約條款。"
+      },
+      {
+        "audioText": "The training videos still haven't been uploaded.",
+        "optionAudioTexts": [
+          "I watched two of them.",
+          "A high-definition camera.",
+          "IT said the server maintenance finishes tonight."
+        ],
+        "answer": 2,
+        "explanation": "陳述句指出問題，(C)「資訊部說伺服器維護今晚結束」解釋了原因，是合適回應。(A)(B) 未回應問題。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Andre, I looked at the draft budget for the community festival. The line for the sound system seems high — eleven thousand?",
+          "M: That's for three stages. Last year we only had two, and we had constant complaints about the acoustic stage being drowned out by the main one.",
+          "W: I remember. Is there any way to reduce it without cutting a stage?",
+          "M: The vendor offered a nine-thousand option if we sign by the end of this month. It's the same equipment, just an early-booking rate.",
+          "W: Then let's sign now. Can you get the contract to me by Friday so I can have it reviewed?",
+          "M: I'll ask them to send it tomorrow. One caution — the early rate requires a fifty percent deposit up front rather than the usual twenty-five."
+        ],
+        "questions": [
+          {
+            "q": "What are the speakers reviewing?",
+            "options": [
+              "A festival budget",
+              "A construction contract",
+              "A staff schedule",
+              "A marketing plan"
+            ],
+            "answer": 0,
+            "explanation": "女子說 I looked at the draft budget for the community festival，故選 (A)。"
+          },
+          {
+            "q": "Why is the sound system cost higher this year?",
+            "options": [
+              "Prices have risen.",
+              "An additional stage is planned.",
+              "The event lasts longer.",
+              "A new vendor was hired."
+            ],
+            "answer": 1,
+            "explanation": "That's for three stages. Last year we only had two，多了一個舞台，故選 (B)。"
+          },
+          {
+            "q": "What does the man caution the woman about?",
+            "options": [
+              "A shorter warranty",
+              "A change of venue",
+              "A larger deposit",
+              "A delivery delay"
+            ],
+            "answer": 2,
+            "explanation": "the early rate requires a fifty percent deposit up front rather than the usual twenty-five，訂金較高，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Thanks for taking my call. I'm following up on the article we discussed for the October issue.",
+          "W: Yes, the piece on remote onboarding. How's it coming along?",
+          "M: The writing is done, but two of the three companies I interviewed have asked to review their quotations before publication. That could take another week.",
+          "W: Our print deadline is the twelfth, so a week would be very tight. Could you send me what you have now, and we'll treat the quote approvals as a separate step?",
+          "M: That works. I'll send the full draft this evening and flag the two quotes that are still pending.",
+          "W: Good. If either company doesn't respond by the ninth, we'll paraphrase rather than quote directly. That's standard practice for us."
+        ],
+        "questions": [
+          {
+            "q": "What is the man working on?",
+            "options": [
+              "A magazine article",
+              "A training video",
+              "A company website",
+              "A conference talk"
+            ],
+            "answer": 0,
+            "explanation": "討論 the article we discussed for the October issue 與 print deadline，是雜誌文章，故選 (A)。"
+          },
+          {
+            "q": "What is causing a delay?",
+            "options": [
+              "A missing photograph",
+              "Companies wanting to review quotations",
+              "A change of editor",
+              "A software problem"
+            ],
+            "answer": 1,
+            "explanation": "two of the three companies...have asked to review their quotations before publication，故選 (B)。"
+          },
+          {
+            "q": "What does the woman say will happen if a company does not respond?",
+            "options": [
+              "The article will be postponed.",
+              "The company will be removed entirely.",
+              "Its comments will be paraphrased.",
+              "A different source will be interviewed."
+            ],
+            "answer": 2,
+            "explanation": "we'll paraphrase rather than quote directly，故選 (C)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good morning, everyone. As you know, our building switched to a new visitor management system last week, and I want to walk through what that means day to day. Previously, you signed guests in at the lobby book. Now you must register visitors online at least one hour before they arrive. The system sends them a QR code by e-mail, which they scan at the turnstile. If a guest arrives without a code, security will call your desk, and you'll need to come down to escort them — the front desk can no longer issue paper passes. I know this feels like extra work, but our insurance provider required an auditable record of everyone in the building. One practical tip: if you have a recurring visitor, such as a weekly contractor, you can register them once for up to ninety days rather than each week.",
+        "questions": [
+          {
+            "q": "What is the talk mainly about?",
+            "options": [
+              "A new visitor registration system",
+              "A change to office hours",
+              "A building renovation",
+              "A new insurance plan"
+            ],
+            "answer": 0,
+            "explanation": "講者說 our building switched to a new visitor management system 並說明流程，故選 (A)。"
+          },
+          {
+            "q": "What must employees do if a guest arrives without a code?",
+            "options": [
+              "Ask the front desk for a paper pass",
+              "Escort the guest personally",
+              "Cancel the appointment",
+              "Register the guest at the turnstile"
+            ],
+            "answer": 1,
+            "explanation": "security will call your desk, and you'll need to come down to escort them，故選 (B)。"
+          },
+          {
+            "q": "What tip does the speaker give?",
+            "options": [
+              "Arrive one hour early",
+              "Use a mobile app instead",
+              "Register frequent visitors for ninety days",
+              "Print codes in advance"
+            ],
+            "answer": 2,
+            "explanation": "you can register them once for up to ninety days rather than each week，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "This is the automated line for Beacon Appliance Repair. Our office hours are Monday through Friday, eight to six, and Saturday, nine to one. If you are calling to schedule a repair, please stay on the line and a representative will assist you shortly; current wait time is about four minutes. If you are calling about an appointment already scheduled for today, press two, and our dispatcher will give you an updated arrival window. Please note that our technicians carry parts for the most common repairs, but if a special order is needed, a second visit will be required and there is no additional service charge for that follow-up. For billing questions, please visit our website, where you can view invoices and make payments; our billing office does not take calls after four o'clock.",
+        "questions": [
+          {
+            "q": "What type of business recorded this message?",
+            "options": [
+              "A moving company",
+              "An appliance repair service",
+              "An insurance agency",
+              "A hardware store"
+            ],
+            "answer": 1,
+            "explanation": "開頭說 This is the automated line for Beacon Appliance Repair，故選 (B)。"
+          },
+          {
+            "q": "Why would a caller press two?",
+            "options": [
+              "To check on a scheduled appointment",
+              "To order a replacement part",
+              "To speak with a manager",
+              "To leave a complaint"
+            ],
+            "answer": 0,
+            "explanation": "If you are calling about an appointment already scheduled for today, press two，故選 (A)。"
+          },
+          {
+            "q": "What does the message say about a follow-up visit?",
+            "options": [
+              "It must be booked online.",
+              "It is not offered on Saturdays.",
+              "It carries no extra service charge.",
+              "It requires a deposit."
+            ],
+            "answer": 2,
+            "explanation": "there is no additional service charge for that follow-up，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The consultant recommended that the team ------- its reporting process before expanding.",
+        "options": [
+          "simplifies",
+          "simplify",
+          "simplified",
+          "simplifying"
+        ],
+        "answer": 1,
+        "explanation": "recommend that + 主詞 + 原形動詞（假設語氣），故用 simplify。"
+      },
+      {
+        "q": "Attendance at the safety briefing is ------- for all site personnel.",
+        "options": [
+          "mandate",
+          "mandatory",
+          "mandatorily",
+          "mandating"
+        ],
+        "answer": 1,
+        "explanation": "be 動詞後需要形容詞作主詞補語，mandatory（強制的）正確。"
+      },
+      {
+        "q": "The shipment will arrive ------- Tuesday, according to the carrier's tracking page.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "of"
+        ],
+        "answer": 1,
+        "explanation": "星期前面用介系詞 on。"
+      },
+      {
+        "q": "------- of the applicants had prior experience with industrial coatings.",
+        "options": [
+          "Almost",
+          "Most",
+          "Much",
+          "Nearly"
+        ],
+        "answer": 1,
+        "explanation": "Most of + 限定名詞是正確結構。Almost 與 Nearly 是副詞不能直接接 of，Much 用於不可數名詞。"
+      },
+      {
+        "q": "The updated software runs ------- on older devices than the previous version did.",
+        "options": [
+          "smooth",
+          "smoothly",
+          "more smoothly",
+          "smoothest"
+        ],
+        "answer": 2,
+        "explanation": "句中有 than，須用比較級；修飾動詞 runs 要用副詞，故選 more smoothly。"
+      },
+      {
+        "q": "The grant will be awarded to the proposal judged ------- innovative by the review panel.",
+        "options": [
+          "most",
+          "much",
+          "very much",
+          "many"
+        ],
+        "answer": 0,
+        "explanation": "the + 最高級 most innovative，指評審認為最具創新的提案。"
+      },
+      {
+        "q": "Customers may return unopened items ------- thirty days of purchase.",
+        "options": [
+          "within",
+          "during",
+          "among",
+          "between"
+        ],
+        "answer": 0,
+        "explanation": "within + 一段時間 = 在…之內，符合「購買後三十天內」。"
+      },
+      {
+        "q": "The plant operates at full ------- only during the summer months.",
+        "options": [
+          "capable",
+          "capacity",
+          "capably",
+          "capacious"
+        ],
+        "answer": 1,
+        "explanation": "at full capacity = 滿載運轉，是固定名詞片語。"
+      },
+      {
+        "q": "Neither proposal ------- the environmental requirements set out in the tender.",
+        "options": [
+          "meeting",
+          "to meet",
+          "meet",
+          "meets"
+        ],
+        "answer": 3,
+        "explanation": "Neither + 單數名詞 proposal 當主詞時動詞用單數 meets。"
+      },
+      {
+        "q": "The chef sources ------- of her ingredients from farms in the surrounding valley.",
+        "options": [
+          "near",
+          "nearby",
+          "nearly all",
+          "nearest"
+        ],
+        "answer": 2,
+        "explanation": "sources 後面需要受詞，nearly all of her ingredients（幾乎所有食材）語法與語意皆通。"
+      },
+      {
+        "q": "Employees who work remotely must remain ------- during core business hours.",
+        "options": [
+          "reaching",
+          "reached",
+          "reach",
+          "reachable"
+        ],
+        "answer": 3,
+        "explanation": "remain 為連綴動詞，後接形容詞 reachable（可聯絡到的）。"
+      },
+      {
+        "q": "The board postponed the vote ------- gathering additional information from the auditors.",
+        "options": [
+          "pending",
+          "although",
+          "whereas",
+          "however"
+        ],
+        "answer": 0,
+        "explanation": "pending = 在…之前、等待…期間，為介系詞可接動名詞。其餘皆為連接詞或副詞。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Dear Mr. Ashford,\n\nThank you for your inquiry about renting the Lakeview Pavilion for your company's anniversary celebration on November 14.\n\nThe pavilion is [33] on that date. The rental period runs from noon until eleven at night and includes tables, chairs, and basic lighting for up to two hundred guests. Catering must be arranged through one of the four companies on our approved list, which I have attached.\n\nOne detail I should bring to your attention: amplified music must end by ten o'clock because of a local ordinance. Many clients continue with background music at a lower volume [34] the guests depart. We can also provide a portable heater package for an additional two hundred dollars, which most November clients find [35] given the evening temperatures.\n\nTo hold the date, we require a signed agreement and a twenty percent deposit within ten days.\n\nSincerely,\nTessa Moreau",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "available",
+              "availably",
+              "availability",
+              "avail"
+            ],
+            "answer": 0,
+            "explanation": "be 動詞後需要形容詞 available（可租用的）。availability 為名詞，語法不合。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "until",
+              "since",
+              "unless",
+              "so that"
+            ],
+            "answer": 0,
+            "explanation": "「以較小音量的背景音樂持續到賓客離開為止」，用 until 表持續到某時間點。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "necessary",
+              "necessarily",
+              "necessity",
+              "necessitate"
+            ],
+            "answer": 0,
+            "explanation": "find + 受詞 + 形容詞的句型，故用 necessary（有必要的）。"
+          }
+        ]
+      },
+      {
+        "passage": "Employee Newsletter — Wellness Program Update\n\nOur on-site wellness room, which opened in February, has been used by more than three hundred employees to date. Based on your feedback, we are making three changes this quarter.\n\nFirst, the room will now be [36] from six in the morning rather than seven, so that those on the early shift can use it before work. Second, we have added a second massage chair, since the single chair often had a waiting list. Third, booking is moving from the paper sign-up sheet to the intranet calendar. [37] the paper sheet will remain on the door through September, all reservations made after October 1 must be entered online.\n\nWe are also exploring a partnership with a nearby fitness studio that would give employees a discounted rate. Nothing has been finalized, but we will share details as soon as an agreement is [38].",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "accessibly",
+              "accessing",
+              "access",
+              "accessible"
+            ],
+            "answer": 3,
+            "explanation": "will be + 形容詞 accessible（可進入使用的），符合語意「從早上六點起開放」。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "Because",
+              "So",
+              "Therefore",
+              "While"
+            ],
+            "answer": 3,
+            "explanation": "前後子句語意對比（紙本表暫留、但十月起須線上預約），用連接詞 While（雖然）。Therefore 是副詞不能連接兩個子句。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "reaching",
+              "reach",
+              "reaches",
+              "reached"
+            ],
+            "answer": 3,
+            "explanation": "an agreement is ______ 為被動語態，reach an agreement（達成協議）的被動形式為 is reached。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Letter】\nHarlow & Vance Accounting\n72 Kingsway Road, Braxton\n\nAugust 3\n\nMs. Odette Marchand\nMarchand Ceramics\n15 Potters Lane, Braxton\n\nDear Ms. Marchand,\n\nThank you for meeting with me last Thursday to discuss bookkeeping support for your studio.\n\nAs we discussed, I recommend the quarterly service rather than the monthly package. Your transaction volume — roughly sixty invoices per quarter — does not justify monthly reconciliation, and the quarterly fee of $340 would save you close to $900 a year compared with the monthly option.\n\nI would, however, suggest one addition. Because you now sell through two online marketplaces as well as your own site, the sales tax reporting has become more complicated than it was last year. For an extra $60 per quarter, we can handle the filings for all three channels rather than only your own site.\n\nIf this arrangement suits you, I will prepare an engagement letter. I would like to begin with the quarter ending September 30, which means I would need access to your records by October 7.\n\nPlease call me at 555-0121 with any questions.\n\nSincerely,\nGareth Vance",
+        "questions": [
+          {
+            "q": "Why does Mr. Vance recommend the quarterly service?",
+            "options": [
+              "Monthly service is unavailable.",
+              "Her business is new.",
+              "She requested it specifically.",
+              "Ms. Marchand's transaction volume is low."
+            ],
+            "answer": 3,
+            "explanation": "Your transaction volume...does not justify monthly reconciliation，交易量不足以支撐每月對帳，故選 (D)。"
+          },
+          {
+            "q": "What additional service does Mr. Vance propose?",
+            "options": [
+              "Inventory valuation",
+              "Payroll processing",
+              "Sales tax filings for all channels",
+              "Annual audit preparation"
+            ],
+            "answer": 2,
+            "explanation": "we can handle the filings for all three channels rather than only your own site，故選 (C)。"
+          },
+          {
+            "q": "What does Mr. Vance need by October 7?",
+            "options": [
+              "A signed engagement letter",
+              "A deposit payment",
+              "Access to business records",
+              "A list of marketplace accounts"
+            ],
+            "answer": 2,
+            "explanation": "I would need access to your records by October 7，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Announcement】\nBRIARWOOD PUBLISHING — Internal Announcement\n\nWe are pleased to announce that Priyanka Sethi has been appointed Director of Digital Products, effective September 1.\n\nPriyanka joined Briarwood eight years ago as an editorial assistant and has since led the launch of our audiobook division, which now accounts for nineteen percent of company revenue. Before joining us, she spent four years at a software company, where she managed subscription products.\n\nIn her new role, Priyanka will oversee the audiobook team, our e-book operations, and the subscription platform we plan to launch next spring. She will report directly to the Chief Operating Officer.\n\nA reception will be held in the atrium on August 29 at four o'clock. All staff are welcome.\n\n【E-mail】\nFrom: Priyanka Sethi <p.sethi@briarwoodpub.example.com>\nTo: Digital Products Team <digitalteam@briarwoodpub.example.com>\nSubject: A few notes before September\nDate: August 20\n\nHello everyone,\n\nThank you for the kind messages this week. I want to share two things before the transition.\n\nFirst, I have asked that the audiobook team keep its current weekly meeting and format. I know several of you were concerned that the structure would change immediately; it will not. Any changes will come after I've spent a full quarter listening.\n\nSecond, the subscription platform timeline is the one area where I do expect early decisions. Our spring launch date leaves little room, and I would like to meet each of the three sub-teams individually in the first two weeks of September. Miguel is circulating a scheduling poll today — please respond by Friday.\n\nI'm looking forward to working with all of you.\n\nPriyanka",
+        "questions": [
+          {
+            "q": "What is stated about Ms. Sethi's career at Briarwood?",
+            "options": [
+              "She was hired from a competing publisher.",
+              "She founded the company's e-book division.",
+              "She has worked there for four years.",
+              "She began as an editorial assistant."
+            ],
+            "answer": 3,
+            "explanation": "Priyanka joined Briarwood eight years ago as an editorial assistant，故選 (D)。"
+          },
+          {
+            "q": "What will Ms. Sethi NOT be responsible for in her new role?",
+            "options": [
+              "The audiobook team",
+              "E-book operations",
+              "The subscription platform",
+              "Print distribution"
+            ],
+            "answer": 3,
+            "explanation": "公告列出她負責 audiobook team、e-book operations、subscription platform，未提及印刷發行，故選 (D)。"
+          },
+          {
+            "q": "What does Ms. Sethi reassure her team about?",
+            "options": [
+              "The spring launch has been postponed.",
+              "Salaries will be reviewed early.",
+              "Their meeting structure will stay the same for now.",
+              "No one will be relocated."
+            ],
+            "answer": 2,
+            "explanation": "I have asked that the audiobook team keep its current weekly meeting and format...it will not [change]，故選 (C)。"
+          },
+          {
+            "q": "What are team members asked to do by Friday?",
+            "options": [
+              "Submit a project update",
+              "Review the launch timeline",
+              "Attend the reception",
+              "Reply to a scheduling poll"
+            ],
+            "answer": 3,
+            "explanation": "Miguel is circulating a scheduling poll today — please respond by Friday，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  }
+}

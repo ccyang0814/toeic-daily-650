@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-17",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Which route do you usually take to the distribution center?",
+        "optionAudioTexts": [
+          "The highway, unless there's construction.",
+          "About fifty kilometers.",
+          "Yes, twice a week."
+        ],
+        "answer": 0,
+        "explanation": "Which 問哪一條路線，(A)「走高速公路，除非在施工」正確。(B) 回答距離、(C) 用 Yes 回答 Which 疑問句不合理。"
+      },
+      {
+        "audioText": "Has the new receptionist been assigned a security badge?",
+        "optionAudioTexts": [
+          "In the lobby, near the elevators.",
+          "Not yet, but HR is processing it.",
+          "She's very friendly."
+        ],
+        "answer": 1,
+        "explanation": "Yes/No 疑問句問是否已辦好識別證，(B)「還沒，人資在處理」正確。(A) 回答地點、(C) 回答個性。"
+      },
+      {
+        "audioText": "Who approved this purchase order?",
+        "optionAudioTexts": [
+          "Six hundred dollars.",
+          "Last Thursday afternoon.",
+          "The regional director did."
+        ],
+        "answer": 2,
+        "explanation": "Who 問人，(C)「區域主管批准的」正確。(A) 回答金額、(B) 回答時間。"
+      },
+      {
+        "audioText": "Why don't you join us for the site visit on Wednesday?",
+        "optionAudioTexts": [
+          "I'd love to, but I have a client call then.",
+          "It's a construction site.",
+          "About thirty kilometers away."
+        ],
+        "answer": 0,
+        "explanation": "邀請句型，(A)「我很想去，但那時有客戶通話」是禮貌婉拒，正確。(B)(C) 答非所問。"
+      },
+      {
+        "audioText": "Where did you put the samples from the trade show?",
+        "optionAudioTexts": [
+          "Yes, the show was very busy.",
+          "I locked them in the supply closet.",
+          "Next March in Frankfurt."
+        ],
+        "answer": 1,
+        "explanation": "Where 問地點，(B)「我鎖在文具櫃裡」正確。(A) 用 Yes 回答 Where 不合理，(C) 回答時間地點但指展覽本身。"
+      },
+      {
+        "audioText": "Do you want me to reserve a table for six or for eight?",
+        "optionAudioTexts": [
+          "At the Italian place on Grand Street.",
+          "Yes, I'd like a reservation.",
+          "Make it eight, just to be safe."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句要選其中一項，(C)「訂八人的，保險一點」正確。(B) 用 Yes 回答選擇疑問句不合理。"
+      },
+      {
+        "audioText": "How often does the committee meet?",
+        "optionAudioTexts": [
+          "Once every two months.",
+          "In the small boardroom.",
+          "Twelve members in total."
+        ],
+        "answer": 0,
+        "explanation": "How often 問頻率，(A)「每兩個月一次」正確。(B) 回答地點、(C) 回答人數。"
+      },
+      {
+        "audioText": "I thought the software license expired in June.",
+        "optionAudioTexts": [
+          "A soft leather case.",
+          "Please sign here.",
+          "We renewed it for another year."
+        ],
+        "answer": 2,
+        "explanation": "陳述句表達認知，(C)「我們已續約一年」提供更正資訊，正確。(A) 用 software/soft 混淆、(B) 答非所問。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "M: Hi, I'm here for the ten-thirty interview with Ms. Okonkwo. My name is Victor Reyes.",
+          "W: Welcome, Mr. Reyes. I'll let her know you've arrived. I should mention that she's finishing an earlier meeting, so there may be a ten-minute delay.",
+          "M: No problem at all. While I wait, is there somewhere I could print an extra copy of my portfolio? I only brought two.",
+          "W: There's a business center on the second floor, but it requires a guest code. I can print it for you here if you email the file to reception@arcadiadesign.com.",
+          "M: That's very kind. I'll send it right now. Two copies would be perfect.",
+          "W: Of course. Please help yourself to water or coffee from the counter while you wait."
+        ],
+        "questions": [
+          {
+            "q": "Why is the man at the office?",
+            "options": [
+              "To attend a job interview",
+              "To deliver a package",
+              "To repair a printer",
+              "To meet a client for lunch"
+            ],
+            "answer": 0,
+            "explanation": "男子說 I'm here for the ten-thirty interview with Ms. Okonkwo，是來面試的，故選 (A)。"
+          },
+          {
+            "q": "What does the woman warn the man about?",
+            "options": [
+              "A parking restriction",
+              "A short delay",
+              "A closed elevator",
+              "A cancelled meeting"
+            ],
+            "answer": 1,
+            "explanation": "女子說 there may be a ten-minute delay，提醒會晚十分鐘，故選 (B)。"
+          },
+          {
+            "q": "What does the woman offer to do?",
+            "options": [
+              "Print some documents",
+              "Give a building tour",
+              "Reschedule the appointment",
+              "Call a taxi"
+            ],
+            "answer": 0,
+            "explanation": "女子說 I can print it for you here if you email the file，主動提議代印，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "W: Kenji, the caterer just called about the awards dinner. They can't source the salmon we planned for the main course.",
+          "M: That's unfortunate. Did they suggest anything else?",
+          "W: They offered either roasted chicken or a mushroom risotto at the same price per plate. Since about a quarter of our guests marked vegetarian on the reply cards, the risotto might actually simplify things.",
+          "M: True, but a few of our sponsors specifically mentioned they were looking forward to the seafood. Could we offer both options and let guests choose at the table?",
+          "W: The caterer charges an extra four dollars per person for a dual menu. For two hundred guests, that's eight hundred dollars.",
+          "M: We still have room in the contingency budget. Let's do it — I'll confirm with the finance office this afternoon."
+        ],
+        "questions": [
+          {
+            "q": "What is the problem?",
+            "options": [
+              "A venue is unavailable.",
+              "A planned dish cannot be provided.",
+              "Too few guests have replied.",
+              "The event budget was cut."
+            ],
+            "answer": 1,
+            "explanation": "女子說 They can't source the salmon we planned for the main course，主菜食材買不到，故選 (B)。"
+          },
+          {
+            "q": "What does the man suggest?",
+            "options": [
+              "Offering guests two choices",
+              "Cancelling the dinner",
+              "Finding a new caterer",
+              "Reducing the guest list"
+            ],
+            "answer": 0,
+            "explanation": "男子說 Could we offer both options and let guests choose at the table?，故選 (A)。"
+          },
+          {
+            "q": "What will the man do this afternoon?",
+            "options": [
+              "Call the sponsors",
+              "Taste the new menu",
+              "Contact the finance office",
+              "Print new reply cards"
+            ],
+            "answer": 2,
+            "explanation": "男子說 I'll confirm with the finance office this afternoon，故選 (C)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Thank you all for joining today's product demonstration. Over the next twenty minutes, I'll show you how the Vertex scanner reduces the time your warehouse staff spend on inventory counts. Before I start, I want to address the question I hear most often, which is whether the device works with existing inventory software. The short answer is yes — Vertex exports to the four most widely used platforms without any custom programming. Now, if you look at the table at the back of the room, you'll see three units set up for you to try after the demonstration. Please don't handle them during the presentation itself, since they're currently synced to my display. I'll take questions at the end, and my colleague Miguel will collect business cards from anyone who'd like a written quotation.",
+        "questions": [
+          {
+            "q": "What is the speaker mainly demonstrating?",
+            "options": [
+              "A warehouse layout plan",
+              "An inventory scanning device",
+              "An accounting program",
+              "A shipping service"
+            ],
+            "answer": 1,
+            "explanation": "講者說 I'll show you how the Vertex scanner reduces the time...on inventory counts，是盤點掃描設備，故選 (B)。"
+          },
+          {
+            "q": "What concern does the speaker address at the beginning?",
+            "options": [
+              "Software compatibility",
+              "The purchase price",
+              "Delivery times",
+              "Battery life"
+            ],
+            "answer": 0,
+            "explanation": "the question I hear most often, which is whether the device works with existing inventory software，是相容性問題，故選 (A)。"
+          },
+          {
+            "q": "What does the speaker ask listeners not to do?",
+            "options": [
+              "Take photographs",
+              "Ask questions during the talk",
+              "Touch the units during the presentation",
+              "Sit near the back of the room"
+            ],
+            "answer": 2,
+            "explanation": "Please don't handle them during the presentation itself，請勿在簡報中操作機器，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "Good evening, and thank you for tuning in to Weekend Roundup on Radio 88. Tonight we're previewing the Lakeshore Arts Festival, which runs Friday through Sunday along the waterfront promenade. More than ninety artists will exhibit, and for the first time the festival includes an outdoor sculpture walk stretching from Pier Four to the old lighthouse. Admission is free, but the Saturday evening concert requires a ticket, which you can buy at the festival information booth or online in advance. Organizers are urging visitors to take public transit, as the waterfront parking lots will be used for vendor vehicles. Extra ferry service will run every fifteen minutes from the east side of the harbor. We'll be broadcasting live from the festival on Saturday afternoon, so come by and say hello.",
+        "questions": [
+          {
+            "q": "What is new at this year's festival?",
+            "options": [
+              "A sculpture walk",
+              "A free concert",
+              "A children's area",
+              "An indoor exhibition hall"
+            ],
+            "answer": 0,
+            "explanation": "for the first time the festival includes an outdoor sculpture walk，是今年首次新增，故選 (A)。"
+          },
+          {
+            "q": "What requires a ticket?",
+            "options": [
+              "Entry to the festival",
+              "The Saturday evening concert",
+              "The ferry service",
+              "The sculpture walk"
+            ],
+            "answer": 1,
+            "explanation": "Admission is free, but the Saturday evening concert requires a ticket，故選 (B)。"
+          },
+          {
+            "q": "Why are visitors advised to use public transit?",
+            "options": [
+              "Roads will be closed for repairs.",
+              "Transit is free during the festival.",
+              "Parking lots will be used by vendors.",
+              "The festival site is far from the city."
+            ],
+            "answer": 2,
+            "explanation": "the waterfront parking lots will be used for vendor vehicles，停車場被攤商佔用，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The hotel offers a complimentary breakfast to ------- who books directly through its website.",
+        "options": [
+          "anyone",
+          "someone",
+          "everybody",
+          "another"
+        ],
+        "answer": 0,
+        "explanation": "anyone who = 任何…的人，符合條件式語意「凡是透過官網訂房者」。someone 指某位特定的人，another 指另一個。"
+      },
+      {
+        "q": "The engineers are still ------- whether the prototype can be produced at scale.",
+        "options": [
+          "determine",
+          "determined",
+          "determining",
+          "determination"
+        ],
+        "answer": 2,
+        "explanation": "are still + 現在分詞構成進行式，故用 determining（判斷中）。"
+      },
+      {
+        "q": "Sales figures for the third quarter exceeded our forecast by ------- ten percent.",
+        "options": [
+          "near",
+          "nearly",
+          "nearby",
+          "nearest"
+        ],
+        "answer": 1,
+        "explanation": "修飾數字要用副詞 nearly（將近）。near 是介系詞/形容詞，nearby 指附近的。"
+      },
+      {
+        "q": "Please keep the receipt ------- you need to exchange the item within thirty days.",
+        "options": [
+          "in case",
+          "so that",
+          "as if",
+          "even though"
+        ],
+        "answer": 0,
+        "explanation": "in case = 以防萬一，符合「以防三十天內要換貨」。so that 表目的但語意不順，as if 表「彷彿」。"
+      },
+      {
+        "q": "The revised policy will take effect ------- January 1 of next year.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "by"
+        ],
+        "answer": 1,
+        "explanation": "特定日期前用介系詞 on。in 用於月份或年份，at 用於時刻。"
+      },
+      {
+        "q": "Neither the supervisor nor the technicians ------- aware of the schedule change.",
+        "options": [
+          "was",
+          "were",
+          "has been",
+          "is"
+        ],
+        "answer": 1,
+        "explanation": "neither A nor B 的動詞與最靠近的主詞一致，technicians 為複數，故用 were。"
+      },
+      {
+        "q": "The workshop provides participants with ------- guidance on preparing grant applications.",
+        "options": [
+          "practice",
+          "practical",
+          "practically",
+          "practiced"
+        ],
+        "answer": 1,
+        "explanation": "空格修飾名詞 guidance，需要形容詞 practical（實用的）。"
+      },
+      {
+        "q": "Once the software update ------- installed, please restart your computer.",
+        "options": [
+          "has been",
+          "will be",
+          "is being",
+          "had been"
+        ],
+        "answer": 0,
+        "explanation": "Once 引導的時間副詞子句不用未來式，用現在完成式 has been installed 表示「一旦安裝完成」。"
+      },
+      {
+        "q": "Mr. Haddad has served on the advisory panel ------- more than a decade.",
+        "options": [
+          "since",
+          "for",
+          "during",
+          "from"
+        ],
+        "answer": 1,
+        "explanation": "for + 一段時間長度（more than a decade）。since 後接時間起點，during 後接特定期間名詞。"
+      },
+      {
+        "q": "The instructions were written so ------- that even first-time users had no difficulty.",
+        "options": [
+          "clearer",
+          "clarity",
+          "clear",
+          "clearly"
+        ],
+        "answer": 3,
+        "explanation": "空格修飾被動動詞 were written，需要副詞 clearly，並構成 so...that 句型。"
+      },
+      {
+        "q": "The committee will announce its ------- at the end of the review period.",
+        "options": [
+          "decide",
+          "decisive",
+          "decision",
+          "decidedly"
+        ],
+        "answer": 2,
+        "explanation": "所有格 its 後面要接名詞 decision（決定）。"
+      },
+      {
+        "q": "------- to the loading dock is restricted to authorized personnel only.",
+        "options": [
+          "Access",
+          "Accessible",
+          "Accessing to",
+          "Accessed"
+        ],
+        "answer": 0,
+        "explanation": "句子缺主詞，需要名詞 Access，且 access to 為固定搭配。若用動詞 access 則不接 to。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Dear Ms. Whitfield,\n\nWe are writing to inform you that your equipment maintenance plan for the Hallmark X3 copier will expire on September 30. Records show that our technicians have made four service visits to your office during the current term, three of which were covered [33] under the plan. To continue uninterrupted coverage, please return the enclosed renewal form by September 20.\n\nThis year we are introducing a second option. In addition to the standard plan, we now offer a premium plan that guarantees a technician on site within four business hours of your call. [34] plan includes replacement toner at no extra charge. Because your office reported two urgent breakdowns last spring, you may find the premium tier worth the additional cost.\n\nIf you would like to discuss which plan best [35] your needs, please call me directly at extension 3306.\n\nSincerely,\nOliver Grantham\nService Accounts",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "entirety",
+              "entireness",
+              "entire",
+              "entirely"
+            ],
+            "answer": 3,
+            "explanation": "空格修飾被動動詞 were covered，需要副詞 entirely（完全地）。entire 為形容詞，entirety 為名詞。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "Either",
+              "Neither",
+              "None",
+              "Both"
+            ],
+            "answer": 0,
+            "explanation": "共有兩種方案且兩者都含免費碳粉，Either plan（任一方案）搭配單數動詞 includes 最合適。Both 要搭配複數動詞 include。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "suiting",
+              "to suit",
+              "suit",
+              "suits"
+            ],
+            "answer": 3,
+            "explanation": "名詞子句 which plan best ______ your needs 的主詞 plan 為單數，動詞用 suits。"
+          }
+        ]
+      },
+      {
+        "passage": "Volunteer Orientation — Ashford Community Garden\n\nWelcome, and thank you for signing up. All new volunteers must attend one orientation session before their first shift. Sessions are held on the first and third Saturday of each month at nine in the morning and last about ninety minutes. You will learn basic tool safety, our composting procedures, and how to record your hours in the online log.\n\nPlease wear closed-toe shoes and bring a water bottle; gloves and hand tools are [36] by the garden. Sunscreen is also recommended, as much of the site is [37] to direct sunlight throughout the day.\n\nIf you cannot attend either scheduled session in a given month, contact the volunteer coordinator, who can arrange an individual walkthrough. [38], we ask that you give at least three days' notice so that a staff member can be assigned.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "supplying",
+              "supply",
+              "supplies",
+              "supplied"
+            ],
+            "answer": 3,
+            "explanation": "are + 過去分詞的被動語態，「手套與工具由園區提供」，故選 supplied。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "exposing",
+              "exposure",
+              "expose",
+              "exposed"
+            ],
+            "answer": 3,
+            "explanation": "be exposed to = 暴露於…，是固定被動用法，故選 exposed。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "For instance",
+              "As a result",
+              "In that case",
+              "On the contrary"
+            ],
+            "answer": 2,
+            "explanation": "前句說可另約個別導覽，In that case（若是那樣的話）承接該情境並提出要求，語意最連貫。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Text message chain】\n\nNadia Prasad (8:12 A.M.): Hi Tom, I'm at the Bridgeport warehouse but the loading bay is chained shut. Was the pickup moved?\n\nTom Whitaker (8:15 A.M.): You're early — the crew there doesn't open bay three until nine on weekdays. Bay one around the corner should be open now, though.\n\nNadia Prasad (8:17 A.M.): I don't see a bay one from where I'm parked. Is it on the Danforth side?\n\nTom Whitaker (8:18 A.M.): Yes, drive past the fuel tanks and turn left. Ask for Reggie and mention the Sunridge order — he has the manifest.\n\nNadia Prasad (8:31 A.M.): Found it. Reggie says two of the twelve crates are still in cold storage and won't be ready until nine fifteen.\n\nTom Whitaker (8:33 A.M.): That's fine. Wait for them rather than making a second trip. Let me know when you're on the road.",
+        "questions": [
+          {
+            "q": "Why does Ms. Prasad contact Mr. Whitaker?",
+            "options": [
+              "She has lost the delivery address.",
+              "Her vehicle has broken down.",
+              "She needs a copy of an invoice.",
+              "She cannot access the loading bay."
+            ],
+            "answer": 3,
+            "explanation": "她說 the loading bay is chained shut，無法進入裝卸區，故選 (D)。"
+          },
+          {
+            "q": "At 8:33 A.M., what does Mr. Whitaker mean when he writes, \"That's fine\"?",
+            "options": [
+              "He is satisfied with the crate count.",
+              "He approves of a change in route.",
+              "He accepts a short wait for the remaining crates.",
+              "He agrees to cancel the order."
+            ],
+            "answer": 2,
+            "explanation": "前一則訊息說兩箱貨要等到 9:15，Whitaker 回 That's fine 並說 Wait for them，表示接受短暫等待，故選 (C)。"
+          },
+          {
+            "q": "What is Ms. Prasad asked to do?",
+            "options": [
+              "Return to the office",
+              "Make a second trip later",
+              "Notify Mr. Whitaker when she departs",
+              "Sign for the crates in cold storage"
+            ],
+            "answer": 2,
+            "explanation": "Let me know when you're on the road，請她出發時告知，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Web page】\nMERIDIAN LANGUAGE INSTITUTE — Corporate Training\n\nMeridian designs English communication courses for companies in the finance, engineering, and hospitality sectors. All programs begin with a needs assessment in which our instructors interview a sample of your staff and review typical workplace documents.\n\nCourse formats:\n• On-site group classes — minimum eight participants, held at your office\n• Live online classes — minimum four participants, scheduled across time zones\n• One-to-one coaching — for executives preparing for specific presentations or negotiations\n\nMost clients begin with a twelve-week cycle of two ninety-minute sessions per week. Progress reports are issued at weeks six and twelve and are shared with the client's training manager, not with individual participants' supervisors, in order to encourage open participation.\n\n【E-mail】\nFrom: Grace Ilori <g.ilori@pentonengineering.com>\nTo: info@meridianlanguage.com\nSubject: Training inquiry\n\nHello,\n\nI manage professional development at Penton Engineering. We have six senior engineers in our Lisbon office who need to improve their technical writing in English before a major bid next spring.\n\nGiven the group size, I assume the on-site option is not possible for us, so I would like details on the online format. We would prefer to start in October and finish before March. Also, could you tell me whether the needs assessment can be done remotely? Our Lisbon team cannot travel this quarter.\n\nThank you,\nGrace Ilori",
+        "questions": [
+          {
+            "q": "What does every Meridian program begin with?",
+            "options": [
+              "A trial lesson",
+              "A contract signing",
+              "A written examination",
+              "A needs assessment"
+            ],
+            "answer": 3,
+            "explanation": "網頁說 All programs begin with a needs assessment，故選 (D)。"
+          },
+          {
+            "q": "Why are progress reports shared only with the training manager?",
+            "options": [
+              "To reduce printing costs",
+              "To comply with a national law",
+              "To encourage participants to speak freely",
+              "To speed up the grading process"
+            ],
+            "answer": 2,
+            "explanation": "in order to encourage open participation，是為了鼓勵學員放心參與，故選 (C)。"
+          },
+          {
+            "q": "Why does Ms. Ilori believe the on-site option is unsuitable?",
+            "options": [
+              "Her office has no classroom space.",
+              "Her staff work different shifts.",
+              "The course would be too expensive.",
+              "Her group has fewer than eight people."
+            ],
+            "answer": 3,
+            "explanation": "on-site 需 minimum eight participants，而她只有 six senior engineers，人數不足，故選 (D)。"
+          },
+          {
+            "q": "What does Ms. Ilori ask about?",
+            "options": [
+              "How to extend a course beyond twelve weeks",
+              "Whether classes can be recorded",
+              "The cost of one-to-one coaching",
+              "Whether an assessment can be conducted remotely"
+            ],
+            "answer": 3,
+            "explanation": "她問 could you tell me whether the needs assessment can be done remotely?，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  }
+}

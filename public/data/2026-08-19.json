@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-19",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Who's covering the front desk while Elena is on leave?",
+        "optionAudioTexts": [
+          "Two weeks, I think.",
+          "Ravi volunteered to fill in.",
+          "A new desk lamp."
+        ],
+        "answer": 1,
+        "explanation": "Who 問人，(B)「Ravi 自願代班」正確。(A) 回答期間、(C) 用 desk 相似詞混淆。"
+      },
+      {
+        "audioText": "How did the product launch go last night?",
+        "optionAudioTexts": [
+          "Better than we expected.",
+          "At the riverside gallery.",
+          "Around two hundred invitations."
+        ],
+        "answer": 0,
+        "explanation": "How 問結果如何，(A)「比預期好」正確。(B) 回答地點、(C) 回答數量。"
+      },
+      {
+        "audioText": "Should we order more toner or wait until next month?",
+        "optionAudioTexts": [
+          "Yes, it's a good printer.",
+          "In the storage room.",
+          "Let's wait — we still have four cartridges."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句要選一項，(C)「再等等，還有四個匣」正確。(A) 用 Yes 回答選擇疑問句不合理。"
+      },
+      {
+        "audioText": "Wasn't the seminar supposed to start at nine?",
+        "optionAudioTexts": [
+          "They pushed it back half an hour.",
+          "About forty participants.",
+          "Yes, I attended last year."
+        ],
+        "answer": 0,
+        "explanation": "否定疑問句確認開始時間，(A)「延後半小時」提供正確資訊。(B) 回答人數、(C) 答非所問。"
+      },
+      {
+        "audioText": "Where do you keep the spare keys for the storage unit?",
+        "optionAudioTexts": [
+          "It was locked all weekend.",
+          "In the envelope taped inside the cabinet door.",
+          "About ten square meters."
+        ],
+        "answer": 1,
+        "explanation": "Where 問地點，(B)「櫃門內側貼的信封裡」正確。(A) 陳述過去狀況、(C) 回答面積。"
+      },
+      {
+        "audioText": "Why has the delivery route been changed?",
+        "optionAudioTexts": [
+          "Three stops in total.",
+          "By the dispatch team.",
+          "The bridge on Route 9 is closed for repairs."
+        ],
+        "answer": 2,
+        "explanation": "Why 問原因，(C)「九號公路的橋在維修封閉」正確。(A) 回答站數、(B) 回答執行者。"
+      },
+      {
+        "audioText": "Are these figures from the audited report or the draft?",
+        "optionAudioTexts": [
+          "They're from the audited version.",
+          "Yes, I checked them twice.",
+          "The report is fifty pages."
+        ],
+        "answer": 0,
+        "explanation": "選擇疑問句要選其中一項，(A)「來自審計後的版本」正確。(B) 用 Yes 回答選擇疑問句不合理。"
+      },
+      {
+        "audioText": "The break room refrigerator needs to be cleaned out.",
+        "optionAudioTexts": [
+          "A cold drink, thanks.",
+          "I'll post a notice asking people to remove their food by Friday.",
+          "It broke last year."
+        ],
+        "answer": 1,
+        "explanation": "陳述句提出問題，(B)「我來貼公告請大家週五前清空」是合適回應。(C) 用 break/broke 相似音混淆。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "M: Ms. Alvarado, thanks for coming in. Before we look at the floor plan, could you tell me roughly what budget you have in mind for the office redesign?",
+          "W: We've set aside about ninety thousand, but that has to cover furniture as well as the construction work.",
+          "M: Understood. In that case, I'd suggest keeping the existing walls and focusing on the lighting and workstations. Moving walls is where costs escalate quickly.",
+          "W: That makes sense. The main thing our staff complain about is noise — we have thirty people in one open area.",
+          "M: Acoustic panels and a few enclosed phone booths would address that for far less than a full rebuild. I can price two versions for you: one with four booths and one with seven.",
+          "W: Please do. I'll need both figures before our board meets on the fifth."
+        ],
+        "questions": [
+          {
+            "q": "What is the woman planning?",
+            "options": [
+              "An office redesign",
+              "A company relocation",
+              "A staff recruitment drive",
+              "A product launch"
+            ],
+            "answer": 0,
+            "explanation": "男子提到 the office redesign，且討論樓面配置與傢俱，故選 (A)。"
+          },
+          {
+            "q": "What problem does the woman mention?",
+            "options": [
+              "Insufficient parking",
+              "Excessive noise",
+              "Poor air conditioning",
+              "A shortage of desks"
+            ],
+            "answer": 1,
+            "explanation": "The main thing our staff complain about is noise，故選 (B)。"
+          },
+          {
+            "q": "What will the man provide?",
+            "options": [
+              "A list of contractors",
+              "Two price options",
+              "A revised lease",
+              "Sample furniture"
+            ],
+            "answer": 1,
+            "explanation": "I can price two versions for you: one with four booths and one with seven，故選 (B)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "W: Thanks for meeting me, Hugo. I wanted to talk about the internship program before recruiting starts.",
+          "M: Sure. Last year we took on eight interns, but honestly, three of them spent most of their time on filing. We didn't have enough substantive work planned.",
+          "W: I heard the same feedback. What if we cut the number to five and ask each department to commit to one real project per intern?",
+          "M: I like that. It would also make supervision easier — last year some managers had two interns and no time.",
+          "W: Right. I'll draft a one-page project template that departments fill out before we advertise the positions. If a department can't describe a project, they don't get an intern.",
+          "M: That's a fair rule. Send me the draft and I'll review it by Wednesday."
+        ],
+        "questions": [
+          {
+            "q": "What problem occurred last year?",
+            "options": [
+              "Too few students applied.",
+              "Some interns lacked meaningful work.",
+              "The program went over budget.",
+              "Interns were not paid on time."
+            ],
+            "answer": 1,
+            "explanation": "男子說 three of them spent most of their time on filing. We didn't have enough substantive work planned，故選 (B)。"
+          },
+          {
+            "q": "What does the woman propose?",
+            "options": [
+              "Reducing the number of interns",
+              "Extending the internship length",
+              "Recruiting from more universities",
+              "Increasing intern pay"
+            ],
+            "answer": 0,
+            "explanation": "What if we cut the number to five...，建議減少人數，故選 (A)。"
+          },
+          {
+            "q": "What will the man do by Wednesday?",
+            "options": [
+              "Interview candidates",
+              "Contact university career offices",
+              "Review a draft template",
+              "Announce the program"
+            ],
+            "answer": 2,
+            "explanation": "Send me the draft and I'll review it by Wednesday，故選 (C)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Welcome aboard the Harbor Line ferry to Stonehaven. Our crossing this afternoon will take approximately fifty minutes. Passengers with vehicles should remain on the car deck only long enough to set their parking brake; for safety reasons, the car deck is closed to passengers once we are under way. Seating is available on decks two and three, and the café on deck two serves hot drinks and sandwiches until fifteen minutes before arrival. Please note that today's weather may make the outer observation deck quite windy, so we advise holding on to hats and loose items. On arrival at Stonehaven, foot passengers will disembark first through the forward gangway, followed by vehicles. Thank you for sailing with us.",
+        "questions": [
+          {
+            "q": "Where is the announcement being made?",
+            "options": [
+              "On a ferry",
+              "On a commuter train",
+              "At an airport",
+              "At a bus terminal"
+            ],
+            "answer": 0,
+            "explanation": "提到 Harbor Line ferry、car deck、crossing，是渡輪上的廣播，故選 (A)。"
+          },
+          {
+            "q": "What are passengers told about the car deck?",
+            "options": [
+              "It has limited seating.",
+              "It closes once the trip begins.",
+              "It requires an extra fee.",
+              "It is on deck three."
+            ],
+            "answer": 1,
+            "explanation": "the car deck is closed to passengers once we are under way，故選 (B)。"
+          },
+          {
+            "q": "What does the speaker warn about?",
+            "options": [
+              "A delayed departure",
+              "A change of destination",
+              "Windy conditions outside",
+              "A closed café"
+            ],
+            "answer": 2,
+            "explanation": "today's weather may make the outer observation deck quite windy，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "Thanks for joining this month's episode of Small Business Notebook. Today I want to talk about something many new owners get wrong: pricing. When I opened my first shop, I set prices by looking at what the store down the street charged. That felt safe, but it ignored a basic fact — my costs were not their costs. They owned their building; I paid rent. Within eight months I was busy every day and still losing money. The lesson I want to leave you with is this: start from your own numbers. Add up every fixed cost for the year, divide by the number of units you realistically expect to sell, and only then look at competitors. Next week I'll be joined by an accountant who works exclusively with independent retailers, and she'll walk through a real example.",
+        "questions": [
+          {
+            "q": "What is the main topic of the episode?",
+            "options": [
+              "Choosing a store location",
+              "Setting prices",
+              "Hiring employees",
+              "Managing online reviews"
+            ],
+            "answer": 1,
+            "explanation": "講者說 I want to talk about something many new owners get wrong: pricing，故選 (B)。"
+          },
+          {
+            "q": "What mistake does the speaker describe making?",
+            "options": [
+              "Copying a competitor's prices",
+              "Opening too many locations",
+              "Hiring inexperienced staff",
+              "Ordering too much inventory"
+            ],
+            "answer": 0,
+            "explanation": "I set prices by looking at what the store down the street charged，是照抄競爭對手的價格，故選 (A)。"
+          },
+          {
+            "q": "What will happen next week?",
+            "options": [
+              "A live audience event",
+              "A store opening",
+              "A guest accountant will appear.",
+              "The show will move to a new time."
+            ],
+            "answer": 2,
+            "explanation": "Next week I'll be joined by an accountant...she'll walk through a real example，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The laboratory results will be released ------- the tests are independently verified.",
+        "options": [
+          "as soon as",
+          "as much as",
+          "as long ago",
+          "as far"
+        ],
+        "answer": 0,
+        "explanation": "as soon as = 一…就…，引導時間子句，符合「一經獨立驗證即公布」。"
+      },
+      {
+        "q": "The airline apologized for the ------- caused by the schedule change.",
+        "options": [
+          "inconvenient",
+          "inconveniently",
+          "inconvenience",
+          "inconveniencing"
+        ],
+        "answer": 2,
+        "explanation": "定冠詞 the 後面要接名詞 inconvenience（不便）。"
+      },
+      {
+        "q": "Mr. Cheng handled the negotiation ------- than anyone had anticipated.",
+        "options": [
+          "skillful",
+          "more skillfully",
+          "most skillful",
+          "skillfulness"
+        ],
+        "answer": 1,
+        "explanation": "句中有 than，須用比較級；且修飾動詞 handled 要用副詞，故選 more skillfully。"
+      },
+      {
+        "q": "The new labeling requirements apply to ------- food product sold in the region.",
+        "options": [
+          "every",
+          "all",
+          "most",
+          "few"
+        ],
+        "answer": 0,
+        "explanation": "food product 為單數可數名詞，只有 every 可搭配單數名詞。all/most/few 須接複數。"
+      },
+      {
+        "q": "The survey results suggest that customers value speed ------- highly as price.",
+        "options": [
+          "so",
+          "as",
+          "very",
+          "more"
+        ],
+        "answer": 1,
+        "explanation": "as + 副詞 + as 的同級比較句型，故第一個空格用 as。"
+      },
+      {
+        "q": "Interns are encouraged to ask questions ------- they are unsure about a procedure.",
+        "options": [
+          "whenever",
+          "however",
+          "whatever",
+          "whoever"
+        ],
+        "answer": 0,
+        "explanation": "空格引導時間副詞子句「每當不確定時」，用 whenever。however 表讓步或方式。"
+      },
+      {
+        "q": "The recall affected only ------- produced at the Riverton facility in May.",
+        "options": [
+          "item",
+          "items",
+          "the items",
+          "an item"
+        ],
+        "answer": 2,
+        "explanation": "後面有過去分詞片語 produced at... 修飾，指特定批次，須用定冠詞的 the items。"
+      },
+      {
+        "q": "Our records indicate that the invoice ------- three weeks ago.",
+        "options": [
+          "pays",
+          "was paid",
+          "is paying",
+          "has paid"
+        ],
+        "answer": 1,
+        "explanation": "invoice 是被支付的對象且有明確過去時間 three weeks ago，須用過去被動 was paid。"
+      },
+      {
+        "q": "The training manual should be reviewed ------- before it is distributed to franchisees.",
+        "options": [
+          "care",
+          "careful",
+          "carefully",
+          "caring"
+        ],
+        "answer": 2,
+        "explanation": "空格修飾被動動詞 be reviewed，需要副詞 carefully。"
+      },
+      {
+        "q": "The firm is looking for a candidate with ------- knowledge of international tax law.",
+        "options": [
+          "extend",
+          "extensive",
+          "extensively",
+          "extension"
+        ],
+        "answer": 1,
+        "explanation": "空格修飾名詞 knowledge，需要形容詞 extensive（廣泛的）。"
+      },
+      {
+        "q": "Deliveries to the hospital wing must be scheduled ------- advance.",
+        "options": [
+          "in",
+          "on",
+          "by",
+          "at"
+        ],
+        "answer": 0,
+        "explanation": "in advance = 事先，是固定片語。"
+      },
+      {
+        "q": "------- the merger was announced, the company's share price has risen sharply.",
+        "options": [
+          "Since",
+          "During",
+          "For",
+          "While"
+        ],
+        "answer": 0,
+        "explanation": "主句用現在完成式 has risen，搭配 Since + 過去事件子句表「自從…以來」。During 與 For 後接名詞。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Attention Riders — Route 14 Service Update\n\nBeginning Monday, September 8, Route 14 buses will no longer stop at the Halstead Street shelter. The stop is being [33] because the sidewalk there cannot safely accommodate the number of passengers now boarding at that location. Riders should instead use the stop at Halstead and Ninth, one block south, where a larger shelter with seating has been installed.\n\nTravel times will not change. In fact, removing the Halstead Street stop is expected to shorten the northbound trip by roughly two minutes during the morning peak. [34] this improvement, we will keep the current timetable in place until December so that riders have time to adjust.\n\nPrinted schedules showing the change are available from any driver, and station agents will be [35] at the affected stops during the first week to answer questions.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "eliminated",
+              "eliminating",
+              "elimination",
+              "eliminate"
+            ],
+            "answer": 0,
+            "explanation": "is being + 過去分詞構成進行被動式，「該站牌正被取消」，故選 eliminated。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "Because of",
+              "In order to",
+              "Instead of",
+              "Despite"
+            ],
+            "answer": 3,
+            "explanation": "前句說會縮短行車時間，後句卻說時刻表維持不變，語意轉折，用 Despite（儘管）並接名詞片語。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "presently",
+              "presence",
+              "presented",
+              "present"
+            ],
+            "answer": 3,
+            "explanation": "will be + 形容詞 present（在場的），指站務人員會在現場。presence 為名詞，語法不合。"
+          }
+        ]
+      },
+      {
+        "passage": "Dear Dr. Villanueva,\n\nOn behalf of the organizing committee, I am delighted to confirm your participation as a keynote speaker at the Pacific Materials Conference, to be held in Vancouver from November 3 to 5.\n\nYour session is scheduled for the morning of November 4 and will run for fifty minutes, [36] a fifteen-minute question period. We ask that you send us your slide deck by October 20 so that our technical team can test it on the auditorium system. Files larger than fifty megabytes should be shared through the link provided below rather than by e-mail.\n\nThe committee will cover your economy airfare and four nights at the conference hotel. Please forward your travel receipts to our finance coordinator, who will [37] you within thirty days of the conference.\n\nIf any part of this arrangement needs to be [38], do not hesitate to contact me directly.\n\nWarm regards,\nJoanne Petrakis",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "following",
+              "follows",
+              "to follow",
+              "followed by"
+            ],
+            "answer": 3,
+            "explanation": "followed by = 接著是…，表示演講之後緊接十五分鐘問答。following 意為「在…之後」，順序相反。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "reimbursement",
+              "reimbursing",
+              "reimbursed",
+              "reimburse"
+            ],
+            "answer": 3,
+            "explanation": "關係子句 who will ______ you 需要原形動詞 reimburse（核銷、退款給）。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "adjusting",
+              "adjustment",
+              "adjustable",
+              "adjusted"
+            ],
+            "answer": 3,
+            "explanation": "needs to be + 過去分詞的被動語態，「若有任何安排需要調整」，故選 adjusted。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【E-mail】\nFrom: Membership Services <members@northridgemuseum.org>\nTo: Colin Bragg <c.bragg@mailhost.example.com>\nSubject: Your membership renews soon\nDate: August 12\n\nDear Mr. Bragg,\n\nYour Northridge Museum membership expires on September 15. Because you enrolled in automatic renewal when you joined, your card will be renewed on that date and the annual fee of $85 will be charged to the payment method on file.\n\nBefore that happens, we wanted to make you aware of a change. Beginning this year, the Family level — which you currently hold — includes admission for two adults and up to four children, rather than two children as before. The price is unchanged.\n\nWe also noticed that you have not yet used the two guest passes included with your current membership. Unused passes do not carry over, so you may wish to use them before September 15. Passes can be printed from your online account or collected at the front desk.\n\nIf you would prefer to change your membership level or cancel automatic renewal, please reply to this message at least five business days before your renewal date.\n\nSincerely,\nMembership Services",
+        "questions": [
+          {
+            "q": "What is the main purpose of the e-mail?",
+            "options": [
+              "To request an overdue payment",
+              "To announce a new exhibition",
+              "To apologize for a billing error",
+              "To notify a member of an upcoming renewal"
+            ],
+            "answer": 3,
+            "explanation": "信件開頭說 Your...membership expires on September 15 並說明自動續約，故選 (D)。"
+          },
+          {
+            "q": "What has changed about the Family membership?",
+            "options": [
+              "It requires annual renewal in person.",
+              "Its price has increased.",
+              "It now covers more children.",
+              "It no longer includes guest passes."
+            ],
+            "answer": 2,
+            "explanation": "includes admission for two adults and up to four children, rather than two children as before，故選 (C)。"
+          },
+          {
+            "q": "What is Mr. Bragg encouraged to do before September 15?",
+            "options": [
+              "Update his payment method",
+              "Visit a new gallery",
+              "Use his guest passes",
+              "Renew at a higher level"
+            ],
+            "answer": 2,
+            "explanation": "Unused passes do not carry over, so you may wish to use them before September 15，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Notice】\nWALDEN BUSINESS PARK — Shuttle Service Survey Results\n\nIn June we asked tenants how the free shuttle between the business park and Dorset Station could be improved. Three hundred twelve employees responded. Below are the three most requested changes and our response to each.\n\n1. More frequent evening service (requested by 58% of respondents)\nApproved. Starting October 1, evening departures will run every ten minutes between five and seven o'clock instead of every twenty minutes.\n\n2. A second route serving the eastern office cluster (41%)\nUnder review. Adding a route requires a second vehicle, which is not in this year's budget. We will revisit this in next year's planning cycle.\n\n3. Real-time arrival tracking (37%)\nApproved. A tracking page will launch on September 15. There will be no app to download; the page works in any mobile browser.\n\n【E-mail】\nFrom: Marta Kowalski <m.kowalski@lindellpartners.com>\nTo: facilities@waldenpark.example.com\nSubject: Shuttle survey follow-up\nDate: August 14\n\nHello,\n\nThank you for publishing the survey results — it's helpful to see which requests were approved and which were not.\n\nI have one question about the tracking page. Several people on my floor asked whether it will show how full each shuttle is, not just when it arrives. On rainy days the five-fifteen departure is often full and people have to wait for the next one, which defeats the purpose of checking arrival times.\n\nIf occupancy data isn't possible at launch, would you consider adding a simple note on the page during peak periods? Even a warning that departures between five and six are usually crowded would help people plan.\n\nRegards,\nMarta Kowalski",
+        "questions": [
+          {
+            "q": "What was the most common request in the survey?",
+            "options": [
+              "A second shuttle route",
+              "Real-time tracking",
+              "A larger shuttle vehicle",
+              "More frequent evening service"
+            ],
+            "answer": 3,
+            "explanation": "More frequent evening service 佔 58%，是比例最高的，故選 (D)。"
+          },
+          {
+            "q": "Why was the second route not approved?",
+            "options": [
+              "The eastern cluster is already served.",
+              "The roads there are too narrow.",
+              "Too few tenants requested it.",
+              "The budget does not allow for another vehicle."
+            ],
+            "answer": 3,
+            "explanation": "Adding a route requires a second vehicle, which is not in this year's budget，故選 (D)。"
+          },
+          {
+            "q": "What is indicated about the tracking page?",
+            "options": [
+              "It requires a mobile app.",
+              "It is available only to managers.",
+              "It works in any mobile browser.",
+              "It launches on October 1."
+            ],
+            "answer": 2,
+            "explanation": "There will be no app to download; the page works in any mobile browser，故選 (C)。"
+          },
+          {
+            "q": "What does Ms. Kowalski suggest?",
+            "options": [
+              "Moving the five-fifteen departure to five thirty",
+              "Charging a fee during peak hours",
+              "Conducting the survey again next year",
+              "Adding information about how crowded shuttles are"
+            ],
+            "answer": 3,
+            "explanation": "她詢問是否能顯示載客率，並建議 adding a simple note...that departures between five and six are usually crowded，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-18",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "When are we expecting the auditors?",
+        "optionAudioTexts": [
+          "From an outside firm.",
+          "The week after next.",
+          "In conference room C."
+        ],
+        "answer": 1,
+        "explanation": "When 問時間，(B)「下下週」正確。(A) 回答來源、(C) 回答地點。"
+      },
+      {
+        "audioText": "Could you take a look at this contract before I send it?",
+        "optionAudioTexts": [
+          "I'd be happy to. Just leave it on my desk.",
+          "He signed it last month.",
+          "A three-year term."
+        ],
+        "answer": 0,
+        "explanation": "請求審閱合約，(A)「樂意，放我桌上就好」正確回應。(B) 時態與主詞不符、(C) 答非所問。"
+      },
+      {
+        "audioText": "How many copies of the handbook should I print?",
+        "optionAudioTexts": [
+          "In the training binder.",
+          "It's about forty pages long.",
+          "Thirty should be enough."
+        ],
+        "answer": 2,
+        "explanation": "How many 問數量，(C)「印三十本應該夠」正確。(A) 回答存放位置、(B) 回答頁數。"
+      },
+      {
+        "audioText": "Where should I send the signed forms?",
+        "optionAudioTexts": [
+          "To the compliance office on the sixth floor.",
+          "By the end of the day.",
+          "Yes, I signed both copies."
+        ],
+        "answer": 0,
+        "explanation": "Where 問地點，(A)「六樓法遵辦公室」正確。(B) 回答時間、(C) 用 Yes 回答 Where 不合理。"
+      },
+      {
+        "audioText": "Was the shipment delayed because of the weather?",
+        "optionAudioTexts": [
+          "A refrigerated truck.",
+          "No, a customs inspection held it up.",
+          "Sunny and warm."
+        ],
+        "answer": 1,
+        "explanation": "Yes/No 問句確認延誤原因，(B)「不是，是海關查驗」正確。(C) 只描述天氣，未回答問題。"
+      },
+      {
+        "audioText": "Do you know if the cafeteria is open on Saturdays?",
+        "optionAudioTexts": [
+          "The soup was excellent.",
+          "On the ground floor.",
+          "Only until two in the afternoon."
+        ],
+        "answer": 2,
+        "explanation": "間接問句詢問週六是否營業，(C)「只開到下午兩點」隱含有開，是自然回答。(A)(B) 答非所問。"
+      },
+      {
+        "audioText": "Which version of the logo did the client choose?",
+        "optionAudioTexts": [
+          "They went with the blue one.",
+          "Yes, they liked it a lot.",
+          "Two weeks from now."
+        ],
+        "answer": 0,
+        "explanation": "Which 問哪一個，(A)「他們選了藍色那個」正確。(B) 用 Yes 回答 Which 不合理、(C) 回答時間。"
+      },
+      {
+        "audioText": "I'm not sure this projector is compatible with my laptop.",
+        "optionAudioTexts": [
+          "A very clear picture.",
+          "There's an adapter in the cabinet.",
+          "He's not sure either."
+        ],
+        "answer": 1,
+        "explanation": "陳述句表達顧慮，(B)「櫃子裡有轉接頭」提供解決方案，正確。(C) 只是重複 not sure，沒有幫助。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Marcus, do you have the attendance numbers from last month's community workshops?",
+          "M: I do. The Tuesday evening sessions averaged thirty-two people, but the Saturday morning ones only drew about nine.",
+          "W: That's a big gap. Should we drop the Saturday sessions altogether?",
+          "M: I'd hesitate to do that. Several regulars told me Saturday is the only time they can come because of work schedules. What if we moved Saturday to the afternoon and combined it with the crafts group that already meets then?",
+          "W: Sharing a time slot could help with staffing too. We'd only need one facilitator on site instead of two.",
+          "M: Exactly. I'll draft a revised schedule and circulate it to the volunteers before the board meeting on the twenty-fifth."
+        ],
+        "questions": [
+          {
+            "q": "What are the speakers discussing?",
+            "options": [
+              "Workshop attendance",
+              "A budget proposal",
+              "A volunteer training program",
+              "A building renovation"
+            ],
+            "answer": 0,
+            "explanation": "開頭問 the attendance numbers from last month's community workshops，主題是出席人數，故選 (A)。"
+          },
+          {
+            "q": "What does the man suggest doing?",
+            "options": [
+              "Cancelling the Saturday sessions",
+              "Combining Saturday with another group",
+              "Hiring more facilitators",
+              "Charging a registration fee"
+            ],
+            "answer": 1,
+            "explanation": "男子說 What if we moved Saturday to the afternoon and combined it with the crafts group，故選 (B)。"
+          },
+          {
+            "q": "What will the man do before the board meeting?",
+            "options": [
+              "Survey the participants",
+              "Interview new volunteers",
+              "Circulate a revised schedule",
+              "Reserve a larger room"
+            ],
+            "answer": 2,
+            "explanation": "I'll draft a revised schedule and circulate it to the volunteers before the board meeting，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Good morning. I'd like to open a business account for my consulting firm. I registered the company last week.",
+          "W: Certainly. I'll need your business registration certificate, your tax identification number, and one form of photo identification.",
+          "M: I brought the registration and my driver's license, but the tax number hasn't come through yet. The agency said it takes about ten business days.",
+          "W: In that case, I can start your application today and set it to pending. Once you have the tax number, you can either bring it in or upload it through our online banking portal, which is faster.",
+          "M: The portal sounds easier. Will there be a monthly fee on the account?",
+          "W: The fee is fifteen dollars, but it's waived if your average balance stays above five thousand dollars."
+        ],
+        "questions": [
+          {
+            "q": "What does the man want to do?",
+            "options": [
+              "Apply for a business loan",
+              "Open a business account",
+              "Register a new company",
+              "Close an existing account"
+            ],
+            "answer": 1,
+            "explanation": "男子說 I'd like to open a business account for my consulting firm，故選 (B)。"
+          },
+          {
+            "q": "What document is the man missing?",
+            "options": [
+              "A photo ID",
+              "A registration certificate",
+              "A tax identification number",
+              "A lease agreement"
+            ],
+            "answer": 2,
+            "explanation": "他說 the tax number hasn't come through yet，缺稅籍編號，故選 (C)。"
+          },
+          {
+            "q": "How can the monthly fee be avoided?",
+            "options": [
+              "By maintaining a minimum balance",
+              "By signing a two-year contract",
+              "By using online banking only",
+              "By opening a second account"
+            ],
+            "answer": 0,
+            "explanation": "it's waived if your average balance stays above five thousand dollars，維持一定餘額即可免費，故選 (A)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Hello, this message is for Ms. Talia Brennan. This is Owen from Kestrel Property Management regarding the apartment on Fifth and Wexler that you toured on Saturday. I'm calling with good news: the owner has approved your application. The lease would begin on the first of next month, and we would need a security deposit equal to one month's rent to hold the unit. There is one detail I should mention. The building's laundry room is being converted into additional storage lockers, and the new washers will not be installed until late October. Until then, residents receive a voucher for the laundromat two blocks away. Please call me back at 555-0173 by Thursday to let me know whether you'd like to proceed.",
+        "questions": [
+          {
+            "q": "Why is the speaker calling?",
+            "options": [
+              "To confirm a rental application was approved",
+              "To schedule an apartment tour",
+              "To collect an overdue rent payment",
+              "To report a maintenance problem"
+            ],
+            "answer": 0,
+            "explanation": "the owner has approved your application，是通知申請通過，故選 (A)。"
+          },
+          {
+            "q": "What issue does the speaker mention about the building?",
+            "options": [
+              "The elevator is out of service.",
+              "The laundry room is unavailable.",
+              "Parking spaces are limited.",
+              "The lobby is being repainted."
+            ],
+            "answer": 1,
+            "explanation": "The building's laundry room is being converted...washers will not be installed until late October，洗衣間暫不能用，故選 (B)。"
+          },
+          {
+            "q": "What is Ms. Brennan asked to do by Thursday?",
+            "options": [
+              "Sign a lease in person",
+              "Pay a security deposit",
+              "Return the speaker's call",
+              "Provide a reference letter"
+            ],
+            "answer": 2,
+            "explanation": "Please call me back at 555-0173 by Thursday，請她週四前回電，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "Before we wrap up this morning's staff briefing, I have two announcements. First, the company is switching to a new travel booking system on the first of next month. All flight and hotel reservations must go through the new platform; bookings made directly with airlines will no longer be reimbursed unless you have written approval from your department head in advance. Training links will appear in your inbox this week, and each session takes about twenty minutes to complete. Second, I want to recognize the customer support team, which handled a record volume of calls last quarter while keeping average wait times under two minutes. That's an outstanding result, and their approach to shift scheduling is something other teams may want to look at. Thank you, everyone.",
+        "questions": [
+          {
+            "q": "What change is being introduced next month?",
+            "options": [
+              "A new travel booking system",
+              "A revised vacation policy",
+              "A different office location",
+              "A new performance review form"
+            ],
+            "answer": 0,
+            "explanation": "the company is switching to a new travel booking system on the first of next month，故選 (A)。"
+          },
+          {
+            "q": "Under what condition can a direct booking be reimbursed?",
+            "options": [
+              "If the trip is under three days",
+              "If written approval is obtained in advance",
+              "If the flight is domestic",
+              "If the traveler pays by company card"
+            ],
+            "answer": 1,
+            "explanation": "unless you have written approval from your department head in advance，故選 (B)。"
+          },
+          {
+            "q": "Why does the speaker praise the customer support team?",
+            "options": [
+              "It reduced its operating costs.",
+              "It launched a new product.",
+              "It kept wait times low despite high call volume.",
+              "It hired several new members."
+            ],
+            "answer": 2,
+            "explanation": "handled a record volume of calls...while keeping average wait times under two minutes，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "Ms. Ferreira will be ------- for coordinating the volunteers at the charity run.",
+        "options": [
+          "responsible",
+          "responsibly",
+          "responsibility",
+          "respond"
+        ],
+        "answer": 0,
+        "explanation": "be responsible for = 負責…，空格需要形容詞 responsible。"
+      },
+      {
+        "q": "The workshop was cancelled ------- a lack of registrations.",
+        "options": [
+          "because",
+          "owing to",
+          "so",
+          "although"
+        ],
+        "answer": 1,
+        "explanation": "空格後為名詞片語 a lack of registrations，須用介系詞片語 owing to（由於）。because 與 although 後接子句。"
+      },
+      {
+        "q": "Employees should familiarize ------- with the emergency evacuation routes.",
+        "options": [
+          "them",
+          "they",
+          "themselves",
+          "their"
+        ],
+        "answer": 2,
+        "explanation": "familiarize oneself with = 熟悉…，主詞與受詞同一群人，須用反身代名詞 themselves。"
+      },
+      {
+        "q": "The proposal outlines a ------- plan for reducing packaging waste over five years.",
+        "options": [
+          "detail",
+          "detailed",
+          "detailing",
+          "details"
+        ],
+        "answer": 1,
+        "explanation": "空格修飾名詞 plan，需要形容詞性的過去分詞 detailed（詳細的）。"
+      },
+      {
+        "q": "The vendor promised to deliver the materials ------- the construction crew arrives.",
+        "options": [
+          "before",
+          "during",
+          "in advance",
+          "prior"
+        ],
+        "answer": 0,
+        "explanation": "空格後為完整子句，須用連接詞 before。during 與 prior to 為介系詞，後接名詞。"
+      },
+      {
+        "q": "Very few of the attendees ------- the optional afternoon session last year.",
+        "options": [
+          "attend",
+          "attended",
+          "attending",
+          "to attend"
+        ],
+        "answer": 1,
+        "explanation": "時間副詞 last year 表過去，須用過去式 attended。"
+      },
+      {
+        "q": "The company's growth in Asia has been ------- more rapid than in Europe.",
+        "options": [
+          "very",
+          "too",
+          "far",
+          "such"
+        ],
+        "answer": 2,
+        "explanation": "修飾比較級 more rapid 用 far（也可用 much/even）。very 與 too 不能修飾比較級。"
+      },
+      {
+        "q": "All expense claims must be submitted with the ------- receipts attached.",
+        "options": [
+          "origin",
+          "original",
+          "originally",
+          "originality"
+        ],
+        "answer": 1,
+        "explanation": "空格修飾名詞 receipts，需要形容詞 original（正本的）。"
+      },
+      {
+        "q": "The technician explained the procedure in a way that even beginners could -------.",
+        "options": [
+          "understand",
+          "understanding",
+          "understood",
+          "understandable"
+        ],
+        "answer": 0,
+        "explanation": "情態助動詞 could 後接原形動詞 understand。"
+      },
+      {
+        "q": "Applications submitted after the deadline will not be ------- for this year's grant.",
+        "options": [
+          "consider",
+          "considered",
+          "considering",
+          "consideration"
+        ],
+        "answer": 1,
+        "explanation": "will not be + 過去分詞構成被動語態，故選 considered（被納入考慮）。"
+      },
+      {
+        "q": "The manager asked the team to focus ------- the most urgent customer complaints first.",
+        "options": [
+          "on",
+          "at",
+          "to",
+          "for"
+        ],
+        "answer": 0,
+        "explanation": "focus on = 專注於…，是固定搭配。"
+      },
+      {
+        "q": "------- the equipment arrives on time, we can begin installation Monday morning.",
+        "options": [
+          "Provided that",
+          "In spite of",
+          "Regardless",
+          "Rather than"
+        ],
+        "answer": 0,
+        "explanation": "Provided that = 只要、假如，引導條件子句，語意最合。In spite of 後接名詞。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Dear Valued Customer,\n\nStarting October 1, Brightpath Utilities will change the way monthly statements are delivered. Customers who have registered an e-mail address with us will [33] receive electronic statements. Paper statements will still be mailed to households that request them, but a written request must be submitted before September 20.\n\nElectronic statements offer several advantages. They arrive three to four days earlier than printed ones, they can be downloaded as PDF files for your records, and they include a link that lets you compare your usage with the same month in previous years. [34], customers who choose the electronic option will receive a one-time credit of five dollars on their November bill.\n\nIf you have not yet registered an e-mail address, you may do so on our website or by calling our customer service line. Please note that our representatives will never ask for your [35] password over the phone.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "automation",
+              "automate",
+              "automatic",
+              "automatically"
+            ],
+            "answer": 3,
+            "explanation": "空格修飾動詞 receive，需要副詞 automatically（自動地）。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "Otherwise",
+              "By contrast",
+              "Nevertheless",
+              "In addition"
+            ],
+            "answer": 3,
+            "explanation": "前面列出電子帳單好處，此句再加一項優惠，語意為增補，選 In addition（此外）。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "account",
+              "accountant",
+              "accounting",
+              "accountable"
+            ],
+            "answer": 0,
+            "explanation": "account password（帳戶密碼）是常見複合名詞。accountant 是會計師，accountable 是形容詞。"
+          }
+        ]
+      },
+      {
+        "passage": "Job Posting — Assistant Production Coordinator\n\nHalcyon Media is seeking an assistant production coordinator to support our documentary unit. The successful candidate will schedule shoot days, track equipment rentals, and act as the main point of [36] between the production team and outside vendors.\n\nWe are looking for someone with at least one year of experience in a fast-paced office environment. A background in film is welcome but not required; [37] matters more to us is strong organization and the ability to solve problems quickly when a schedule changes.\n\nThis is a full-time position based in our Auckland office, with occasional travel to shoot locations. Salary is [38] with experience, and benefits include health coverage and four weeks of paid leave. To apply, send a résumé and a short cover letter to careers@halcyonmedia.co.nz by September 5.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "contacted",
+              "contacting",
+              "contacts",
+              "contact"
+            ],
+            "answer": 3,
+            "explanation": "point of contact = 聯絡窗口，是固定名詞片語，用單數 contact。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "Which",
+              "It",
+              "That",
+              "What"
+            ],
+            "answer": 3,
+            "explanation": "空格引導名詞子句當主詞，且子句本身缺主詞，須用複合關係代名詞 What（＝The thing that）。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "considerate",
+              "convenient",
+              "consecutive",
+              "commensurate"
+            ],
+            "answer": 3,
+            "explanation": "salary is commensurate with experience（薪資依經驗核給）是徵才公告慣用語。其餘字義為體貼、方便、連續的。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Review】\nPosted by H. Nakamura — 4 out of 5 stars\n\nI stayed at the Cliffside Inn for three nights while attending a conference in the nearby town of Marbury. The location is the property's greatest strength: the hotel sits directly on the coastal path, and I was able to walk to the conference center in about twelve minutes.\n\nThe room itself was small but spotless, with a surprisingly good desk and reliable internet — important for me, since I had to join two video calls each evening. Breakfast is included and served until ten, which is later than most hotels in this price range.\n\nMy one complaint concerns the front desk hours. The reception closes at eleven at night, and although guests receive a key code for the main door, there is no one available if something goes wrong. On my second night the heater in my room stopped working and I had to wait until morning to report it. Staff did resolve it quickly once I did, and they offered a discount on my final night.\n\nWould I stay again? Yes — but I would ask for a room away from the street side.",
+        "questions": [
+          {
+            "q": "What does the reviewer like most about the hotel?",
+            "options": [
+              "Its room size",
+              "Its restaurant",
+              "Its parking facilities",
+              "Its location"
+            ],
+            "answer": 3,
+            "explanation": "The location is the property's greatest strength，故選 (D)。"
+          },
+          {
+            "q": "What problem did the reviewer experience?",
+            "options": [
+              "A late check-in",
+              "A noisy neighbor",
+              "A broken heater",
+              "A billing error"
+            ],
+            "answer": 2,
+            "explanation": "the heater in my room stopped working，故選 (C)。"
+          },
+          {
+            "q": "What did the hotel do in response to the problem?",
+            "options": [
+              "Moved the reviewer to another room",
+              "Refunded the entire stay",
+              "Offered a discount for one night",
+              "Extended the breakfast hours"
+            ],
+            "answer": 2,
+            "explanation": "they offered a discount on my final night，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Memo】\nTo: All Retail Store Managers\nFrom: Priya Raman, Director of Operations\nDate: August 4\nSubject: Pilot of Extended Sunday Hours\n\nBeginning September 7, six of our stores will pilot extended Sunday hours, staying open until eight in the evening instead of five. The pilot locations are Ashgrove, Northbay, Weller Plaza, Kettering, Ridgemont, and Cypress Point. These sites were selected because each is located in a shopping center where at least two neighboring businesses already operate later on Sundays.\n\nManagers at pilot locations should submit a revised staffing plan by August 22. Please note that no additional payroll hours are being allocated for the pilot; the extra evening hours must be covered by shifting existing hours from weekday mornings, which are our slowest period.\n\nThe pilot will run for ten weeks. We will evaluate the results using three measures: total Sunday revenue, revenue per labor hour, and customer counts after five o'clock. If the pilot succeeds, we intend to extend the change to all locations in the first quarter of next year.\n\n【E-mail】\nFrom: Daniel Osei <d.osei@stores.example.com>\nTo: Priya Raman <p.raman@stores.example.com>\nSubject: RE: Pilot of Extended Sunday Hours\nDate: August 8\n\nHi Priya,\n\nI manage the Kettering store and I'm glad we were included. One concern: our weekday mornings are not as quiet as the company average because we're next to a commuter rail stop and get steady traffic until about ten. Cutting those hours would likely cost us more than the Sunday evening gain.\n\nCould we instead shift hours from Tuesday and Wednesday afternoons, which are genuinely slow for us? I can send four weeks of hourly sales data to support this if that would help.\n\nBest,\nDaniel Osei",
+        "questions": [
+          {
+            "q": "Why were the six stores chosen for the pilot?",
+            "options": [
+              "They recently hired additional staff.",
+              "They are the company's newest locations.",
+              "They have the highest Sunday sales.",
+              "They are near businesses with later Sunday hours."
+            ],
+            "answer": 3,
+            "explanation": "each is located in a shopping center where at least two neighboring businesses already operate later on Sundays，故選 (D)。"
+          },
+          {
+            "q": "What are managers told about payroll?",
+            "options": [
+              "Extra hours will be funded centrally.",
+              "Overtime rates will apply on Sundays.",
+              "No additional hours will be provided.",
+              "Payroll reports are due weekly."
+            ],
+            "answer": 2,
+            "explanation": "no additional payroll hours are being allocated for the pilot，故選 (C)。"
+          },
+          {
+            "q": "What does Mr. Osei disagree with?",
+            "options": [
+              "The three evaluation measures",
+              "The choice of pilot locations",
+              "The length of the pilot period",
+              "The assumption that weekday mornings are slow"
+            ],
+            "answer": 3,
+            "explanation": "他說 our weekday mornings are not as quiet as the company average，不同意「平日早上最冷清」的前提，故選 (D)。"
+          },
+          {
+            "q": "What does Mr. Osei offer to provide?",
+            "options": [
+              "A revised staffing plan for all stores",
+              "A list of neighboring businesses",
+              "Customer survey results",
+              "Hourly sales data"
+            ],
+            "answer": 3,
+            "explanation": "I can send four weeks of hourly sales data to support this，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  }
+}
