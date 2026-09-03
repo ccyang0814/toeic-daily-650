@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-26",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "How was the trade show in Hamburg?",
+        "optionAudioTexts": [
+          "Booth number twelve.",
+          "By train from Berlin.",
+          "Busier than last year, actually."
+        ],
+        "answer": 2,
+        "explanation": "How was 問感想，(C)「其實比去年還熱鬧」正確。(B) 回答交通、(A) 回答攤位號碼。"
+      },
+      {
+        "audioText": "Who should I contact about updating my direct deposit?",
+        "optionAudioTexts": [
+          "On the fifteenth of each month.",
+          "Payroll — extension nine-one.",
+          "A different bank, I think."
+        ],
+        "answer": 1,
+        "explanation": "Who 問聯絡對象，(B)「薪資組，分機 91」正確。(A) 回答日期、(C) 語意不完整。"
+      },
+      {
+        "audioText": "What's the reason for the delay in the shipment?",
+        "optionAudioTexts": [
+          "A backlog at the port.",
+          "To the Manchester depot.",
+          "Two weeks late."
+        ],
+        "answer": 0,
+        "explanation": "問延誤原因，(A)「港口積壓」正確。(C) 說明延誤程度、(B) 回答目的地。"
+      },
+      {
+        "audioText": "Should we hire a temporary worker or ask the team to work extra hours?",
+        "optionAudioTexts": [
+          "Forty hours a week.",
+          "Yes, they've been very busy.",
+          "A temp would be cheaper over three months."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句，(C) 選了臨時人力並說明理由。(B) 用 Yes 回答選擇疑問句不合適。"
+      },
+      {
+        "audioText": "Didn't you say the workshop was fully booked?",
+        "optionAudioTexts": [
+          "Someone cancelled this morning.",
+          "It runs on Saturday morning.",
+          "In the training room."
+        ],
+        "answer": 0,
+        "explanation": "否定疑問句確認，(A)「今早有人取消了」說明情況改變，是合理回應。"
+      },
+      {
+        "audioText": "Where do we keep the spare keys for the delivery van?",
+        "optionAudioTexts": [
+          "In the cabinet next to the dispatch desk.",
+          "It's due for service.",
+          "Marco usually drives it."
+        ],
+        "answer": 0,
+        "explanation": "Where 問存放地，(A)「調度台旁的櫃子」正確。(B) 談保養、(C) 談駕駛人。"
+      },
+      {
+        "audioText": "How much did the software license end up costing?",
+        "optionAudioTexts": [
+          "Just under six thousand.",
+          "It renews each January.",
+          "For twenty-five users."
+        ],
+        "answer": 0,
+        "explanation": "How much 問金額，(A)「不到六千」正確。(C) 回答人數、(B) 回答續約時間。"
+      },
+      {
+        "audioText": "This printer is jamming every few pages.",
+        "optionAudioTexts": [
+          "I've been using the one upstairs instead.",
+          "Fifty copies, double-sided.",
+          "It's a color model."
+        ],
+        "answer": 0,
+        "explanation": "陳述句抱怨故障，(A)「我改用樓上那台」是相關且自然的回應。(B)(C) 未回應問題。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Thanks for meeting me, Oscar. I want to talk about the internship program before we post for next summer.",
+          "M: Sure. Last year went reasonably well, didn't it?",
+          "W: The interns were strong, but only one of the six accepted a full-time offer. When I asked the others, four said the projects felt like busywork.",
+          "M: That's fair criticism. We assigned them whatever was left over rather than planning ahead.",
+          "W: So this year I want each intern matched to one real deliverable with a named mentor. It means managers have to commit before we recruit, not after.",
+          "M: I can raise it at the department heads' meeting on Tuesday. But I'll need something concrete from you — maybe two or three example projects — or it'll just be a discussion."
+        ],
+        "questions": [
+          {
+            "q": "What are the speakers mainly discussing?",
+            "options": [
+              "Improving an internship program",
+              "Reducing the training budget",
+              "Hiring a new manager",
+              "Changing office locations"
+            ],
+            "answer": 0,
+            "explanation": "I want to talk about the internship program，並討論改進方式，故選 (A)。"
+          },
+          {
+            "q": "What did most former interns say?",
+            "options": [
+              "The pay was too low",
+              "Their projects were not meaningful",
+              "The hours were too long",
+              "The office was too far"
+            ],
+            "answer": 1,
+            "explanation": "four said the projects felt like busywork，故選 (B)。"
+          },
+          {
+            "q": "What does the man ask the woman for?",
+            "options": [
+              "A list of candidates",
+              "A meeting room",
+              "A budget estimate",
+              "Example projects"
+            ],
+            "answer": 3,
+            "explanation": "maybe two or three example projects，故選 (D)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Good afternoon. I'd like to open a business account for a small catering company.",
+          "W: Certainly. Are you a sole proprietor, or is the business registered as a company?",
+          "M: It's registered — we incorporated in March. I have the certificate with me.",
+          "W: Good. I'll also need photo identification for anyone who will sign on the account, and a document showing the business address. A utility bill or lease works.",
+          "M: My partner isn't here today. Can I come back with her, or can she sign separately?",
+          "W: She can come in any time within thirty days and we'll add her. But until then the account can only receive deposits, not issue payments. Most customers prefer to complete it in one visit."
+        ],
+        "questions": [
+          {
+            "q": "Where does the conversation take place?",
+            "options": [
+              "At a catering company",
+              "At a government office",
+              "At a bank",
+              "At a law firm"
+            ],
+            "answer": 2,
+            "explanation": "談論 open a business account、簽名人身分證明，為銀行，故選 (C)。"
+          },
+          {
+            "q": "What does the woman say is needed?",
+            "options": [
+              "A tax return",
+              "A business plan",
+              "A credit report",
+              "Proof of the business address"
+            ],
+            "answer": 3,
+            "explanation": "a document showing the business address，故選 (D)。"
+          },
+          {
+            "q": "What limitation does the woman mention?",
+            "options": [
+              "The account expires in thirty days",
+              "The account has a monthly fee",
+              "Deposits are capped",
+              "The account cannot make payments yet"
+            ],
+            "answer": 3,
+            "explanation": "until then the account can only receive deposits, not issue payments，故選 (D)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Hello everyone, and thank you for coming to the neighborhood information session about the proposed cycle lane on Bracken Street. I'll present for about twenty minutes and then take questions. To be clear about what tonight is and isn't: this is a consultation, not a decision. The council will vote in November. The design on the boards behind me shows a protected lane running north from the library to the sports ground, which would remove roughly forty on-street parking spaces. That is the point most residents have written to us about, so I'll address it directly in my presentation. If you would like to submit written comments, forms are on the table by the door, and you have until September 30. Comments submitted after that date will be recorded but not included in the report to the council.",
+        "questions": [
+          {
+            "q": "What is the purpose of the session?",
+            "options": [
+              "To announce a final decision",
+              "To recruit volunteers",
+              "To celebrate a project's completion",
+              "To gather public input on a proposal"
+            ],
+            "answer": 3,
+            "explanation": "this is a consultation, not a decision，是徵詢意見，故選 (D)。"
+          },
+          {
+            "q": "What concern do residents have?",
+            "options": [
+              "The loss of parking spaces",
+              "The cost of the project",
+              "Increased noise",
+              "The construction schedule"
+            ],
+            "answer": 0,
+            "explanation": "would remove roughly forty on-street parking spaces. That is the point most residents have written to us about，故選 (A)。"
+          },
+          {
+            "q": "What happens to comments submitted after September 30?",
+            "options": [
+              "They are returned",
+              "They are recorded but excluded from the report",
+              "They are rejected",
+              "They are read aloud at the vote"
+            ],
+            "answer": 1,
+            "explanation": "Comments submitted after that date will be recorded but not included in the report，故選 (B)。"
+          }
+        ]
+      },
+      {
+        "script": "Before we finish today's orientation, let me explain how the equipment checkout system works, because it's the question new researchers ask most. Any item in the shared lab can be reserved through the booking calendar up to two weeks ahead. Items marked with a yellow tag, such as the spectrometer and the centrifuge, additionally require you to have completed the relevant safety module. The system will simply refuse your booking if the module isn't on file, and every year somebody discovers this the night before an experiment. So please complete your modules this week. If you need equipment outside normal hours, that's possible, but you must arrange it with the lab manager at least one day ahead so that building security can be notified. Finally, if you break something, report it the same day. Nobody has ever been penalized for an honest accident; people have been penalized for hiding one.",
+        "questions": [
+          {
+            "q": "Who is the audience for this talk?",
+            "options": [
+              "Building security staff",
+              "Visiting students",
+              "Equipment suppliers",
+              "New researchers"
+            ],
+            "answer": 3,
+            "explanation": "the question new researchers ask most，且為 orientation，故選 (D)。"
+          },
+          {
+            "q": "What is required to book yellow-tagged equipment?",
+            "options": [
+              "A supervisor's signature",
+              "Completion of a safety module",
+              "Payment of a deposit",
+              "A two-week notice"
+            ],
+            "answer": 1,
+            "explanation": "additionally require you to have completed the relevant safety module，故選 (B)。"
+          },
+          {
+            "q": "What does the speaker emphasize at the end?",
+            "options": [
+              "Returning items early",
+              "Reporting damage promptly",
+              "Keeping the lab tidy",
+              "Sharing equipment fairly"
+            ],
+            "answer": 1,
+            "explanation": "if you break something, report it the same day，並強調隱瞞才會被處分，故選 (B)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The findings of the study were consistent ------- those published last year.",
+        "options": [
+          "with",
+          "to",
+          "for",
+          "at"
+        ],
+        "answer": 0,
+        "explanation": "be consistent with「與…一致」為固定搭配。"
+      },
+      {
+        "q": "------- receiving the shipment, please verify the contents against the packing list.",
+        "options": [
+          "While",
+          "Upon",
+          "Since",
+          "Until"
+        ],
+        "answer": 1,
+        "explanation": "Upon + 動名詞，表「一…就…」，符合「收到貨後即核對」之意。"
+      },
+      {
+        "q": "The training manual was revised to make the safety procedures ------- .",
+        "options": [
+          "clearance",
+          "clearly",
+          "clear",
+          "clearing"
+        ],
+        "answer": 2,
+        "explanation": "make + 受詞 + 形容詞的句型，故用 clear。"
+      },
+      {
+        "q": "Very few of the machines in the older plant are still ------- use.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "by"
+        ],
+        "answer": 2,
+        "explanation": "in use「使用中」為固定片語。"
+      },
+      {
+        "q": "The panel will select the winner ------- on originality and technical skill.",
+        "options": [
+          "base",
+          "based",
+          "basing",
+          "basis"
+        ],
+        "answer": 1,
+        "explanation": "based on「根據」為固定用法，此處為分詞片語。"
+      },
+      {
+        "q": "Employees are encouraged to take their full holiday ------- each year.",
+        "options": [
+          "entitle",
+          "entitled",
+          "entitlement",
+          "entitling"
+        ],
+        "answer": 2,
+        "explanation": "空格為 holiday 後的名詞，holiday entitlement 意為「休假額度」。"
+      },
+      {
+        "q": "The device shuts down automatically ------- the temperature exceeds sixty degrees.",
+        "options": [
+          "whenever",
+          "whatever",
+          "wherever",
+          "however"
+        ],
+        "answer": 0,
+        "explanation": "空格引導時間副詞子句，whenever 表「每當…時」。"
+      },
+      {
+        "q": "Sales representatives must record every client visit, ------- brief.",
+        "options": [
+          "however",
+          "how",
+          "whatever",
+          "although"
+        ],
+        "answer": 0,
+        "explanation": "however + 形容詞，表「無論多麼…」，此處為 however brief（無論多短暫）。"
+      },
+      {
+        "q": "The proposal was rejected because the projected savings seemed -------.",
+        "options": [
+          "realistic",
+          "realistically",
+          "unrealistic",
+          "reality"
+        ],
+        "answer": 2,
+        "explanation": "提案被否決，故預估節省看來「不切實際」，用 unrealistic。"
+      },
+      {
+        "q": "Ms. Voss has worked in three countries and speaks four languages -------.",
+        "options": [
+          "fluent",
+          "fluently",
+          "fluency",
+          "fluentness"
+        ],
+        "answer": 1,
+        "explanation": "修飾動詞 speaks 需用副詞 fluently。"
+      },
+      {
+        "q": "The new packaging uses thirty percent ------- plastic than the previous design.",
+        "options": [
+          "few",
+          "less",
+          "fewer",
+          "least"
+        ],
+        "answer": 1,
+        "explanation": "plastic 為不可數名詞，比較級用 less；fewer 用於可數名詞。"
+      },
+      {
+        "q": "All maintenance requests should be submitted ------- writing to the facilities office.",
+        "options": [
+          "on",
+          "in",
+          "by",
+          "with"
+        ],
+        "answer": 1,
+        "explanation": "in writing「以書面方式」為固定片語。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "To: All Staff\nFrom: Facilities\nSubject: Bicycle Storage\n\nWe are pleased to announce that the covered bicycle shelter in the rear courtyard will open on September 1. The shelter has [33] for forty-eight bicycles and is monitored by camera.\n\nAccess is by staff badge. If your badge does not open the gate, contact Facilities and we will update your permissions, [34] takes about one working day.\n\nPlease remove your bicycle at the end of each working day. Bicycles left for more than seventy-two hours will be tagged, and those still present after two weeks will be [35] to the local council's unclaimed property service.\n\nWe will review usage in December and consider expanding the shelter if demand is high.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "space",
+              "spacious",
+              "spacing",
+              "spaced"
+            ],
+            "answer": 0,
+            "explanation": "has 後接名詞，space for「容納…的空間」符合語意。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "that",
+              "which",
+              "what",
+              "it"
+            ],
+            "answer": 1,
+            "explanation": "非限定關係子句用 which 指前面整件事（更新權限這件事）。that 不可用於非限定用法。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "transfer",
+              "transferred",
+              "transferring",
+              "transfers"
+            ],
+            "answer": 1,
+            "explanation": "will be 後接過去分詞形成被動 be transferred（被移交）。"
+          }
+        ]
+      },
+      {
+        "passage": "Harbour Point Café — Now Hiring Weekend Baristas\n\nHarbour Point Café is looking for two weekend baristas to join our team beginning in October.\n\nExperience with espresso equipment is preferred but not [36]. What matters more is reliability and a willingness to learn; our head barista provides two full training shifts before you work independently.\n\nShifts run Saturday and Sunday from six-thirty in the morning until two in the afternoon. The early start is demanding, [37] the shift ends in time to enjoy the rest of the day. Staff receive a free meal each shift and a fifty percent discount at other times.\n\nTo apply, bring a short résumé to the café in person. We [38] applications by e-mail, as we like to meet candidates before deciding.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "required",
+              "require",
+              "requiring",
+              "requirement"
+            ],
+            "answer": 0,
+            "explanation": "承接前句 is preferred but not required，均為被動語態的過去分詞。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "unless",
+              "so",
+              "because",
+              "but"
+            ],
+            "answer": 3,
+            "explanation": "「早起辛苦，但下班早」前後對比，用 but。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "do not accept",
+              "accept",
+              "have accepted",
+              "will be accepted"
+            ],
+            "answer": 0,
+            "explanation": "後半句說 we like to meet candidates before deciding，可知不接受電子郵件申請，故用否定。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Memo】\nTo: Regional Sales Staff\nFrom: Ingrid Solberg, VP Sales\nDate: August 19\nSubject: Changes to the Commission Structure\n\nEffective October 1, we are simplifying how commission is calculated.\n\nToday, commission depends on three variables: deal size, product category, and whether the customer is new or existing. Staff have told us repeatedly that they cannot predict their own earnings, and I agree the current model is too complicated.\n\nFrom October, there will be two rates. All new-customer revenue earns eight percent. All renewal and expansion revenue earns four percent. Product category will no longer affect the rate.\n\nI want to be transparent about the effect. Staff who sell mainly to new customers will earn more under the new structure — in some cases considerably more. Staff whose accounts are largely renewals will earn less. To ease that transition, anyone whose calculated commission falls below their average monthly commission from the first half of this year will be topped up to that average through March 31.\n\nYour manager will schedule an individual conversation with you before September 10 to walk through your own numbers. Please come to that meeting with any questions.",
+        "questions": [
+          {
+            "q": "Why is the commission structure changing?",
+            "options": [
+              "Because the current model is too complex",
+              "To reduce total costs",
+              "Because of a new regulation",
+              "To match a competitor"
+            ],
+            "answer": 0,
+            "explanation": "Staff have told us...they cannot predict their own earnings, and I agree the current model is too complicated，故選 (A)。"
+          },
+          {
+            "q": "What will no longer affect the commission rate?",
+            "options": [
+              "Deal size",
+              "Product category",
+              "Customer type",
+              "Region"
+            ],
+            "answer": 1,
+            "explanation": "Product category will no longer affect the rate，故選 (B)。"
+          },
+          {
+            "q": "What protection is offered to some staff?",
+            "options": [
+              "A guaranteed bonus",
+              "A reduced sales target",
+              "A temporary top-up to a past average",
+              "Additional holiday"
+            ],
+            "answer": 2,
+            "explanation": "will be topped up to that average through March 31，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Instructions】\nWYNDHAM AUTOMATIC COFFEE MAKER — SETTING THE TIMER\n\nThe timer allows the machine to begin brewing at a set hour without any action from you. Please read all steps before starting.\n\nStep 1. Fill the water reservoir and add ground coffee to the filter basket as you normally would. The timer does not work if the reservoir is below the minimum line; the display will show \"LO\" instead of the time.\n\nStep 2. Press and hold the CLOCK button for three seconds until the hour digits flash. Use the arrow buttons to set the current time, then press CLOCK again. Note that the machine uses a 24-hour display.\n\nStep 3. Press TIMER once. The digits will flash more slowly. Set your desired brewing time using the same arrow buttons, then press TIMER again to confirm. A small clock icon appears in the corner of the display.\n\nStep 4. Leave the machine plugged in and switched on at the wall. Do not press the BREW button — doing so cancels the timer and starts brewing immediately.\n\nIf the power is interrupted, the clock resets and the timer is lost. In areas with frequent outages, we suggest checking the clock icon each evening.",
+        "questions": [
+          {
+            "q": "What must be done before setting the timer?",
+            "options": [
+              "Clean the filter basket",
+              "Fill the water reservoir",
+              "Descale the machine",
+              "Set the language"
+            ],
+            "answer": 1,
+            "explanation": "Step 1 說 Fill the water reservoir...The timer does not work if the reservoir is below the minimum line，故選 (B)。"
+          },
+          {
+            "q": "What does \"LO\" on the display indicate?",
+            "options": [
+              "Low power",
+              "Low water level",
+              "A locked panel",
+              "A long brewing cycle"
+            ],
+            "answer": 1,
+            "explanation": "if the reservoir is below the minimum line; the display will show \"LO\"，故選 (B)。"
+          },
+          {
+            "q": "What should users avoid doing?",
+            "options": [
+              "Pressing the BREW button",
+              "Using the arrow buttons",
+              "Pressing CLOCK twice",
+              "Unplugging the filter basket"
+            ],
+            "answer": 0,
+            "explanation": "Do not press the BREW button — doing so cancels the timer，故選 (A)。"
+          },
+          {
+            "q": "What is suggested for areas with frequent power outages?",
+            "options": [
+              "Using a backup battery",
+              "Brewing manually",
+              "Checking the clock icon nightly",
+              "Contacting the manufacturer"
+            ],
+            "answer": 2,
+            "explanation": "we suggest checking the clock icon each evening，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  }
+}

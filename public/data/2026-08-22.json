@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-22",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "When will the new payroll software go live?",
+        "optionAudioTexts": [
+          "In the finance department.",
+          "On the first of next month.",
+          "About forty employees."
+        ],
+        "answer": 1,
+        "explanation": "When 問時間，(B)「下個月一號」正確。(A) 回答地點、(C) 回答人數。"
+      },
+      {
+        "audioText": "Who's responsible for ordering the office supplies now?",
+        "optionAudioTexts": [
+          "Twice a month, usually.",
+          "Priya took over in June.",
+          "From the warehouse downstairs."
+        ],
+        "answer": 1,
+        "explanation": "Who 問人，(B)「Priya 六月接手了」正確。(A) 回答頻率、(C) 回答來源地。"
+      },
+      {
+        "audioText": "Why was the quarterly review postponed?",
+        "optionAudioTexts": [
+          "In the third-floor boardroom.",
+          "The auditors needed more time.",
+          "Yes, I attended it."
+        ],
+        "answer": 1,
+        "explanation": "Why 問原因，(B)「稽核人員需要更多時間」正確。(A) 回答地點、(C) 不能用 Yes 回答 Why 問句。"
+      },
+      {
+        "audioText": "Would you rather present first or after the break?",
+        "optionAudioTexts": [
+          "The slides are almost ready.",
+          "It lasted twenty minutes.",
+          "After the break, if that's all right."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句要擇一，(C)「休息後，如果可以的話」正確。(B)(A) 未做選擇。"
+      },
+      {
+        "audioText": "How do I get reimbursed for the taxi fare?",
+        "optionAudioTexts": [
+          "It was about eighteen dollars.",
+          "The driver was very helpful.",
+          "Submit the receipt through the expense portal."
+        ],
+        "answer": 2,
+        "explanation": "How 問方法，(C)「把收據上傳到費用系統」正確。(A) 回答金額、(B) 評論司機。"
+      },
+      {
+        "audioText": "Haven't we already signed the lease for the Riverside unit?",
+        "optionAudioTexts": [
+          "A three-year term.",
+          "Not yet — legal is still reviewing it.",
+          "It's near the train station."
+        ],
+        "answer": 1,
+        "explanation": "否定疑問句確認事實，(B)「還沒，法務還在審」正確。(A) 說明年限、(C) 說明位置。"
+      },
+      {
+        "audioText": "Where should I put the samples the supplier sent?",
+        "optionAudioTexts": [
+          "They arrived this morning.",
+          "Leave them on the shelf in the lab.",
+          "About a dozen boxes."
+        ],
+        "answer": 1,
+        "explanation": "Where 問地點，(B)「放在實驗室的架子上」正確。(A) 回答時間、(C) 回答數量。"
+      },
+      {
+        "audioText": "The projector in room B keeps shutting off.",
+        "optionAudioTexts": [
+          "I'll put in a maintenance request today.",
+          "The presentation went well.",
+          "Room B seats thirty people."
+        ],
+        "answer": 0,
+        "explanation": "陳述句提出問題，(A)「我今天會提報修」是合適的解決回應。(B)(C) 均未處理問題。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Daniel, the caterer just called about Friday's client lunch. They can't get the salmon we ordered.",
+          "M: That's inconvenient. Did they suggest anything else?",
+          "W: They offered roast chicken or a vegetarian pasta at the same price. But two of our guests said they don't eat meat.",
+          "M: Then let's do the pasta as the main and add a chicken option on the side. Can they handle two dishes?",
+          "W: They said yes, as long as we confirm by three o'clock today.",
+          "M: I'll email the client to double-check the dietary notes, and you can call the caterer once I hear back. I should have an answer within the hour."
+        ],
+        "questions": [
+          {
+            "q": "What problem does the woman report?",
+            "options": [
+              "An item on the menu is unavailable",
+              "The caterer raised its prices",
+              "The lunch has been cancelled",
+              "A guest arrived late"
+            ],
+            "answer": 0,
+            "explanation": "女子說 They can't get the salmon we ordered，即菜色無法供應，故選 (A)。"
+          },
+          {
+            "q": "What does the man suggest?",
+            "options": [
+              "Changing the restaurant",
+              "Postponing the lunch",
+              "Serving two main dishes",
+              "Asking guests to pay"
+            ],
+            "answer": 2,
+            "explanation": "let's do the pasta as the main and add a chicken option on the side，即提供兩種主餐，故選 (C)。"
+          },
+          {
+            "q": "What will the man do next?",
+            "options": [
+              "Call the caterer",
+              "Book a meeting room",
+              "Email the client",
+              "Print the menu"
+            ],
+            "answer": 2,
+            "explanation": "I'll email the client to double-check the dietary notes，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Ms. Okafor, thanks for coming in. I understand you're interested in the warehouse space on Denton Road.",
+          "W: Yes. My main concern is the loading dock — our trucks are forty-eight feet long.",
+          "M: The dock handles that size, but there's only one bay. If you're receiving several deliveries a day, that could slow you down.",
+          "W: We average four a day right now, though we expect that to double within two years.",
+          "M: In that case, you may want to look at the Fairmont property instead. It has three bays and slightly more square footage, but the rent is about fifteen percent higher.",
+          "W: Could you send me the floor plans for both? I'd like to compare them with my operations manager before deciding."
+        ],
+        "questions": [
+          {
+            "q": "What is the woman looking for?",
+            "options": [
+              "A retail storefront",
+              "An office suite",
+              "A warehouse facility",
+              "A parking garage"
+            ],
+            "answer": 2,
+            "explanation": "男子說 the warehouse space on Denton Road，女子確認有興趣，故選 (C)。"
+          },
+          {
+            "q": "What concern does the man raise about the Denton Road property?",
+            "options": [
+              "The lease term is short",
+              "The rent is too high",
+              "It is far from the highway",
+              "It has only one loading bay"
+            ],
+            "answer": 3,
+            "explanation": "there's only one bay...that could slow you down，故選 (D)。"
+          },
+          {
+            "q": "What does the woman request?",
+            "options": [
+              "A rent discount",
+              "A longer lease",
+              "Floor plans for two properties",
+              "A site inspection today"
+            ],
+            "answer": 2,
+            "explanation": "Could you send me the floor plans for both?，故選 (C)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Attention all passengers waiting for the four-fifteen express to Northgate. Because of signal repairs near Bellview Junction, this service will depart from platform seven instead of platform two. The train will also make one additional stop at Carlton Street, which adds roughly eight minutes to the journey. Passengers holding tickets for the four-fifteen may instead take the four thirty-five local service at no extra charge, though that train stops at every station. If your final destination is beyond Northgate, please speak with a staff member in the blue vest near the information desk, as some connecting services have been rescheduled. We expect normal operations to resume by Monday morning, and we apologize for the disruption.",
+        "questions": [
+          {
+            "q": "Why is the announcement being made?",
+            "options": [
+              "A train has been cancelled",
+              "A station is closing",
+              "Ticket prices have increased",
+              "A platform has changed"
+            ],
+            "answer": 3,
+            "explanation": "this service will depart from platform seven instead of platform two，故選 (D)。"
+          },
+          {
+            "q": "What will make the journey longer?",
+            "options": [
+              "Heavy passenger traffic",
+              "An extra stop",
+              "A slower engine",
+              "A longer route"
+            ],
+            "answer": 1,
+            "explanation": "one additional stop at Carlton Street, which adds roughly eight minutes，故選 (B)。"
+          },
+          {
+            "q": "Who should speak with a staff member?",
+            "options": [
+              "Passengers without tickets",
+              "Passengers with large luggage",
+              "Passengers travelling past Northgate",
+              "Passengers needing refunds"
+            ],
+            "answer": 2,
+            "explanation": "If your final destination is beyond Northgate, please speak with a staff member，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "Hi Marcus, it's Rhea from Bellhaven Print Works. I'm calling about the brochures you ordered for the trade show. The good news is the printing finished a day early. The issue is the paper stock — you requested the matte one-hundred-pound cover, but our supplier sent us the ninety-pound instead, and we ran the job before anyone noticed. Honestly, the difference is barely visible, but I don't want to charge you for something you didn't order. So here's what I propose: we deliver these tomorrow at a fifteen percent discount, and if you're not happy when you see them, we reprint on the correct stock at no cost — though that would take four more days. Give me a call back at extension two-two-six and let me know which you'd prefer.",
+        "questions": [
+          {
+            "q": "What is the purpose of the call?",
+            "options": [
+              "To confirm a delivery address",
+              "To request payment",
+              "To advertise a new service",
+              "To explain an error with an order"
+            ],
+            "answer": 3,
+            "explanation": "講者說明紙材寄錯 the supplier sent us the ninety-pound instead，是說明訂單錯誤，故選 (D)。"
+          },
+          {
+            "q": "What does the speaker offer?",
+            "options": [
+              "Free delivery next month",
+              "A full refund",
+              "A discount on the current order",
+              "An upgraded design"
+            ],
+            "answer": 2,
+            "explanation": "we deliver these tomorrow at a fifteen percent discount，故選 (C)。"
+          },
+          {
+            "q": "What is mentioned about reprinting?",
+            "options": [
+              "It would take four additional days",
+              "It would cost extra",
+              "It is not possible",
+              "It requires a new design file"
+            ],
+            "answer": 0,
+            "explanation": "we reprint on the correct stock at no cost — though that would take four more days，故選 (A)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "All visitors are required ------- their identification badges at the security desk.",
+        "options": [
+          "present",
+          "presenting",
+          "presented",
+          "to present"
+        ],
+        "answer": 3,
+        "explanation": "be required to + 原形動詞，表示「被要求做某事」，故選 to present。"
+      },
+      {
+        "q": "The revised layout is ------- more spacious than the original design.",
+        "options": [
+          "very",
+          "far",
+          "too",
+          "such"
+        ],
+        "answer": 1,
+        "explanation": "修飾比較級 more spacious 需用 far（或 much/even），very 不能修飾比較級。"
+      },
+      {
+        "q": "Ms. Nakamura will assume ------- of the Singapore branch beginning in October.",
+        "options": [
+          "oversee",
+          "overseeing",
+          "overseen",
+          "oversight"
+        ],
+        "answer": 3,
+        "explanation": "assume 後面接名詞受詞，oversight（監督、管理權）為名詞，故選 (D)。"
+      },
+      {
+        "q": "------- the shipment clears customs, we will notify the client immediately.",
+        "options": [
+          "In case of",
+          "As soon as",
+          "Despite",
+          "Whereas"
+        ],
+        "answer": 1,
+        "explanation": "空格後為完整子句且語意為「一…就…」，用 As soon as。In case of 後接名詞。"
+      },
+      {
+        "q": "The technician explained the problem so ------- that even non-engineers understood it.",
+        "options": [
+          "clear",
+          "clarity",
+          "clearer",
+          "clearly"
+        ],
+        "answer": 3,
+        "explanation": "修飾動詞 explained 需用副詞 clearly。"
+      },
+      {
+        "q": "Employees who commute by bicycle are ------- for a monthly transportation credit.",
+        "options": [
+          "eligible",
+          "capable",
+          "responsible",
+          "reliable"
+        ],
+        "answer": 0,
+        "explanation": "be eligible for「有資格獲得」為固定搭配，符合「可領交通補助」之意。"
+      },
+      {
+        "q": "The renovation costs exceeded the original estimate by ------- thirty percent.",
+        "options": [
+          "nearby",
+          "nearer",
+          "near",
+          "nearly"
+        ],
+        "answer": 3,
+        "explanation": "修飾數字表「將近」用副詞 nearly。nearby 意為「附近的」。"
+      },
+      {
+        "q": "Neither the supervisor nor the assistants ------- aware of the schedule change.",
+        "options": [
+          "was",
+          "is",
+          "were",
+          "being"
+        ],
+        "answer": 2,
+        "explanation": "neither A nor B 動詞與最近的主詞 the assistants 一致，用複數 were。"
+      },
+      {
+        "q": "Please make sure the confidential files are stored ------- in the locked cabinet.",
+        "options": [
+          "safely",
+          "safe",
+          "safety",
+          "safest"
+        ],
+        "answer": 0,
+        "explanation": "修飾動詞 are stored 需用副詞 safely。"
+      },
+      {
+        "q": "The consultant's report identified several areas ------- efficiency could be improved.",
+        "options": [
+          "where",
+          "which",
+          "what",
+          "whose"
+        ],
+        "answer": 0,
+        "explanation": "先行詞 areas 表抽象「領域/方面」，後接完整子句，用關係副詞 where。"
+      },
+      {
+        "q": "Sales of the portable model have risen steadily ------- the redesign last spring.",
+        "options": [
+          "during",
+          "since",
+          "while",
+          "until"
+        ],
+        "answer": 1,
+        "explanation": "since + 過去時間點，配合現在完成式 have risen，表「自從…以來」。"
+      },
+      {
+        "q": "The board approved the merger ------- some directors expressed reservations.",
+        "options": [
+          "therefore",
+          "however",
+          "although",
+          "besides"
+        ],
+        "answer": 2,
+        "explanation": "前後語意相反且空格後為完整子句，需用連接詞 although。however 為副詞，不能連接兩個子句。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "MEMORANDUM\n\nTo: All Bramwell Tower Tenants\nFrom: Building Management\nSubject: Elevator Modernization\n\nBeginning Monday, September 7, we will begin a six-week project to modernize the three passenger elevators in the north lobby. Only one elevator will be [33] at any given time during the work.\n\nTo reduce crowding, we ask that tenants on floors two through four use the stairwell whenever [34]. Deliveries and moves must be scheduled with the management office at least forty-eight hours in advance so that we can reserve the service elevator.\n\nWe recognize that this will be inconvenient. However, the current cars are more than twenty years old and have required [35] repairs over the past year. The upgrade should reduce wait times by roughly a third once complete.\n\nThank you for your patience.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "out of print",
+              "out of stock",
+              "out of service",
+              "out of date"
+            ],
+            "answer": 2,
+            "explanation": "文中應為「同一時間只有一部電梯停用」，out of service 意為「停止使用/故障中」，符合電梯情境。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "possibleness",
+              "possibly",
+              "possibility",
+              "possible"
+            ],
+            "answer": 3,
+            "explanation": "whenever possible 是固定用法，意為「只要可能就…」。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "frequency",
+              "frequently",
+              "frequent",
+              "frequented"
+            ],
+            "answer": 2,
+            "explanation": "空格修飾名詞 repairs，需用形容詞 frequent（頻繁的）。"
+          }
+        ]
+      },
+      {
+        "passage": "Halvard Outdoor Gear — Customer Notice\n\nThank you for shopping with us. We want to make you aware of an update to our returns policy that takes [36] on October 1.\n\nPreviously, unused items could be returned within sixty days. That window will now be thirty days for sale merchandise, [37] full-price items will keep the sixty-day period. Original packaging is still required in both cases.\n\nWe have made this change because returns of deeply discounted seasonal stock had become difficult to resell. Customers who hold a Summit membership are [38] from the new limit and may continue to return any purchase within ninety days.\n\nQuestions may be directed to our service team at help@halvardgear.com.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "place",
+              "effect",
+              "part",
+              "notice"
+            ],
+            "answer": 1,
+            "explanation": "take effect 為固定片語，意為「生效」，符合政策更新的語境。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "because",
+              "while",
+              "unless",
+              "therefore"
+            ],
+            "answer": 1,
+            "explanation": "前後兩句形成對比（特價品 30 天 vs 原價品 60 天），用對比連接詞 while。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "excluded",
+              "exempt",
+              "removed",
+              "absent"
+            ],
+            "answer": 1,
+            "explanation": "be exempt from「不受…限制、獲豁免」，符合會員不受新規限制之意。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【E-mail】\nTo: All Regional Coordinators\nFrom: Lorna Ibsen, Operations Director\nDate: August 12\nSubject: Vendor Portal Transition\n\nDear colleagues,\n\nAs announced in June, we will retire the old vendor request forms on September 15 and move entirely to the online portal.\n\nBetween now and then, please continue submitting requests the way you do today, but also enter the same request in the portal so that we can compare the two systems. I realize this means duplicate work for about four weeks. It is temporary, and it is the only reliable way to catch gaps before we switch off the old process.\n\nTwo things to note. First, the portal will not accept purchase requests above $25,000; those will still route through Finance directly, as they do now. Second, each region should nominate one person to serve as a portal contact. That person will receive two hours of training on August 26 and will answer day-to-day questions for their region.\n\nPlease send me the name of your regional contact by August 20.\n\nRegards,\nLorna",
+        "questions": [
+          {
+            "q": "What are coordinators asked to do before September 15?",
+            "options": [
+              "Stop using the old forms",
+              "Attend a weekly meeting",
+              "Submit requests in both systems",
+              "Approve all vendor invoices"
+            ],
+            "answer": 2,
+            "explanation": "please continue submitting requests the way you do today, but also enter the same request in the portal，即兩套系統都要送，故選 (C)。"
+          },
+          {
+            "q": "What is stated about large purchase requests?",
+            "options": [
+              "They will not go through the portal",
+              "They must be submitted on paper",
+              "They require two approvals",
+              "They are no longer permitted"
+            ],
+            "answer": 0,
+            "explanation": "the portal will not accept purchase requests above $25,000; those will still route through Finance directly，故選 (A)。"
+          },
+          {
+            "q": "What is the deadline mentioned at the end of the e-mail?",
+            "options": [
+              "June 1",
+              "August 26",
+              "September 15",
+              "August 20"
+            ],
+            "answer": 3,
+            "explanation": "Please send me the name of your regional contact by August 20，故選 (D)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Article】\nFERNDALE MARKET TO EXTEND WEEKEND HOURS\n\nFerndale Farmers' Market will stay open until seven o'clock on Saturdays starting in September, three hours later than its current closing time. The change follows a survey of 480 shoppers conducted in July, in which just over half said that the four o'clock closing prevented them from attending.\n\nMarket manager Dev Rasheed said that roughly thirty of the market's fifty-two vendors have agreed to the longer day. \"We are not requiring anyone to stay,\" Rasheed said. \"Produce growers in particular often sell out by early afternoon, and asking them to remain would not make sense.\"\n\nThe extension will be tested for three months. If average Saturday attendance rises by at least twenty percent, the market board will make the hours permanent and consider a similar change on Sundays.\n\nOne complication is lighting. The market's west aisle has no permanent fixtures, and portable lights must be rented at a cost of about $200 per weekend. Rasheed said the market will cover that expense during the trial period but may ask vendors in that aisle to share it afterward.",
+        "questions": [
+          {
+            "q": "What change will the market make?",
+            "options": [
+              "It will open earlier on Saturdays",
+              "It will add Sunday hours immediately",
+              "It will move to a new location",
+              "It will close three hours later on Saturdays"
+            ],
+            "answer": 3,
+            "explanation": "stay open until seven o'clock on Saturdays...three hours later than its current closing time，故選 (D)。"
+          },
+          {
+            "q": "Why was the change proposed?",
+            "options": [
+              "Vendors requested more selling time",
+              "Survey respondents cited the early closing",
+              "Rent costs increased",
+              "A competing market opened"
+            ],
+            "answer": 1,
+            "explanation": "just over half said that the four o'clock closing prevented them from attending，故選 (B)。"
+          },
+          {
+            "q": "What does Mr. Rasheed say about produce growers?",
+            "options": [
+              "They often sell out early",
+              "They opposed the survey",
+              "They pay lower fees",
+              "They will move to another aisle"
+            ],
+            "answer": 0,
+            "explanation": "Produce growers in particular often sell out by early afternoon，故選 (A)。"
+          },
+          {
+            "q": "What is mentioned about the lighting cost?",
+            "options": [
+              "The market will cover it during the trial",
+              "It will be paid by the city",
+              "Vendors must pay it immediately",
+              "It has already been included in rent"
+            ],
+            "answer": 0,
+            "explanation": "the market will cover that expense during the trial period，故選 (A)。"
+          }
+        ]
+      }
+    ]
+  }
+}

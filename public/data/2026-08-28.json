@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-28",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "What time should we leave for the airport?",
+        "optionAudioTexts": [
+          "Terminal two, I believe.",
+          "No later than half past five.",
+          "A rental car is booked."
+        ],
+        "answer": 1,
+        "explanation": "What time 問時間，(B)「最晚五點半」正確。(A) 回答航廈、(C) 回答交通安排。"
+      },
+      {
+        "audioText": "Where is this year's sales conference being held?",
+        "optionAudioTexts": [
+          "It lasts two and a half days.",
+          "Around three hundred attendees.",
+          "In Valencia, at the convention centre."
+        ],
+        "answer": 2,
+        "explanation": "Where 問地點，(C)「瓦倫西亞的會議中心」正確。(B) 回答人數、(A) 回答天數。"
+      },
+      {
+        "audioText": "Have the revised drawings been sent to the contractor?",
+        "optionAudioTexts": [
+          "Not yet — I'm waiting on one signature.",
+          "About the ventilation layout.",
+          "The structural engineer prepared them."
+        ],
+        "answer": 0,
+        "explanation": "問是否已送出，(A)「還沒，在等一個簽名」正確。(C) 說明製作者、(B) 說明內容。"
+      },
+      {
+        "audioText": "Would it be better to run the survey in September or wait until November?",
+        "optionAudioTexts": [
+          "About twelve questions.",
+          "September — response rates drop over the holidays.",
+          "Yes, we've done it before."
+        ],
+        "answer": 1,
+        "explanation": "選擇疑問句，(B) 選了九月並說明理由。(C) 用 Yes 回答選擇疑問句不合適。"
+      },
+      {
+        "audioText": "How many spaces are left in the leadership course?",
+        "optionAudioTexts": [
+          "It runs for six weeks.",
+          "In the Dublin office.",
+          "Four, as of this morning."
+        ],
+        "answer": 2,
+        "explanation": "How many 問數量，(C)「到今早剩四個」正確。(A) 回答時長、(B) 回答地點。"
+      },
+      {
+        "audioText": "Why did we switch to the new courier?",
+        "optionAudioTexts": [
+          "Their weekend coverage is better.",
+          "By the end of last quarter.",
+          "Around two hundred parcels a week."
+        ],
+        "answer": 0,
+        "explanation": "Why 問原因，(A)「他們的週末配送較好」正確。(B) 回答時間、(C) 回答數量。"
+      },
+      {
+        "audioText": "Who's going to write up the risk assessment?",
+        "optionAudioTexts": [
+          "Before the equipment is installed.",
+          "I'll take it if nobody else has.",
+          "It's a standard template."
+        ],
+        "answer": 1,
+        "explanation": "Who 問人，(B)「如果沒人接我來做」正確。(A) 回答時間、(C) 描述文件。"
+      },
+      {
+        "audioText": "The figures in the third column don't add up.",
+        "optionAudioTexts": [
+          "It's a quarterly report.",
+          "I'll check the formula in that sheet.",
+          "The numbers look good overall."
+        ],
+        "answer": 1,
+        "explanation": "陳述句指出錯誤，(B)「我去檢查那張表的公式」是解決回應。(C) 與說話者的觀察矛盾。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Hi Tobias, do you have the visitor numbers for the summer exhibition? The board meets Thursday.",
+          "M: I do. Total attendance was just over nineteen thousand, which beats last summer by about eight percent.",
+          "W: That's good news. What about the paid workshops?",
+          "M: That's where it gets interesting. We ran twenty-four workshops and sixteen filled completely. But the four that didn't fill were all the weekday morning ones.",
+          "W: So the demand is there, just not at that time.",
+          "M: Exactly. My recommendation for next year is to move those to weekday evenings. The only complication is staffing — our education team currently finishes at five, so we'd need to adjust contracts or bring in freelancers."
+        ],
+        "questions": [
+          {
+            "q": "What are the speakers discussing?",
+            "options": [
+              "A staff recruitment plan",
+              "Results from a summer exhibition",
+              "A building renovation",
+              "A ticket price change"
+            ],
+            "answer": 1,
+            "explanation": "the visitor numbers for the summer exhibition，故選 (B)。"
+          },
+          {
+            "q": "What does the man say about the workshops?",
+            "options": [
+              "They were all cancelled",
+              "They lost money",
+              "Weekday morning ones did not fill",
+              "They were free of charge"
+            ],
+            "answer": 2,
+            "explanation": "the four that didn't fill were all the weekday morning ones，故選 (C)。"
+          },
+          {
+            "q": "What complication does the man mention?",
+            "options": [
+              "A lack of space",
+              "Staff working hours",
+              "A licensing issue",
+              "A shortage of materials"
+            ],
+            "answer": 1,
+            "explanation": "our education team currently finishes at five, so we'd need to adjust contracts，故選 (B)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Good morning. I'm returning a call about my order — the office chairs. The reference is BQ-7-7-1-4.",
+          "W: Thank you. Yes, we called because two of the six chairs you ordered are on back order until late October.",
+          "M: That's a problem. The new staff start on September 15.",
+          "W: I understand. There are two options. We can ship the four available chairs now and the remaining two when they arrive, at no extra delivery cost. Or we can substitute a similar model in the same colour that's in stock.",
+          "M: How similar is the substitute?",
+          "W: Same frame and adjustment mechanism, slightly firmer cushion. It's actually forty pounds more, but we'd hold the original price given the situation."
+        ],
+        "questions": [
+          {
+            "q": "Why did the company contact the man?",
+            "options": [
+              "To confirm an address",
+              "To offer a discount",
+              "To request payment",
+              "To report a partial delay"
+            ],
+            "answer": 3,
+            "explanation": "two of the six chairs you ordered are on back order，是部分延遲，故選 (D)。"
+          },
+          {
+            "q": "Why is the delay a problem for the man?",
+            "options": [
+              "New staff arrive in September",
+              "The office is closing",
+              "A budget expires",
+              "A showroom opens soon"
+            ],
+            "answer": 0,
+            "explanation": "The new staff start on September 15，故選 (A)。"
+          },
+          {
+            "q": "What does the woman say about the substitute chair?",
+            "options": [
+              "It comes in a different colour",
+              "It is smaller",
+              "It has no warranty",
+              "It normally costs more"
+            ],
+            "answer": 3,
+            "explanation": "It's actually forty pounds more, but we'd hold the original price，故選 (D)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Thanks for tuning in to the Thornbury business report. Our main story this morning concerns the former Kellerman paper mill on the east side of town, which has stood empty since 2019. A development company confirmed yesterday that it has acquired the eleven-acre site and intends to convert the main building into workshop units for small manufacturers. The plan requires no change to the building's exterior, which is protected because of its Victorian brickwork. Council officials say the application should reach the planning committee in January. Reaction has been mixed. The chamber of commerce welcomed the news, pointing to a shortage of light industrial space in the district. Residents of the adjoining streets, however, have raised concerns about lorry traffic on Weir Lane, which is narrow and has no pavement on one side. A public information session is planned for September 12.",
+        "questions": [
+          {
+            "q": "What is the main topic of the report?",
+            "options": [
+              "The redevelopment of a former mill",
+              "A factory closure",
+              "A new housing estate",
+              "A road widening project"
+            ],
+            "answer": 0,
+            "explanation": "acquired the eleven-acre site and intends to convert the main building into workshop units，故選 (A)。"
+          },
+          {
+            "q": "Why will the exterior remain unchanged?",
+            "options": [
+              "It was recently repaired",
+              "It is protected",
+              "The budget is limited",
+              "The owner prefers it"
+            ],
+            "answer": 1,
+            "explanation": "which is protected because of its Victorian brickwork，故選 (B)。"
+          },
+          {
+            "q": "What concern do nearby residents have?",
+            "options": [
+              "Noise from machinery",
+              "Loss of parking",
+              "Property values",
+              "Truck traffic on a narrow road"
+            ],
+            "answer": 3,
+            "explanation": "raised concerns about lorry traffic on Weir Lane, which is narrow，故選 (D)。"
+          }
+        ]
+      },
+      {
+        "script": "Hello, this message is for Ms. Delacroix. This is Owen calling from Brightline Insurance about the commercial policy renewal we discussed on Tuesday. I've now had the underwriter's response. The good news is they've agreed to the higher equipment coverage you asked for, and the premium increase is smaller than I estimated — about six percent rather than ten. There is one condition. Because your workshop stores flammable solvents, they require a written confirmation that the storage cabinet meets the current fire standard. A photo of the cabinet's certification label is usually enough. If you can send that by Friday, I can issue the renewal documents before your current policy lapses on September 1. If Friday isn't possible, call me and I'll ask for a short extension. My number is 555-0173.",
+        "questions": [
+          {
+            "q": "Why is the speaker calling?",
+            "options": [
+              "To sell a new policy",
+              "To report a claim",
+              "To update a client on a renewal",
+              "To collect a payment"
+            ],
+            "answer": 2,
+            "explanation": "about the commercial policy renewal we discussed on Tuesday，並說明核保結果，故選 (C)。"
+          },
+          {
+            "q": "What does the speaker say about the premium?",
+            "options": [
+              "It will rise less than expected",
+              "It will not change",
+              "It will double",
+              "It will be refunded"
+            ],
+            "answer": 0,
+            "explanation": "the premium increase is smaller than I estimated — about six percent rather than ten，故選 (A)。"
+          },
+          {
+            "q": "What does the underwriter require?",
+            "options": [
+              "A site inspection",
+              "Proof that a storage cabinet meets a standard",
+              "A larger deposit",
+              "A signed contract from a supplier"
+            ],
+            "answer": 1,
+            "explanation": "they require a written confirmation that the storage cabinet meets the current fire standard，故選 (B)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The consultant's fee does not include travel expenses, ------- are billed separately.",
+        "options": [
+          "they",
+          "that",
+          "which",
+          "who"
+        ],
+        "answer": 2,
+        "explanation": "非限定關係子句以逗號隔開，先行詞為物，用 which。"
+      },
+      {
+        "q": "The building's heating system is inspected ------- a year by a certified engineer.",
+        "options": [
+          "double",
+          "second",
+          "twice",
+          "two"
+        ],
+        "answer": 2,
+        "explanation": "twice a year「一年兩次」為固定用法。"
+      },
+      {
+        "q": "Staff must obtain ------- approval before purchasing equipment over £500.",
+        "options": [
+          "written",
+          "write",
+          "writing",
+          "writes"
+        ],
+        "answer": 0,
+        "explanation": "修飾名詞 approval 用過去分詞形容詞 written（書面的）。"
+      },
+      {
+        "q": "The launch was delayed ------- a problem with the supplier's certification.",
+        "options": [
+          "although",
+          "owing to",
+          "whereas",
+          "even if"
+        ],
+        "answer": 1,
+        "explanation": "空格後為名詞片語，需用介系詞片語 owing to（由於）。"
+      },
+      {
+        "q": "Ms. Trang has been with the company ------- longer than anyone else on the board.",
+        "options": [
+          "very",
+          "too",
+          "so",
+          "much"
+        ],
+        "answer": 3,
+        "explanation": "much 可修飾比較級 longer；very 不能修飾比較級。"
+      },
+      {
+        "q": "The report concludes that remote work has had a ------- effect on retention.",
+        "options": [
+          "measure",
+          "measured",
+          "measurement",
+          "measurable"
+        ],
+        "answer": 3,
+        "explanation": "修飾名詞 effect 需用形容詞 measurable（可量測的、明顯的）。"
+      },
+      {
+        "q": "Please notify reception ------- you expect a delivery after five o'clock.",
+        "options": [
+          "whether",
+          "despite",
+          "unless",
+          "if"
+        ],
+        "answer": 3,
+        "explanation": "if 引導條件子句，「如果你預期五點後有貨到」。"
+      },
+      {
+        "q": "The company's recycling rate rose from forty ------- sixty-two percent in two years.",
+        "options": [
+          "at",
+          "for",
+          "by",
+          "to"
+        ],
+        "answer": 3,
+        "explanation": "from A to B「從 A 到 B」為固定搭配。"
+      },
+      {
+        "q": "All candidates will be assessed ------- the same set of criteria.",
+        "options": [
+          "among",
+          "against",
+          "beyond",
+          "toward"
+        ],
+        "answer": 1,
+        "explanation": "assess against criteria「依據標準評量」為常見搭配。"
+      },
+      {
+        "q": "Not only ------- the deadline, but the team also reduced costs by twelve percent.",
+        "options": [
+          "they met",
+          "did they meet",
+          "have met",
+          "met they"
+        ],
+        "answer": 1,
+        "explanation": "Not only 置句首需倒裝，用助動詞 did + 主詞 + 原形動詞。"
+      },
+      {
+        "q": "The instructions specify that the adhesive must dry ------- before the panels are joined.",
+        "options": [
+          "complete",
+          "completion",
+          "completing",
+          "completely"
+        ],
+        "answer": 3,
+        "explanation": "修飾動詞 dry 需用副詞 completely。"
+      },
+      {
+        "q": "The workshop was cancelled because of ------- interest from members.",
+        "options": [
+          "insufficient",
+          "insufficiently",
+          "insufficiency",
+          "sufficient"
+        ],
+        "answer": 0,
+        "explanation": "取消的原因應為「興趣不足」，用形容詞 insufficient 修飾 interest。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "To: All Users of the Rowan Building\nFrom: IT Services\nSubject: Wireless Network Upgrade\n\nOn Saturday, September 5, we will replace the wireless access points throughout the Rowan Building. The work will begin at seven in the morning and should be [33] by early afternoon.\n\nDuring the work, wireless service will be unavailable. Wired connections at desks will continue to function [34], so anyone who must work on site that day should bring an Ethernet cable.\n\nAfter the upgrade, you will need to reconnect your devices. The network name stays the same, but the security settings change, so saved passwords will not work. Instructions [35] on the intranet by Friday afternoon.\n\nWe expect noticeably better coverage in the basement archive and the third-floor meeting rooms, where signal complaints have been most frequent.",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "completed",
+              "complete",
+              "completing",
+              "completion"
+            ],
+            "answer": 0,
+            "explanation": "be 動詞 be 後接過去分詞形成被動 be completed（被完成）。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "normal",
+              "normality",
+              "normally",
+              "normalize"
+            ],
+            "answer": 2,
+            "explanation": "修飾動詞 function 需用副詞 normally（正常地）。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "will be posted",
+              "posting",
+              "post",
+              "have posted"
+            ],
+            "answer": 0,
+            "explanation": "Instructions 為被動且指未來（by Friday afternoon），用 will be posted。"
+          }
+        ]
+      },
+      {
+        "passage": "Ellery & Sons Garden Centre — Autumn Newsletter\n\nAutumn is the best season for planting most trees and shrubs, [36] the soil is still warm and rainfall is more reliable. Roots establish themselves before winter, which gives plants a real advantage the following spring.\n\nThis month we are offering twenty percent off all bare-root fruit trees. Bare-root stock is cheaper than potted stock and often establishes more quickly, but it must be planted [37] after purchase — ideally the same day.\n\nOur staff are happy to advise on variety selection. Bring a photograph of your site and, if possible, a note of how many hours of direct sun the area receives. That single piece of information [38] more planting failures than anything else we see.\n\nOpen daily, eight to six.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "although",
+              "since",
+              "unless",
+              "whether"
+            ],
+            "answer": 1,
+            "explanation": "後句說明原因（土壤仍溫暖、降雨穩定），用 since（因為）。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "prompt",
+              "promptness",
+              "promptly",
+              "prompted"
+            ],
+            "answer": 2,
+            "explanation": "修飾動詞 be planted 需用副詞 promptly（立即地）。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "prevention",
+              "prevent",
+              "preventing",
+              "prevents"
+            ],
+            "answer": 3,
+            "explanation": "主詞 That single piece of information 為單數，需用單數動詞 prevents。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Schedule】\nHOLLOWAY MANUFACTURING — SUPERVISOR TRAINING, SEPTEMBER\n\nAll shift supervisors must complete four modules by December 31. Modules may be taken in any order except that Module 3 requires Module 1.\n\nModule 1 — Safety Leadership. September 3 and September 17, 9:00–12:00. Held in Training Room A. Capacity 16.\n\nModule 2 — Managing Difficult Conversations. September 9, 13:00–17:00. Held off site at the Grantley Centre. Capacity 12. Transport is not provided.\n\nModule 3 — Incident Investigation. September 24, 9:00–16:00. Training Room A. Capacity 10. Participants must bring a completed pre-work sheet.\n\nModule 4 — Scheduling and Absence. Online, self-paced. Available from September 1. Approximately three hours.\n\nBookings close five working days before each session. Supervisors who cannot attend a September date will find repeat sessions in October and November, except for Module 3, which runs only in September and November.",
+        "questions": [
+          {
+            "q": "Which module must be completed before Module 3?",
+            "options": [
+              "None",
+              "Module 2",
+              "Module 4",
+              "Module 1"
+            ],
+            "answer": 3,
+            "explanation": "Module 3 requires Module 1，故選 (D)。"
+          },
+          {
+            "q": "What is different about Module 2?",
+            "options": [
+              "It is the longest module",
+              "It has no capacity limit",
+              "It is held away from the site",
+              "It is optional"
+            ],
+            "answer": 2,
+            "explanation": "Held off site at the Grantley Centre，故選 (C)。"
+          },
+          {
+            "q": "What must Module 3 participants bring?",
+            "options": [
+              "A laptop",
+              "Safety equipment",
+              "A pre-work sheet",
+              "A supervisor's approval form"
+            ],
+            "answer": 2,
+            "explanation": "Participants must bring a completed pre-work sheet，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "passage": "【E-mail】\nTo: Priyanka Menon\nFrom: Customer Service, Alverton Books\nDate: August 20\nSubject: Re: Order 88-2043\n\nDear Ms. Menon,\n\nThank you for writing to us about your order, and I am sorry for the trouble.\n\nYou ordered three copies of \"Coastal Geology of the North\" for a course you are teaching, with delivery requested by August 15. Our records show the parcel left our warehouse on August 11 but was returned to us on August 18 marked \"address incomplete.\" Looking at the order, the building name was entered but not the street number.\n\nI have arranged for three copies to be dispatched today by overnight courier at no cost to you, to the corrected address you supplied in your message. You should receive them tomorrow before noon.\n\nRegarding your request for a refund of the original delivery charge of £4.95: I have processed this, and it will appear on your card within five working days. I have not refunded the cost of the books themselves, since you will be receiving them, but if you no longer need them because the course has begun, reply to this message within seven days and we will accept a return at our expense.\n\nSincerely,\nDaniel Okonkwo",
+        "questions": [
+          {
+            "q": "What caused the delivery problem?",
+            "options": [
+              "The books were out of stock",
+              "The courier lost the parcel",
+              "The address was incomplete",
+              "Payment was declined"
+            ],
+            "answer": 2,
+            "explanation": "was returned to us on August 18 marked \"address incomplete\"，故選 (C)。"
+          },
+          {
+            "q": "What has the company done?",
+            "options": [
+              "Scheduled a collection",
+              "Cancelled the order",
+              "Offered a store credit",
+              "Sent replacements by overnight courier"
+            ],
+            "answer": 3,
+            "explanation": "I have arranged for three copies to be dispatched today by overnight courier，故選 (D)。"
+          },
+          {
+            "q": "What is being refunded?",
+            "options": [
+              "The full order amount",
+              "Half the book cost",
+              "The delivery charge",
+              "Nothing"
+            ],
+            "answer": 2,
+            "explanation": "your request for a refund of the original delivery charge of £4.95: I have processed this，故選 (C)。"
+          },
+          {
+            "q": "What may Ms. Menon do within seven days?",
+            "options": [
+              "Request a discount code",
+              "Return the books at no cost",
+              "Change the delivery address again",
+              "Order additional copies"
+            ],
+            "answer": 1,
+            "explanation": "reply to this message within seven days and we will accept a return at our expense，故選 (B)。"
+          }
+        ]
+      }
+    ]
+  }
+}

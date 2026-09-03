@@ -1,0 +1,562 @@
+{
+  "date": "2026-08-27",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "When is the deadline for submitting travel receipts?",
+        "optionAudioTexts": [
+          "Thirty days after you return.",
+          "To the finance inbox.",
+          "Only meals and transport."
+        ],
+        "answer": 0,
+        "explanation": "When 問期限，(A)「回國後三十天內」正確。(B) 回答繳交對象、(C) 回答可報項目。"
+      },
+      {
+        "audioText": "Why has the client requested a second site visit?",
+        "optionAudioTexts": [
+          "Next Wednesday morning.",
+          "They want to see the finished samples.",
+          "Their office is in Turin."
+        ],
+        "answer": 1,
+        "explanation": "Why 問原因，(B)「他們想看完成的樣品」正確。(A) 回答時間、(C) 回答地點。"
+      },
+      {
+        "audioText": "Could you send me the meeting notes when you have a moment?",
+        "optionAudioTexts": [
+          "I'll forward them this afternoon.",
+          "The meeting ran long.",
+          "About eight people attended."
+        ],
+        "answer": 0,
+        "explanation": "請求，(A)「我下午轉寄給你」是直接答應。(B)(C) 未回應請求。"
+      },
+      {
+        "audioText": "Which supplier gave us the shorter lead time?",
+        "optionAudioTexts": [
+          "Renwick, by about a week.",
+          "We've used both before.",
+          "Ten working days."
+        ],
+        "answer": 0,
+        "explanation": "Which supplier 問哪一家，(A)「Renwick，快了大約一週」正確。(C) 只給天數未指出廠商。"
+      },
+      {
+        "audioText": "Is the storage room being cleared out this weekend or next?",
+        "optionAudioTexts": [
+          "On the lower level.",
+          "Yes, it's very full.",
+          "Next weekend, once the skip arrives."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句，(C) 選了下週末並說明條件。(B) 用 Yes 回答選擇疑問句不合適。"
+      },
+      {
+        "audioText": "How did the candidates find the technical assessment?",
+        "optionAudioTexts": [
+          "Two hours long.",
+          "Most said it was fair but tight on time.",
+          "In the online portal."
+        ],
+        "answer": 1,
+        "explanation": "How did...find 問感想，(B)「多數說公平但時間很趕」正確。(A) 回答時長、(C) 回答位置。"
+      },
+      {
+        "audioText": "Who's covering the front desk while Amira is on leave?",
+        "optionAudioTexts": [
+          "For three weeks, I think.",
+          "We've brought in an agency temp.",
+          "She's visiting family."
+        ],
+        "answer": 1,
+        "explanation": "Who 問代班人，(B)「我們請了人力公司的臨時人員」正確。(A) 回答時長、(C) 說明請假原因。"
+      },
+      {
+        "audioText": "The estimate came in higher than the budget we approved.",
+        "optionAudioTexts": [
+          "It was approved in June.",
+          "The contractor is very experienced.",
+          "We'll need to go back to the committee."
+        ],
+        "answer": 2,
+        "explanation": "陳述句指出超支，(C)「那我們得再回委員會」是合理的後續行動。(B)(A) 未回應問題。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "M: Elena, the translation agency sent back the Japanese version of the user guide. I've had a look and I'm not comfortable signing it off.",
+          "W: What's wrong with it?",
+          "M: The language is fine as far as I can tell, but they translated the safety warnings word for word. Our distributor in Osaka told us last year that Japanese regulations require specific standard phrasing for those.",
+          "W: Did we tell the agency that?",
+          "M: I checked the brief. We didn't. So it's partly on us.",
+          "W: All right. Let's send them the regulator's phrasing document and ask for a revision. I'd also copy the distributor so they can check it before we print. How long do we have?",
+          "M: The print slot is booked for September 8, so about ten days."
+        ],
+        "questions": [
+          {
+            "q": "What problem does the man describe?",
+            "options": [
+              "A translation was delivered late",
+              "Safety warnings do not meet local requirements",
+              "The wrong language was used",
+              "The file was corrupted"
+            ],
+            "answer": 1,
+            "explanation": "they translated the safety warnings word for word，但日本法規要求特定標準用語，故選 (B)。"
+          },
+          {
+            "q": "What does the man admit?",
+            "options": [
+              "He missed a deadline",
+              "He chose the wrong agency",
+              "He did not read the guide",
+              "The brief omitted the requirement"
+            ],
+            "answer": 3,
+            "explanation": "I checked the brief. We didn't. So it's partly on us，即簡報未提及該要求，故選 (D)。"
+          },
+          {
+            "q": "What does the woman suggest doing?",
+            "options": [
+              "Involving the distributor in the review",
+              "Translating it in-house",
+              "Cancelling the contract",
+              "Delaying the product launch"
+            ],
+            "answer": 0,
+            "explanation": "I'd also copy the distributor so they can check it before we print，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "W: Mr. Adeyemi, thanks for coming in. Your application for the small business loan is nearly complete, but I have a few questions.",
+          "M: Of course.",
+          "W: You've asked for sixty thousand to open the second location. Your projections show the new shop breaking even in month seven. What are those based on?",
+          "M: The first shop broke even in month nine, and the new neighborhood has about forty percent more foot traffic during weekday lunch hours.",
+          "W: That's a reasonable comparison. My concern is the equipment line — you've budgeted nine thousand, but similar applicants typically spend fifteen to eighteen.",
+          "M: We're moving some equipment from the first location and buying refurbished ovens.",
+          "W: Please put that in writing and attach quotes. Without documentation, our credit committee will assume the budget is too low."
+        ],
+        "questions": [
+          {
+            "q": "What is the man applying for?",
+            "options": [
+              "A construction permit",
+              "A retail lease",
+              "A business loan",
+              "A supplier contract"
+            ],
+            "answer": 2,
+            "explanation": "Your application for the small business loan，故選 (C)。"
+          },
+          {
+            "q": "What concern does the woman raise?",
+            "options": [
+              "The equipment budget seems low",
+              "The location is unsuitable",
+              "The loan amount is too small",
+              "The projections are missing"
+            ],
+            "answer": 0,
+            "explanation": "you've budgeted nine thousand, but similar applicants typically spend fifteen to eighteen，故選 (A)。"
+          },
+          {
+            "q": "What does the woman ask the man to provide?",
+            "options": [
+              "A personal guarantee",
+              "Tax returns",
+              "Written explanation and quotes",
+              "A new business plan"
+            ],
+            "answer": 2,
+            "explanation": "Please put that in writing and attach quotes，故選 (C)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good morning. This is the weekly operations update from the Fairhaven Distribution Centre. Three items today. First, the new pick-to-light system in aisle group C went live on Monday. Early numbers are encouraging — pick accuracy in that group has improved from ninety-six to ninety-nine percent. We'll extend it to aisle group D in October. Second, a reminder that the temporary night shift ends this Sunday. If you signed up for night hours, your regular schedule resumes Monday, and your supervisor will confirm your shift by Friday. Third, and most importantly, we had two near-miss incidents involving forklifts and pedestrians last week, both at the crossing near the packing tables. Until we install a barrier, please use the marked walkway even if it means walking an extra thirty seconds. That crossing is where somebody will eventually get hurt if we don't change our habits.",
+        "questions": [
+          {
+            "q": "What improvement is reported?",
+            "options": [
+              "Faster delivery times",
+              "Higher pick accuracy",
+              "Lower staffing costs",
+              "Fewer returns"
+            ],
+            "answer": 1,
+            "explanation": "pick accuracy in that group has improved from ninety-six to ninety-nine percent，故選 (B)。"
+          },
+          {
+            "q": "What will happen on Monday?",
+            "options": [
+              "A new system launches",
+              "A barrier is installed",
+              "Regular schedules resume",
+              "A training session begins"
+            ],
+            "answer": 2,
+            "explanation": "your regular schedule resumes Monday，故選 (C)。"
+          },
+          {
+            "q": "What does the speaker urge staff to do?",
+            "options": [
+              "Report equipment faults",
+              "Wear high-visibility vests",
+              "Use the marked walkway",
+              "Avoid aisle group C"
+            ],
+            "answer": 2,
+            "explanation": "please use the marked walkway even if it means walking an extra thirty seconds，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": "Thank you all for coming to the ribbon cutting for the Aldergate Community Kitchen. Five years ago this building was an empty bank branch with boarded windows. Today it has three teaching kitchens, a food pantry, and a small café that will employ six people from the neighborhood. I want to acknowledge that this project nearly didn't happen. In the second year, our main funder withdrew, and we came very close to selling the building. What saved it was the two hundred and forty local residents who contributed small monthly donations, most of them under ten pounds. Starting Monday, the kitchens will host free cooking classes four evenings a week, and registration opens today at the table near the door. The café opens in October once staff training is complete. Please stay, look around, and have something to eat.",
+        "questions": [
+          {
+            "q": "What is the purpose of the speech?",
+            "options": [
+              "To thank departing staff",
+              "To announce a fundraising campaign",
+              "To report annual results",
+              "To open a new community facility"
+            ],
+            "answer": 3,
+            "explanation": "Thank you all for coming to the ribbon cutting，是開幕典禮，故選 (D)。"
+          },
+          {
+            "q": "What difficulty does the speaker mention?",
+            "options": [
+              "A construction delay",
+              "The building was damaged",
+              "A funder withdrew support",
+              "Staff were hard to recruit"
+            ],
+            "answer": 2,
+            "explanation": "In the second year, our main funder withdrew，故選 (C)。"
+          },
+          {
+            "q": "What can visitors do today?",
+            "options": [
+              "Eat at the café",
+              "Take a cooking class",
+              "Register for classes",
+              "Tour the food pantry only"
+            ],
+            "answer": 2,
+            "explanation": "registration opens today at the table near the door，故選 (C)。咖啡館要十月才開。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The department head asked that the revised figures ------- to her by noon.",
+        "options": [
+          "send",
+          "be sent",
+          "sending",
+          "are sent"
+        ],
+        "answer": 1,
+        "explanation": "ask that + 主詞 + (should) 原形動詞，被動語態為 be sent。"
+      },
+      {
+        "q": "Sales of the compact model have grown rapidly, ------- those of the larger version.",
+        "options": [
+          "dislike",
+          "unlike",
+          "alike",
+          "likely"
+        ],
+        "answer": 1,
+        "explanation": "unlike 為介系詞，表「不像、與…不同」，後接名詞片語。"
+      },
+      {
+        "q": "The revised contract is essentially ------- to the one signed last year.",
+        "options": [
+          "identify",
+          "identical",
+          "identically",
+          "identity"
+        ],
+        "answer": 1,
+        "explanation": "be identical to「與…相同」，空格需形容詞 identical。"
+      },
+      {
+        "q": "Access to the server room is restricted to ------- personnel.",
+        "options": [
+          "authorize",
+          "authorizing",
+          "authorized",
+          "authorization"
+        ],
+        "answer": 2,
+        "explanation": "修飾名詞 personnel 需用過去分詞當形容詞 authorized（經授權的）。"
+      },
+      {
+        "q": "The lecture had already begun ------- we reached the auditorium.",
+        "options": [
+          "by the time",
+          "as soon as",
+          "in time",
+          "at the time"
+        ],
+        "answer": 0,
+        "explanation": "by the time + 過去式子句，搭配主句過去完成式 had begun。"
+      },
+      {
+        "q": "Neither of the applicants ------- the minimum experience requirement.",
+        "options": [
+          "meets",
+          "meet",
+          "meeting",
+          "have met"
+        ],
+        "answer": 0,
+        "explanation": "Neither of + 複數名詞作主詞時視為單數，用 meets。"
+      },
+      {
+        "q": "The firm operates in twelve countries and employs ------- two thousand people.",
+        "options": [
+          "approximate",
+          "approximation",
+          "approximately",
+          "approximated"
+        ],
+        "answer": 2,
+        "explanation": "修飾數字需用副詞 approximately（大約）。"
+      },
+      {
+        "q": "Please refer to the attached chart ------- details of the payment schedule.",
+        "options": [
+          "by",
+          "of",
+          "for",
+          "in"
+        ],
+        "answer": 2,
+        "explanation": "for 表目的，「參閱附表以取得…細節」。"
+      },
+      {
+        "q": "The manager was hesitant ------- the plan without further data.",
+        "options": [
+          "approve",
+          "to approve",
+          "approving",
+          "approved"
+        ],
+        "answer": 1,
+        "explanation": "be hesitant to + 原形動詞，表「猶豫是否要做某事」。"
+      },
+      {
+        "q": "The office will remain open on Saturday ------- staff can complete the inventory.",
+        "options": [
+          "as well as",
+          "such as",
+          "in order",
+          "so that"
+        ],
+        "answer": 3,
+        "explanation": "空格後為完整子句表目的，用 so that。"
+      },
+      {
+        "q": "Customers may return items within fourteen days ------- that the packaging is intact.",
+        "options": [
+          "provided",
+          "providing",
+          "provide",
+          "provision"
+        ],
+        "answer": 0,
+        "explanation": "provided that「條件是…」為固定用法，引導條件子句；provide 為動詞、provision 為名詞，語法不合。"
+      },
+      {
+        "q": "The engineer's explanation was too ------- for most of the audience to follow.",
+        "options": [
+          "technician",
+          "technically",
+          "technique",
+          "technical"
+        ],
+        "answer": 3,
+        "explanation": "too + 形容詞 + for...to，故用形容詞 technical。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Dear Dr. Yusupova,\n\nOn behalf of the organizing committee, I am delighted to confirm your participation in the Northern Materials Symposium, to be held in Tromsø from November 4 to 6.\n\nYour session has been [33] to Thursday afternoon, from two until three-fifteen. This includes fifteen minutes for questions, so please plan for roughly sixty minutes of presentation.\n\nWe ask all speakers to send slides by October 20 so that our technical team can test them on the venue equipment. Files [34] after that date can still be used, but we cannot guarantee testing.\n\nAccommodation has been reserved for you at the Havna Hotel for three nights. If your travel plans require a [35] stay, please let us know by October 1 and we will adjust the booking.\n\nWith best regards,\nMagnus Tolvanen",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "schedule",
+              "scheduling",
+              "scheduled",
+              "schedules"
+            ],
+            "answer": 2,
+            "explanation": "has been 後接過去分詞形成被動完成式 has been scheduled（已排定）。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "receive",
+              "received",
+              "receiving",
+              "receives"
+            ],
+            "answer": 1,
+            "explanation": "過去分詞片語 received after that date 後位修飾 Files，表被動（被收到的檔案）。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "longer",
+              "long",
+              "longest",
+              "length"
+            ],
+            "answer": 0,
+            "explanation": "與原訂三晚相比需要「更長的」停留，用比較級 longer。"
+          }
+        ]
+      },
+      {
+        "passage": "PARKSIDE VETERINARY CLINIC — APPOINTMENT REMINDERS\n\nWe are introducing an automated reminder service for all appointments starting September 15.\n\nClients will receive a text message two days before their appointment and a second one on the morning of the visit. Each message includes a link that lets you confirm or cancel [36] calling the clinic.\n\nWe are making this change because missed appointments have risen sharply. In July alone, eleven percent of booked slots went unused, [37] meant other animals waited longer than necessary.\n\nIf you prefer not to receive text messages, you may opt out at reception or by replying STOP. Please note that clients who opt out are still [38] for the standard fee if an appointment is missed without twenty-four hours' notice.\n\nThank you for helping us serve all of our patients.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "except",
+              "besides",
+              "without",
+              "instead"
+            ],
+            "answer": 2,
+            "explanation": "without + 動名詞 calling，表「不用打電話就能確認或取消」。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "which",
+              "that",
+              "what",
+              "who"
+            ],
+            "answer": 0,
+            "explanation": "非限定關係子句指前面整件事（爽約率上升），用 which。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "respond",
+              "responsibly",
+              "responsibility",
+              "responsible"
+            ],
+            "answer": 3,
+            "explanation": "be responsible for「需負擔…責任」，空格需形容詞 responsible。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Article】\nSMALL BREWERIES TURN TO SHARED BOTTLING\n\nA growing number of independent breweries in the region are using mobile bottling services rather than buying their own equipment, according to a report released this week by the Craft Producers Association.\n\nA bottling line suitable for a small brewery costs between £80,000 and £150,000 and typically sits idle most of the week. Mobile operators bring a truck-mounted line to the brewery, run the batch, and move on. The report found that forty-one of the region's sixty-three small breweries used such a service at least once last year, up from nineteen three years ago.\n\nThe main drawback is scheduling. Mobile operators book weeks ahead, and a brewery whose batch is not ready on the appointed day may wait a month for another slot. Two breweries interviewed for the report said they had poured away product for this reason.\n\nThe association recommends that breweries consider shared ownership as an alternative. Under this model, three or four producers jointly purchase a line and house it at one site. The report notes that two such arrangements exist in the region and both have operated for more than four years.",
+        "questions": [
+          {
+            "q": "What trend does the report describe?",
+            "options": [
+              "More breweries use mobile bottling",
+              "Breweries are merging",
+              "Bottle prices are rising",
+              "Beer sales are falling"
+            ],
+            "answer": 0,
+            "explanation": "independent breweries...are using mobile bottling services，且使用家數由 19 增至 41，故選 (A)。"
+          },
+          {
+            "q": "Why do breweries avoid buying their own line?",
+            "options": [
+              "It is expensive and often unused",
+              "It requires special permits",
+              "It is difficult to operate",
+              "It cannot handle small batches"
+            ],
+            "answer": 0,
+            "explanation": "costs between £80,000 and £150,000 and typically sits idle most of the week，故選 (A)。"
+          },
+          {
+            "q": "What does the association recommend?",
+            "options": [
+              "Shared ownership of equipment",
+              "Exporting more product",
+              "Reducing batch sizes",
+              "Switching to cans"
+            ],
+            "answer": 0,
+            "explanation": "The association recommends that breweries consider shared ownership，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "passage": "【E-mail】\nTo: Property Owners, Westhaven Marina\nFrom: Marina Office\nDate: August 22\nSubject: Winter Haul-Out Schedule\n\nDear Owners,\n\nThe winter haul-out begins October 12 and must be completed by November 14, when the travel lift goes in for its annual inspection.\n\nSlots are assigned by berth number, not by request. Your assigned week is listed on the notice board and on our website. If your assigned week does not suit you, you may swap with another owner, but both parties must notify the office in writing at least seven days beforehand.\n\nTwo reminders. Before your haul-out, please empty fuel tanks to no more than one quarter and remove all personal belongings from the cabin. Our insurance does not cover items left aboard during storage.\n\nOwners who have not arranged haul-out by November 14 will need to use a commercial yard elsewhere, at their own expense. Last year four boats were affected, and the nearest alternative yard charged roughly three times our rate.\n\nRegards,\nWesthaven Marina Office",
+        "questions": [
+          {
+            "q": "How are haul-out slots assigned?",
+            "options": [
+              "First come, first served",
+              "By request",
+              "By boat size",
+              "By berth number"
+            ],
+            "answer": 3,
+            "explanation": "Slots are assigned by berth number, not by request，故選 (D)。"
+          },
+          {
+            "q": "What must owners do to swap weeks?",
+            "options": [
+              "Pay a transfer fee",
+              "Get approval from the harbourmaster",
+              "Notify the office in writing in advance",
+              "Apply through the website only"
+            ],
+            "answer": 2,
+            "explanation": "both parties must notify the office in writing at least seven days beforehand，故選 (C)。"
+          },
+          {
+            "q": "What is stated about items left aboard?",
+            "options": [
+              "They are not insured",
+              "They must be labelled",
+              "They will be donated",
+              "They incur a storage fee"
+            ],
+            "answer": 0,
+            "explanation": "Our insurance does not cover items left aboard during storage，故選 (A)。"
+          },
+          {
+            "q": "What happens to owners who miss the deadline?",
+            "options": [
+              "They receive a fine",
+              "They must use another yard at their own cost",
+              "They lose their berth",
+              "Their boat is moved by the marina"
+            ],
+            "answer": 1,
+            "explanation": "will need to use a commercial yard elsewhere, at their own expense，故選 (B)。"
+          }
+        ]
+      }
+    ]
+  }
+}

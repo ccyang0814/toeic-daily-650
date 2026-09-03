@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-23",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Which vendor did we choose for the uniform order?",
+        "optionAudioTexts": [
+          "About two hundred sets.",
+          "Kessler Apparel, I believe.",
+          "In navy blue and grey."
+        ],
+        "answer": 1,
+        "explanation": "Which vendor 問廠商名稱，(B)「應該是 Kessler Apparel」正確。(A) 回答數量、(C) 回答顏色。"
+      },
+      {
+        "audioText": "Has the safety inspector arrived yet?",
+        "optionAudioTexts": [
+          "Every six months.",
+          "She's signing in at the front desk.",
+          "The report was thorough."
+        ],
+        "answer": 1,
+        "explanation": "問是否已到，(B)「她正在櫃檯登記」表示已到達，是自然回應。(A) 回答頻率、(C) 評論報告。"
+      },
+      {
+        "audioText": "How long has the assembly line been down?",
+        "optionAudioTexts": [
+          "A replacement motor.",
+          "On the second floor.",
+          "Since about seven this morning."
+        ],
+        "answer": 2,
+        "explanation": "How long 問持續時間，(C)「從今早七點左右開始」正確。(A) 回答零件、(B) 回答地點。"
+      },
+      {
+        "audioText": "Do you want the report printed or emailed?",
+        "optionAudioTexts": [
+          "Yes, I finished it.",
+          "It's about forty pages.",
+          "Emailed is fine — I'll read it on the train."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句，(C) 選了 emailed 並說明理由，正確。(A) 用 Yes 回答選擇疑問句不合適。"
+      },
+      {
+        "audioText": "Why don't we move the standing meeting to Wednesdays?",
+        "optionAudioTexts": [
+          "In the small conference room.",
+          "That works better for the Berlin team.",
+          "It runs about thirty minutes."
+        ],
+        "answer": 1,
+        "explanation": "Why don't we 是提議，(B)「那對柏林團隊比較合適」表示同意，正確。(A)(C) 未回應提議。"
+      },
+      {
+        "audioText": "Who approved the overtime for last weekend?",
+        "optionAudioTexts": [
+          "The night shift, mostly.",
+          "Time and a half, I think.",
+          "Mr. Delgado did, on Thursday."
+        ],
+        "answer": 2,
+        "explanation": "Who 問人，(C)「Delgado 先生週四批准的」正確。(B) 回答加班費率、(A) 回答班別。"
+      },
+      {
+        "audioText": "We're running low on packing tape again.",
+        "optionAudioTexts": [
+          "It's in the supply closet.",
+          "Three boxes arrived Tuesday.",
+          "I'll add it to next week's order."
+        ],
+        "answer": 2,
+        "explanation": "陳述句暗示需要補貨，(C)「我加進下週訂單」是實質回應。(A)(B) 未解決短缺。"
+      },
+      {
+        "audioText": "Where can I find last year's attendance figures?",
+        "optionAudioTexts": [
+          "The archive folder on the shared drive.",
+          "Around nine hundred people.",
+          "It was held in Lisbon."
+        ],
+        "answer": 0,
+        "explanation": "Where 問位置，(A)「共用磁碟的封存資料夾」正確。(B) 回答人數、(C) 回答地點但指活動舉辦地，非資料位置。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "M: Sasha, do you have a minute? I'm looking at the customer feedback from the June product launch.",
+          "W: Sure. Anything surprising?",
+          "M: The setup instructions came up in almost a third of the negative comments. People said the diagrams were too small to follow.",
+          "W: That's fixable. We could enlarge them in the next print run, but the bigger issue is that we printed twelve thousand copies of the current version.",
+          "M: What if we add a QR code sticker on the box that links to a video walkthrough? That would cost far less than reprinting.",
+          "W: I like that. Let me get a quote for the stickers this afternoon, and you can check with the video team about production time."
+        ],
+        "questions": [
+          {
+            "q": "What are the speakers discussing?",
+            "options": [
+              "A delay in shipping",
+              "Customer feedback about instructions",
+              "A price increase",
+              "A new hire"
+            ],
+            "answer": 1,
+            "explanation": "男子提到 customer feedback...The setup instructions came up in almost a third of the negative comments，故選 (B)。"
+          },
+          {
+            "q": "Why does the woman hesitate to reprint?",
+            "options": [
+              "The printer is unavailable",
+              "The design is not finished",
+              "A large quantity was already produced",
+              "The budget was already spent on video"
+            ],
+            "answer": 2,
+            "explanation": "we printed twelve thousand copies of the current version，數量龐大，故選 (C)。"
+          },
+          {
+            "q": "What does the man propose?",
+            "options": [
+              "Adding a QR code to a video",
+              "Offering refunds",
+              "Hiring a translator",
+              "Redesigning the packaging"
+            ],
+            "answer": 0,
+            "explanation": "What if we add a QR code sticker on the box that links to a video walkthrough，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "W: Good afternoon. I'm calling about the corporate rate at your hotel. We booked twenty rooms for the conference in October.",
+          "M: Let me pull that up. Yes, I see the reservation under Ardmore Consulting. Twenty standard rooms, October eighth through eleventh.",
+          "W: We need to reduce it to sixteen. Four of our people are now attending remotely.",
+          "M: I can adjust that, but I should mention the corporate rate requires a minimum of eighteen rooms. Dropping to sixteen would move you to the standard rate, which is about forty dollars more per night.",
+          "W: That's actually more expensive overall than keeping twenty rooms?",
+          "M: For your stay, yes — by roughly two hundred dollars. Many groups in your situation keep the block and use the extra rooms for late additions."
+        ],
+        "questions": [
+          {
+            "q": "Why is the woman calling?",
+            "options": [
+              "To cancel a reservation",
+              "To request a late checkout",
+              "To change the number of rooms",
+              "To complain about a charge"
+            ],
+            "answer": 2,
+            "explanation": "We need to reduce it to sixteen，是要更改房間數，故選 (C)。"
+          },
+          {
+            "q": "What does the man explain about the corporate rate?",
+            "options": [
+              "It expires in October",
+              "It requires at least eighteen rooms",
+              "It requires prepayment",
+              "It excludes weekends"
+            ],
+            "answer": 1,
+            "explanation": "the corporate rate requires a minimum of eighteen rooms，故選 (B)。"
+          },
+          {
+            "q": "What does the man imply the woman should do?",
+            "options": [
+              "Keep the original booking",
+              "Find another hotel",
+              "Pay a cancellation fee",
+              "Book a larger room type"
+            ],
+            "answer": 0,
+            "explanation": "他指出減房反而更貴，並說 Many groups...keep the block，暗示維持原訂房，故選 (A)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Welcome to the Hadley Textile Mill Museum. Before we begin, a few notes about today's tour. The route includes two flights of stairs to reach the weaving floor; if stairs are a problem, please let me know and I'll arrange the lift with a staff member. Photography is welcome throughout the building, but please switch off your flash in the dye room, where the historic fabric samples are sensitive to bright light. The tour lasts about seventy-five minutes and ends in the courtyard café, where your ticket entitles you to a complimentary tea or coffee. One last thing: the working loom demonstration at two o'clock is very popular, so if you'd like a seat rather than standing, I suggest heading there directly after we finish.",
+        "questions": [
+          {
+            "q": "Where is the talk taking place?",
+            "options": [
+              "At a clothing factory",
+              "At a textile museum",
+              "At a design school",
+              "At a trade fair"
+            ],
+            "answer": 1,
+            "explanation": "開場 Welcome to the Hadley Textile Mill Museum，故選 (B)。"
+          },
+          {
+            "q": "What restriction does the speaker mention?",
+            "options": [
+              "No flash photography in the dye room",
+              "No bags in the weaving room",
+              "No food anywhere in the building",
+              "No talking during demonstrations"
+            ],
+            "answer": 0,
+            "explanation": "please switch off your flash in the dye room，故選 (A)。"
+          },
+          {
+            "q": "What does the speaker recommend doing after the tour?",
+            "options": [
+              "Going to the loom demonstration early",
+              "Booking a return ticket",
+              "Visiting the gift shop",
+              "Filling out a survey"
+            ],
+            "answer": 0,
+            "explanation": "the working loom demonstration at two o'clock is very popular...I suggest heading there directly after we finish，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "script": "This is a reminder for everyone taking part in the annual charity run on Saturday. Registration opens at seven in the morning at the Riverside Park pavilion, and the race begins at eight-thirty sharp. Please arrive by seven forty-five so we can complete the safety briefing on time. Because the forecast calls for temperatures near thirty degrees, we have added two extra water stations along the route, at kilometers four and seven. Runners who registered before July have already received their T-shirts by post; anyone who signed up later can collect a shirt at the pavilion, though sizes are limited. Finally, the parking lot beside the pavilion will be closed for the finish line setup, so please use the municipal garage on Harbor Street, which is free on weekends.",
+        "questions": [
+          {
+            "q": "What event is being described?",
+            "options": [
+              "A cycling competition",
+              "A charity run",
+              "A park cleanup",
+              "A music festival"
+            ],
+            "answer": 1,
+            "explanation": "the annual charity run on Saturday，故選 (B)。"
+          },
+          {
+            "q": "Why were extra water stations added?",
+            "options": [
+              "The route was made longer",
+              "More runners registered",
+              "Hot weather is expected",
+              "A sponsor requested it"
+            ],
+            "answer": 2,
+            "explanation": "Because the forecast calls for temperatures near thirty degrees, we have added two extra water stations，故選 (C)。"
+          },
+          {
+            "q": "Where should participants park?",
+            "options": [
+              "In the Harbor Street garage",
+              "On Riverside Drive",
+              "At the finish line",
+              "Beside the pavilion"
+            ],
+            "answer": 0,
+            "explanation": "please use the municipal garage on Harbor Street，故選 (A)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The new filtration system operates far more ------- than the equipment it replaced.",
+        "options": [
+          "efficiently",
+          "efficient",
+          "efficiency",
+          "efficiencies"
+        ],
+        "answer": 0,
+        "explanation": "修飾動詞 operates 需用副詞，more efficiently 為副詞比較級。"
+      },
+      {
+        "q": "Anyone ------- in joining the mentorship program should contact Human Resources.",
+        "options": [
+          "interest",
+          "interests",
+          "interesting",
+          "interested"
+        ],
+        "answer": 3,
+        "explanation": "人對事物感到有興趣用過去分詞 interested，此處為後位修飾 Anyone。"
+      },
+      {
+        "q": "The contract clearly states that the deposit is ------- refundable.",
+        "options": [
+          "not",
+          "non",
+          "none",
+          "never"
+        ],
+        "answer": 0,
+        "explanation": "空格修飾形容詞 refundable，用副詞 not。non- 需連字接在字首（non-refundable），單獨使用不合語法。"
+      },
+      {
+        "q": "Production at the Wexford plant has increased ------- the installation of the second line.",
+        "options": [
+          "although",
+          "because",
+          "due to",
+          "so that"
+        ],
+        "answer": 2,
+        "explanation": "空格後為名詞片語 the installation，需用介系詞片語 due to；because 後須接子句。"
+      },
+      {
+        "q": "Ms. Farrow will distribute the agenda to ------- is attending Thursday's session.",
+        "options": [
+          "however",
+          "whomever",
+          "whichever",
+          "whoever"
+        ],
+        "answer": 3,
+        "explanation": "空格為名詞子句主詞（is attending 的主詞），用主格 whoever。"
+      },
+      {
+        "q": "The supplier assured us that the components meet all ------- safety standards.",
+        "options": [
+          "apply",
+          "applied",
+          "applicable",
+          "application"
+        ],
+        "answer": 2,
+        "explanation": "修飾名詞 safety standards 需用形容詞 applicable（適用的）。"
+      },
+      {
+        "q": "Sales in the Asia-Pacific region accounted ------- nearly half of last year's revenue.",
+        "options": [
+          "on",
+          "to",
+          "with",
+          "for"
+        ],
+        "answer": 3,
+        "explanation": "account for「占（比例）」為固定搭配。"
+      },
+      {
+        "q": "------- of the two proposals offers a realistic timeline, so the committee rejected both.",
+        "options": [
+          "Either",
+          "Neither",
+          "None",
+          "Both"
+        ],
+        "answer": 1,
+        "explanation": "後句說兩案都被否決，故前句應為「兩者皆不」，用 Neither（搭配 of the two）。"
+      },
+      {
+        "q": "The hotel offers a shuttle service ------- guests travelling to the airport.",
+        "options": [
+          "for",
+          "of",
+          "into",
+          "among"
+        ],
+        "answer": 0,
+        "explanation": "for 表「提供給（某對象）」，符合為旅客提供接駁之意。"
+      },
+      {
+        "q": "By the time the auditors arrive, the accounting team ------- all supporting documents.",
+        "options": [
+          "will have prepared",
+          "will prepare",
+          "prepared",
+          "has prepared"
+        ],
+        "answer": 0,
+        "explanation": "By the time + 現在式表未來，主句用未來完成式 will have prepared。"
+      },
+      {
+        "q": "Employees should report any equipment malfunction to their supervisor ------- .",
+        "options": [
+          "prompt",
+          "prompting",
+          "promptly",
+          "promptness"
+        ],
+        "answer": 2,
+        "explanation": "修飾動詞 report 需用副詞 promptly（迅速地）。"
+      },
+      {
+        "q": "The renovation was completed on schedule ------- the unexpected shortage of materials.",
+        "options": [
+          "instead",
+          "however",
+          "although",
+          "despite"
+        ],
+        "answer": 3,
+        "explanation": "空格後為名詞片語 the unexpected shortage，需用介系詞 despite；although 後須接子句。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Dear Ms. Cortland,\n\nThank you for your application for the assistant curator position at the Brightwater Gallery.\n\nWe were impressed by your experience with digital cataloguing, which is [33] relevant to the collection database project we are launching this autumn. We would like to invite you to a second interview on September 3 at ten o'clock.\n\nThe session will last approximately ninety minutes and will include a short practical exercise. You will be given three unlabelled objects and asked to draft catalogue entries for them. No [34] research is required; we are interested in how you approach the task rather than in factual accuracy.\n\nPlease confirm your attendance by August 28. If that date is not [35] for you, let me know and we will try to arrange an alternative.\n\nSincerely,\nJoaquín Reyes\nHead of Collections",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "directly",
+              "direct",
+              "direction",
+              "directed"
+            ],
+            "answer": 0,
+            "explanation": "空格修飾形容詞 relevant，需用副詞 directly（直接地）。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "advance",
+              "advanced",
+              "advancing",
+              "advancement"
+            ],
+            "answer": 0,
+            "explanation": "advance research 意為「事前研究」，advance 在此為形容詞用法，符合「不需事先準備」之意。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "convenient",
+              "conveniently",
+              "convenience",
+              "convene"
+            ],
+            "answer": 0,
+            "explanation": "be 動詞 is 後需接形容詞 convenient（方便的）。"
+          }
+        ]
+      },
+      {
+        "passage": "Notice to Residents — Greenfield Court\n\nThe recycling collection schedule will change starting September 1. Collections will move from Tuesday to Thursday mornings, and bins must be placed at the curb [36] seven o'clock.\n\nThe city has also expanded what it accepts. Rigid plastics numbered one through seven may now be included, [37] plastic film and bags still must be taken to a supermarket drop-off point. Glass remains a separate stream and will continue to be collected in the blue crates.\n\nResidents who need an additional bin may request one at no charge through the city website. Please note that requests submitted after August 25 may not be [38] before the new schedule begins.\n\nBuilding Management",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "within",
+              "until",
+              "since",
+              "by"
+            ],
+            "answer": 3,
+            "explanation": "「必須在七點前放到路邊」表期限，用 by（在…之前）。until 表持續，語意不合。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "moreover",
+              "therefore",
+              "whereas",
+              "in case"
+            ],
+            "answer": 2,
+            "explanation": "前後為對比（硬塑膠可回收 vs 塑膠袋不可），用對比連接詞 whereas。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "fulfilling",
+              "fulfilled",
+              "fulfillment",
+              "fulfill"
+            ],
+            "answer": 1,
+            "explanation": "be 動詞 be 後接過去分詞形成被動語態 be fulfilled（被處理完成）。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Notice】\nOAKRIDGE COMMUNITY CENTRE — FALL COURSE REGISTRATION\n\nRegistration for autumn courses opens Monday, August 25, at nine o'clock. This session we are offering twenty-two courses, including six new additions: conversational Portuguese, bread baking, digital photography, chair yoga, watercolour landscapes, and household electrical basics.\n\nThree things have changed since last term:\n\n1. Registration is now online only. The paper forms previously available at the front desk have been discontinued. Staff can assist anyone who needs help using the system, but please come before four o'clock on weekdays.\n\n2. Course fees must be paid in full at the time of registration. We no longer hold places for unpaid registrations, a practice that last term left several courses appearing full when they were not.\n\n3. Members of the centre receive priority access for the first forty-eight hours. Non-members may register beginning Wednesday, August 27.\n\nRefunds are available up to seven days before a course begins, minus a $10 administrative fee. After that point, credit toward a future course may be issued at the instructor's discretion.",
+        "questions": [
+          {
+            "q": "What is one change described in the notice?",
+            "options": [
+              "Courses now meet on weekends",
+              "Fees have been reduced",
+              "Paper registration is no longer offered",
+              "Classes are held online"
+            ],
+            "answer": 2,
+            "explanation": "The paper forms previously available at the front desk have been discontinued，故選 (C)。"
+          },
+          {
+            "q": "Why was the payment policy changed?",
+            "options": [
+              "Because unpaid registrations made courses look full",
+              "To comply with a new law",
+              "To reduce staff workload",
+              "Because fees increased"
+            ],
+            "answer": 0,
+            "explanation": "a practice that last term left several courses appearing full when they were not，故選 (A)。"
+          },
+          {
+            "q": "When can non-members register?",
+            "options": [
+              "August 25",
+              "Any time",
+              "September 1",
+              "August 27"
+            ],
+            "answer": 3,
+            "explanation": "Non-members may register beginning Wednesday, August 27，故選 (D)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Text message chain】\n\nPriya Raman (8:42 A.M.): Tomas, the samples for the Delford pitch were supposed to arrive yesterday. Reception has nothing.\n\nTomas Beck (8:47 A.M.): Checking the tracking now. It says delivered at 4:15 yesterday, signed for by \"J. Whitfield.\"\n\nPriya Raman (8:49 A.M.): There's no J. Whitfield in this building. Could it have gone to the Hartwell Street office?\n\nTomas Beck (8:53 A.M.): That's likely — I updated our address in the courier account last month but the saved template may still have the old one. I'll call Hartwell.\n\nPriya Raman (8:55 A.M.): The pitch is at two. If the samples are there, can someone bring them over?\n\nTomas Beck (9:06 A.M.): Confirmed, they're at Hartwell. Nadia is driving in at eleven and can bring the box. That gives us three hours of margin.\n\nPriya Raman (9:07 A.M.): Perfect. I'll let the Delford team know we're on track and finish the slides in the meantime.",
+        "questions": [
+          {
+            "q": "What problem does Ms. Raman report?",
+            "options": [
+              "A damaged product",
+              "A cancelled meeting",
+              "A billing error",
+              "A missing delivery"
+            ],
+            "answer": 3,
+            "explanation": "the samples for the Delford pitch were supposed to arrive yesterday. Reception has nothing，故選 (D)。"
+          },
+          {
+            "q": "What does Mr. Beck suggest caused the problem?",
+            "options": [
+              "The courier lost the package",
+              "A wrong product code",
+              "A missed payment",
+              "An outdated address on a template"
+            ],
+            "answer": 3,
+            "explanation": "the saved template may still have the old one（舊地址），故選 (D)。"
+          },
+          {
+            "q": "At 8:55 A.M., what does Ms. Raman mean when she writes, \"The pitch is at two\"?",
+            "options": [
+              "She wants to reschedule the pitch",
+              "She is emphasizing the time pressure",
+              "She is confirming a room booking",
+              "She will not attend the pitch"
+            ],
+            "answer": 1,
+            "explanation": "她隨即問能否有人把樣品送來，可見提到兩點是在強調時間緊迫，故選 (B)。"
+          },
+          {
+            "q": "What will Nadia do?",
+            "options": [
+              "Present at the pitch",
+              "Contact the courier",
+              "Deliver the box at eleven",
+              "Reprint the slides"
+            ],
+            "answer": 2,
+            "explanation": "Nadia is driving in at eleven and can bring the box，故選 (C)。"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-25",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "Where did you order the replacement filters from?",
+        "optionAudioTexts": [
+          "Every three months.",
+          "A supplier in Leeds.",
+          "They're quite inexpensive."
+        ],
+        "answer": 1,
+        "explanation": "Where 問來源，(B)「利茲的一家供應商」正確。(A) 回答頻率、(C) 評論價格。"
+      },
+      {
+        "audioText": "When are we expecting the auditor's final letter?",
+        "optionAudioTexts": [
+          "Sometime in the second week of October.",
+          "From the accounting firm.",
+          "Three copies, please."
+        ],
+        "answer": 0,
+        "explanation": "When 問時間，(A)「十月第二週」正確。(B) 回答來源、(C) 回答份數。"
+      },
+      {
+        "audioText": "Do you know if the cafeteria is open during the holiday?",
+        "optionAudioTexts": [
+          "The soup was excellent.",
+          "It's on the ground floor.",
+          "Only on the twenty-fourth, I think."
+        ],
+        "answer": 2,
+        "explanation": "問假期是否營業，(C)「我想只有二十四號」提供具體資訊。(A)(B) 均未回答。"
+      },
+      {
+        "audioText": "Would you like me to arrange a car or will you take the train?",
+        "optionAudioTexts": [
+          "Yes, thanks very much.",
+          "It takes about an hour.",
+          "The train is easier from my hotel."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句，(C) 選了火車並說明理由。(A) 用 Yes 回答選擇疑問句不合適。"
+      },
+      {
+        "audioText": "How often does the compliance team run these checks?",
+        "optionAudioTexts": [
+          "About forty accounts.",
+          "In the risk department.",
+          "Twice a year, usually in March and September."
+        ],
+        "answer": 2,
+        "explanation": "How often 問頻率，(C)「一年兩次」正確。(B) 回答部門、(A) 回答數量。"
+      },
+      {
+        "audioText": "Wasn't Ms. Duarte supposed to lead this project?",
+        "optionAudioTexts": [
+          "She stepped back when she moved to Lisbon.",
+          "A twelve-month timeline.",
+          "In the project charter."
+        ],
+        "answer": 0,
+        "explanation": "否定疑問句確認人選，(A)「她搬到里斯本後就退出了」說明變動，正確。"
+      },
+      {
+        "audioText": "Which conference room has the video equipment?",
+        "optionAudioTexts": [
+          "From nine to eleven.",
+          "It seats about fifteen.",
+          "The one at the end of the hall."
+        ],
+        "answer": 2,
+        "explanation": "Which 問哪一間，(C)「走廊盡頭那間」正確。(A) 回答時間、(B) 回答容納人數。"
+      },
+      {
+        "audioText": "I still haven't received the login details for the new system.",
+        "optionAudioTexts": [
+          "The system launched in July.",
+          "Let me resend them right now.",
+          "It's a very useful tool."
+        ],
+        "answer": 1,
+        "explanation": "陳述句表達問題，(B)「我現在就重寄」是解決回應。(A)(C) 未處理問題。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "M: Hi, I'm here about the bicycle I dropped off on Monday — the blue touring bike.",
+          "W: Let me check the tag. Yes, we replaced the rear brake cable and trued both wheels. But I want to flag something before you pay.",
+          "M: Go ahead.",
+          "W: The chain and rear cassette are quite worn. They'll last maybe another four hundred kilometers. Replacing both now is about eighty euros; if you wait until the chain fails, it usually damages the cassette further and the repair runs closer to one-forty.",
+          "M: I'm riding to Bruges next month, that's roughly three hundred kilometers round trip.",
+          "W: Then I'd do it now. I have the parts in stock and could finish by tomorrow afternoon."
+        ],
+        "questions": [
+          {
+            "q": "Where does the conversation most likely take place?",
+            "options": [
+              "At a sporting goods store",
+              "At a car dealership",
+              "At a bicycle repair shop",
+              "At a travel agency"
+            ],
+            "answer": 2,
+            "explanation": "談論 the bicycle I dropped off、replaced the rear brake cable，為自行車維修店，故選 (C)。"
+          },
+          {
+            "q": "What does the woman warn the man about?",
+            "options": [
+              "A price increase next month",
+              "A delay in ordering parts",
+              "Worn chain and cassette parts",
+              "An expired warranty"
+            ],
+            "answer": 2,
+            "explanation": "The chain and rear cassette are quite worn，故選 (C)。"
+          },
+          {
+            "q": "Why does the woman recommend acting now?",
+            "options": [
+              "A discount ends today",
+              "Waiting could make the repair more expensive",
+              "The shop closes next week",
+              "The man will move away"
+            ],
+            "answer": 1,
+            "explanation": "if you wait until the chain fails...the repair runs closer to one-forty，故選 (B)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "W: Ravi, did you see that the venue for the leadership offsite double-booked us?",
+          "M: I got the email this morning. They offered us the smaller hall as compensation.",
+          "W: The smaller hall holds sixty. We have ninety-two confirmed.",
+          "M: Right. I've been calling around. The Willowbank Center has space on the same dates and is actually closer to the airport, which several people asked about.",
+          "W: What's the difference in cost?",
+          "M: About twelve hundred more, but the original venue said they'd waive our deposit entirely, so we'd end up roughly four hundred ahead. I'd like your approval before I sign anything today."
+        ],
+        "questions": [
+          {
+            "q": "What problem are the speakers discussing?",
+            "options": [
+              "A venue was double-booked",
+              "A speaker cancelled",
+              "The budget was cut",
+              "Attendance is low"
+            ],
+            "answer": 0,
+            "explanation": "the venue for the leadership offsite double-booked us，故選 (A)。"
+          },
+          {
+            "q": "Why is the smaller hall unsuitable?",
+            "options": [
+              "Its capacity is too small",
+              "It is too far away",
+              "It has no parking",
+              "It is under renovation"
+            ],
+            "answer": 0,
+            "explanation": "The smaller hall holds sixty. We have ninety-two confirmed，故選 (A)。"
+          },
+          {
+            "q": "What does the man want from the woman?",
+            "options": [
+              "A list of attendees",
+              "Approval to book a new venue",
+              "Help calling the vendors",
+              "A revised agenda"
+            ],
+            "answer": 1,
+            "explanation": "I'd like your approval before I sign anything today，故選 (B)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Good morning, team. Before we open, three quick things about the sale that starts today. First, the twenty-percent discount applies to full-price items only. Several customers last year assumed it stacked on clearance prices, and that caused arguments at the register, so please make that clear when you greet people. Second, we've moved the fitting rooms' queue to the left side of the department to keep the main aisle clear. Signs are up, but customers will still ask. Third, if we sell out of a size, don't tell customers we can order it — our warehouse is not restocking sale items this season. Instead, offer to check stock at the Grayson Avenue branch using the tablet at the counter. Any questions, find me on the floor rather than paging.",
+        "questions": [
+          {
+            "q": "Where does the speaker most likely work?",
+            "options": [
+              "At a call center",
+              "At a supermarket",
+              "At a warehouse",
+              "At a clothing store"
+            ],
+            "answer": 3,
+            "explanation": "提到 fitting rooms、sizes、department，為服飾店，故選 (D)。"
+          },
+          {
+            "q": "What should staff explain to customers?",
+            "options": [
+              "That the discount excludes clearance items",
+              "The store's new hours",
+              "That returns are not accepted",
+              "That a membership is required"
+            ],
+            "answer": 0,
+            "explanation": "the twenty-percent discount applies to full-price items only，故選 (A)。"
+          },
+          {
+            "q": "What should staff do if an item is sold out?",
+            "options": [
+              "Offer a rain check",
+              "Order it from the warehouse",
+              "Give a further discount",
+              "Check another branch's stock"
+            ],
+            "answer": 3,
+            "explanation": "offer to check stock at the Grayson Avenue branch，故選 (D)。"
+          }
+        ]
+      },
+      {
+        "script": "You've reached the appointment line for Northfield Dental. Our office is closed for the bank holiday and will reopen Tuesday at eight in the morning. If you are experiencing severe pain, swelling, or bleeding, please hang up and call our on-call number, which is 555-0188. For routine matters, you have two options. You can leave a message after the tone, and we will return calls in the order received, usually within one business day. Or, if you prefer, you can book, change, or cancel appointments yourself through our website at any hour. Patients who booked before June should note that we have moved to a new address — we are now at 40 Carrick Street, one block east of the old office. Parking is available behind the building.",
+        "questions": [
+          {
+            "q": "Why is the office closed?",
+            "options": [
+              "For a holiday",
+              "For a staff training day",
+              "For renovations",
+              "Because of bad weather"
+            ],
+            "answer": 0,
+            "explanation": "Our office is closed for the bank holiday，故選 (A)。"
+          },
+          {
+            "q": "What should callers with severe pain do?",
+            "options": [
+              "Leave a message",
+              "Use the website",
+              "Visit the office Tuesday",
+              "Call a different number"
+            ],
+            "answer": 3,
+            "explanation": "please hang up and call our on-call number，故選 (D)。"
+          },
+          {
+            "q": "What are patients told about the office?",
+            "options": [
+              "It no longer accepts insurance",
+              "It has extended its hours",
+              "It has a new dentist",
+              "It has relocated"
+            ],
+            "answer": 3,
+            "explanation": "we have moved to a new address — we are now at 40 Carrick Street，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The warehouse manager insisted that every pallet ------- labeled before storage.",
+        "options": [
+          "be",
+          "is",
+          "was",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "insist that + 主詞 + (should) 原形動詞，被動語態用 be labeled。"
+      },
+      {
+        "q": "Registration fees are non-refundable ------- the event is cancelled by the organizers.",
+        "options": [
+          "unless",
+          "although",
+          "so that",
+          "despite"
+        ],
+        "answer": 0,
+        "explanation": "unless「除非」符合「除非主辦方取消，否則不退費」之意。"
+      },
+      {
+        "q": "The revised layout allows staff to move ------- between the two work areas.",
+        "options": [
+          "free",
+          "freeing",
+          "freedom",
+          "freely"
+        ],
+        "answer": 3,
+        "explanation": "修飾動詞 move 需用副詞 freely。"
+      },
+      {
+        "q": "The company attributes its growth ------- a sharp rise in online orders.",
+        "options": [
+          "with",
+          "for",
+          "on",
+          "to"
+        ],
+        "answer": 3,
+        "explanation": "attribute A to B「將 A 歸因於 B」為固定搭配。"
+      },
+      {
+        "q": "Ms. Ferreira is ------- of the few employees fluent in both Korean and Spanish.",
+        "options": [
+          "each",
+          "some",
+          "any",
+          "one"
+        ],
+        "answer": 3,
+        "explanation": "one of the few + 複數名詞，表「少數…之一」。"
+      },
+      {
+        "q": "The instructions were written ------- enough for a first-time user to follow.",
+        "options": [
+          "simple",
+          "simplicity",
+          "simplify",
+          "simply"
+        ],
+        "answer": 3,
+        "explanation": "修飾動詞 were written 需用副詞 simply；simply enough 意為「夠簡單地」。"
+      },
+      {
+        "q": "The board will announce its decision ------- the results of the audit are released.",
+        "options": [
+          "during",
+          "once",
+          "in spite of",
+          "because of"
+        ],
+        "answer": 1,
+        "explanation": "空格後為完整子句，once 作連接詞表「一旦…就…」。"
+      },
+      {
+        "q": "Delivery times may vary ------- on the destination country.",
+        "options": [
+          "depend",
+          "depended",
+          "depending",
+          "dependent"
+        ],
+        "answer": 2,
+        "explanation": "depending on「視…而定」為固定分詞片語用法。"
+      },
+      {
+        "q": "Neither proposal addressed the ------- concerns raised by the residents.",
+        "options": [
+          "environment",
+          "environmental",
+          "environmentally",
+          "environments"
+        ],
+        "answer": 1,
+        "explanation": "修飾名詞 concerns 需用形容詞 environmental。"
+      },
+      {
+        "q": "The technician arrived ------- than scheduled, so the meeting started late.",
+        "options": [
+          "late",
+          "later",
+          "latest",
+          "lately"
+        ],
+        "answer": 1,
+        "explanation": "與 than 連用需用比較級 later。"
+      },
+      {
+        "q": "Applicants must submit three references, ------- one must be from a former supervisor.",
+        "options": [
+          "of whom",
+          "which",
+          "of which",
+          "whose"
+        ],
+        "answer": 2,
+        "explanation": "先行詞 references 為物，表「其中之一」用 of which。"
+      },
+      {
+        "q": "The firm has ------- expanded its consulting practice over the past five years.",
+        "options": [
+          "steady",
+          "steadier",
+          "steadily",
+          "steadiness"
+        ],
+        "answer": 2,
+        "explanation": "修飾動詞 has expanded 需用副詞 steadily。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Dear Valued Customer,\n\nWe are writing to inform you that Trellis Software will discontinue support for version 4 of our accounting suite on December 31.\n\nAfter that date, version 4 will continue to run, but we will no longer issue security patches or provide technical assistance. For most businesses, continuing to use unsupported accounting software is a [33] we would not recommend.\n\nUpgrading to version 6 is free for customers with an active subscription. The process takes about twenty minutes, and your existing data will be [34] automatically. We suggest completing the upgrade during a quiet period rather than at month end.\n\nIf you are unsure which version you are running, click Help and then About. Our support team is [35] to walk you through the upgrade at no charge until December 15.\n\nSincerely,\nCustomer Success Team",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "benefit",
+              "chance",
+              "profit",
+              "risk"
+            ],
+            "answer": 3,
+            "explanation": "繼續使用不受支援的軟體是一種「風險」，risk 符合語意。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "transfer",
+              "transferring",
+              "transferred",
+              "transferable"
+            ],
+            "answer": 2,
+            "explanation": "will be 後接過去分詞形成被動語態 be transferred（被轉移）。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "avail",
+              "availably",
+              "availability",
+              "available"
+            ],
+            "answer": 3,
+            "explanation": "be 動詞 is 後接形容詞 available（可提供協助的）。"
+          }
+        ]
+      },
+      {
+        "passage": "SEDGEWICK PUBLIC LIBRARY — VOLUNTEER PROGRAM\n\nThe library is recruiting volunteers for the autumn term. No previous library experience is [36]; we provide all training.\n\nVolunteers help in three areas. Shelving assistants return books to the stacks and check that items are in order. Reading buddies sit with children aged five to eight for thirty-minute sessions. Digital helpers assist patrons who need support with the catalogue computers, [37] many of our older visitors find intimidating.\n\nMost volunteers give two to four hours per week. We ask for a commitment of at least one term so that the children in the reading program see a [38] face each week.\n\nTo apply, complete the form at the circulation desk or on our website by September 10.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "necessitate",
+              "necessarily",
+              "necessity",
+              "necessary"
+            ],
+            "answer": 3,
+            "explanation": "be 動詞 is 後接形容詞 necessary（必要的）。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "who",
+              "which",
+              "what",
+              "where"
+            ],
+            "answer": 1,
+            "explanation": "先行詞為 the catalogue computers（物），且引導形容詞子句作受詞，用 which。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "familiarly",
+              "familiar",
+              "familiarity",
+              "familiarize"
+            ],
+            "answer": 1,
+            "explanation": "修飾名詞 face 需用形容詞 familiar（熟悉的）。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【E-mail】\nTo: Jonas Krall\nFrom: Beatriz Salgado\nDate: August 18\nSubject: Follow-up on the Meridian account\n\nJonas,\n\nThanks for covering the Meridian call while I was away. I've read your notes and want to flag two points before we respond.\n\nYou wrote that they want the pilot extended by two months. I'd push back on that. The original three-month pilot was priced as a loss leader on the assumption it converts to a full contract. Extending it for free means we carry the cost for five months with no commitment. I'd offer one additional month at half our standard rate instead — that shows flexibility without setting a precedent.\n\nOn the integration question, you told them our team could handle the data migration. That is technically true, but our engineering group is fully committed until mid-October. If we promise migration support now, we will miss the date. Please tell them we can begin migration work on October 20 at the earliest.\n\nI'll join the call on Thursday. Can you send me the revised deck by Wednesday noon so I have time to review it?\n\nBeatriz",
+        "questions": [
+          {
+            "q": "Why did Mr. Krall handle the Meridian call?",
+            "options": [
+              "He manages the account",
+              "Ms. Salgado was away",
+              "The client requested him",
+              "He is the technical lead"
+            ],
+            "answer": 1,
+            "explanation": "Thanks for covering the Meridian call while I was away，故選 (B)。"
+          },
+          {
+            "q": "What does Ms. Salgado suggest offering the client?",
+            "options": [
+              "A free two-month extension",
+              "An immediate full contract",
+              "One extra month at a reduced rate",
+              "A refund of the pilot fee"
+            ],
+            "answer": 2,
+            "explanation": "I'd offer one additional month at half our standard rate instead，故選 (C)。"
+          },
+          {
+            "q": "What concern does Ms. Salgado raise about migration?",
+            "options": [
+              "Engineering is unavailable until October",
+              "The client has not paid",
+              "The team lacks the skills",
+              "The data format is incompatible"
+            ],
+            "answer": 0,
+            "explanation": "our engineering group is fully committed until mid-October，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Announcement】\nCALDER VALLEY BUS SERVICE — ROUTE 14 CHANGES\n\nFrom September 7, Route 14 will no longer travel along Mill Lane. Buses will instead follow Wexham Road between the town square and the hospital.\n\nWhy the change? Mill Lane has been reduced to a single lane while the retaining wall is rebuilt, work that is expected to last at least fourteen months. During a two-week trial in June, buses on Mill Lane ran an average of nine minutes behind schedule, and on three occasions they could not complete the route at all.\n\nWhat this means for passengers. The stops at Mill Lane North and Cooper's Bridge will be suspended. Passengers who normally use these stops should walk to Wexham Road, roughly six minutes from Mill Lane North and eleven from Cooper's Bridge. A new temporary stop will be added at the Wexham Road pharmacy, which is step-free.\n\nJourney times to the hospital should improve by four to six minutes. Fares are unchanged.\n\nPrinted timetables will be available at the town square kiosk from September 1. Passengers with mobility needs may apply for the door-to-door service by calling 555-0140.",
+        "questions": [
+          {
+            "q": "Why is Route 14 changing?",
+            "options": [
+              "Passenger numbers fell",
+              "Fares were increased",
+              "A new hospital opened",
+              "Road construction is causing delays"
+            ],
+            "answer": 3,
+            "explanation": "Mill Lane has been reduced to a single lane while the retaining wall is rebuilt，導致誤點，故選 (D)。"
+          },
+          {
+            "q": "What was learned during the June trial?",
+            "options": [
+              "Fares were too low",
+              "Passengers preferred Wexham Road",
+              "The route was too long",
+              "Buses ran behind schedule"
+            ],
+            "answer": 3,
+            "explanation": "buses on Mill Lane ran an average of nine minutes behind schedule，故選 (D)。"
+          },
+          {
+            "q": "What is mentioned about the new temporary stop?",
+            "options": [
+              "It is inside the hospital",
+              "It is step-free",
+              "It will close in winter",
+              "It requires a permit"
+            ],
+            "answer": 1,
+            "explanation": "A new temporary stop will be added at the Wexham Road pharmacy, which is step-free，故選 (B)。"
+          },
+          {
+            "q": "What is NOT changing?",
+            "options": [
+              "The stops served",
+              "The route",
+              "The journey time",
+              "The fares"
+            ],
+            "answer": 3,
+            "explanation": "Fares are unchanged，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  }
+}

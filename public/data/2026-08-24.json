@@ -1,0 +1,560 @@
+{
+  "date": "2026-08-24",
+  "listening": {
+    "part2": [
+      {
+        "audioText": "What time does the loading dock close?",
+        "optionAudioTexts": [
+          "At six on weekdays.",
+          "Behind the main warehouse.",
+          "A forklift operator."
+        ],
+        "answer": 0,
+        "explanation": "What time 問時間，(A)「平日六點」正確。(B) 回答位置、(C) 回答職務。"
+      },
+      {
+        "audioText": "Could you look over my expense report before I submit it?",
+        "optionAudioTexts": [
+          "Send it over — I'll check it after lunch.",
+          "It was a business trip to Osaka.",
+          "Receipts are required over twenty dollars."
+        ],
+        "answer": 0,
+        "explanation": "請求協助，(A)「寄過來，午餐後我看」是直接答應，正確。(B)(C) 未回應請求。"
+      },
+      {
+        "audioText": "Why is the parking garage blocked off this morning?",
+        "optionAudioTexts": [
+          "They're resurfacing the ramp.",
+          "On level three.",
+          "About eighty spaces."
+        ],
+        "answer": 0,
+        "explanation": "Why 問原因，(A)「他們在重鋪坡道」正確。(B) 回答樓層、(C) 回答車位數。"
+      },
+      {
+        "audioText": "Isn't the annual report due at the end of this week?",
+        "optionAudioTexts": [
+          "Actually, they extended it to the fifteenth.",
+          "About ninety pages long.",
+          "The finance team wrote it."
+        ],
+        "answer": 0,
+        "explanation": "否定疑問句確認期限，(A)「其實延到十五號了」是修正資訊的合理回應。"
+      },
+      {
+        "audioText": "How many candidates made it to the final round?",
+        "optionAudioTexts": [
+          "Next Tuesday afternoon.",
+          "In the small meeting room.",
+          "Only three this time."
+        ],
+        "answer": 2,
+        "explanation": "How many 問數量，(C)「這次只有三位」正確。(A) 回答時間、(B) 回答地點。"
+      },
+      {
+        "audioText": "Should we ship the order by air or by sea?",
+        "optionAudioTexts": [
+          "To the Rotterdam port.",
+          "Yes, it left the factory.",
+          "By sea — the client isn't in a hurry."
+        ],
+        "answer": 2,
+        "explanation": "選擇疑問句，(C) 選了海運並說明理由。(B) 用 Yes 回答選擇疑問句不合適。"
+      },
+      {
+        "audioText": "Who's leading the onboarding session for the interns?",
+        "optionAudioTexts": [
+          "Twelve interns started Monday.",
+          "Carla from Learning and Development.",
+          "It runs for two hours."
+        ],
+        "answer": 1,
+        "explanation": "Who 問人，(B)「培訓發展部的 Carla」正確。(A) 回答人數、(C) 回答時長。"
+      },
+      {
+        "audioText": "The air conditioning on this floor has been uneven all week.",
+        "optionAudioTexts": [
+          "A technician is coming Thursday.",
+          "I brought a sweater today.",
+          "It's on the fourth floor."
+        ],
+        "answer": 0,
+        "explanation": "陳述句抱怨問題，(A)「技師週四會來」提供解決資訊，最合適。(B) 只是個人做法，未處理問題。"
+      }
+    ],
+    "part3": [
+      {
+        "script": [
+          "W: Ken, I've been reviewing the applications for the graphic designer role. We have forty-one, which is more than I expected.",
+          "M: That's a good problem. How many look promising?",
+          "W: Maybe eight. But I noticed something — almost all of them submitted print portfolios. We specifically asked for digital and packaging work.",
+          "M: The job posting might be the issue. I looked at it yesterday and the word 'packaging' only appears once, near the bottom.",
+          "W: That would explain it. Should we repost with clearer wording?",
+          "M: Let's interview the eight first. If none of them fit, we rewrite the posting. Reposting now would add three weeks and the team needs someone by October."
+        ],
+        "questions": [
+          {
+            "q": "What position are the speakers discussing?",
+            "options": [
+              "A copywriter",
+              "A graphic designer",
+              "A project manager",
+              "A sales representative"
+            ],
+            "answer": 1,
+            "explanation": "the applications for the graphic designer role，故選 (B)。"
+          },
+          {
+            "q": "What problem does the woman identify?",
+            "options": [
+              "Applicants submitted the wrong type of work",
+              "Too few applications arrived",
+              "The salary is too low",
+              "The deadline has passed"
+            ],
+            "answer": 0,
+            "explanation": "almost all of them submitted print portfolios. We specifically asked for digital and packaging work，故選 (A)。"
+          },
+          {
+            "q": "Why does the man want to wait before reposting?",
+            "options": [
+              "The budget has not been approved",
+              "The website is being updated",
+              "Reposting would cause a delay",
+              "He has not read the applications"
+            ],
+            "answer": 2,
+            "explanation": "Reposting now would add three weeks and the team needs someone by October，故選 (C)。"
+          }
+        ]
+      },
+      {
+        "script": [
+          "M: Hello, I'm calling about the water damage claim I filed last Tuesday. The reference is 4-4-0-9-2.",
+          "W: Let me look. Yes, Mr. Adeyemi. Our adjuster inspected the property Thursday and the report came in this morning.",
+          "M: What does it say? The flooring contractor is waiting on approval before he orders materials.",
+          "W: The claim is approved for the flooring and the lower cabinets. However, the adjuster excluded the dishwasher, noting that the unit failed before the leak rather than because of it.",
+          "M: That's not right. The dishwasher worked fine until the pipe burst.",
+          "W: Then you can file a supplementary claim. Send us the appliance's service history and a photo of the model plate, and a second adjuster will review it independently."
+        ],
+        "questions": [
+          {
+            "q": "Why is the man calling?",
+            "options": [
+              "To schedule an inspection",
+              "To ask about an insurance claim",
+              "To order flooring materials",
+              "To cancel a policy"
+            ],
+            "answer": 1,
+            "explanation": "I'm calling about the water damage claim I filed last Tuesday，故選 (B)。"
+          },
+          {
+            "q": "What was excluded from the approval?",
+            "options": [
+              "The flooring",
+              "The lower cabinets",
+              "The plumbing repair",
+              "The dishwasher"
+            ],
+            "answer": 3,
+            "explanation": "the adjuster excluded the dishwasher，故選 (D)。"
+          },
+          {
+            "q": "What does the woman ask the man to provide?",
+            "options": [
+              "Service history and a photo",
+              "A contractor's estimate",
+              "A new policy number",
+              "A police report"
+            ],
+            "answer": 0,
+            "explanation": "Send us the appliance's service history and a photo of the model plate，故選 (A)。"
+          }
+        ]
+      }
+    ],
+    "part4": [
+      {
+        "script": "Thanks for joining this month's all-hands call. I want to spend a few minutes on the customer support metrics, because the numbers changed in an interesting way. Average response time dropped from fourteen hours to just under five. That's a direct result of the new ticket routing we introduced in May. However, satisfaction scores stayed flat at about seventy-eight percent. When we dug into the comments, the pattern was clear: customers appreciate the faster first reply, but many said the first reply didn't actually solve anything. So our focus for the next quarter is not speed — it's resolution on the first contact. Team leads will receive a revised set of targets by the end of the week, and we'll review progress at the October call.",
+        "questions": [
+          {
+            "q": "What improved according to the speaker?",
+            "options": [
+              "Staffing levels",
+              "Satisfaction scores",
+              "Ticket volume",
+              "Response time"
+            ],
+            "answer": 3,
+            "explanation": "Average response time dropped from fourteen hours to just under five，故選 (D)。"
+          },
+          {
+            "q": "What did customer comments reveal?",
+            "options": [
+              "Support hours are too short",
+              "Prices are too high",
+              "The website is hard to navigate",
+              "First replies often did not solve problems"
+            ],
+            "answer": 3,
+            "explanation": "many said the first reply didn't actually solve anything，故選 (D)。"
+          },
+          {
+            "q": "What will team leads receive this week?",
+            "options": [
+              "Revised targets",
+              "A training manual",
+              "A new schedule",
+              "A budget report"
+            ],
+            "answer": 0,
+            "explanation": "Team leads will receive a revised set of targets by the end of the week，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "script": "Good evening, and welcome to the Lindqvist Lecture Series. Tonight's speaker, Dr. Amara Osei, is a marine biologist who has spent the past twelve years studying coral restoration in the western Indian Ocean. Her talk is titled \"What Reefs Teach Us About Recovery.\" A quick note before she begins: because of a scheduling conflict with the hall, we will finish at eight-forty rather than nine, so the question period will be shortened to ten minutes. If you don't get a chance to ask your question, Dr. Osei has kindly agreed to stay in the lobby afterward. Copies of her latest book are available at the table by the entrance, and she will sign them following the lecture. Please silence your phones now, and join me in welcoming Dr. Osei.",
+        "questions": [
+          {
+            "q": "Who is Dr. Osei?",
+            "options": [
+              "A university administrator",
+              "A marine biologist",
+              "A novelist",
+              "An event organizer"
+            ],
+            "answer": 1,
+            "explanation": "Dr. Amara Osei, is a marine biologist，故選 (B)。"
+          },
+          {
+            "q": "What change does the speaker announce?",
+            "options": [
+              "The venue has moved",
+              "The event will end earlier",
+              "The topic has changed",
+              "The speaker arrived late"
+            ],
+            "answer": 1,
+            "explanation": "we will finish at eight-forty rather than nine，故選 (B)。"
+          },
+          {
+            "q": "What will Dr. Osei do after the lecture?",
+            "options": [
+              "Give a tour",
+              "Lead a workshop",
+              "Show a film",
+              "Sign books"
+            ],
+            "answer": 3,
+            "explanation": "she will sign them following the lecture，故選 (D)。"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "part5": [
+      {
+        "q": "The committee has not yet decided ------- to accept the revised proposal.",
+        "options": [
+          "whether",
+          "that",
+          "which",
+          "what"
+        ],
+        "answer": 0,
+        "explanation": "decide whether to + 原形動詞，表「決定是否要…」。"
+      },
+      {
+        "q": "Mr. Lindgren was praised for handling the negotiation with remarkable -------.",
+        "options": [
+          "patience",
+          "patiently",
+          "patient",
+          "patientness"
+        ],
+        "answer": 0,
+        "explanation": "介系詞 with 與形容詞 remarkable 之後需接名詞，用 patience（耐心）。"
+      },
+      {
+        "q": "The software update will be installed ------- Sunday night to minimize disruption.",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "during"
+        ],
+        "answer": 0,
+        "explanation": "特定某晚（Sunday night）作為日期使用時搭配 on。"
+      },
+      {
+        "q": "Few of the attendees ------- the survey before leaving the conference.",
+        "options": [
+          "completes",
+          "completing",
+          "completed",
+          "has completed"
+        ],
+        "answer": 2,
+        "explanation": "Few 為複數主詞，需用複數動詞；過去事件用過去式 completed。"
+      },
+      {
+        "q": "This voucher may not be used ------- with any other promotional offer.",
+        "options": [
+          "conjunction",
+          "conjunctive",
+          "in conjunction",
+          "conjunctively"
+        ],
+        "answer": 2,
+        "explanation": "in conjunction with「與…併用」為固定片語。"
+      },
+      {
+        "q": "The manager asked the team to keep the discussion ------- to the agenda items.",
+        "options": [
+          "limit",
+          "limiting",
+          "limited",
+          "limitation"
+        ],
+        "answer": 2,
+        "explanation": "keep + 受詞 + 過去分詞，表被動狀態 keep the discussion limited（把討論侷限於…）。"
+      },
+      {
+        "q": "------- had the presentation ended when the first questions came in.",
+        "options": [
+          "Almost",
+          "Hardly",
+          "Rather",
+          "Nearly"
+        ],
+        "answer": 1,
+        "explanation": "Hardly had + 過去分詞 ... when ... 為「一…就…」的倒裝句型。"
+      },
+      {
+        "q": "All laboratory staff must wear protective eyewear at ------- times.",
+        "options": [
+          "every",
+          "all",
+          "each",
+          "any"
+        ],
+        "answer": 1,
+        "explanation": "at all times「隨時、始終」為固定片語。"
+      },
+      {
+        "q": "The vendor's quotation was ------- lower than we had anticipated.",
+        "options": [
+          "consider",
+          "considerate",
+          "considerably",
+          "consideration"
+        ],
+        "answer": 2,
+        "explanation": "修飾比較級 lower 需用副詞 considerably（相當地）。"
+      },
+      {
+        "q": "Ms. Bhatt, ------- department oversees compliance, will chair the meeting.",
+        "options": [
+          "who",
+          "whom",
+          "which",
+          "whose"
+        ],
+        "answer": 3,
+        "explanation": "空格後接名詞 department，表所有關係，用 whose。"
+      },
+      {
+        "q": "The company plans to ------- its distribution network into three new markets.",
+        "options": [
+          "expand",
+          "expansion",
+          "expansive",
+          "expanded"
+        ],
+        "answer": 0,
+        "explanation": "plans to 後需接原形動詞 expand。"
+      },
+      {
+        "q": "Please ensure that all attachments are ------- before sending the file externally.",
+        "options": [
+          "encrypt",
+          "encryption",
+          "encrypting",
+          "encrypted"
+        ],
+        "answer": 3,
+        "explanation": "be 動詞 are 後接過去分詞形成被動 are encrypted（被加密）。"
+      }
+    ],
+    "part6": [
+      {
+        "passage": "Halloran Fitness — Membership Update\n\nDear Member,\n\nStarting in September, we are extending our weekday opening hours. The club will open at five-thirty in the morning rather than six, a change [33] by more than three hundred members in our spring survey.\n\nEvening hours will remain the same. We considered staying open past ten but found that fewer than four percent of visits occur in the final hour, so the additional staffing cost could not be [34].\n\nWe are also adding two early-morning classes: a forty-five-minute cycling session on Tuesdays and a stretching class on Thursdays. Both begin at six and are included in your membership at no [35] cost. Spaces will be released one week in advance through the app.\n\nThank you for your continued membership.\n\nThe Halloran Team",
+        "questions": [
+          {
+            "blank": 33,
+            "options": [
+              "request",
+              "requesting",
+              "requested",
+              "requests"
+            ],
+            "answer": 2,
+            "explanation": "a change requested by...為過去分詞片語後位修飾 change，表被動（被要求的改變）。"
+          },
+          {
+            "blank": 34,
+            "options": [
+              "justification",
+              "justifying",
+              "justify",
+              "justified"
+            ],
+            "answer": 3,
+            "explanation": "could not be 後接過去分詞形成被動 be justified（被證明為合理）。"
+          },
+          {
+            "blank": 35,
+            "options": [
+              "additional",
+              "additionally",
+              "addition",
+              "add"
+            ],
+            "answer": 0,
+            "explanation": "修飾名詞 cost 需用形容詞 additional（額外的）。"
+          }
+        ]
+      },
+      {
+        "passage": "To: Field Service Technicians\nFrom: Dispatch\nSubject: New Route Application\n\nBeginning next Monday, all service calls will be assigned through the new route application rather than by phone. The app groups nearby jobs together, which should [36] the amount of driving each of you does per day.\n\nWhen you accept a job, the app records the time automatically, so you no longer need to text dispatch on arrival. [37], you must still call in if a job takes more than ninety minutes beyond its estimate, since that affects the rest of the day's schedule.\n\nIf you lose signal in a rural area, the app will store your updates and upload them once you reconnect. Jobs already accepted remain [38] offline, so you can view the customer address and notes without a connection.\n\nQuestions go to Dispatch at extension 40.",
+        "questions": [
+          {
+            "blank": 36,
+            "options": [
+              "reduced",
+              "reducing",
+              "reduction",
+              "reduce"
+            ],
+            "answer": 3,
+            "explanation": "助動詞 should 後接原形動詞 reduce。"
+          },
+          {
+            "blank": 37,
+            "options": [
+              "Therefore",
+              "However",
+              "Similarly",
+              "For example"
+            ],
+            "answer": 1,
+            "explanation": "前句說不必再回報，後句說仍須致電，語意轉折，用 However。"
+          },
+          {
+            "blank": 38,
+            "options": [
+              "access",
+              "accessibly",
+              "accessible",
+              "accessing"
+            ],
+            "answer": 2,
+            "explanation": "remain 為連綴動詞，後接形容詞 accessible（可存取的）。"
+          }
+        ]
+      }
+    ],
+    "part7": [
+      {
+        "passage": "【Web page】\nBRISTOW COWORKING — MEETING ROOM POLICY\n\nAll members may book meeting rooms through the member portal. Please read the following before reserving.\n\nAllowances. Flex members receive four hours of room time per month. Dedicated-desk members receive twelve hours, and private-office members receive thirty. Unused hours do not carry over to the following month.\n\nBooking window. Rooms may be reserved up to fourteen days ahead. The Kestrel Room, our largest, may be booked up to thirty days ahead because of high demand for full-day workshops.\n\nCancellations. Cancel at least four hours before your booking to have the time returned to your allowance. Later cancellations, including no-shows, count against your monthly total.\n\nOverage. Additional hours are billed at $18 per hour for small rooms and $35 for the Kestrel Room. Overage charges appear on the following month's invoice.\n\nGuests. Members may bring up to six guests without registering them. Larger groups require twenty-four hours' notice so that reception can prepare visitor passes.",
+        "questions": [
+          {
+            "q": "How much room time do dedicated-desk members receive?",
+            "options": [
+              "Four hours",
+              "Unlimited",
+              "Thirty hours",
+              "Twelve hours"
+            ],
+            "answer": 3,
+            "explanation": "Dedicated-desk members receive twelve hours，故選 (D)。"
+          },
+          {
+            "q": "What is special about the Kestrel Room?",
+            "options": [
+              "It is free for all members",
+              "It can be booked further in advance",
+              "It has no cancellation policy",
+              "It is available only on weekends"
+            ],
+            "answer": 1,
+            "explanation": "The Kestrel Room...may be booked up to thirty days ahead，故選 (B)。"
+          },
+          {
+            "q": "What happens if a member cancels two hours before a booking?",
+            "options": [
+              "The time counts against the allowance",
+              "A fine is charged",
+              "The time is returned",
+              "The booking is moved"
+            ],
+            "answer": 0,
+            "explanation": "需提前四小時取消才退回時數，兩小時前屬 Later cancellations...count against your monthly total，故選 (A)。"
+          }
+        ]
+      },
+      {
+        "passage": "【Review】\nPosted by T. Anand — Rosewood Serviced Apartments, Unit 12B\nStay: July 6–August 3\n\nI booked this apartment for a four-week work assignment, and overall it served the purpose well. The location is the strongest point: eleven minutes on foot to the client's office and two minutes to a proper supermarket, not just a convenience store.\n\nThe apartment itself is clean and quiet. The building faces a courtyard rather than the main road, which I did not appreciate until my first night. The kitchen is fully equipped — I cooked most evenings and never needed to buy anything beyond groceries.\n\nTwo criticisms. First, the promised weekly housekeeping happened only twice in four weeks, and both times I had to request it. The front desk was apologetic but the pattern did not change. Second, the wifi was adequate for email but dropped repeatedly during video calls. I ended up using my phone's connection for anything important, which is not what you expect from a property marketed to business travellers.\n\nWould I stay again? Probably yes, for a short trip. For another month-long stay I would ask about the wifi first.",
+        "questions": [
+          {
+            "q": "Why did the reviewer book the apartment?",
+            "options": [
+              "For a family holiday",
+              "For a language course",
+              "For a work assignment",
+              "For a property viewing"
+            ],
+            "answer": 2,
+            "explanation": "I booked this apartment for a four-week work assignment，故選 (C)。"
+          },
+          {
+            "q": "What does the reviewer say is the best feature?",
+            "options": [
+              "The housekeeping",
+              "The location",
+              "The price",
+              "The furniture"
+            ],
+            "answer": 1,
+            "explanation": "The location is the strongest point，故選 (B)。"
+          },
+          {
+            "q": "What problem is mentioned about housekeeping?",
+            "options": [
+              "It was too expensive",
+              "It occurred less often than promised",
+              "It damaged some items",
+              "It was scheduled too early"
+            ],
+            "answer": 1,
+            "explanation": "the promised weekly housekeeping happened only twice in four weeks，故選 (B)。"
+          },
+          {
+            "q": "What does the reviewer suggest doing before a long stay?",
+            "options": [
+              "Asking about the internet",
+              "Booking directly by phone",
+              "Requesting a higher floor",
+              "Arranging airport transfer"
+            ],
+            "answer": 0,
+            "explanation": "For another month-long stay I would ask about the wifi first，故選 (A)。"
+          }
+        ]
+      }
+    ]
+  }
+}
